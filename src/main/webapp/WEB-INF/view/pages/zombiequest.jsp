@@ -19,7 +19,7 @@
 
 <!-- Header -->
 <header id="header">
-    <div class="logo"><a href="registration">Записаться на игру</a></div>
+    <div class="logo"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform">Записаться на игру</a></div>
     <a href="#menu">Menu</a>
 </header>
 
@@ -27,54 +27,60 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Home</a></li>
-        <li><a href="generic.html">Generic</a></li>
-        <li><a href="elements.html">Elements</a></li>
+        <li><a href="#">Игры</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform">Записаться на игру</a></li>
     </ul>
 </nav>
 
 <!-- One -->
-<section id="One" class="wrapper style222">
+<section id="one" class="wrapper style222">
     <div class="inner">
         <header class="align-center">
-            <p>Живой квест</p>
-            <h2>Зомби Апокалипс</h2>
+            <p>Узнай, что за краем мира</p>
+            <h2>Краерим. Квесты в реальности.</h2>
         </header>
     </div>
 </section>
 
-<div id="main" class="container">
-<!-- Elements -->
-<h2 id="elements">Зомби Апокалипс Описание</h2>
-<div class="row 200%">
-    <div class="6u 12u$(medium)">
-
-        <!-- Text stuff -->
-        <h3>Заголовок</h3>
-        <p>Описание</p>
-
-    </div>
-
-    <h3>Box</h3>
-
-    <ul class="actions fit small">
-        <li><a href="#" class="button special fit small">Записаться на игру</a></li>
-
-    </ul>
-
-        <p>Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus lorem ipsum dolor sit amet nullam.</p>
-
-
-
-    <h4>Left &amp; Right</h4>
-    <p><span class="image left"><img src="/resources/images/pic02.jpg" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis volutpat lorem ipsum dolor sit amet dolor consequat.</p>
-    <p><span class="image right"><img src="/resources/images/pic02.jpg" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis volutpat lorem ipsum dolor sit amet dolor consequat.</p>
-
-</div>
-</div>
-
-
 <!-- Two -->
-<section id="two" class="wrapper style222">
+<section id="two" class="wrapper style2">
+    <div class="inner">
+        <div class="box">
+            <div class="content">
+                <header class="align-center">
+                    <p>Человек человеку волк</p>
+                    <h2>Зомби Апокалипс</h2>
+                </header>
+                <h3> <span class="image right"><img src="/resources/images/pic02.jpg" alt="" /></span>В этой игре вам предстоит оказаться последними выжившими, и бороться за свое личное спасение. Возможно, придется кем-то пожертвовать, чтобы спастись самому? В небольшом американском городке стали происходить странные вещи. Люди стали гибнуть от странной болезни, а потом воскресать из мертвых и пожирать плоть других людей. <br> <br> <br> <br></h3>
+
+                <h3> <span class="image left"><img src="/resources/images/pic02.jpg" alt="" /></span>Волна болезни очень быстро захватила весь город, и лишь небольшой группке людей удалось выжить, заперевшись в бункере под местным химическим заводом. Связь не работает, еды в бункере - всего на несколько дней, весь город наводнен восставшими из мертвых.Как выбраться? И есть ли смысл спасаться?<br> <br> <br> <br></h3>
+
+                <h3> <span class="image right"><img src="/resources/images/pic02.jpg" alt="" /></span>
+                    *Почему стоит поиграть*:<br>
+                    <br>
+                    - вы смотрели "Ходячих мертвецов", и знаете, что надо делать, когда встречаешься с зомби (в отличие от персонажей сериала) <br>
+                    - вам хочется убить всех людей <br>
+                    - вы любите сложные закрученные сюжеты и готовы подумать, прежде чем бросаться в толпу зомби с пластиковым ножом наперевес <br> <br></h3>
+                <h3> <span class="image left"><img src="/resources/images/pic02.jpg" alt="" /></span>
+                    <br>
+                    *Игра рассчитана на*: 5 - 12 человек (чем больше народу - тем веселее) <br>
+                    *Длительность*: от 2 до 3 часов<br>
+                    *Стоимость*: от 400 рублей с человека<br>
+                    Жанр: боевик. Сложность: средняя. <br></h3>
+                <br>
+                <br>
+                <h3>По вашему желанию мы проведем игру в любом месте и в любое время. А также позовем аква-гримера!</h3>
+                <ul class="actions fit small">
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button special fit small">Записаться на игру</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Three -->
+<section id="three" class="wrapper style222">
     <div class="inner">
         <header class="align-center">
             <p>Узнай, что за краем мира</p>

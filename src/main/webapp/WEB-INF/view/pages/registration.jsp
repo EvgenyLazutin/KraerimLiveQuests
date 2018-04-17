@@ -48,7 +48,7 @@
         <iframe name="hidden_iframe" id="hidden_iframe"
                 style="display:none;" onload="if(submitted)
 {window.location='https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/formResponse';}"></iframe>
-        <form action="https://docs.google.com/forms/d/1wN290Lxy51uh3eK3n11Q_VF1fz-9af8Mj3AZJQDXPgk/viewform?edit_requested=true" method="post" id="mG61Hd"
+        <form id="mG61Hd" action="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" method="post"
               target="hidden_iframe" onsubmit="submitted=true;">
         <div class="freebirdFormviewerViewFormCard">
             <div class="freebirdFormviewerViewAccentBanner freebirdAccentBackground"></div>
@@ -444,7 +444,7 @@
                                 <div class="quantumWizButtonPaperbuttonFocusOverlay exportOverlay">
                                 </div>
                                 <content class="quantumWizButtonPaperbuttonContent">
-                                    <span class="quantumWizButtonPaperbuttonLabel exportLabel">Отправить</span>
+                                    <span class="quantumWizButtonPaperbuttonLabel exportLabel"></span>
                                 </content>
                             </div>
                         </div>
@@ -456,6 +456,7 @@
                 <input type="hidden" name="fbzx" value="-2751949721492017162">
             </div>
         </div>
+           <p> <input type="submit"></p>
     </form>
 
     </div>

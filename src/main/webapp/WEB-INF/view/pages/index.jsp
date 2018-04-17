@@ -11,16 +11,16 @@
 
 <!-- Header -->
 <header id="header" class="alt">
-    <div class="logo"><a href="index.jsp">Welcome to Kraerim. Записаться на игру.</a></div>
+    <div class="logo"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform">Welcome to Kraerim. Записаться на игру.</a></div>
     <a href="#menu">Menu</a>
 </header>
 
 <!-- Nav -->
 <nav id="menu">
     <ul class="links">
-        <li><a href="index.jsp">Home</a></li>
-        <li><a href="generic.html">Наши игры</a></li>
-        <li><a href="elements.html">Население Краерима</a></li>
+        <li><a href="index">Home</a></li>
+        <li><a href="#">Наши игры</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform">Записаться на игру</a></li>
     </ul>
 </nav>
 
@@ -88,9 +88,10 @@
                             <p>Зомби апокалипсис</p>
                             <h2>Kraerim</h2>
                         </header>
-                        <p> Краткое описание игры. Добавить</p>
+                        <p> В этой игре вам предстоит оказаться последними выжившими, и бороться за свое личное спасение. Возможно, придется кем-то пожертвовать, чтобы спастись самому? В небольшом американском городке стали происходить странные вещи. Люди стали гибнуть от странной болезни, а потом воскресать из мертвых и пожирать плоть других людей.</p>
                         <footer class="align-center">
-                            <a href="zombiequest" class="button alt">Learn More</a>
+                            <a href="zombiequest" class="button alt">Узнать больше</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
                         </footer>
                     </div>
                 </div>
@@ -129,7 +130,7 @@
 </section>
 
 <!-- Three -->
-<section id="one" class="wrapper style2">
+<section id="one2" class="wrapper style2">
     <div class="inner">
         <div class="grid-style">
 
