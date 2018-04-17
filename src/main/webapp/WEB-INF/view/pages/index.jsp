@@ -124,7 +124,7 @@
     <div class="inner">
         <header class="align-center">
             <p>Узнай, что за краем мира</p>
-            <h2>Краерим. Квесты в реальности.</h2>
+            <h2>Краерим. Живые квесты</h2>
         </header>
     </div>
 </section>
@@ -179,10 +179,11 @@
 <footer id="footer">
     <div class="container">
         <ul class="icons">
-            <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-            <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-            <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+            <li><a href="https://twitter.com/realkraerim" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="https://www.facebook.com/kraerim/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+            <li><a href="https://www.instagram.com/kraerim/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="https://vk.com/kraerim" class="icon fa-vk"><span class="label">VK</span></a></li>
+            <%--<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>--%>
         </ul>
     </div>
     <div class="copyright">
