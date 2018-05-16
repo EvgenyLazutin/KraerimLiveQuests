@@ -15,19 +15,55 @@ public class maincontroller {
         return "index";
     }
 
-    @RequestMapping(value="/registration", method=RequestMethod.GET)
-    public String getRegistration() {
-        return "registration";
-    }
-
     @RequestMapping(value="/zombiequest", method=RequestMethod.GET)
-    public String getOrderPage() {
+    public String getZombieQuest() {
         return "zombiequest";
     }
 
-    @RequestMapping(value = "/Firstgame", method=RequestMethod.GET)
-    public String Firstpage() {
-        return "Firstgame";
+    @RequestMapping(value="/masquerade", method=RequestMethod.GET)
+    public String getMasquerade() {
+        return "masquerade";
+    }
+
+    @RequestMapping(value="/houseInTheVillage", method=RequestMethod.GET)
+    public String getHouseInTheVillage() {
+        return "houseInTheVillage";
+    }
+
+    @RequestMapping(value="/spaceAroundUs", method=RequestMethod.GET)
+    public String getSpaceAroundUs() {
+        return "spaceAroundUs";
+    }
+
+    @RequestMapping(value="/fairyTale", method=RequestMethod.GET)
+    public String getFairyTale() {
+        return "fairyTale";
+    }
+
+    @RequestMapping(value="/worldEye", method=RequestMethod.GET)
+    public String getWorldEye() {
+        return "worldEye";
+    }
+
+    @RequestMapping(value="/murderMonastery", method=RequestMethod.GET)
+    public String getMurderMonastery() {
+        return "murderMonastery";
+    }
+
+    @RequestMapping(value="/madWorld", method=RequestMethod.GET)
+    public String getMadWorld() {
+        return "madWorld";
+    }
+
+    @RequestMapping(value="/contacts", method=RequestMethod.GET)
+    public String getContacts() {
+        return "contacts";
+    }
+
+
+    @RequestMapping(value="/sherWood", method=RequestMethod.GET)
+    public String getSherWood() {
+        return "sherWood";
     }
 
 }

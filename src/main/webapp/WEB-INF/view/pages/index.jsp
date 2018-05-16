@@ -19,7 +19,16 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Home</a></li>
-        <li><a href="#">Наши игры</a></li>
+        <li><a href="masquerade">Бал маскарад</a></li>
+        <li><a href="zombiequest">Зомби апокалипсис</a></li>
+        <li><a href="houseInTheVillage">Домик в деревне</a></li>
+        <li><a href="spaceAroundUs">Космос вокруг нас</a></li>
+        <li><a href="fairyTale">Недетская сказка</a></li>
+        <li><a href="worldEye">Око мира</a></li>
+        <li><a href="murderMonastery">Убийство в монастыре</a></li>
+        <li><a href="madWorld">Безумный мир</a></li>
+        <li><a href="sherWood">Шервудский лес</a></li>
+        <li><a href="contacts">Контакты</a></li>
         <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform">Записаться на игру</a></li>
     </ul>
 </nav>
@@ -109,7 +118,8 @@
                         </header>
                         <p>  Краткое описание игры. Добавить текст.</p>
                         <footer class="align-center">
-                            <a href="#" class="button alt">Learn More</a>
+                            <a href="houseInTheVillage" class="button alt">Узнать больше</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
                         </footer>
                     </div>
                 </div>
@@ -146,7 +156,8 @@
                         </header>
                         <p> Краткое описание игры. Добавить</p>
                         <footer class="align-center">
-                            <a href="#" class="button alt">Learn More</a>
+                            <a href="masquerade" class="button alt">Learn More</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
                         </footer>
                     </div>
                 </div>
@@ -159,12 +170,13 @@
                     </div>
                     <div class="content">
                         <header class="align-center">
-                            <p>Безумие магов</p>
+                            <p>Безумный мир</p>
                             <h2>Kraerim</h2>
                         </header>
                         <p>  Краткое описание игры. Добавить текст.</p>
                         <footer class="align-center">
-                            <a href="#" class="button alt">Learn More</a>
+                            <a href="madWorld" class="button alt">Learn More</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
                         </footer>
                     </div>
                 </div>
@@ -174,6 +186,176 @@
     </div>
 </section>
 
+<!-- Four -->
+<section id="four" class="wrapper style3">
+    <div class="inner">
+        <header class="align-center">
+            <p>Узнай, что за краем мира</p>
+            <h2>Краерим. Живые квесты</h2>
+        </header>
+    </div>
+</section>
+
+<!-- Five -->
+<section id="five" class="wrapper style2">
+    <div class="inner">
+        <div class="grid-style">
+
+            <div>
+                <div class="box">
+                    <div class="image fit">
+                        <img src="/resources/4pic.jpg" alt="" />
+                    </div>
+                    <div class="content">
+                        <header class="align-center">
+                            <p>Космос вокруг нас</p>
+                            <h2>Kraerim</h2>
+                        </header>
+                        <p>  Добавить описание</p>
+                        <footer class="align-center">
+                            <a href="spaceAroundUs" class="button alt">Узнать больше</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="box">
+                    <div class="image fit">
+                        <img src="/resources/FirstGameImg.jpg" alt="" />
+                    </div>
+                    <div class="content">
+                        <header class="align-center">
+                            <p>Недетская сказка</p>
+                            <h2>Kraerim</h2>
+                        </header>
+                        <p>  Краткое описание игры. Добавить текст.</p>
+                        <footer class="align-center">
+                            <a href="fairyTale" class="button alt">Узнать больше</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Six -->
+<section id="six" class="wrapper style3">
+    <div class="inner">
+        <header class="align-center">
+            <p>Узнай, что за краем мира</p>
+            <h2>Краерим. Живые квесты</h2>
+        </header>
+    </div>
+</section>
+
+<!-- Seven -->
+<section id="seven" class="wrapper style2">
+    <div class="inner">
+        <div class="grid-style">
+
+            <div>
+                <div class="box">
+                    <div class="image fit">
+                        <img src="/resources/4pic.jpg" alt="" />
+                    </div>
+                    <div class="content">
+                        <header class="align-center">
+                            <p>Око мира</p>
+                            <h2>Kraerim</h2>
+                        </header>
+                        <p>  Добавить описание</p>
+                        <footer class="align-center">
+                            <a href="worldEye" class="button alt">Узнать больше</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="box">
+                    <div class="image fit">
+                        <img src="/resources/2pic.jpg" alt="" />
+                    </div>
+                    <div class="content">
+                        <header class="align-center">
+                            <p>Убийство в монастыре</p>
+                            <h2>Kraerim</h2>
+                        </header>
+                        <p>  Краткое описание игры. Добавить текст.</p>
+                        <footer class="align-center">
+                            <a href="murderMonastery" class="button alt">Узнать больше</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Eight -->
+<section id="eight" class="wrapper style3">
+    <div class="inner">
+        <header class="align-center">
+            <p>Узнай, что за краем мира</p>
+            <h2>Краерим. Живые квесты</h2>
+        </header>
+    </div>
+</section>
+
+<!-- Nine -->
+<section id="nine" class="wrapper style2">
+    <div class="inner">
+        <div class="grid-style">
+
+            <div>
+                <div class="box">
+                    <div class="image fit">
+                        <img src="/resources/4pic.jpg" alt="" />
+                    </div>
+                    <div class="content">
+                        <header class="align-center">
+                            <p>Шервудский лес</p>
+                            <h2>Kraerim</h2>
+                        </header>
+                        <p>  Добавить описание</p>
+                        <footer class="align-center">
+                            <a href="sherWood" class="button alt">Узнать больше</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="box">
+                    <div class="image fit">
+                        <img src="/resources/2pic.jpg" alt="" />
+                    </div>
+                    <div class="content">
+                        <header class="align-center">
+                            <p>Игра в разработке</p>
+                            <h2>Kraerim</h2>
+                        </header>
+                        <p>  Краткое описание игры. Добавить текст.</p>
+                        <footer class="align-center">
+                            <%--<a href="murderMonastery" class="button alt">Узнать больше</a>--%>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 
 <!-- Footer -->
 <footer id="footer">
