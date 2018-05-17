@@ -93,7 +93,7 @@
 </section>
 
 <!-- Three -->
-<section id="two" class="wrapper style222">
+<section id="three" class="wrapper style222">
     <div class="inner">
         <header class="align-center">
             <p>Узнай, что за краем мира</p>

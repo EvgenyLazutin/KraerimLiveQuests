@@ -116,7 +116,9 @@
                             <p>Домик в деревне</p>
                             <h2>Kraerim</h2>
                         </header>
-                        <p>  Краткое описание игры. Добавить текст.</p>
+                        <p>Вы – студенты. Совсем недавно вы сдали сессию и решили это отпраздновать.
+                            Агентство прислало вам очень выгодный вариант, и вы, не раздумывая, согласились на него.
+                            По дороге вы немного заплутали, но все же добрались до места, вроде даже до того... </p>
                         <footer class="align-center">
                             <a href="houseInTheVillage" class="button alt">Узнать больше</a>
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
@@ -154,9 +156,11 @@
                             <p>Бал маскарад</p>
                             <h2>Kraerim</h2>
                         </header>
-                        <p> Краткое описание игры. Добавить</p>
+                        <p>С прискорбием сообщаем, что Император скончался! А наследников после себя он не оставил.
+                            Желающих завладеть престолом - немало, и нестабильная ситуация грозит перерасти в полномасштабную войну,
+                            которая разорвет Империю на тысячу маленьких кусочков.</p>
                         <footer class="align-center">
-                            <a href="masquerade" class="button alt">Learn More</a>
+                            <a href="masquerade" class="button alt">Узнать больше</a>
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
                         </footer>
                     </div>
@@ -166,16 +170,17 @@
             <div>
                 <div class="box">
                     <div class="image fit">
-                        <img src="/resources/SecondGameImg.jpg" alt="" />
+                        <img src="/resources/images/madWorld/headerMadWorld.jpg" alt="" />
                     </div>
                     <div class="content">
                         <header class="align-center">
-                            <p>Безумный мир</p>
+                            <p>Этот безумный мир</p>
                             <h2>Kraerim</h2>
                         </header>
-                        <p>  Краткое описание игры. Добавить текст.</p>
+                        <p>Ох, божечьки! Похоже, одно из Великих заклинаний вырвалось
+                            на свободу и теперь оно грозит уничтожить мир! Что делать, что делать?!</p>
                         <footer class="align-center">
-                            <a href="madWorld" class="button alt">Learn More</a>
+                            <a href="madWorld" class="button alt">Узнать больше</a>
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
                         </footer>
                     </div>
@@ -204,14 +209,17 @@
             <div>
                 <div class="box">
                     <div class="image fit">
-                        <img src="/resources/4pic.jpg" alt="" />
+                        <img src="/resources/images/spaceAroundUs/headerSpace.jpg" alt="" />
                     </div>
                     <div class="content">
                         <header class="align-center">
                             <p>Космос вокруг нас</p>
                             <h2>Kraerim</h2>
                         </header>
-                        <p>  Добавить описание</p>
+                        <p>Недалекое будущее, миром правят гигантские корпорации.В области космического строения на
+                            первый план вышли три компании: Genesis, Neuralink и SpaceX. Они весьма дорожат своей репутацией
+                            и делают все, чтобы быть первыми. Безопасность и секретность – это основа процветания корпораций.
+                            Также как незаконные эксперименты и похищение информации.</p>
                         <footer class="align-center">
                             <a href="spaceAroundUs" class="button alt">Узнать больше</a>
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
@@ -223,14 +231,17 @@
             <div>
                 <div class="box">
                     <div class="image fit">
-                        <img src="/resources/FirstGameImg.jpg" alt="" />
+                        <img src="/resources/images/fairyTale/headerTale.jpg" alt="" />
                     </div>
                     <div class="content">
                         <header class="align-center">
                             <p>Недетская сказка</p>
                             <h2>Kraerim</h2>
                         </header>
-                        <p>  Краткое описание игры. Добавить текст.</p>
+                        <p>Несколько дней назад вам пришло письмо от Петра Вениаминовича Кощейкина, среди сказок больше известного как Кощей Бессмертный.
+                            В письме он настоятельно рекомендовал вам прибыть в отель «Теремок», что в Темном лесу, в самое ближайшее время.
+                            Дорогу к отелю могут найти только Сказочные существа. В «Теремке» находится один из источников Сказки, откуда она распространяется по миру,
+                            привнося Здравый смысл в жизнь Сказок и, одновременно, наполняя Волшебством мир людей.</p>
                         <footer class="align-center">
                             <a href="fairyTale" class="button alt">Узнать больше</a>
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
@@ -261,14 +272,16 @@
             <div>
                 <div class="box">
                     <div class="image fit">
-                        <img src="/resources/4pic.jpg" alt="" />
+                        <img src="/resources/SecondGameImg.jpg" alt="" />
                     </div>
                     <div class="content">
                         <header class="align-center">
                             <p>Око мира</p>
                             <h2>Kraerim</h2>
                         </header>
-                        <p>  Добавить описание</p>
+                        <p>В этой игре вы становитесь участниками последней битвы Добра со Злом в мире, где женщины-маги правят миром.
+                            Мужчин-магов ищут и безжалостно уничтожают, потому что они - безумны и опасны, причем не только для окружающих,
+                            но и для самих себя.</p>
                         <footer class="align-center">
                             <a href="worldEye" class="button alt">Узнать больше</a>
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
@@ -287,7 +300,8 @@
                             <p>Убийство в монастыре</p>
                             <h2>Kraerim</h2>
                         </header>
-                        <p>  Краткое описание игры. Добавить текст.</p>
+                        <p>В этой игре вам предстоит окунуться в жизнь средневековых монахов и расследовать убийство одного из братьев монастыря.
+                            Убийство компрометирует монастырь, поэтому вам нужно найти виновного как можно быстрее.</p>
                         <footer class="align-center">
                             <a href="murderMonastery" class="button alt">Узнать больше</a>
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
@@ -318,14 +332,16 @@
             <div>
                 <div class="box">
                     <div class="image fit">
-                        <img src="/resources/4pic.jpg" alt="" />
+                        <img src="/resources/images/sherWood/headerSherWood.jpg" alt="" />
                     </div>
                     <div class="content">
                         <header class="align-center">
                             <p>Шервудский лес</p>
                             <h2>Kraerim</h2>
                         </header>
-                        <p>  Добавить описание</p>
+                        <p>Деревенька Локсли – совсем небольшая, но обеспечивает всем необходимым целый замок Ноттингем.
+                            В свою очередь, замок обеспечивает всем, чем может, королевский двор. Между деревенькой и замком расположился любимый лес короля – Шервудский,
+                            где он охотится на оленей.</p>
                         <footer class="align-center">
                             <a href="sherWood" class="button alt">Узнать больше</a>
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
@@ -337,14 +353,14 @@
             <div>
                 <div class="box">
                     <div class="image fit">
-                        <img src="/resources/2pic.jpg" alt="" />
+                        <img src="/resources/images/gangsterParty/headerGangsterParty.jpg" alt="" />
                     </div>
                     <div class="content">
                         <header class="align-center">
-                            <p>Игра в разработке</p>
+                            <p>Гангстерская вечеринка</p>
                             <h2>Kraerim</h2>
                         </header>
-                        <p>  Краткое описание игры. Добавить текст.</p>
+                        <p>Игра в разработке</p>
                         <footer class="align-center">
                             <%--<a href="murderMonastery" class="button alt">Узнать больше</a>--%>
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
