@@ -79,7 +79,7 @@
                 <ul class="alt">
                     <li> <h3>вы решили вспомнить детство и сказки, которые читали<br></h3></li>
                     <li> <h3>вам хочется доброты, тепла и Сказки<br></h3></li>
-                    <li> <h3>вы давно хотели превратить кого-нибудь в мышь, а карету - в тыкву<br><br></h3></li> </ul>
+                    <li> <h3>вы давно хотели превратить кого-нибудь в мышь, а карету - в тыкву<br><br><br></h3></li> </ul>
 
                 <h3> <span class="image left"><img src="/resources/images/fairyTale/4.jpg" alt="" /></span>
                     <br>
@@ -90,9 +90,9 @@
                 <br>
                 <br>
                 <br>
-                <h3>По вашему желанию мы проведем игру в любом месте и в любое время. А также позовем аква-гримера!</h3>
+                <h3>По вашему желанию мы проведем игру в любом месте и в любое время. Поможем с выбором помещения для игры, приведем фотографа и аквагримера, закажем торт.</h3>
                 <ul class="actions special fit">
-                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button special fit">Записаться на игру</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button special fit">Заказать игру</a></li>
                 </ul>
 
             </div>

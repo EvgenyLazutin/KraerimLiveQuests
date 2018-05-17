@@ -10,7 +10,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Fairy Tale</title>
+    <title>Scary House</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/resources/assets/css/main.css" />
@@ -78,7 +78,7 @@
                 </h3>
                 <ul class="alt">
                     <li> <h3>вы собираетесь арендовать коттедж и хотите понять, что вас там ждет<br></h3></li>
-                    <li> <h3>вы смотрели фильм "Хижина в лесу<br></h3></li>
+                    <li> <h3>вы смотрели фильм "Хижина в лесу"<br></h3></li>
                     <li> <h3>вы любите ужастики<br><br></h3></li> </ul>
 
                 <h3> <span class="image left"><img src="/resources/images/houseInTheVillage/4.jpg" alt="" /></span>
@@ -90,9 +90,9 @@
                 <br>
                 <br>
                 <br>
-                <h3>По вашему желанию мы проведем игру в любом месте и в любое время. А также позовем аква-гримера!</h3>
+                <h3>По вашему желанию мы проведем игру в любом месте и в любое время. Поможем с выбором помещения для игры, приведем фотографа и аквагримера, закажем торт.</h3>
                 <ul class="actions special fit">
-                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button special fit">Записаться на игру</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button special fit">Заказать игру</a></li>
                 </ul>
 
             </div>

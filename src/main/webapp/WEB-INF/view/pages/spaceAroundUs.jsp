@@ -10,7 +10,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Fairy Tale</title>
+    <title>Space around us</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/resources/assets/css/main.css" />
@@ -81,7 +81,7 @@
                 <ul class="alt">
                     <li> <h3>вы всегда хотели отправиться в космос, но до сих пор не могли себе этого позволить<br></h3></li>
                     <li> <h3>вы смотрели много фильмов про инопланетян, и уверены, что справились бы с ними лучше, чем персонажи фильмов<br></h3></li>
-                    <li> <h3>вы хотите пощекотать себе нервы, испытать свою волю и способности<br><br></h3></li> </ul>
+                    <li> <h3>вы хотите пощекотать себе нервы, испытать свою волю и способности<br><br><br><br></h3></li> </ul>
 
                 <h3> <span class="image left"><img src="/resources/images/spaceAroundUs/4.jpg" alt="" /></span>
                     <br>
@@ -92,9 +92,9 @@
                 <br>
                 <br>
                 <br>
-                <h3>По вашему желанию мы проведем игру в любом месте и в любое время. А также позовем аква-гримера!</h3>
+                <h3>По вашему желанию мы проведем игру в любом месте и в любое время. Поможем с выбором помещения для игры, приведем фотографа и аквагримера, закажем торт.</h3>
                 <ul class="actions special fit">
-                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button special fit">Записаться на игру</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button special fit">Заказать игру</a></li>
                 </ul>
 
             </div>
