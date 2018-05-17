@@ -60,8 +60,8 @@
                 <h3> <span class="image left"><img src="/resources/images/contacts/IMG_8227%20(1).jpg" alt="" /></span>
                     <strong>Наш телефон: Наш телефон:</strong> +79516696094<br>
                     <strong>Наш e-mail:</strong> lazutinakraerim@gmail.com<br>
-                    <strong>Мы в инстаграме:</strong><a href="https://www.instagram.com/kraerim/">www.instagram.com/kraerim</a><br>
-                    <strong>Мы в Вконтакте:</strong> <a href="https://vk.com/kraerim">vk.com/kraerim</a><br>
+                    <strong>Мы в инстаграме:</strong><a href="https://www.instagram.com/kraerim/">  www.instagram.com/kraerim</a><br>
+                    <strong>Мы в Вконтакте:</strong> <a href="https://vk.com/kraerim">  vk.com/kraerim</a><br>
                     <strong>Что такое «живой квест»?</strong><br>
                     Бывало ли у вас так? Ссмотрите фильм (причем, даже не важно — какой, ужастики, драму или комедию) и думаете: «Нет, ну что он творит,
                     ну надо же все не так делать!» Живой квест — это возможность почувствовать себя на месте персонажа из фильма или книги,
