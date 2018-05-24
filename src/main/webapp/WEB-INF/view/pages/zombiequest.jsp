@@ -27,8 +27,8 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Home</a></li>
-        <li><a href="masquerade">Бал маскарад</a></li>
-        <li><a href="zombiequest">Зомби апокалипсис</a></li>
+        <li><a href="masquerade">Бал-маскарад</a></li>
+        <li><a href="zombiequest">Зомби-апокалипсис</a></li>
         <li><a href="houseInTheVillage">Домик в деревне</a></li>
         <li><a href="spaceAroundUs">Космос вокруг нас</a></li>
         <li><a href="fairyTale">Недетская сказка</a></li>
@@ -58,7 +58,7 @@
             <div class="content">
                 <header class="align-center">
                     <p>Человек человеку волк</p>
-                    <h2>Зомби Апокалипс</h2>
+                    <h2>Зомби-Апокалипс</h2>
                     <h3> Жанр: боевик. Сложность: средняя.</h3>
                 </header>
                 <h3> <span class="image right"><img src="/resources/images/zombiequest/1.jpg" alt="" /></span>Ирвайн — маленький городок в Техасе, США. Наши дни.<br>

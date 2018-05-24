@@ -26,8 +26,8 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Home</a></li>
-        <li><a href="masquerade">Бал маскарад</a></li>
-        <li><a href="zombiequest">Зомби апокалипсис</a></li>
+        <li><a href="masquerade">Бал-маскарад</a></li>
+        <li><a href="zombiequest">Зомби-апокалипсис</a></li>
         <li><a href="houseInTheVillage">Домик в деревне</a></li>
         <li><a href="spaceAroundUs">Космос вокруг нас</a></li>
         <li><a href="fairyTale">Недетская сказка</a></li>
@@ -60,10 +60,10 @@
                 <h3> <span class="image left"><img src="/resources/images/contacts/IMG_8227%20(1).jpg" alt="" /></span>
                     <strong>Наш телефон:</strong> +79516696094<br>
                     <strong>Наш e-mail:</strong> lazutinakraerim@gmail.com<br>
-                    <strong>Мы в инстаграме:</strong><a href="https://www.instagram.com/kraerim/">  www.instagram.com/kraerim</a><br>
+                    <strong>Мы в Instagram:</strong><a href="https://www.instagram.com/kraerim/">  www.instagram.com/kraerim</a><br>
                     <strong>Мы в Вконтакте:</strong> <a href="https://vk.com/kraerim">  vk.com/kraerim</a><br><br>
                     <strong>Что такое «живой квест»?</strong><br>
-                    Бывало ли у вас так? Ссмотрите фильм (причем, даже не важно — какой, ужастики, драму или комедию) и думаете: «Нет, ну что он творит,
+                    Бывало ли у вас так? Смотрите фильм (причем, даже не важно — какой, ужастики, драму или комедию) и думаете: «Нет, ну что он творит,
                     ну надо же все не так делать!» Живой квест — это возможность почувствовать себя на месте персонажа из фильма или книги,
                     и исправить все совершенные им ошибки (или ничего не менять, и пройти тот же тернистый путь).<br>
                     Живой квест чем-то похож и на мафию, только более многогранную. На несколько часов вы погружаетесь в совершенно другой мир,
@@ -80,10 +80,10 @@
                     Забудьте о своей работе! Вы больше не офисный сотрудник, которому нужно писать отчет, вы теперь герцог! И требуете к себе соответствующего уважения.
                     Вы больше не начальник, у которого подчиненные пишут паршивые отчеты, вы — добрый, но слегка сумасшедший маг)<br><br>
                     <strong>На какое мероприятие можно заказать такой квест?<br></strong>
-                    — Дня рождения: <a href="masquerade"> «Бал-маскарад», </a> <a href="fairyTale"> «Недетская сказка»,</a> <a href="houseInTheVillage">«Домик в деревне»,</a> <a href="sherWood">«Шервудский лес»</a><br>
-                    — Детского праздника: <a href="fairyTale"> «Недетская сказка»,</a> <a href="madWorld">«Этот безумный мир»</a> <br>
-                    — Корпоратива: <a href="madWorld">«Этот безумный мир»,</a> <a href="spaceAroundUs"> «Космос вокруг нас»,</a> <a href="worldEye">«Око Мира»,</a> <a href="sherWood">«Шервудский лес»</a><br>
-                    — Тренинга: <a href="madWorld">«Этот безумный мир»,</a> <a href="spaceAroundUs"> «Космос вокруг нас»,</a> <a href="sherWood">«Шервудский лес»</a><br> <br>
+                    — День рождения: <a href="masquerade"> «Бал-маскарад», </a> <a href="fairyTale"> «Недетская сказка»,</a> <a href="houseInTheVillage">«Домик в деревне»,</a> <a href="sherWood">«Шервудский лес»</a><br>
+                    — Детский праздник: <a href="fairyTale"> «Недетская сказка»,</a> <a href="madWorld">«Этот безумный мир»</a> <br>
+                    — Корпоратив: <a href="madWorld">«Этот безумный мир»,</a> <a href="spaceAroundUs"> «Космос вокруг нас»,</a> <a href="worldEye">«Око Мира»,</a> <a href="sherWood">«Шервудский лес»</a><br>
+                    — Тренинг: <a href="madWorld">«Этот безумный мир»,</a> <a href="spaceAroundUs"> «Космос вокруг нас»,</a> <a href="sherWood">«Шервудский лес»</a><br> <br>
                     Мы позаботимся о том, чтобы вас окружала соответствующая игре атмосфера и о том,
                     чтобы у вас на память остались самые лучшие и веселые фотографии.
                     А вас попросим только написать отзыв)<br><br>

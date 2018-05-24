@@ -27,8 +27,8 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Home</a></li>
-        <li><a href="masquerade">Бал маскарад</a></li>
-        <li><a href="zombiequest">Зомби апокалипсис</a></li>
+        <li><a href="masquerade">Бал-маскарад</a></li>
+        <li><a href="zombiequest">Зомби-апокалипсис</a></li>
         <li><a href="houseInTheVillage">Домик в деревне</a></li>
         <li><a href="spaceAroundUs">Космос вокруг нас</a></li>
         <li><a href="fairyTale">Недетская сказка</a></li>
@@ -71,7 +71,7 @@
                 </header>
                 <h3> <span class="image right"><img src="/resources/images/masquerade/1.jpg" alt="" /></span>С прискорбием сообщаем, что Император скончался! А наследников после себя он не оставил. Желающих завладеть престолом - немало, и нестабильная ситуация грозит перерасти в полномасштабную войну, которая разорвет Империю на тысячу маленьких кусочков.<br><br><br><br><br><br><br></h3>
 
-                <h3> <span class="image left"><img src="/resources/images/masquerade/2.jpg" alt="" /></span>Три главных Благородных семьи решили урегулировать вопрос другим способом. Они устроили бал в честь памяти великого Императора, мир праху его. И на балу решить: кому же стать следующим Императором?<br>Конечно, не обойдется без интриг, шантажа, подкупа, игры в кости, тайных свиданий и дуэлей.<br><br><br><br></h3>
+                <h3> <span class="image left"><img src="/resources/images/masquerade/2.jpg" alt="" /></span>Три главных Благородных семьи решили урегулировать вопрос другим способом. Они устроили бал в честь памяти великого Императора, мир праху его. И на балу решить: кому же стать следующим Императором?<br>Конечно, не обойдется без интриг, шантажа, подкупа, игры в кости, тайных свиданий и дуэлей.<br><br><br><br><br></h3>
 
                 <h3> <span class="image right"><img src="/resources/images/masquerade/3.jpg" alt="" /></span>
                     <strong>Почему стоит поиграть:</strong>
