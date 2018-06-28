@@ -1,5 +1,3 @@
-
-
 <%--
   Created by IntelliJ IDEA.
   User: jon
@@ -10,14 +8,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119774437-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-119774437-1');
-    </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119774437-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119774437-1');
+</script>
 
     <title>Fairy Tale</title>
     <meta charset="utf-8" />
@@ -28,7 +27,7 @@
 
 <!-- Header -->
 <header id="header">
-    <div class="logo"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform">Записаться на игру</a></div>
+    <div class="logo"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform">Записаться на игру</a></div>
     <a href="#menu">Menu</a>
 </header>
 
@@ -36,8 +35,8 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Home</a></li>
-        <li><a href="masquerade">Бал-маскарад</a></li>
-        <li><a href="zombiequest">Зомби-апокалипсис</a></li>
+        <li><a href="masquerade">Бал маскарад</a></li>
+        <li><a href="zombiequest">Зомби апокалипсис</a></li>
         <li><a href="houseInTheVillage">Домик в деревне</a></li>
         <li><a href="spaceAroundUs">Космос вокруг нас</a></li>
         <li><a href="fairyTale">Недетская сказка</a></li>
@@ -46,7 +45,7 @@
         <li><a href="madWorld">Безумный мир</a></li>
         <li><a href="sherWood">Шервудский лес</a></li>
         <li><a href="contacts">Контакты</a></li>
-        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform">Записаться на игру</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform">Записаться на игру</a></li>
     </ul>
 </nav>
 
@@ -78,9 +77,11 @@
                     <h2>Недетская сказка</h2>
                     <h3> Жанр: сказка. Сложность: легкая.</h3>
                 </header>
-                <h3> <span class="image right"><img src="/resources/images/fairyTale/1.jpg" alt="" /></span>Несколько дней назад вам пришло письмо от Петра Вениаминовича Кощейкина, среди сказок больше известного как Кощей Бессмертный. В письме он настоятельно рекомендовал вам прибыть в отель «Теремок», что в Темном лесу, в самое ближайшее время. Дорогу к отелю могут найти только Сказочные существа. В «Теремке» находится один из источников Сказки, откуда она распространяется по миру, привнося Здравый смысл в жизнь Сказок и, одновременно, наполняя Волшебством мир людей.<br><br><br></h3>
+                <h3> <span class="image right"><img src="/resources/images/fairyTale/1.jpg" alt="" /></span>Несколько дней назад некоторым из вас пришло письмо от Петра Вениаминовича Кощейкина, среди сказок больше известного как Кощей Бессмертный. В письме он настоятельно рекомендовал вам прибыть в отель «Теремок», что в Темном лесу, в самое ближайшее время. Дорогу к отелю могут найти только Сказочные существа. В «Теремке» находится один из источников Сказки, откуда она распространяется по миру Людей, заставляя их верить в Чудо, и откуда в мир Сказок просачивается Здравый Смысл из мира Людей. Без этого Здравого Смысла Сказки слетают с катушек!<br><br></h3>
 
-                <h3> <span class="image left"><img src="/resources/images/fairyTale/2.jpg" alt="" /></span>Это было предложение, от которого невозможно было отказаться – вы тут же тронулись в путь. Когда вы явились в отель, там было полно других сказочных существ, но самого Кощея не было. Куда же он делся? И почему ваши сказочные силы начали истощаться?<br><br><br><br><br><br> <br></h3>
+                <h3> <span class="image left"><img src="/resources/images/fairyTale/2.jpg" alt="" /></span>От предложения Кощея было невозможно было отказаться – вы тут же тронулись в путь. Когда вы явились в отель, там было полно других сказочных существ, но самого Кощея не было. Кроме того, по пути в «Теремок», вы хотели заскочить в гости к вашему другу, Медведю. Но он как сквозь землю провалился, и не появился даже после того, как вы полежали на его кровати и поели из его миски. Хм, странно, он обычно такое за версту чует. Вы хотели найти Медведя при помощи Сказочной магии, но как вы не пытались, вам так и не удалось поколдовать.
+Куда же пропадают Сказки? Зачем Кощей собрал вас, и почему ваша магия перестала работать?
+<br> <br></h3>
 
                 <h3> <span class="image right"><img src="/resources/images/fairyTale/3.jpg" alt="" /></span>
                     <strong>Почему стоит поиграть:</strong>
@@ -102,7 +103,7 @@
                 <br>
                 <h3>По вашему желанию мы проведем игру в любом месте и в любое время. Поможем с выбором помещения для игры, приведем фотографа и аквагримера, закажем торт.</h3>
                 <ul class="actions special fit">
-                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button special fit">Заказать игру</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button special fit">Заказать игру</a></li>
                 </ul>
 
             </div>

@@ -1,5 +1,3 @@
-
-
 <%--
   Created by IntelliJ IDEA.
   User: jon
@@ -10,14 +8,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119774437-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-119774437-1');
-    </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119774437-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119774437-1');
+</script>
 
     <title>Eye of the World</title>
     <meta charset="utf-8" />
@@ -28,7 +27,7 @@
 
 <!-- Header -->
 <header id="header">
-    <div class="logo"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform">Записаться на игру</a></div>
+    <div class="logo"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform">Записаться на игру</a></div>
     <a href="#menu">Menu</a>
 </header>
 
@@ -36,8 +35,8 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Home</a></li>
-        <li><a href="masquerade">Бал-маскарад</a></li>
-        <li><a href="zombiequest">Зомби-апокалипсис</a></li>
+        <li><a href="masquerade">Бал маскарад</a></li>
+        <li><a href="zombiequest">Зомби апокалипсис</a></li>
         <li><a href="houseInTheVillage">Домик в деревне</a></li>
         <li><a href="spaceAroundUs">Космос вокруг нас</a></li>
         <li><a href="fairyTale">Недетская сказка</a></li>
@@ -46,7 +45,7 @@
         <li><a href="madWorld">Безумный мир</a></li>
         <li><a href="sherWood">Шервудский лес</a></li>
         <li><a href="contacts">Контакты</a></li>
-        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform">Записаться на игру</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform">Записаться на игру</a></li>
     </ul>
 </nav>
 
@@ -78,10 +77,14 @@
                     <h2>Око Мира</h2>
                     <h3> Жанр: фентези. Сложность: высокая.</h3>
                 </header>
-                <h3> <span class="image right"><img src="/resources/images/worldEye/3.jpg" alt="" /></span>Все пророчества сбываются. Из Белой башни, места обитания всех женщин-магов, пропала Амерлин, глава всех женщин-магов. Темные твари лезут из Пограничья. В некоторых странах появились мужчины-маги, так называемые лже-Драконы. Они повели народы на войну с соседними государствами. В мире воцарился хаос. Темный освобождается из своих оков и сотрясает землю. Очевидно, что близится Тармон Гайдон — последняя битва между силами добра и зла.<br><br><br></h3>
+                <h3> <span class="image right"><img src="/resources/images/worldEye/3.jpg" alt="" /></span>Вращается Колесо Времен, Эпохи приходят и уходят, оставляя после себя воспоминания, которые превращаются в легенды. Легенды тускнеют, становятся мифом, и даже миф оказывается давно забыт, когда породившая его Эпоха приходит вновь. Нет ни начала, ни конца оборотам Колеса Времен. Оно - начало всех начал.»
+Вы живете в эпоху давно минувшую, Эпоху, которая еще будет, Эпоху, называемую некоторыми Третьей. Каждый из вас предназначен для своей Судьбы, а может быть, предназначен для того, чтобы самому вершить судьбы. Мир наш полон магии, правда управлять магией могут только женщины - Айз Седай. Мужская половина источника магической силы – запятнана касанием Темного, и все мужчины, пытающиеся управлять магией – сходят с ума. Так было долгое время.
+Но и кроме магов, в нашем мире есть на что посмотреть. Взять хотя бы Белоплащников, которые утверждают, что нашим миром правит не колесо, а некий Бог. И обладают силой, которая защищает их от магии Айз Седай. Или темных тварей, которых все больше появляется в Порубежье, там, где наш мир касается темницы Дьявола. Кроме того, есть в нашем мире пророки, которые могут предсказать будущее, правда, не всегда в простых и понятных терминах, и сновидцы, которые во снах видят грядущее и прошлое.
+Вы живете в нелегкие времена: тучи сгущаются над вашим миром.<br></h3>
 
-                <h3> <span class="image left"><img src="/resources/images/worldEye/4.jpg" alt="" /></span>И был рожден Избранный, которому было предначертано спасти мир и, одновременно, разрушить его. В одной из глухих деревень страны Андор, в Двуречье, появилось сразу три кандидата на должность настоящего Избранного-Дракона. Эти кандидаты — мужчины, способные пользоваться магией. Опасность же заключается в том, что мужская половина магического источника запятнана Темным и сводит мужчин-магов с ума. Однако, возможно, если избранного направить в нужное русло, он сможет спасти мир от погружения во мрак еще до того, как окончательно сойдет с ума. <br>
-                    Спасти или разрушить мир? Дать избранному сойти с ума или помочь ему выбраться из лап безумия? Решение — за вами.</h3>
+                <h3> <span class="image left"><img src="/resources/images/worldEye/4.jpg" alt="" /></span>Знающие люди говорят о том, что начали сбываться пророчества. Темный уже сотрясает стены своей темницы. Все больше ужасных тварей появляется в Порубежье, и Стражи с трудом с ними справляются. Пропала глава всех женщин-магов, Амерлин, и Айз Седай погрязли во политике и внутренних дрязгах. Да к тому же, в нескольких концах мира появились мужчины-маги, объявившие себя избранными. Они уже повели народы на войну.
+В данный момент вы все находитесь в небольшой глухой деревеньке, на краю страны. Вас всех привели сюда пророчества и слухи. Говорят, что здесь был рожден избранный, которому суждено спасти и разрушить мир. Но кто он? И успеет ли он спасти мир до того, как сойдет с ума? Помочь ему или дать миру сгореть? Решение за вами…
+<br></h3>
 
                 <h3> <span class="image right"><img src="/resources/images/worldEye/1.jpg" alt="" /></span>
                     <strong>Почему стоит поиграть:</strong>
@@ -93,7 +96,7 @@
 
                 <h3> <span class="image left"><img src="/resources/images/worldEye/2.jpg" alt="" /></span>
                     <br>
-                    <strong>Игра рассчитана на:</strong> 6 - 25 человек<br>
+                    <strong>Игра рассчитана на:</strong> 6 - 12 человек<br>
                     <strong>Длительность:</strong> 3 часа<br>
                     <strong>Стоимость:</strong> 500 рублей с человека<br><br><br>
                     <br></h3>
@@ -105,7 +108,7 @@
                 <br>
                 <h3>По вашему желанию мы проведем игру в любом месте и в любое время. Поможем с выбором помещения для игры, приведем фотографа и аквагримера, закажем торт.</h3>
                 <ul class="actions special fit">
-                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button special fit">Заказать игру</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button special fit">Заказать игру</a></li>
                 </ul>
 
             </div>

@@ -1,5 +1,3 @@
-
-
 <%--
   Created by IntelliJ IDEA.
   User: jon
@@ -10,14 +8,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119774437-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-119774437-1');
-    </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119774437-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119774437-1');
+</script>
 
     <title>Scary House</title>
     <meta charset="utf-8" />
@@ -28,7 +27,7 @@
 
 <!-- Header -->
 <header id="header">
-    <div class="logo"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform">Записаться на игру</a></div>
+    <div class="logo"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform">Записаться на игру</a></div>
     <a href="#menu">Menu</a>
 </header>
 
@@ -36,8 +35,8 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Home</a></li>
-        <li><a href="masquerade">Бал-маскарад</a></li>
-        <li><a href="zombiequest">Зомби-апокалипсис</a></li>
+        <li><a href="masquerade">Бал маскарад</a></li>
+        <li><a href="zombiequest">Зомби апокалипсис</a></li>
         <li><a href="houseInTheVillage">Домик в деревне</a></li>
         <li><a href="spaceAroundUs">Космос вокруг нас</a></li>
         <li><a href="fairyTale">Недетская сказка</a></li>
@@ -46,7 +45,7 @@
         <li><a href="madWorld">Безумный мир</a></li>
         <li><a href="sherWood">Шервудский лес</a></li>
         <li><a href="contacts">Контакты</a></li>
-        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform">Записаться на игру</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform">Записаться на игру</a></li>
     </ul>
 </nav>
 
@@ -93,7 +92,7 @@
                 <h3> <span class="image left"><img src="/resources/images/houseInTheVillage/4.jpg" alt="" /></span>
                     <br>
                     <strong>Игра рассчитана на:</strong> 5 - 10 человек<br>
-                    <strong>Длительность:</strong> 2 часа<br>
+                    <strong>Длительность:</strong> 1 час<br>
                     <strong>Стоимость:</strong> 400 рублей с человека<br><br><br>
                     <br></h3>
                 <br>
@@ -102,7 +101,7 @@
                 <br>
                 <h3>По вашему желанию мы проведем игру в любом месте и в любое время. Поможем с выбором помещения для игры, приведем фотографа и аквагримера, закажем торт.</h3>
                 <ul class="actions special fit">
-                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button special fit">Заказать игру</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button special fit">Заказать игру</a></li>
                 </ul>
 
             </div>

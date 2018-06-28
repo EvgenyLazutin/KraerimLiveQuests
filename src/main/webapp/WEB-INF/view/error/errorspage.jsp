@@ -1,4 +1,3 @@
-
 <%--
   Created by IntelliJ IDEA.
   User: jon
@@ -9,14 +8,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119774437-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-119774437-1');
-    </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119774437-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119774437-1');
+</script>
 
     <title>Error</title>
     <meta charset="utf-8" />
@@ -27,7 +27,7 @@
 
 <!-- Header -->
 <header id="header">
-    <div class="logo"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform">Записаться на игру</a></div>
+    <div class="logo"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform">Записаться на игру</a></div>
     <a href="#menu">Menu</a>
 </header>
 
@@ -35,8 +35,8 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Home</a></li>
-        <li><a href="masquerade">Бал-маскарад</a></li>
-        <li><a href="zombiequest">Зомби-апокалипсис</a></li>
+        <li><a href="masquerade">Бал маскарад</a></li>
+        <li><a href="zombiequest">Зомби апокалипсис</a></li>
         <li><a href="houseInTheVillage">Домик в деревне</a></li>
         <li><a href="spaceAroundUs">Космос вокруг нас</a></li>
         <li><a href="fairyTale">Недетская сказка</a></li>
@@ -44,7 +44,7 @@
         <li><a href="murderMonastery">Убийство в монастыре</a></li>
         <li><a href="madWorld">Безумный мир</a></li>
         <li><a href="contacts">Контакты</a></li>
-        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform">Записаться на игру</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform">Записаться на игру</a></li>
     </ul>
 </nav>
 
@@ -66,6 +66,7 @@
                 <header class="align-center">
                     <h2>Что-то пошло не так ;(</h2>
                 </header>
+                <br>
             </div>
         </div>
     </div>

@@ -3,32 +3,30 @@
 <html>
 <head>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119774437-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-119774437-1');
-    </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119774437-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-119774437-1');
+</script>
 
-    <!-- Google verification -->
-    <meta name="google-site-verification" content="QpooFdE9BjrhVV3SEKFOLYlPwkxnwyzdfwI-XZaKtMs" />
+<meta name="google-site-verification" content="QpooFdE9BjrhVV3SEKFOLYlPwkxnwyzdfwI-XZaKtMs" />
 
     <title>Welcome to Kraerim</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/resources/assets/css/main.css" />
 
-    <!-- vc ретаргентинг -->
-    <script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?154",t.onload=function(){VK.Retargeting.Init("VK-RTRG-247838-1tyxI"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-247838-1tyxI"; style="position:fixed; left:-999px;" alt=""/></noscript>
+<script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?154",t.onload=function(){VK.Retargeting.Init("VK-RTRG-247838-1tyxI"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-247838-1tyxI"; style="position:fixed; left:-999px;" alt=""/></noscript>
 
 </head>
 <body>
 
 <!-- Header -->
-<header id="header" class="alt">
-    <div class="logo"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform">Записаться на игру</a></div>
+<header id="header">
+    <div class="logo"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform">Записаться на игру</a></div>
     <a href="#menu">Menu</a>
 </header>
 
@@ -46,7 +44,7 @@
         <li><a href="madWorld">Безумный мир</a></li>
         <li><a href="sherWood">Шервудский лес</a></li>
         <li><a href="contacts">Контакты</a></li>
-        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform">Записаться на игру</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform">Записаться на игру</a></li>
     </ul>
 </nav>
 
@@ -55,10 +53,11 @@
     <article>
         <img src="/resources/1pic.jpg" alt="" />
         <div class="inner">
-            <header>
-                <p>Узнай, что за краем мира</p>
+            <header class="align-center">
+                <p>Живые квесты в Санкт-Петербурге</p>
                 <h2>Kraerim</h2>
-                <h3>+7 951 669 60 94</h3>
+                <h4>Почувствуй себя персонажем фильма!</h4>
+              <h3>+7 951 669 60 94</h3>
             </header>
         </div>
     </article>
@@ -68,6 +67,7 @@
             <header>
                 <p>Испытай себя!</p>
                 <h2>Kraerim</h2>
+                <h4>Почувствуй себя персонажем фильма!</h4>
                 <h3>+7 951 669 60 94</h3>
             </header>
         </div>
@@ -78,6 +78,7 @@
             <header>
                 <p>Cпасись от магического безумия</p>
                 <h2>Kraerim</h2>
+                <h4>Почувствуй себя персонажем фильма!</h4>
                 <h3>+7 951 669 60 94</h3>
             </header>
         </div>
@@ -88,6 +89,7 @@
             <header>
                 <p>Разгадай тайну затерянного в горах монастыря</p>
                 <h2>Kraerim</h2>
+                <h4>Почувствуй себя персонажем фильма</h4>
                 <h3>+7 951 669 60 94</h3>
             </header>
         </div>
@@ -96,8 +98,9 @@
         <img src="/resources/3pic.jpg"  alt="" />
         <div class="inner">
             <header>
-                <p>Поучаствуй в настоящем балу и попробуй захватить трон</p>
+                <p>Поучаствуй в настоящем балу и попробуй занять трон</p>
                 <h2>Kraerim</h2>
+                <h4>Почувствуй себя персонажем фильма!</h4>
                 <h3>+7 951 669 60 94</h3>
             </header>
         </div>
@@ -122,7 +125,7 @@
                         <p> В этой игре вам предстоит оказаться последними выжившими, и бороться за свое личное спасение. Возможно, придется кем-то пожертвовать, чтобы спастись самому? В небольшом американском городке стали происходить странные вещи. Люди стали гибнуть от странной болезни, а потом воскресать из мертвых и пожирать плоть других людей.</p>
                         <footer class="align-center">
                             <a href="zombiequest" class="button alt">Узнать больше</a>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button alt">Записаться на игру</a>
                         </footer>
                     </div>
                 </div>
@@ -143,7 +146,7 @@
                             По дороге вы немного заплутали, но все же добрались до места, вроде даже до того... </p>
                         <footer class="align-center">
                             <a href="houseInTheVillage" class="button alt">Узнать больше</a>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button alt">Записаться на игру</a>
                         </footer>
                     </div>
                 </div>
@@ -183,7 +186,7 @@
                             которая разорвет Империю на тысячу маленьких кусочков.</p>
                         <footer class="align-center">
                             <a href="masquerade" class="button alt">Узнать больше</a>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button alt">Записаться на игру</a>
                         </footer>
                     </div>
                 </div>
@@ -203,7 +206,7 @@
                             на свободу и теперь оно грозит уничтожить мир! Что делать, что делать?!</p>
                         <footer class="align-center">
                             <a href="madWorld" class="button alt">Узнать больше</a>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button alt">Записаться на игру</a>
                         </footer>
                     </div>
                 </div>
@@ -243,7 +246,7 @@
                             где он охотится на оленей.</p>
                         <footer class="align-center">
                             <a href="sherWood" class="button alt">Узнать больше</a>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button alt">Записаться на игру</a>
                         </footer>
                     </div>
                 </div>
@@ -265,7 +268,7 @@
                             привнося Здравый смысл в жизнь Сказок и, одновременно, наполняя Волшебством мир людей.</p>
                         <footer class="align-center">
                             <a href="fairyTale" class="button alt">Узнать больше</a>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button alt">Записаться на игру</a>
                         </footer>
                     </div>
                 </div>
@@ -305,7 +308,7 @@
                             но и для самих себя.</p>
                         <footer class="align-center">
                             <a href="worldEye" class="button alt">Узнать больше</a>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button alt">Записаться на игру</a>
                         </footer>
                     </div>
                 </div>
@@ -325,7 +328,7 @@
                             Убийство компрометирует монастырь, поэтому вам нужно найти виновного как можно быстрее.</p>
                         <footer class="align-center">
                             <a href="murderMonastery" class="button alt">Узнать больше</a>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button alt">Записаться на игру</a>
                         </footer>
                     </div>
                 </div>
@@ -366,7 +369,7 @@
                             Также как незаконные эксперименты и похищение информации.</p>
                         <footer class="align-center">
                             <a href="spaceAroundUs" class="button alt">Узнать больше</a>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button alt">Записаться на игру</a>
                         </footer>
                     </div>
                 </div>
@@ -385,7 +388,7 @@
                         <p>Игра в разработке</p>
                         <footer class="align-center">
                             <%--<a href="murderMonastery" class="button alt">Узнать больше</a>--%>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button alt">Записаться на игру</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button alt">Записаться на игру</a>
                         </footer>
                     </div>
                 </div>

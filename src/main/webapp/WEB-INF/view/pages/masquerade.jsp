@@ -1,5 +1,3 @@
-
-
 <%--
   Created by IntelliJ IDEA.
   User: jon
@@ -10,14 +8,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119774437-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-119774437-1');
-    </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119774437-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119774437-1');
+</script>
 
     <title>Masquerade</title>
     <meta charset="utf-8" />
@@ -28,7 +27,7 @@
 
 <!-- Header -->
 <header id="header">
-    <div class="logo"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform">Записаться на игру</a></div>
+    <div class="logo"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform">Записаться на игру</a></div>
     <a href="#menu">Menu</a>
 </header>
 
@@ -36,8 +35,8 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Home</a></li>
-        <li><a href="masquerade">Бал-маскарад</a></li>
-        <li><a href="zombiequest">Зомби-апокалипсис</a></li>
+        <li><a href="masquerade">Бал маскарад</a></li>
+        <li><a href="zombiequest">Зомби апокалипсис</a></li>
         <li><a href="houseInTheVillage">Домик в деревне</a></li>
         <li><a href="spaceAroundUs">Космос вокруг нас</a></li>
         <li><a href="fairyTale">Недетская сказка</a></li>
@@ -46,7 +45,7 @@
         <li><a href="madWorld">Безумный мир</a></li>
         <li><a href="sherWood">Шервудский лес</a></li>
         <li><a href="contacts">Контакты</a></li>
-        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform">Записаться на игру</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform">Записаться на игру</a></li>
     </ul>
 </nav>
 
@@ -78,9 +77,13 @@
                     <h2>Бал-маскарад</h2>
                     <h3> Жанр: роман. Сложность: легкая.</h3>
                 </header>
-                <h3> <span class="image right"><img src="/resources/images/masquerade/1.jpg" alt="" /></span>С прискорбием сообщаем, что Император скончался! А наследников после себя он не оставил. Желающих завладеть престолом - немало, и нестабильная ситуация грозит перерасти в полномасштабную войну, которая разорвет Империю на тысячу маленьких кусочков.<br><br><br><br><br><br><br></h3>
+                <h3> <span class="image right"><img src="/resources/images/masquerade/1.jpg" alt="" /></span>«С прискорбием сообщаем, что Император скончался! Его Святейшество не оставил прямых наследников, а завещание таинственным образом исчезло. Советом было принято решение выбрать нового Императора из знатных господ империи. По этому случаю, состоится бал-маскарад, в конце которого и определится новый правитель». Именно такое письмо вам принес слуга. И вы сразу же поняли, что этот бал – ваш лучший шанс захватить трон…
+Вы узнали, что на балу будут присутствовать все самые знатные семьи Империи, к одной из которых принадлежите и вы. А может быть, вы обманом проникли на бал, в надежде урвать себе кусочек власти и богатств?
+<br><br></h3>
 
-                <h3> <span class="image left"><img src="/resources/images/masquerade/2.jpg" alt="" /></span>Три главных Благородных семьи решили урегулировать вопрос другим способом. Они устроили бал в честь памяти великого Императора, мир праху его. И на балу решить: кому же стать следующим Императором?<br>Конечно, не обойдется без интриг, шантажа, подкупа, игры в кости, тайных свиданий и дуэлей.<br><br><br><br><br></h3>
+                <h3> <span class="image left"><img src="/resources/images/masquerade/2.jpg" alt="" /></span>Для огромной Империи смерть Императора, мир праху его, стала очень внезапным ударом. И чревата гражданской войной, которая разорвет страну на тысячу частей. Именно поэтому самые влиятельные и богатые люди решили устроить этот бал-маскарад. Чтобы в перерывах между танцами и закусками мирным путем выбрать нового Императора. Того, кто сможет лучше всех управлять страной и устроит все Великие семьи. Но это не так уж просто, ведь каждый хочет извлечь выгоду из сложившейся ситуации.
+Кем будете вы? Серым кардиналом, или чьей-то марионеткой? Регентом или полноправным Императором?
+<br>Конечно, не обойдется без интриг, шантажа, подкупа, игры в кости, тайных свиданий, дуэлей и танцев.<br><br></h3>
 
                 <h3> <span class="image right"><img src="/resources/images/masquerade/3.jpg" alt="" /></span>
                     <strong>Почему стоит поиграть:</strong>
@@ -94,14 +97,14 @@
                     <br>
                     <strong>Игра рассчитана на:</strong> 5 - 30 человек<br>
                     <strong>Длительность:</strong> 2 часа<br>
-                    <strong>Стоимость:</strong> 300 рублей с человека<br><br><br><br>
+                    <strong>Стоимость:</strong> 400 рублей с человека<br><br><br><br>
                     <br></h3>
                 <br>
                 <br>
                 <br>
                 <h3>По вашему желанию мы проведем игру в любом месте и в любое время. Поможем с выбором помещения для игры, приведем фотографа и аквагримера, закажем торт.</h3>
                 <ul class="actions special fit">
-                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKSsHgnpwuCriKE-yfQE0hpBnEJoS6gveo789P7EhOJ8BS-A/viewform" class="button special fit">Заказать игру</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button special fit">Заказать игру</a></li>
                 </ul>
 
             </div>
