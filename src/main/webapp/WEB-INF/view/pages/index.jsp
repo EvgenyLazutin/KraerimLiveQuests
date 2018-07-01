@@ -2,8 +2,10 @@
 
 <html>
 <head>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119774437-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -16,7 +18,7 @@
 
     <title>Welcome to Kraerim</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="/resources/assets/css/main.css" />
 
 <script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?154",t.onload=function(){VK.Retargeting.Init("VK-RTRG-247838-1tyxI"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-247838-1tyxI"; style="position:fixed; left:-999px;" alt=""/></noscript>
@@ -55,9 +57,10 @@
         <div class="inner">
             <header class="align-center">
                 <p>Живые квесты в Санкт-Петербурге</p>
-                <h2>Kraerim</h2>
-                <h4>Почувствуй себя персонажем фильма!</h4>
-              <h3>+7 951 669 60 94</h3>
+                <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h2> </header>
+                <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h3> </header>
+                <h4 style="color:  rgba(255, 255, 255, 0.65)">Почувствуй себя персонажем фильма!</h4>
+                <h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3>
             </header>
         </div>
     </article>
@@ -66,9 +69,10 @@
         <div class="inner">
             <header>
                 <p>Испытай себя!</p>
-                <h2>Kraerim</h2>
-                <h4>Почувствуй себя персонажем фильма!</h4>
-                <h3>+7 951 669 60 94</h3>
+                <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h2> </header>
+                <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h3> </header>
+                <h4 style="color:  rgba(255, 255, 255, 0.65)">Почувствуй себя персонажем фильма!</h4>
+                <h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3>
             </header>
         </div>
     </article>
@@ -77,9 +81,10 @@
         <div class="inner">
             <header>
                 <p>Cпасись от магического безумия</p>
-                <h2>Kraerim</h2>
-                <h4>Почувствуй себя персонажем фильма!</h4>
-                <h3>+7 951 669 60 94</h3>
+                <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h2> </header>
+                <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h3> </header>
+                <h4 style="color:  rgba(255, 255, 255, 0.65)">Почувствуй себя персонажем фильма!</h4>
+                <h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3>
             </header>
         </div>
     </article>
@@ -87,10 +92,12 @@
         <img src="/resources/2pic.jpg"  alt="" />
         <div class="inner">
             <header>
-                <p>Разгадай тайну затерянного в горах монастыря</p>
-                <h2>Kraerim</h2>
-                <h4>Почувствуй себя персонажем фильма</h4>
-                <h3>+7 951 669 60 94</h3>
+                <header class="align-center d-none d-sm-block"> <p style="color:  rgba(255, 255, 255, 0.65)">Разгадай тайну затерянного в горах монастыря</p> </header>
+                <header class="align-center d-sm-none"> <h4 style="color:  rgba(255, 255, 255, 0.65)">Разгадай тайну затерянного в горах монастыря</h4></header>
+                <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h2> </header>
+                <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h3> </header>
+                <h4 style="color:  rgba(255, 255, 255, 0.65)">Почувствуй себя персонажем фильма!</h4>
+                <h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3>
             </header>
         </div>
     </article>
@@ -98,10 +105,12 @@
         <img src="/resources/3pic.jpg"  alt="" />
         <div class="inner">
             <header>
-                <p>Поучаствуй в настоящем балу и попробуй занять трон</p>
-                <h2>Kraerim</h2>
-                <h4>Почувствуй себя персонажем фильма!</h4>
-                <h3>+7 951 669 60 94</h3>
+                <header class="align-center d-none d-sm-block"> <p style="color:  rgba(255, 255, 255, 0.65)">Поучаствуй в настоящем балу и попробуй занять трон</p> </header>
+                <header class="align-center d-sm-none"> <h4 style="color:  rgba(255, 255, 255, 0.65)"> Поучаствуй в настоящем балу и попробуй занять трон</h4></header>
+                <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h2> </header>
+                <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h3> </header>
+                <h4 style="color:  rgba(255, 255, 255, 0.65)">Почувствуй себя персонажем фильма!</h4>
+                <h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3>
             </header>
         </div>
     </article>
