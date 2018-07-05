@@ -8,6 +8,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="/resources/assets/css/bootstrap.min.css"/>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119774437-1"></script>
 <script>
@@ -76,35 +78,70 @@
                 <header class="align-center">
                     <p>Что началось то, нормально же сидели?!</p>
                     <h2>Домик в деревне</h2>
-                    <h3> Жанр: ужасы. Сложность: легкая.</h3>
+                    <h3>Жанр: ужасы. Сложность: легкая.</h3>
                 </header>
-                <h3> <span class="image right"><img src="/resources/images/houseInTheVillage/1.jpg" alt="" /></span>Вы – студенты. Совсем недавно вы сдали сессию и решили это отпраздновать. Агентство прислало вам очень выгодный вариант, и вы, не раздумывая, согласились на него. По дороге вы немного заплутали, но все же добрались до места, вроде даже до того... Проезжая в ночи по деревеньке вы заметили, что в большинстве домов не горит свет, почти все заборы - покосились, и даже ни одна собака на вас не залаяла. Но тем лучше: никто не пожалуется на вашу шумную гулянку! Внешне дом был немного не похож на тот, что вам прислало агентство, но ключи от двери лежали именно там, где вам сказали, и внутри все было прямо как на фотографиях.<br><br><br></h3>
-
-                <h3> <span class="image left"><img src="/resources/images/houseInTheVillage/2.jpg" alt="" /></span>Вечер пятницы прошел просто отлично: шашлыки, сауна, караоке, фильмы ужасов. И следующий день начался совершенно ожидаемо: с головной боли. Правда, проснулись вы почему-то только в сумерках, под вой собак. Или волков? А еще, ваши машины куда-то пропали… <br> Сможете ли вы разобраться в том, что происходит в доме? Все ли выживут? Разгадайте все тайны, скрывающиеся за дверями домика в деревне.<br><br><br><br><br><br> <br></h3>
-
-                <h3> <span class="image right"><img src="/resources/images/houseInTheVillage/3.jpg" alt="" /></span>
-                    <strong>Почему стоит поиграть:</strong>
-                </h3>
-                <ul class="alt">
-                    <li> <h3>вы собираетесь арендовать коттедж и хотите понять, что вас там ждет<br></h3></li>
-                    <li> <h3>вы смотрели фильм "Хижина в лесу"<br></h3></li>
-                    <li> <h3>вы любите ужастики<br></h3></li> </ul>
-
-                <h3> <span class="image left"><img src="/resources/images/houseInTheVillage/4.jpg" alt="" /></span>
-                    <br>
-                    <strong>Игра рассчитана на:</strong> 5 - 10 человек<br>
-                    <strong>Длительность:</strong> 1 час<br>
-                    <strong>Стоимость:</strong> 400 рублей с человека<br><br><br>
-                    <br></h3>
-                <br>
-                <br>
-                <br>
-                <br>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm">
+                            <img class="image main" src="/resources/images/houseInTheVillage/1.jpg" alt=""/>
+                        </div>
+                        <div class="col-sm">
+                            <h3>
+                                Вы – студенты. Совсем недавно вы сдали сессию и решили это отпраздновать. Агентство прислало вам очень выгодный вариант,
+                                и вы, не раздумывая, согласились на него. По дороге вы немного заплутали, но все же добрались до места, вроде даже до того...
+                                Проезжая в ночи по деревеньке вы заметили, что в большинстве домов не горит свет, почти все заборы - покосились, и даже ни одна
+                                собака на вас не залаяла. Но тем лучше: никто не пожалуется на вашу шумную гулянку! Внешне дом был немного не похож на тот, что
+                                вам прислало агентство, но ключи от двери лежали именно там, где вам сказали, и внутри все было прямо как на фотографиях.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm">
+                            <h3>
+                                Вечер пятницы прошел просто отлично: шашлыки, сауна, караоке, фильмы ужасов. И следующий день начался совершенно ожидаемо: с головной боли.
+                                Правда, проснулись вы почему-то только в сумерках, под вой собак. Или волков? А еще, ваши машины куда-то пропали… <br>
+                                Сможете ли вы разобраться в том, что происходит в доме? Все ли выживут? Разгадайте все тайны, скрывающиеся за дверями домика в деревне.
+                            </h3>
+                        </div>
+                        <div class="col-sm">
+                            <img class="image main" src="/resources/images/houseInTheVillage/2.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm">
+                            <img class="image main" src="/resources/images/houseInTheVillage/3.jpg" alt="" />
+                        </div>
+                        <div class="col-sm">
+                            <h3><strong>Почему стоит поиграть:</strong></h3>
+                            <ul class="alt">
+                                <li> <h3>вы собираетесь арендовать коттедж и хотите понять, что вас там ждет<br></h3></li>
+                                <li> <h3>вы смотрели фильм "Хижина в лесу"<br></h3></li>
+                                <li> <h3>вы любите ужастики</h3></li> </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm">
+                            <h3>
+                                <strong>Игра рассчитана на:</strong> 5 - 10 человек<br>
+                                <strong>Длительность:</strong> 1 час<br>
+                                <strong>Стоимость:</strong> 400 рублей с человека
+                            </h3>
+                        </div>
+                        <div class="col-sm">
+                            <img class="image main" src="/resources/images/houseInTheVillage/4.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
                 <h3>По вашему желанию мы проведем игру в любом месте и в любое время. Поможем с выбором помещения для игры, приведем фотографа и аквагримера, закажем торт.</h3>
                 <ul class="actions special fit">
                     <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button special fit">Заказать игру</a></li>
                 </ul>
-
             </div>
         </div>
     </div>
