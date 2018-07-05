@@ -8,6 +8,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="/resources/assets/css/bootstrap.min.css"/>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119774437-1"></script>
 <script>
@@ -76,38 +78,70 @@
                 <header class="align-center">
                     <p>За одной маской скрывается другая</p>
                     <h2>Убийство в монастыре</h2>
-                    <h3> Жанр: детектив. Сложность: высокая.</h3>
+                    <h3>Жанр: детектив. Сложность: высокая.</h3>
                 </header>
-                <h3> <span class="image right"><img src="/resources/images/murderMonastery/1.jpg" alt="" /></span>15 век, где-то в горах Испании, монастырь Святой девы Марии.<br><br>
-                    В этой игре вам предстоит окунуться в жизнь средневековых монахов и расследовать убийство одного из братьев монастыря. Убийство компрометирует монастырь, поэтому вам нужно найти виновного как можно быстрее.<br>
-                    В воскресенье в монастыре должен был состояться теологический диспут по поводу бедности Христа. Это очень важное событие, на него собираются известнейшие теологи-монахи. Среди них - и инквизитор от папского престола, который считает это мнение совершеннейшей ересью.<br><br></h3>
-
-                <h3> <span class="image left"><img src="/resources/images/murderMonastery/2.jpg" alt="" /></span>Однако в субботу, после утренней молитвы, выяснилось, что брат Титус, один из участников диспута и самый известный оратор, ярый сторонник идеи о том, что Христос был беден, был убит! Так совпало, что он же был и главным хранителем библиотеки...<br>Тело Титуса было обнаружено в келье. Причина смерти – неизвестна, но похоже на удушение.<br><br><br><br><br><br><br><br><br><br><br></h3>
-
-                <h3> <span class="image right"><img src="/resources/images/murderMonastery/3.jpg" alt="" /></span>
-                    <strong>Почему стоит поиграть:</strong>
-                </h3>
-                <ul class="alt">
-                    <li> <h3>вы давно хотели сжечь кого-нибудь на костре<br></h3></li>
-                    <li> <h3>вам хочется побыть настоящим детективом и расследовать сложное дело об убийстве<br></h3></li>
-                    <li> <h3>вы хотите, чтобы добро/зло торжествовало<br><br><br></h3></li> </ul>
-
-                <h3> <span class="image left"><img src="/resources/images/murderMonastery/4.jpg" alt="" /></span>
-                    <br>
-                    <strong>Игра рассчитана на:</strong> 6 - 8 человек<br>
-                    <strong>Длительность:</strong> 3 часа<br>
-                    <strong>Стоимость:</strong> 500 рублей с человека<br><br><br>
-                    <br></h3>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm">
+                            <img class="image main" src="/resources/images/murderMonastery/1.jpg" alt=""/>
+                        </div>
+                        <div class="col-sm">
+                            <h3>
+                                15 век, где-то в горах Испании, монастырь Святой девы Марии.<br>
+                                В этой игре вам предстоит окунуться в жизнь средневековых монахов и расследовать убийство одного из братьев монастыря.
+                                Убийство компрометирует монастырь, поэтому вам нужно найти виновного как можно быстрее.<br>
+                                В воскресенье в монастыре должен был состояться теологический диспут по поводу бедности Христа. Это очень важное событие, на него
+                                собираются известнейшие теологи-монахи. Среди них - и инквизитор от папского престола, который считает это мнение совершеннейшей ересью.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm">
+                            <h3>
+                                Однако в субботу, после утренней молитвы, выяснилось, что брат Титус, один из участников диспута и самый известный оратор,
+                                ярый сторонник идеи о том, что Христос был беден, был убит! Так совпало, что он же был и главным хранителем библиотеки...<br>
+                                Тело Титуса было обнаружено в келье. Причина смерти – неизвестна, но похоже на удушение.</h3>
+                            </h3>
+                        </div>
+                        <div class="col-sm">
+                            <img class="image main" src="/resources/images/murderMonastery/2.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm">
+                            <img class="image main" src="/resources/images/murderMonastery/3.jpg" alt="" />
+                        </div>
+                        <div class="col-sm">
+                            <h3><strong>Почему стоит поиграть:</strong></h3>
+                            <ul class="alt">
+                                <li> <h3>вы давно хотели сжечь кого-нибудь на костре<br></h3></li>
+                                <li> <h3>вам хочется побыть настоящим детективом и расследовать сложное дело об убийстве<br></h3></li>
+                                <li> <h3>вы хотите, чтобы добро/зло торжествовало</h3></li> </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm">
+                            <h3>
+                                <strong>Игра рассчитана на:</strong> 6 - 8 человек<br>
+                                <strong>Длительность:</strong> 3 часа<br>
+                                <strong>Стоимость:</strong> 500 рублей с человека
+                            </h3>
+                        </div>
+                        <div class="col-sm">
+                            <img class="image main" src="/resources/images/murderMonastery/4.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
                 <h3>По вашему желанию мы проведем игру в любом месте и в любое время. Поможем с выбором помещения для игры, приведем фотографа и аквагримера, закажем торт.</h3>
                 <ul class="actions special fit">
                     <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button special fit">Заказать игру</a></li>
                 </ul>
-
             </div>
         </div>
     </div>
