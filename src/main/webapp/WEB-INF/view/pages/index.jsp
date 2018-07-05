@@ -93,8 +93,7 @@
         <img src="/resources/2pic.jpg"  alt="" />
         <div class="inner">
             <header>
-                <header class="align-center d-none d-sm-block"> <p style="color:  rgba(255, 255, 255, 0.65)">Разгадай тайну затерянного в горах монастыря</p> </header>
-                <header class="align-center d-sm-none"> <h4 style="color:  rgba(255, 255, 255, 0.65)">Разгадай тайну затерянного в горах монастыря</h4></header>
+                 <p> Разгадай тайну затерянного в горах монастыря</p>
                 <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h2> </header>
                 <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h3> </header>
                 <h4 style="color:  rgba(255, 255, 255, 0.65)">Почувствуй себя персонажем фильма!</h4>
@@ -106,8 +105,7 @@
         <img src="/resources/3pic.jpg"  alt="" />
         <div class="inner">
             <header>
-                <header class="align-center d-none d-sm-block"> <p style="color:  rgba(255, 255, 255, 0.65)">Поучаствуй в настоящем балу и попробуй занять трон</p> </header>
-                <header class="align-center d-sm-none"> <h4 style="color:  rgba(255, 255, 255, 0.65)"> Поучаствуй в настоящем балу и попробуй занять трон</h4></header>
+                <p> Поучаствуй в настоящем балу и попробуй занять трон</p>
                 <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h2> </header>
                 <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h3> </header>
                 <h4 style="color:  rgba(255, 255, 255, 0.65)">Почувствуй себя персонажем фильма!</h4>
