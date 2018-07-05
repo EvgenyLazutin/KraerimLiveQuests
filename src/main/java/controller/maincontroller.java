@@ -60,10 +60,14 @@ public class maincontroller {
         return "contacts";
     }
 
-
     @RequestMapping(value="/sherWood", method=RequestMethod.GET)
     public String getSherWood() {
         return "sherWood";
+    }
+
+    @RequestMapping(value="/gallery", method=RequestMethod.GET)
+    public String getGallery() {
+        return "gallery";
     }
 
 }

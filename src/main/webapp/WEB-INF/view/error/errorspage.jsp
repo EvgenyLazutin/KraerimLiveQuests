@@ -35,14 +35,16 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Home</a></li>
-        <li><a href="masquerade">Бал маскарад</a></li>
-        <li><a href="zombiequest">Зомби апокалипсис</a></li>
+        <li><a href="masquerade">Бал-маскарад</a></li>
+        <li><a href="zombiequest">Зомби-апокалипсис</a></li>
         <li><a href="houseInTheVillage">Домик в деревне</a></li>
         <li><a href="spaceAroundUs">Космос вокруг нас</a></li>
         <li><a href="fairyTale">Недетская сказка</a></li>
         <li><a href="worldEye">Око мира</a></li>
         <li><a href="murderMonastery">Убийство в монастыре</a></li>
         <li><a href="madWorld">Безумный мир</a></li>
+        <li><a href="sherWood">Шервудский лес</a></li>
+        <li><a href="gallery">Галерея</a></li>
         <li><a href="contacts">Контакты</a></li>
         <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform">Записаться на игру</a></li>
     </ul>
