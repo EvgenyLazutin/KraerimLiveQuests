@@ -2,14 +2,22 @@ package kraerimApp.controller;
 
 
 import kraerimApp.model.Client;
+import kraerimApp.service.EmailService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.util.HashMap;
+import java.util.Map;
+
 @Controller
 public class maincontroller {
+
+    @Autowired
+    EmailService emailService;
 
     @RequestMapping(value="/index", method=RequestMethod.GET)
     public String getIndex() {
@@ -84,6 +92,14 @@ public class maincontroller {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("confirmRegistration");
         modelAndView.addObject("ClientRegistration", client);
+        Map<String, Object> model = new HashMap<String, Object>();
+        Map<String, Object> modelForAdmin = new HashMap<String, Object>();
+        modelForAdmin.put("client", client.toString());
+        emailService.sendEmailAdmin(modelForAdmin);
+        model.put("subject", "Hello from Kraerim@com!");
+        model.put("to", client.getEmail());
+        model.put("userName", client.getName());
+        emailService.sendEmailClient(model);
         return modelAndView;
     }
 }

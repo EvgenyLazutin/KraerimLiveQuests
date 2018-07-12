@@ -11,6 +11,18 @@ public class Client {
     private String surname;
     private String telephone;
     private String email;
+
+    @Override
+    public String toString() {
+        return "Новая запись на игру: " +
+                "Имя: " + name + '\'' +
+                ", Фамилия: " + surname + '\'' +
+                ", Телефон: " + telephone + '\'' +
+                ", email: " + email + '\'' +
+                ", Комментарии: '" + comments + '\'' +
+                '}';
+    }
+
     private String comments;
 
     public String getName() {
