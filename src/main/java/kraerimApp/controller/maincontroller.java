@@ -1,8 +1,9 @@
-package controller;
+package kraerimApp.controller;
 
 
+import kraerimApp.model.Client;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
@@ -70,4 +71,19 @@ public class maincontroller {
         return "gallery";
     }
 
+    @RequestMapping(value="/registration", method=RequestMethod.GET)
+    public ModelAndView getRegistration() {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.addObject("ClientRegistration", new Client());
+        modelAndView.setViewName("registration");
+        return modelAndView;
+    }
+
+    @RequestMapping(value="/confirmRegistration", method=RequestMethod.POST)
+    public ModelAndView PostRegistration(@ModelAttribute("ClientRegistration")Client client) {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("confirmRegistration");
+        modelAndView.addObject("ClientRegistration", client);
+        return modelAndView;
+    }
 }

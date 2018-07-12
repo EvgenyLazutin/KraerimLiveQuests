@@ -7,10 +7,10 @@
     <!-- DispatcherServlet Context: defines this servlet's request-processing
               infrastructure -->
 
-    <!-- Enables the Spring MVC @Controller programming model -->
+    <!-- Enables the Spring MVC @Controller programming kraerimApp.model -->
     <mvc:annotation-driven />
 
-    <context:component-scan base-package="controller" />
+    <context:component-scan base-package="kraerimApp" />
 
     <!-- Handles HTTP GET requests for /resources/** by efficiently serving
         up static resources in the ${webappRoot}/resources directory -->

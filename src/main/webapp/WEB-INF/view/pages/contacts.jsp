@@ -8,6 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="/resources/assets/css/bootstrap.min.css"/>
+
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         (function (d, w, c) {

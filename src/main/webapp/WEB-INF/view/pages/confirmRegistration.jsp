@@ -5,7 +5,7 @@
   Time: 1:16
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <html>
 <head>
     <!--Bootstrap-->
@@ -40,16 +40,16 @@
     <!-- /Yandex.Metrika counter -->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119774437-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119774437-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-  gtag('config', 'UA-119774437-1');
-</script>
+        gtag('config', 'UA-119774437-1');
+    </script>
 
-    <title>Error</title>
+    <title>ConfirmRegistration</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/resources/assets/css/main.css" />
@@ -77,7 +77,7 @@
         <li><a href="sherWood">Шервудский лес</a></li>
         <li><a href="gallery">Галерея</a></li>
         <li><a href="contacts">Контакты</a></li>
-        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform">Записаться на игру</a></li>
+        <li><a href="registration">Записаться на игру</a></li>
     </ul>
 </nav>
 
@@ -97,7 +97,9 @@
         <div class="box">
             <div class="content">
                 <header class="align-center">
-                    <h2>Что-то пошло не так ;(</h2>
+                    <h2>Вы успешно зарегистрировались на игру.</h2>
+                   Уважаемая ${ClientRegistration.name} вы умпешшно зарегистрировались на игру.<br>
+                    В ближайшее время с Вами с вяжется наш администратор.
                 </header>
                 <br>
             </div>
