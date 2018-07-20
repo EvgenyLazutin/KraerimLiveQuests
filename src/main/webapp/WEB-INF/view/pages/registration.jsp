@@ -59,7 +59,7 @@
 
 <!-- Header -->
 <header id="header">
-    <div class="logo"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform">Записаться на игру</a></div>
+    <div class="logo"><a href="registration">Заказать игру</a></div>
     <a href="#menu">Menu</a>
 </header>
 
@@ -78,7 +78,7 @@
         <li><a href="sherWood">Шервудский лес</a></li>
         <li><a href="gallery">Галерея</a></li>
         <li><a href="contacts">Контакты</a></li>
-        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform">Записаться на игру</a></li>
+        <li><a href="registration">Заказать игру</a></li>
     </ul>
 </nav>
 
@@ -105,18 +105,18 @@
                     <h2>Заказать игру</h2>
                 </header>
                 <%request.setCharacterEncoding("ISO-8859-1");%>
-                <form:form modelAttribute="ClientRegistration" method="post" action="/confirmRegistration" class="needs-validation" novalidate="true">
+                <form:form modelAttribute="ClientRegistration" method="post" action="/registration" class="needs-validation" novalidate="false">
                     <div class="form-row">
                         <div class="col-md-6">
                             <form:label path="name" for="validationCustom01">Имя</form:label>
-                            <form:input path="name" type="text" class="form-control" id="validationCustom01" placeholder="Введите Ваше Имя" required=""/>
+                            <form:input path="name" type="text" class="form-control" id="validationCustom01" placeholder="Введите Ваше Имя" required="true"/>
                             <div class="invalid-feedback">
                                 Пожалуйста введите Ваше имя.
                             </div>
                         </div>
                         <div class="col-md-6">
                             <form:label path="surname" for="validationCustom01">Фамилия</form:label>
-                            <form:input path="surname" type="text" class="form-control" id="validationCustom02" placeholder="Введите Вашу Фамилию" required=""/>
+                            <form:input path="surname" type="text" class="form-control" id="validationCustom02" placeholder="Введите Вашу Фамилию" required="true"/>
                             <div class="invalid-feedback">
                                 Пожалуйста введите Вашу фамилию.
                             </div>
@@ -126,16 +126,44 @@
                     <div class="form-row">
                         <div class="col-md-6">
                             <form:label path="telephone" for="validationCustom03">Ваш телефон</form:label>
-                            <form:input path="telephone" type="text" class="form-control" id="validationCustom03" placeholder="Введите Ваш телефон" required=""/>
+                            <form:input path="telephone" type="text" class="form-control" id="validationCustom03" placeholder="Введите Ваш телефон" required="true"/>
                             <div class="invalid-feedback">
                                 Пожалуйста введите корректный телефон, чтобы мы могли с Вами связаться.
                             </div>
                         </div>
                         <div class="col-md-6">
                             <form:label path="email" for="validationCustom04">Ваш e-mail</form:label>
-                            <form:input path="email" type="email" class="form-control" id="validationCustom04" placeholder="Введите Ваш e-mail" required=""/>
+                            <form:input path="email" type="email" class="form-control" id="validationCustom04" placeholder="Введите Ваш e-mail" required="true"/>
                             <div class="invalid-feedback">
                                 Пожалуйста введите корректный e-mail, чтобы мы могли с Вами связаться.
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col-md-6">
+                           <form:label path="game" for="custom-select">На какую игру вы хотите сходить?</form:label>
+                            <form:select path="game" class="custom-select" required="true">
+                            <option selected>Выберите игру</option>
+                                <form:option value="Зомби-апокалипсис">Зомби-апокалипсис</form:option>
+                                <form:option value="Домик в деревне">Домик в деревне</form:option>
+                                <form:option value="Бал-маскарад">Бал-маскарад</form:option>
+                                <form:option value="Этот безумный мир">Этот безумный мир</form:option>
+                                <form:option value="Шервудский лес">Шервудский лес</form:option>
+                                <form:option value="Недетская сказка">Недетская сказка</form:option>
+                                <form:option value="Око мира">Око мира</form:option>
+                                <form:option value="Убийство в монастыре">Убийство в монастыре</form:option>
+                                <form:option value="Космос вокруг нас">Космос вокруг нас</form:option>
+                                <div class="invalid-feedback">
+                                    Пожалуйста выберите выберите игру.
+                                </div>
+                        </form:select>
+                        </div>
+                        <div class="col-md-6">
+                            <form:label path="quantityPeople" for="validationCustom03">Сколько Вас будет человек?</form:label>
+                            <form:input path="quantityPeople" type="text" class="form-control" id="validationCustom03" placeholder="Введите колличество игроков" required="true"/>
+                            <div class="invalid-feedback">
+                                Пожалуйста введите предпологаемое колличество игроков.
                             </div>
                         </div>
                     </div>

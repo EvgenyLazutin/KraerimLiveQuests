@@ -58,7 +58,7 @@
 
 <!-- Header -->
 <header id="header">
-    <div class="logo"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform">Записаться на игру</a></div>
+    <div class="logo"><a href="registration">Заказать игру</a></div>
     <a href="#menu">Menu</a>
 </header>
 
@@ -77,7 +77,7 @@
         <li><a href="sherWood">Шервудский лес</a></li>
         <li><a href="gallery">Галерея</a></li>
         <li><a href="contacts">Контакты</a></li>
-        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform">Записаться на игру</a></li>
+        <li><a href="registration">Заказать игру</a></li>
     </ul>
 </nav>
 
@@ -98,6 +98,9 @@
             <div class="content">
                 <header class="align-center">
                     <h2>Что-то пошло не так ;(</h2>
+                    <ul class="actions special fit">
+                        <li><a href="index" class="button special fit">Перейти на главную страницу</a></li>
+                    </ul>
                 </header>
                 <br>
             </div>

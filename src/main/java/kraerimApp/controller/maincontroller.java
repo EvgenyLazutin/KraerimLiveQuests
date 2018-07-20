@@ -8,12 +8,16 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @Controller
+@SessionAttributes(value = "ClientRegistration")
 public class maincontroller {
 
     @Autowired
@@ -87,19 +91,34 @@ public class maincontroller {
         return modelAndView;
     }
 
-    @RequestMapping(value="/confirmRegistration", method=RequestMethod.POST)
+    @RequestMapping(value="/registration", method=RequestMethod.POST)
     public ModelAndView PostRegistration(@ModelAttribute("ClientRegistration")Client client) {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.addObject("ClientRegistration", client );
+        Map<String, Object> modelMailClient = new HashMap<>();
+        modelMailClient.put("from", "Kraerim@com");
+        modelMailClient.put("subject", "Подтверждение заявки на сайте Kraerim.com");
+        modelMailClient.put("to", client.getEmail());
+        modelMailClient.put("ccList", new ArrayList<>());
+        List<String> to=new ArrayList<>();
+        to.add("vasilekcat@inbox.ru");
+        modelMailClient.put("bccList", to);
+        modelMailClient.put("userName", client.getName());
+        modelMailClient.put("surname", client.getSurname());
+        modelMailClient.put("telephone", client.getTelephone());
+        modelMailClient.put("game", client.getGame());
+        modelMailClient.put("quantity", client.getQuantityPeople());
+        modelMailClient.put("comments", client.getComments());
+        emailService.sendEmailClient("email.vm", modelMailClient);
+
+        return new ModelAndView("redirect:/confirmRegistration",  "ClientRegistration", client);
+    }
+
+    @RequestMapping(value="/confirmRegistration", method=RequestMethod.GET)
+    public ModelAndView getConfirmRegistration(@ModelAttribute("ClientRegistration")Client client) {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("confirmRegistration");
         modelAndView.addObject("ClientRegistration", client);
-        Map<String, Object> model = new HashMap<String, Object>();
-        Map<String, Object> modelForAdmin = new HashMap<String, Object>();
-        modelForAdmin.put("client", client.toString());
-        emailService.sendEmailAdmin(modelForAdmin);
-        model.put("subject", "Hello from Kraerim@com!");
-        model.put("to", client.getEmail());
-        model.put("userName", client.getName());
-        emailService.sendEmailClient(model);
         return modelAndView;
     }
 }

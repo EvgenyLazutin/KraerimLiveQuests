@@ -56,7 +56,7 @@
 
 <!-- Header -->
 <header id="header">
-    <div class="logo"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform">Записаться на игру</a></div>
+    <div class="logo"><a href="registration">Заказать игру</a></div>
     <a href="#menu">Menu</a>
 </header>
 
@@ -75,7 +75,7 @@
         <li><a href="sherWood">Шервудский лес</a></li>
         <li><a href="gallery">Галерея</a></li>
         <li><a href="contacts">Контакты</a></li>
-        <li><a href="registration">Записаться на игру</a></li>
+        <li><a href="registration">Заказать игру</a></li>
     </ul>
 </nav>
 
@@ -161,7 +161,7 @@
                         <p> В этой игре вам предстоит оказаться последними выжившими, и бороться за свое личное спасение. Возможно, придется кем-то пожертвовать, чтобы спастись самому? В небольшом американском городке стали происходить странные вещи. Люди стали гибнуть от странной болезни, а потом воскресать из мертвых и пожирать плоть других людей.</p>
                         <footer class="align-center">
                             <a href="zombiequest" class="button alt">Узнать больше</a>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button alt">Записаться на игру</a>
+                            <a href="registration" class="button alt">Заказать игру</a>
                         </footer>
                     </div>
                 </div>
@@ -182,7 +182,7 @@
                             По дороге вы немного заплутали, но все же добрались до места, вроде даже до того... </p>
                         <footer class="align-center">
                             <a href="houseInTheVillage" class="button alt">Узнать больше</a>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button alt">Записаться на игру</a>
+                            <a href="registration" class="button alt">Заказать игру</a>
                         </footer>
                     </div>
                 </div>
@@ -222,7 +222,7 @@
                             которая разорвет Империю на тысячу маленьких кусочков.</p>
                         <footer class="align-center">
                             <a href="masquerade" class="button alt">Узнать больше</a>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button alt">Записаться на игру</a>
+                            <a href="registration" class="button alt">Заказать игру</a>
                         </footer>
                     </div>
                 </div>
@@ -242,7 +242,7 @@
                             на свободу и теперь оно грозит уничтожить мир! Что делать, что делать?!</p>
                         <footer class="align-center">
                             <a href="madWorld" class="button alt">Узнать больше</a>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button alt">Записаться на игру</a>
+                            <a href="registration" class="button alt">Заказать игру</a>
                         </footer>
                     </div>
                 </div>
@@ -282,7 +282,7 @@
                             где он охотится на оленей.</p>
                         <footer class="align-center">
                             <a href="sherWood" class="button alt">Узнать больше</a>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button alt">Записаться на игру</a>
+                            <a href="registration" class="button alt">Заказать игру</a>
                         </footer>
                     </div>
                 </div>
@@ -304,7 +304,7 @@
                             привнося Здравый смысл в жизнь Сказок и, одновременно, наполняя Волшебством мир людей.</p>
                         <footer class="align-center">
                             <a href="fairyTale" class="button alt">Узнать больше</a>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button alt">Записаться на игру</a>
+                            <a href="registration" class="button alt">Заказать игру</a>
                         </footer>
                     </div>
                 </div>
@@ -344,7 +344,7 @@
                             но и для самих себя.</p>
                         <footer class="align-center">
                             <a href="worldEye" class="button alt">Узнать больше</a>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button alt">Записаться на игру</a>
+                            <a href="registration" class="button alt">Заказать игру</a>
                         </footer>
                     </div>
                 </div>
@@ -364,7 +364,7 @@
                             Убийство компрометирует монастырь, поэтому вам нужно найти виновного как можно быстрее.</p>
                         <footer class="align-center">
                             <a href="murderMonastery" class="button alt">Узнать больше</a>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button alt">Записаться на игру</a>
+                            <a href="registration" class="button alt">Заказать игру</a>
                         </footer>
                     </div>
                 </div>
@@ -405,7 +405,7 @@
                             Также как незаконные эксперименты и похищение информации.</p>
                         <footer class="align-center">
                             <a href="spaceAroundUs" class="button alt">Узнать больше</a>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button alt">Записаться на игру</a>
+                            <a href="registration" class="button alt">Заказать игру</a>
                         </footer>
                     </div>
                 </div>
@@ -424,7 +424,7 @@
                         <p>Игра в разработке</p>
                         <footer class="align-center">
                             <%--<a href="murderMonastery" class="button alt">Узнать больше</a>--%>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform" class="button alt">Записаться на игру</a>
+                                <a href="registration" class="button alt">Заказать игру</a>
                         </footer>
                     </div>
                 </div>

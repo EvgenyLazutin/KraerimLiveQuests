@@ -58,7 +58,7 @@
 
 <!-- Header -->
 <header id="header">
-    <div class="logo"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfGJZjLAcS662EVdt0fHwvDIHJeT6QGGLOwcccVo5omvGL2Xg/viewform">Записаться на игру</a></div>
+    <div class="logo"><a href="registration">Заказать игру</a></div>
     <a href="#menu">Menu</a>
 </header>
 
@@ -77,7 +77,7 @@
         <li><a href="sherWood">Шервудский лес</a></li>
         <li><a href="gallery">Галерея</a></li>
         <li><a href="contacts">Контакты</a></li>
-        <li><a href="registration">Записаться на игру</a></li>
+        <li><a href="registration">Заказать игру</a></li>
     </ul>
 </nav>
 
@@ -97,11 +97,32 @@
         <div class="box">
             <div class="content">
                 <header class="align-center">
-                    <h2>Вы успешно зарегистрировались на игру.</h2>
-                   Уважаемый/ая ${ClientRegistration.name} вы успешно зарегистрировались на игру.<br>
-                    В ближайшее время с Вами свяжется наш администратор.
-                </header>
-                <br>
+                    <h2>Вы успешно оставили заявку на игру ${ClientRegistration.game}.</h2>
+                    </header>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm">
+                            <h3>
+                                <header class="align-left"> Поздравляем ${ClientRegistration.name} вы успешно подали заявку на игру ${ClientRegistration.game}.<br>
+                                    В ближайшее время с Вами свяжется наш администратор.<br>
+                                    <strong> Данные вашей заявки:</strong><br>
+                                    <strong> Имя:</strong> ${ClientRegistration.name} ${ClientRegistration.surname} <br>
+                                    <strong> Телефон для связи:</strong> ${ClientRegistration.telephone} <br>
+                                    <strong> e-mail:</strong> ${ClientRegistration.email} <br>
+                                    <strong> Игра:</strong> ${ClientRegistration.game} <br>
+                                    <strong> Колличество игроков:</strong> ${ClientRegistration.quantityPeople} <br>
+                                    <strong>Комментарии:</strong> ${ClientRegistration.comments} <br>
+                                </header>
+                            </h3>
+                        </div>
+                        <div class="col-sm">
+                            <img class="image main" src="/resources/images/registration/turtle.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <ul class="actions special fit">
+                    <li><a href="index" class="button special fit">Перейти на главную страницу</a></li>
+                </ul>
             </div>
         </div>
     </div>

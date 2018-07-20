@@ -11,6 +11,24 @@ public class Client {
     private String surname;
     private String telephone;
     private String email;
+    private String game;
+    private String quantityPeople;
+
+    public String getQuantityPeople() {
+        return quantityPeople;
+    }
+
+    public void setQuantityPeople(String quantityPeople) {
+        this.quantityPeople = quantityPeople;
+    }
+
+    public String getGame() {
+        return game;
+    }
+
+    public void setGame(String game) {
+        this.game = game;
+    }
 
     @Override
     public String toString() {
