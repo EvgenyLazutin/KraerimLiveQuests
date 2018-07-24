@@ -59,13 +59,13 @@
 <!-- Header -->
 <header id="header">
     <div class="logo"><a href="registration">Заказать игру</a></div>
-    <a href="#menu">Menu</a>
+    <a href="#menu">Меню</a>
 </header>
 
 <!-- Nav -->
 <nav id="menu">
     <ul class="links">
-        <li><a href="index">Home</a></li>
+        <li><a href="index">Главная</a></li>
         <li><a href="masquerade">Бал-маскарад</a></li>
         <li><a href="zombiequest">Зомби-апокалипсис</a></li>
         <li><a href="houseInTheVillage">Домик в деревне</a></li>
@@ -103,7 +103,7 @@
                     <div class="row">
                         <div class="col-sm">
                             <h3>
-                                <header class="align-left"> Поздравляем ${ClientRegistration.name} вы успешно подали заявку на игру ${ClientRegistration.game}.<br>
+                                <header class="align-left">Поздравляем! Вы в шаге от эпичной вечеринки!<br>
                                     В ближайшее время с Вами свяжется наш администратор.<br>
                                     <strong> Данные вашей заявки:</strong><br>
                                     <strong> Имя:</strong> ${ClientRegistration.name} ${ClientRegistration.surname} <br>

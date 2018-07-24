@@ -60,13 +60,13 @@
 <!-- Header -->
 <header id="header">
     <div class="logo"><a href="registration">Заказать игру</a></div>
-    <a href="#menu">Menu</a>
+    <a href="#menu">Меню</a>
 </header>
 
 <!-- Nav -->
 <nav id="menu">
     <ul class="links">
-        <li><a href="index">Home</a></li>
+        <li><a href="index">Главная</a></li>
         <li><a href="masquerade">Бал маскарад</a></li>
         <li><a href="zombiequest">Зомби апокалипсис</a></li>
         <li><a href="houseInTheVillage">Домик в деревне</a></li>

@@ -57,13 +57,13 @@
 <!-- Header -->
 <header id="header">
     <div class="logo"><a href="registration">Заказать игру</a></div>
-    <a href="#menu">Menu</a>
+    <a href="#menu">Меню</a>
 </header>
 
 <!-- Nav -->
 <nav id="menu">
     <ul class="links">
-        <li><a href="index">Home</a></li>
+        <li><a href="index">Главная</a></li>
         <li><a href="masquerade">Бал-маскарад</a></li>
         <li><a href="zombiequest">Зомби-апокалипсис</a></li>
         <li><a href="houseInTheVillage">Домик в деревне</a></li>
@@ -89,7 +89,8 @@
                 <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h2> </header>
                 <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h3> </header>
                 <h4 style="color:  rgba(255, 255, 255, 0.65)">Почувствуй себя персонажем фильма!</h4>
-                <h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3>
+                <header class="align-center d-none d-sm-block"><h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3></header>
+                <header class="align-center d-sm-none"><h3 style="color:  rgba(255, 255, 255, 0.65)"><a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></h3></header>
             </header>
         </div>
     </article>
@@ -101,7 +102,8 @@
                 <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h2> </header>
                 <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h3> </header>
                 <h4 style="color:  rgba(255, 255, 255, 0.65)">Почувствуй себя персонажем фильма!</h4>
-                <h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3>
+                <header class="align-center d-none d-sm-block"><h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3></header>
+                <header class="align-center d-sm-none"><h3 style="color:  rgba(255, 255, 255, 0.65)"><a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></h3></header>
             </header>
         </div>
     </article>
@@ -113,7 +115,8 @@
                 <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h2> </header>
                 <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h3> </header>
                 <h4 style="color:  rgba(255, 255, 255, 0.65)">Почувствуй себя персонажем фильма!</h4>
-                <h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3>
+                <header class="align-center d-none d-sm-block"><h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3></header>
+                <header class="align-center d-sm-none"><h3 style="color:  rgba(255, 255, 255, 0.65)"><a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></h3></header>
             </header>
         </div>
     </article>
@@ -125,7 +128,8 @@
                 <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h2> </header>
                 <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h3> </header>
                 <h4 style="color:  rgba(255, 255, 255, 0.65)">Почувствуй себя персонажем фильма!</h4>
-                <h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3>
+                <header class="align-center d-none d-sm-block"><h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3></header>
+                <header class="align-center d-sm-none"><h3 style="color:  rgba(255, 255, 255, 0.65)"><a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></h3></header>
             </header>
         </div>
     </article>
@@ -137,7 +141,8 @@
                 <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h2> </header>
                 <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h3> </header>
                 <h4 style="color:  rgba(255, 255, 255, 0.65)">Почувствуй себя персонажем фильма!</h4>
-                <h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3>
+                <header class="align-center d-none d-sm-block"><h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3></header>
+                <header class="align-center d-sm-none"><h3 style="color:  rgba(255, 255, 255, 0.65)"><a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></h3></header>
             </header>
         </div>
     </article>
