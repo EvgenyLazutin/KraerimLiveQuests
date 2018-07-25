@@ -81,7 +81,7 @@
 </nav>
 
 <!-- One -->
-<section id="one" class="wrapper style3">
+<section id="one" class="wrapper style3" onclick="location.href='index'">
     <div class="inner">
         <header class="align-center">
             <p>Узнай, что за краем мира</p>
@@ -151,7 +151,7 @@
 </section>
 
 <!-- Three -->
-<section id="three" class="wrapper style3">
+<section id="three" class="wrapper style3" onclick="location.href='index'">
     <div class="inner">
         <header class="align-center">
             <p>Узнай, что за краем мира</p>
