@@ -86,8 +86,8 @@
         <div class="inner">
             <header class="align-center">
                 <p>Живые квесты в Санкт-Петербурге</p>
-                <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h2> </header>
-                <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h3> </header>
+                <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Краерим</h2> </header>
+                <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Краерим</h3> </header>
                 <h4 style="color:  rgba(255, 255, 255, 0.65)">Почувствуй себя персонажем фильма!</h4>
                 <header class="align-center d-none d-sm-block"><h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3></header>
                 <header class="align-center d-sm-none"><h3 style="color:  rgba(255, 255, 255, 0.65)"><a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></h3></header>
@@ -99,8 +99,8 @@
         <div class="inner">
             <header>
                 <p>Испытай себя!</p>
-                <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h2> </header>
-                <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h3> </header>
+                <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Краерим</h2> </header>
+                <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Краерим</h3> </header>
                 <h4 style="color:  rgba(255, 255, 255, 0.65)">Почувствуй себя персонажем фильма!</h4>
                 <header class="align-center d-none d-sm-block"><h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3></header>
                 <header class="align-center d-sm-none"><h3 style="color:  rgba(255, 255, 255, 0.65)"><a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></h3></header>
@@ -112,8 +112,8 @@
         <div class="inner">
             <header>
                 <p>Cпасись от магического безумия</p>
-                <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h2> </header>
-                <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h3> </header>
+                <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Краерим</h2> </header>
+                <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Краерим</h3> </header>
                 <h4 style="color:  rgba(255, 255, 255, 0.65)">Почувствуй себя персонажем фильма!</h4>
                 <header class="align-center d-none d-sm-block"><h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3></header>
                 <header class="align-center d-sm-none"><h3 style="color:  rgba(255, 255, 255, 0.65)"><a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></h3></header>
@@ -125,8 +125,8 @@
         <div class="inner">
             <header>
                  <p> Разгадай тайну затерянного в горах монастыря</p>
-                <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h2> </header>
-                <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h3> </header>
+                <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Краерим</h2> </header>
+                <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Краерим</h3> </header>
                 <h4 style="color:  rgba(255, 255, 255, 0.65)">Почувствуй себя персонажем фильма!</h4>
                 <header class="align-center d-none d-sm-block"><h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3></header>
                 <header class="align-center d-sm-none"><h3 style="color:  rgba(255, 255, 255, 0.65)"><a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></h3></header>
@@ -138,8 +138,8 @@
         <div class="inner">
             <header>
                 <p> Поучаствуй в настоящем балу и попробуй занять трон</p>
-                <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h2> </header>
-                <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Kraerim</h3> </header>
+                <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Краерим</h2> </header>
+                <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Краерим</h3> </header>
                 <h4 style="color:  rgba(255, 255, 255, 0.65)">Почувствуй себя персонажем фильма!</h4>
                 <header class="align-center d-none d-sm-block"><h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3></header>
                 <header class="align-center d-sm-none"><h3 style="color:  rgba(255, 255, 255, 0.65)"><a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></h3></header>
@@ -151,6 +151,15 @@
 <!-- One -->
 <section id="one" class="wrapper style2">
     <div class="inner">
+
+        <blockquote class="blockquote">
+            <h4 class="m-b-0">
+                Что такое "живой квест"?<br>
+                Это не то же самое, что квест комната, хотя некоторое сходство есть.
+            </h4>
+            <footer class="blockquote-footer">Команда Краерим.</footer>
+        </blockquote>
+
         <div class="grid-style">
 
             <div>
