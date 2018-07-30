@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 public class Client {
 
     private String name;
-    private String surname;
     private String telephone;
     private String email;
     private String game;
@@ -34,7 +33,7 @@ public class Client {
     public String toString() {
         return "Новая запись на игру: " +
                 "Имя: " + name + '\'' +
-                ", Фамилия: " + surname + '\'' +
+                ", Фамилия: " +
                 ", Телефон: " + telephone + '\'' +
                 ", email: " + email + '\'' +
                 ", Комментарии: '" + comments + '\'' +
@@ -49,14 +48,6 @@ public class Client {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getSurname() {
-        return surname;
-    }
-
-    public void setSurname(String surname) {
-        this.surname = surname;
     }
 
     public String getTelephone() {

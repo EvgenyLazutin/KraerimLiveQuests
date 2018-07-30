@@ -106,7 +106,7 @@
                                 <header class="align-left">Поздравляем! Вы в шаге от эпичной вечеринки!<br>
                                     В ближайшее время с Вами свяжется наш администратор.<br>
                                     <strong> Данные вашей заявки:</strong><br>
-                                    <strong> Имя:</strong> ${ClientRegistration.name} ${ClientRegistration.surname} <br>
+                                    <strong> Имя:</strong> ${ClientRegistration.name} <br>
                                     <strong> Телефон для связи:</strong> ${ClientRegistration.telephone} <br>
                                     <strong> e-mail:</strong> ${ClientRegistration.email} <br>
                                     <strong> Игра:</strong> ${ClientRegistration.game} <br>

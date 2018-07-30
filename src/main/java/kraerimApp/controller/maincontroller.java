@@ -11,10 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @Controller
 @SessionAttributes(value = "ClientRegistration")
@@ -98,13 +95,12 @@ public class maincontroller {
         Map<String, Object> modelMailClient = new HashMap<>();
         modelMailClient.put("from", "Kraerim@com");
         modelMailClient.put("subject", "Подтверждение заявки на сайте Kraerim.com");
-        modelMailClient.put("to", client.getEmail());
+        String email=client.getEmail();
+        if(email.trim().isEmpty()) email="vasilekcat@inbox.ru";
+        modelMailClient.put("to", email);
         modelMailClient.put("ccList", new ArrayList<>());
-        List<String> to=new ArrayList<>();
-        to.add("vasilekcat@inbox.ru");
-        modelMailClient.put("bccList", to);
+        modelMailClient.put("bccList", Collections.singletonList("vasilekcat@inbox.ru"));
         modelMailClient.put("userName", client.getName());
-        modelMailClient.put("surname", client.getSurname());
         modelMailClient.put("telephone", client.getTelephone());
         modelMailClient.put("game", client.getGame());
         modelMailClient.put("quantity", client.getQuantityPeople());

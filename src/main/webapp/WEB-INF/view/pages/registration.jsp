@@ -115,35 +115,19 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <form:label path="surname" for="validationCustom01">Фамилия</form:label>
-                            <form:input path="surname" type="text" class="form-control" id="validationCustom02" placeholder="Введите Вашу Фамилию" required="true"/>
-                            <div class="invalid-feedback">
-                                Пожалуйста введите Вашу фамилию.
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="form-row">
-                        <div class="col-md-6">
                             <form:label path="telephone" for="validationCustom03">Ваш телефон</form:label>
                             <form:input path="telephone" type="text" class="form-control" id="validationCustom03" placeholder="Введите Ваш телефон" required="true"/>
                             <div class="invalid-feedback">
                                 Пожалуйста введите корректный телефон, чтобы мы могли с Вами связаться.
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <form:label path="email" for="validationCustom04">Ваш e-mail</form:label>
-                            <form:input path="email" type="email" class="form-control" id="validationCustom04" placeholder="Введите Ваш e-mail" required="true"/>
-                            <div class="invalid-feedback">
-                                Пожалуйста введите корректный e-mail, чтобы мы могли с Вами связаться.
-                            </div>
-                        </div>
                     </div>
                     <br>
+                    <h3>Дополнительно (не обязательно):</h3>
                     <div class="form-row">
                         <div class="col-md-6">
                            <form:label path="game" for="custom-select">На какую игру вы хотите сходить?</form:label>
-                            <form:select path="game" class="custom-select" required="true">
+                            <form:select path="game" class="custom-select" required="">
                             <option selected>Выберите игру</option>
                                 <form:option value="Зомби-апокалипсис">Зомби-апокалипсис</form:option>
                                 <form:option value="Домик в деревне">Домик в деревне</form:option>
@@ -161,10 +145,20 @@
                         </div>
                         <div class="col-md-6">
                             <form:label path="quantityPeople" for="validationCustom03">Сколько Вас будет человек?</form:label>
-                            <form:input path="quantityPeople" type="text" class="form-control" id="validationCustom03" placeholder="Введите колличество игроков" required="true"/>
+                            <form:input path="quantityPeople" type="text" class="form-control" id="validationCustom03" placeholder="Введите колличество игроков" required=""/>
                             <div class="invalid-feedback">
                                 Пожалуйста введите предпологаемое колличество игроков.
                             </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <form:label path="email" for="validationCustom04">Ваш e-mail</form:label>
+                            <form:input path="email" type="email" class="form-control" id="validationCustom04" placeholder="Введите Ваш e-mail" required=""/>
+                            <div class="invalid-feedback">
+                                Пожалуйста введите корректный e-mail, чтобы мы могли с Вами связаться.
+                        </div>
                         </div>
                     </div>
                     <br>
