@@ -162,7 +162,7 @@
                             <h3>
                                 <strong>Игра рассчитана на:</strong> 6 - 12 человек<br>
                                 <strong>Длительность:</strong> 2 часа<br>
-                                <strong>Стоимость:</strong> 400 рублей с человека
+                                <strong>Стоимость:</strong> 500 рублей с человека
                             </h3>
                         </div>
                         <div class="col-sm">

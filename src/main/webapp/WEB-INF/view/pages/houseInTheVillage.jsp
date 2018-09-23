@@ -158,7 +158,7 @@
                             <h3>
                                 <strong>Игра рассчитана на:</strong> 5 - 10 человек<br>
                                 <strong>Длительность:</strong> 1 час<br>
-                                <strong>Стоимость:</strong> 400 рублей с человека
+                                <strong>Стоимость:</strong> 500 рублей с человека
                             </h3>
                         </div>
                         <div class="col-sm">
