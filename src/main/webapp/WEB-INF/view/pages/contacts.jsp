@@ -65,12 +65,13 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Главная</a></li>
+        <li><a href="birthday">День рождения</a></li>
         <li><a href="masquerade">Бал-маскарад</a></li>
         <li><a href="zombiequest">Зомби-апокалипсис</a></li>
         <li><a href="houseInTheVillage">Домик в деревне</a></li>
         <li><a href="spaceAroundUs">Космос вокруг нас</a></li>
         <li><a href="fairyTale">Недетская сказка</a></li>
-        <li><a href="worldEye">Око мира</a></li>
+        <li><a href="worldEye">Эпическая история</a></li>
         <li><a href="murderMonastery">Убийство в монастыре</a></li>
         <li><a href="madWorld">Безумный мир</a></li>
         <li><a href="sherWood">Шервудский лес</a></li>
@@ -132,7 +133,7 @@
                             <strong>На какое мероприятие можно заказать такой квест?<br></strong>
                             — День рождения: <a href="masquerade"> «Бал-маскарад», </a> <a href="fairyTale"> «Недетская сказка»,</a> <a href="houseInTheVillage">«Домик в деревне»,</a> <a href="sherWood">«Шервудский лес»</a><br>
                             — Детский праздник: <a href="fairyTale"> «Недетская сказка»,</a> <a href="madWorld">«Этот безумный мир»</a> <br>
-                            — Корпоратив: <a href="madWorld">«Этот безумный мир»,</a> <a href="spaceAroundUs"> «Космос вокруг нас»,</a> <a href="worldEye">«Око Мира»,</a> <a href="sherWood">«Шервудский лес»</a><br>
+                            — Корпоратив: <a href="madWorld">«Этот безумный мир»,</a> <a href="spaceAroundUs"> «Космос вокруг нас»,</a> <a href="worldEye">«Эпическая история»,</a> <a href="sherWood">«Шервудский лес»</a><br>
                             — Тренинг: <a href="madWorld">«Этот безумный мир»,</a> <a href="spaceAroundUs"> «Космос вокруг нас»,</a> <a href="sherWood">«Шервудский лес»</a><br> <br>
                             Мы позаботимся о том, чтобы вас окружала соответствующая игре атмосфера и о том,
                             чтобы у вас на память остались самые лучшие и веселые фотографии.

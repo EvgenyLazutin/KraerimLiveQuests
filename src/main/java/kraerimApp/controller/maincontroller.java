@@ -80,6 +80,11 @@ public class maincontroller {
         return "gallery";
     }
 
+    @RequestMapping(value="/birthday", method=RequestMethod.GET)
+    public String getBirthday() {
+        return "birthday";
+    }
+
     @RequestMapping(value="/registration", method=RequestMethod.GET)
     public ModelAndView getRegistration() {
         ModelAndView modelAndView = new ModelAndView();

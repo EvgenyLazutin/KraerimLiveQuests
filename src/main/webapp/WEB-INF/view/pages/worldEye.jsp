@@ -65,12 +65,13 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Главная</a></li>
+        <li><a href="birthday">День рождения</a></li>
         <li><a href="masquerade">Бал маскарад</a></li>
         <li><a href="zombiequest">Зомби апокалипсис</a></li>
         <li><a href="houseInTheVillage">Домик в деревне</a></li>
         <li><a href="spaceAroundUs">Космос вокруг нас</a></li>
         <li><a href="fairyTale">Недетская сказка</a></li>
-        <li><a href="worldEye">Око мира</a></li>
+        <li><a href="worldEye">Эпическая история</a></li>
         <li><a href="murderMonastery">Убийство в монастыре</a></li>
         <li><a href="madWorld">Безумный мир</a></li>
         <li><a href="sherWood">Шервудский лес</a></li>
@@ -105,13 +106,13 @@
             <div class="content">
                 <header class="align-center">
                     <p>Смерть – легче перышка, долг – тяжелее гор</p>
-                    <h2>Око Мира</h2>
+                    <h2>Живой квест "Эпическая история"</h2>
                     <h3>Жанр: фентези. Сложность: высокая.</h3>
                 </header>
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm">
-                            <img class="image main" src="/resources/images/worldEye/1.jpg" alt=""/>
+                            <img class="image main" src="/resources/images/worldEye/2.jpg" alt=""/>
                         </div>
                         <div class="col-sm">
                             <h3>
@@ -144,7 +145,7 @@
                             </h3>
                         </div>
                         <div class="col-sm">
-                            <img class="image main" src="/resources/images/worldEye/2.jpg" alt="" />
+                            <img class="image main" src="/resources/images/worldEye/1.jpg" alt="" />
                         </div>
                     </div>
                 </div>

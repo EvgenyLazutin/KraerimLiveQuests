@@ -65,12 +65,13 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Главная</a></li>
+        <li><a href="birthday">День рождения</a></li>
         <li><a href="masquerade">Бал маскарад</a></li>
         <li><a href="zombiequest">Зомби апокалипсис</a></li>
         <li><a href="houseInTheVillage">Домик в деревне</a></li>
         <li><a href="spaceAroundUs">Космос вокруг нас</a></li>
         <li><a href="fairyTale">Недетская сказка</a></li>
-        <li><a href="worldEye">Око мира</a></li>
+        <li><a href="worldEye">Эпическая история</a></li>
         <li><a href="murderMonastery">Убийство в монастыре</a></li>
         <li><a href="madWorld">Безумный мир</a></li>
         <li><a href="sherWood">Шервудский лес</a></li>
@@ -97,7 +98,7 @@
             <div class="content">
                 <header class="align-center">
                     <p>Человек человеку волк</p>
-                    <h2>Зомби-Апокалипсис</h2>
+                    <h2>Живой квест "Зомби-Апокалипсис"</h2>
                     <h3> Жанр: боевик. Сложность: средняя.</h3>
                 </header>
                 <div class="container-fluid">

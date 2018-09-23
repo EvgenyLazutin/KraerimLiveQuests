@@ -67,12 +67,13 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Главная</a></li>
+        <li><a href="birthday">День рождения</a></li>
         <li><a href="masquerade">Бал маскарад</a></li>
         <li><a href="zombiequest">Зомби апокалипсис</a></li>
         <li><a href="houseInTheVillage">Домик в деревне</a></li>
         <li><a href="spaceAroundUs">Космос вокруг нас</a></li>
         <li><a href="fairyTale">Недетская сказка</a></li>
-        <li><a href="worldEye">Око мира</a></li>
+        <li><a href="worldEye">Эпическая история</a></li>
         <li><a href="murderMonastery">Убийство в монастыре</a></li>
         <li><a href="madWorld">Безумный мир</a></li>
         <li><a href="sherWood">Шервудский лес</a></li>
@@ -135,7 +136,7 @@
                                 <form:option value="Этот безумный мир">Этот безумный мир</form:option>
                                 <form:option value="Шервудский лес">Шервудский лес</form:option>
                                 <form:option value="Недетская сказка">Недетская сказка</form:option>
-                                <form:option value="Око мира">Око мира</form:option>
+                                <form:option value="Эпическая история">Эпическая история</form:option>
                                 <form:option value="Убийство в монастыре">Убийство в монастыре</form:option>
                                 <form:option value="Космос вокруг нас">Космос вокруг нас</form:option>
                                 <div class="invalid-feedback">
@@ -170,7 +171,7 @@
                     <h3>По вашему желанию мы проведем игру в любом месте и в любое время. Поможем с выбором помещения для игры,
                         приведем фотографа и аквагримера, закажем торт.</h3>
 
-                    <button class="actions special fit" type="submit">Заказать игру</button>
+                    <button class="actions special fit" type="submit">Отправить заявку</button>
                 </form:form>
 
                 <script>
