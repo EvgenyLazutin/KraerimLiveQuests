@@ -313,3 +313,15 @@ var settings = {
 	});
 
 })(jQuery);
+
+$(document).ready(function () {
+
+    $('.menu_mobile').click(function () {
+        $('.mobile_menu').addClass('open');
+    });
+
+    $('.close_button').click(function () {
+        $('.mobile_menu').removeClass('open');
+    });
+
+});

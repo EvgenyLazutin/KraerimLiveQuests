@@ -52,6 +52,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/resources/assets/css/main.css" />
+    <link rel="shortcut icon" href="/resources/images/indeximages/logo_icon_small.png" type="image/png">
 </head>
 <body class="subpage">
 

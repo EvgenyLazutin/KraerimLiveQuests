@@ -48,122 +48,131 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="/resources/assets/css/main.css" />
-
+    <link rel="shortcut icon" href="/resources/images/indeximages/logo_icon_small.png" type="image/png">
 <script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?154",t.onload=function(){VK.Retargeting.Init("VK-RTRG-247838-1tyxI"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-247838-1tyxI"; style="position:fixed; left:-999px;" alt=""/></noscript>
 
 </head>
 <body>
 
 <!-- Header -->
-<header id="header">
-    <div class="logo"><a href="registration">Заказать игру</a></div>
-    <a href="#menu">Меню</a>
-</header>
+<%--<header id="header">--%>
+    <%--<div class="logo"><a href="registration">Заказать игру</a></div>--%>
+    <%--<a href="#menu">Меню</a>--%>
+<%--</header>--%>
 
-<!-- Nav -->
-<nav id="menu">
-    <ul class="links">
-        <li><a href="index">Главная</a></li>
-        <li><a href="birthday">День рождения</a></li>
-        <li><a href="masquerade">Бал-маскарад</a></li>
-        <li><a href="zombiequest">Зомби-апокалипсис</a></li>
-        <li><a href="houseInTheVillage">Домик в деревне</a></li>
-        <li><a href="spaceAroundUs">Космос вокруг нас</a></li>
-        <li><a href="fairyTale">Недетская сказка</a></li>
-        <li><a href="worldEye">Эпическая история</a></li>
-        <li><a href="murderMonastery">Убийство в монастыре</a></li>
-        <li><a href="madWorld">Безумный мир</a></li>
-        <li><a href="sherWood">Шервудский лес</a></li>
-        <li><a href="gallery">Галерея</a></li>
-        <li><a href="contacts">Контакты</a></li>
-        <li><a href="registration">Заказать игру</a></li>
-    </ul>
-</nav>
+<%--<!-- Nav -->--%>
+<%--<nav id="menu">--%>
+    <%--<ul class="links">--%>
+        <%--<li><a href="index">Главная</a></li>--%>
+        <%--<li><a href="birthday">День рождения</a></li>--%>
+        <%--<li><a href="masquerade">Бал-маскарад</a></li>--%>
+        <%--<li><a href="zombiequest">Зомби-апокалипсис</a></li>--%>
+        <%--<li><a href="houseInTheVillage">Домик в деревне</a></li>--%>
+        <%--<li><a href="spaceAroundUs">Космос вокруг нас</a></li>--%>
+        <%--<li><a href="fairyTale">Недетская сказка</a></li>--%>
+        <%--<li><a href="worldEye">Эпическая история</a></li>--%>
+        <%--<li><a href="murderMonastery">Убийство в монастыре</a></li>--%>
+        <%--<li><a href="madWorld">Безумный мир</a></li>--%>
+        <%--<li><a href="sherWood">Шервудский лес</a></li>--%>
+        <%--<li><a href="gallery">Галерея</a></li>--%>
+        <%--<li><a href="contacts">Контакты</a></li>--%>
+        <%--<li><a href="registration">Заказать игру</a></li>--%>
+    <%--</ul>--%>
+<%--</nav>--%>
 
 <!-- Banner -->
-<section class="banner full">
-    <article>
-        <img src="/resources/1pic.jpg" alt="" />
-        <div class="inner">
-            <header class="align-center">
-                <p>Живые квесты в Санкт-Петербурге</p>
-                <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Краерим</h2> </header>
-                <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Краерим</h3> </header>
-                <h4 style="color:  rgba(255, 255, 255, 0.65)">Почувствуй себя персонажем фильма!</h4>
-                <header class="align-center d-none d-sm-block"><h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3></header>
-                <header class="align-center d-sm-none"><h3 style="color:  rgba(255, 255, 255, 0.65)"><a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></h3></header>
-            </header>
+<header class="headernew bg1">
+    <div class="top_header" itemscope itemtype="http://schema.org/Organization">
+        <a class="logo" href="registration" itemprop="url">
+            <img src="/resources/images/indeximages/Logotip3.png" alt="" itemprop="logo">
+            <span></span>
+        </a>
+
+        <nav class="top_menu">
+            <ul>
+                <li class="b-navbar_item"><a href="#ourQuests" class="root-item">Наши квесты</a></li>
+                <li class="b-navbar_item"><a href="birthday" class="root-item">День рождения</a></li>
+                <li class="b-navbar_item"><a href="registration" class="root-item">Заказать игру</a></li>
+                <li class="b-navbar_item"><a href="gallery" class="root-item">Галерея</a></li>
+                <li class="b-navbar_item"><a href="contacts" class="root-item">Контакты</a></li>
+            </ul>
+        </nav>
+
+        <div class="topbar_right">
+            <ul>
+                <li class="map_container">
+                    <div class="map_icon"></div>
+                    <a>Санкт-Петербург</a>
+                </li>
+            </ul>
         </div>
-    </article>
-    <article>
-        <img src="/resources/FirstGameImg.jpg" alt="" />
-        <div class="inner">
-            <header>
-                <p>Испытай себя!</p>
-                <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Краерим</h2> </header>
-                <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Краерим</h3> </header>
-                <h4 style="color:  rgba(255, 255, 255, 0.65)">Почувствуй себя персонажем фильма!</h4>
-                <header class="align-center d-none d-sm-block"><h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3></header>
-                <header class="align-center d-sm-none"><h3 style="color:  rgba(255, 255, 255, 0.65)"><a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></h3></header>
-            </header>
+
+        <div class="topbar_mobile">
+            <ul>
+                <li class="map_container">
+                    <div class="map_icon"></div>
+                    <a>Санкт-Петербург</a>
+                </li>
+                <li class="menu_mobile">Меню</li>
+            </ul>
         </div>
-    </article>
-    <article>
-        <img src="/resources/SecondGameImg.jpg"  alt="" />
-        <div class="inner">
-            <header>
-                <p>Cпасись от магического безумия</p>
-                <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Краерим</h2> </header>
-                <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Краерим</h3> </header>
-                <h4 style="color:  rgba(255, 255, 255, 0.65)">Почувствуй себя персонажем фильма!</h4>
-                <header class="align-center d-none d-sm-block"><h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3></header>
-                <header class="align-center d-sm-none"><h3 style="color:  rgba(255, 255, 255, 0.65)"><a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></h3></header>
-            </header>
+    </div>
+
+
+
+    <div class="mobile_menu">
+        <div class="close_button"></div>
+        <nav class="mobile_sub_menu">
+            <ul>
+                <li class="b-navbar_item"><a href="#ourQuests" class="root-item">Наши квесты</a></li>
+                <li class="b-navbar_item"><a href="birthday" class="root-item">День рождения</a></li>
+                <li class="b-navbar_item"><a href="registration" class="root-item">Заказать игру</a></li>
+                <li class="b-navbar_item"><a href="gallery" class="root-item">Галерея</a></li>
+                <li class="b-navbar_item"><a href="contacts" class="root-item">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="wrapper">
+        <div class="header_info">
+            <h2>Что такое "Живой квест"?</h2>
+            <div class="title_descr">Живой квест - это игра, основанная на общении между игроками. Вы становитесь персонажем фильма, главным героем собственной истории. У вас есть цели, которые надо выполнить любой ценой и противники, которые вам мешают. Вариантов концовки игры всегда несколько, и они зависят только от вас! Вы уже посетили квест-комнату, сыграли в мафию и поучавствовали в квизе? Тогда попробуйте что-то совершенно новое!</div>
         </div>
-    </article>
-    <article>
-        <img src="/resources/2pic.jpg"  alt="" />
-        <div class="inner">
-            <header>
-                 <p> Разгадай тайну затерянного в горах монастыря</p>
-                <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Краерим</h2> </header>
-                <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Краерим</h3> </header>
-                <h4 style="color:  rgba(255, 255, 255, 0.65)">Почувствуй себя персонажем фильма!</h4>
-                <header class="align-center d-none d-sm-block"><h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3></header>
-                <header class="align-center d-sm-none"><h3 style="color:  rgba(255, 255, 255, 0.65)"><a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></h3></header>
-            </header>
+        <div class="header_icons">
+            <div class="header_icons_item">
+                <div class="icon_1"></div>
+                <div class="header_icon_text">
+                    <span>Вы — главный герой истории!</span>
+                    Вы давно хотели стать императором небольшой империи, единорожиком, волшебником, космонавтом и сжечь ведьму на костре? Тогда вы точно по адресу</div>
+            </div>
+            <div class="header_icons_item">
+                <div class="icon_1"></div>
+                <div class="header_icon_text l_padding">
+                    <span>От 9 лет</span>
+                    Наши игры подойдут для людей совершенно разных возрастов, а мы поможем подобрать роли так, чтобы всем было интересно!</div>
+            </div>
+            <div class="header_icons_item">
+                <div class="icon_1"></div>
+                <div class="header_icon_text">
+                    <span>От 6 до 50 человек</span>
+                    Наши квесты подходят для больших и маленьких компаний, и помогут познакомить и сплотить даже малознакомых людей!</div>
+            </div>
+            <div class="header_icons_item">
+                <div class="icon_1"></div>
+                <div class="header_icon_text l_padding">
+                    <span>Полная перезагрузка</span>
+                    В начале вы можете потеряться от обилия возможностей, но потом... Захватить престол можно и пожертвовав парочкой родственников, не так ли?</div>
+            </div>
         </div>
-    </article>
-    <article>
-        <img src="/resources/3pic.jpg"  alt="" />
-        <div class="inner">
-            <header>
-                <p> Поучаствуй в настоящем балу и попробуй занять трон</p>
-                <header class="align-center d-none d-sm-block"> <h2 style="color:  rgba(255, 255, 255, 0.65)">Краерим</h2> </header>
-                <header class="align-center d-sm-none"> <h3 style="color:  rgba(255, 255, 255, 0.65)">Краерим</h3> </header>
-                <h4 style="color:  rgba(255, 255, 255, 0.65)">Почувствуй себя персонажем фильма!</h4>
-                <header class="align-center d-none d-sm-block"><h3 style="color:  rgba(255, 255, 255, 0.65)">+7 951 669 60 94</h3></header>
-                <header class="align-center d-sm-none"><h3 style="color:  rgba(255, 255, 255, 0.65)"><a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></h3></header>
-            </header>
-        </div>
-    </article>
-</section>
+    </div>
+
+</header>
 
 <!-- One -->
 <section id="one" class="wrapper style2">
     <div class="inner">
 
-        <blockquote class="blockquote">
-            <h4 class="m-b-0">
-                Что такое "живой квест"?<br>
-                Это игра, основанная на общении между игроками. На несколько часов вы становитесь персонажем фильма, главным героем собственной истории.
-                У вас есть цели, которые надо выполнить и противники, которые вам мешают. Вариантов концовки игры всегда несколько, и они зависят только от вас!
-                Вы уже посетили квест-комнату, сыграли в мафию и поучаствовали в квизе? Тогда попробуйте что-то совершенно новое!
-            </h4>
-            <footer class="blockquote-footer">Команда Краерим.</footer>
-        </blockquote>
-
-        <div class="grid-style">
+        <div class="grid-style" id="ourQuests">
 
             <div>
                 <div class="box">

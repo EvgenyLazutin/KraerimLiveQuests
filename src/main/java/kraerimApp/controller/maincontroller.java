@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.http.HttpServletResponse;
 import java.util.*;
 
 @Controller
@@ -21,7 +22,8 @@ public class maincontroller {
     EmailService emailService;
 
     @RequestMapping(value="/index", method=RequestMethod.GET)
-    public String getIndex() {
+    public String getIndex(final HttpServletResponse response) {
+        response.setHeader("Cache-Control", "max-age=86400");
         return "index";
     }
 
