@@ -78,7 +78,7 @@
         <li><a href="murderMonastery">Убийство в монастыре</a></li>
         <li><a href="madWorld">Безумный мир</a></li>
         <li><a href="sherWood">Шервудский лес</a></li>
-        <li><a href="gangstaParty">Шервудский лес</a></li>
+        <li><a href="gangstaParty">По Законам Нью-Йоркской мафии</a></li>
         <li><a href="gallery">Галерея</a></li>
         <li><a href="contacts">Контакты</a></li>
         <li><a href="registration">Заказать игру</a></li>
