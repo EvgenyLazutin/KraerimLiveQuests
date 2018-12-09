@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.view.RedirectView;
 
 import javax.servlet.http.HttpServletResponse;
 import java.util.*;
@@ -21,10 +22,41 @@ public class maincontroller {
     @Autowired
     EmailService emailService;
 
-    @RequestMapping(value="/index", method=RequestMethod.GET)
-    public String getIndex(final HttpServletResponse response) {
+    @RequestMapping(value="/", method=RequestMethod.GET)
+    public RedirectView getStartIndex(final HttpServletResponse response) {
         response.setHeader("Cache-Control", "max-age=86400");
-        return "index";
+        return new RedirectView("index");
+    }
+
+    @RequestMapping(value="/index", method=RequestMethod.GET)
+    public ModelAndView getIndex() {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.addObject("ClientQuestion", new Client());
+        modelAndView.setViewName("index");
+        return modelAndView;
+    }
+
+    @RequestMapping(value="/index", method=RequestMethod.POST)
+    public RedirectView PostIndex(@ModelAttribute("ClientQuestion")Client client) {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.addObject("ClientQuestion", client );
+        Map<String, Object> modelMailClient = new HashMap<>();
+        modelMailClient.put("from", "Kraerim@com");
+        modelMailClient.put("subject", "Запрос на перезвонить");
+        String email="lazutinakraerim@gmail.com";
+        modelMailClient.put("to", email);
+        modelMailClient.put("ccList", new ArrayList<>());
+        modelMailClient.put("bccList", Collections.singletonList("vasilekcat@inbox.ru"));
+        modelMailClient.put("userName", client.getName());
+        modelMailClient.put("telephone", client.getTelephone());
+        emailService.sendEmailClient("email.vm", modelMailClient);
+
+        return new RedirectView("confirmQuestion");
+    }
+
+    @RequestMapping(value="/confirmQuestion", method=RequestMethod.GET)
+    public String getconfirmQuestion() {
+        return "confirmQuestion";
     }
 
     @RequestMapping(value="/zombiequest", method=RequestMethod.GET)
@@ -85,6 +117,11 @@ public class maincontroller {
     @RequestMapping(value="/birthday", method=RequestMethod.GET)
     public String getBirthday() {
         return "birthday";
+    }
+
+    @RequestMapping(value="/gangstaParty", method=RequestMethod.GET)
+    public String getGangstaParty() {
+        return "gangstaParty";
     }
 
     @RequestMapping(value="/registration", method=RequestMethod.GET)

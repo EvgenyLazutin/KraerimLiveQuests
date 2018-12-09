@@ -47,10 +47,13 @@
         gtag('config', 'UA-119774437-1');
     </script>
 
-    <title>Gallery</title>
+    <title>Галерея</title>
+    <meta name= "description" content = "фотографии с праздников, дней рождения, корпоративов">
+    <meta name= "keywords" content = "хорошие фотографии, фотограф на мероприятие">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="/resources/assets/css/main.css" />
+    <link rel="stylesheet" href="/resources/assets/css/font-awesome.min.css"/>
     <link rel="shortcut icon" href="/resources/images/indeximages/logo_icon_small.png" type="image/png">
 </head>
 <body class="subpage">
@@ -75,6 +78,7 @@
         <li><a href="murderMonastery">Убийство в монастыре</a></li>
         <li><a href="madWorld">Безумный мир</a></li>
         <li><a href="sherWood">Шервудский лес</a></li>
+        <li><a href="gangstaParty">Шервудский лес</a></li>
         <li><a href="gallery">Галерея</a></li>
         <li><a href="contacts">Контакты</a></li>
         <li><a href="registration">Заказать игру</a></li>

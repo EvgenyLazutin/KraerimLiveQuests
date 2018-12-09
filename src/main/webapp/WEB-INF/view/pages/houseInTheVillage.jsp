@@ -48,10 +48,13 @@
   gtag('config', 'UA-119774437-1');
 </script>
 
-    <title>Scary House</title>
+    <title>Домик в деревне</title>
+    <meta name= "description" content = "мистический квест на день рождения">
+    <meta name= "keywords" content = "страшный квест, хижина в лесу, мистика, домик в деревне">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/resources/assets/css/main.css" />
+    <link rel="stylesheet" href="/resources/assets/css/font-awesome.min.css"/>
     <link rel="shortcut icon" href="/resources/images/indeximages/logo_icon_small.png" type="image/png">
 </head>
 <body class="subpage">
@@ -76,6 +79,7 @@
         <li><a href="murderMonastery">Убийство в монастыре</a></li>
         <li><a href="madWorld">Безумный мир</a></li>
         <li><a href="sherWood">Шервудский лес</a></li>
+        <li><a href="gangstaParty">Шервудский лес</a></li>
         <li><a href="gallery">Галерея</a></li>
         <li><a href="contacts">Контакты</a></li>
         <li><a href="registration">Заказать игру</a></li>
@@ -158,9 +162,11 @@
                     <div class="row">
                         <div class="col-sm">
                             <h3>
-                                <strong>Игра рассчитана на:</strong> 5 - 10 человек<br>
+                                <strong>Игра рассчитана на:</strong> 5 - 12 человек<br>
                                 <strong>Длительность:</strong> 1 час<br>
-                                <strong>Стоимость:</strong> 500 рублей с человека
+                                <strong>Стоимость:</strong><br>
+                                - на компанию от 5 до 10 человек - 3 900 р.<br>
+                                - за каждого дополнительного участника - 400 р.
                             </h3>
                         </div>
                         <div class="col-sm">

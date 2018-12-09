@@ -48,10 +48,13 @@
   gtag('config', 'UA-119774437-1');
 </script>
 
-    <title>Space around us</title>
+    <title>Космос вокруг нас</title>
+    <meta name= "description" content = "страшный квест на день рождения, корпоратив">
+    <meta name= "keywords" content = "страшные квесты, чужой, космос, космические приключения, живое">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/resources/assets/css/main.css" />
+    <link rel="stylesheet" href="/resources/assets/css/font-awesome.min.css"/>
     <link rel="shortcut icon" href="/resources/images/indeximages/logo_icon_small.png" type="image/png">
 </head>
 <body class="subpage">
@@ -76,6 +79,7 @@
         <li><a href="murderMonastery">Убийство в монастыре</a></li>
         <li><a href="madWorld">Безумный мир</a></li>
         <li><a href="sherWood">Шервудский лес</a></li>
+        <li><a href="gangstaParty">Шервудский лес</a></li>
         <li><a href="gallery">Галерея</a></li>
         <li><a href="contacts">Контакты</a></li>
         <li><a href="registration">Заказать игру</a></li>
@@ -164,7 +168,9 @@
                             <h3>
                                 <strong>Игра рассчитана на:</strong> 6 - 12 человек<br>
                                 <strong>Длительность:</strong> 2 часа<br>
-                                <strong>Стоимость:</strong> 500 рублей с человека
+                                <strong>Стоимость:</strong> <br>
+                                - на компанию от 6 до 10 человек - 4 900 р.<br>
+                                - за каждого дополнительного человека - 500 р.
                             </h3>
                         </div>
                         <div class="col-sm">

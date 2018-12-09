@@ -48,10 +48,13 @@
   gtag('config', 'UA-119774437-1');
 </script>
 
-    <title>Fairy Tale</title>
+    <title>Недетская сказка</title>
+    <meta name= "description" content = "сказочный и новогодний квест на мероприятие">
+    <meta name= "keywords" content = "сказки, новогодний квест, добрый квест, веселый квест">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/resources/assets/css/main.css" />
+    <link rel="stylesheet" href="/resources/assets/css/font-awesome.min.css"/>
     <link rel="shortcut icon" href="/resources/images/indeximages/logo_icon_small.png" type="image/png">
 </head>
 <body class="subpage">
@@ -76,6 +79,7 @@
         <li><a href="murderMonastery">Убийство в монастыре</a></li>
         <li><a href="madWorld">Безумный мир</a></li>
         <li><a href="sherWood">Шервудский лес</a></li>
+        <li><a href="gangstaParty">Шервудский лес</a></li>
         <li><a href="gallery">Галерея</a></li>
         <li><a href="contacts">Контакты</a></li>
         <li><a href="registration">Заказать игру</a></li>
@@ -160,7 +164,9 @@
                             <h3>
                                 <strong>Игра рассчитана на:</strong> 8 - 20 человек<br>
                                 <strong>Длительность:</strong> 2 часа<br>
-                                <strong>Стоимость:</strong> 600 рублей с человека<br>
+                                <strong>Стоимость:</strong><br>
+                                - на компанию от 8 до 10 человек - 4 900 р.<br>
+                                - за каждого дополнительного игрока - 500 р.<br>
                             </h3>
                         </div>
                         <div class="col-sm">

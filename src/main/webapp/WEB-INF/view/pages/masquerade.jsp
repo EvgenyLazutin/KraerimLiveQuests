@@ -48,10 +48,13 @@
   gtag('config', 'UA-119774437-1');
 </script>
 
-    <title>Masquerade</title>
+    <title>Бал-маскарад</title>
+    <meta name= "description" content = "квест-бал на День рождения и корпоратив">
+    <meta name= "keywords" content = "день рождения, бал, нестрашный квест, как отметить день рождения, интересно провести день рождения">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/resources/assets/css/main.css" />
+    <link rel="stylesheet" href="/resources/assets/css/font-awesome.min.css"/>
     <link rel="shortcut icon" href="/resources/images/indeximages/logo_icon_small.png" type="image/png">
 </head>
 <body class="subpage">
@@ -76,6 +79,7 @@
         <li><a href="murderMonastery">Убийство в монастыре</a></li>
         <li><a href="madWorld">Безумный мир</a></li>
         <li><a href="sherWood">Шервудский лес</a></li>
+        <li><a href="gangstaParty">Шервудский лес</a></li>
         <li><a href="gallery">Галерея</a></li>
         <li><a href="contacts">Контакты</a></li>
         <li><a href="registration">Заказать игру</a></li>
@@ -157,9 +161,12 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm">
-                            <h3><strong>Игра рассчитана на:</strong> 5 - 30 человек<br>
+                            <h3><strong>Игра рассчитана на:</strong> 10 - 30 человек<br>
                                 <strong>Длительность:</strong> 2 часа<br>
-                                <strong>Стоимость:</strong> 500 рублей с человека
+                                <strong>Стоимость:</strong><br>
+                                - на компанию от 10 до 15 человек - 4 900 р.<br>
+                                - за каждого дополнительного участника - 500 р.
+
                             </h3>
                         </div>
                         <div class="col-sm">

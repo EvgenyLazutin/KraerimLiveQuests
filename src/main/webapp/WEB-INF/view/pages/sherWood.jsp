@@ -48,10 +48,13 @@
   gtag('config', 'UA-119774437-1');
 </script>
 
-    <title>Sherwood forest</title>
+    <title>Шервудский лес</title>
+    <meta name= "description" content = "спортивный квест на день рождения и корпоратив">
+    <meta name= "keywords" content = "живые квесты, день рождения, корпоратив, выездной квест, квесты, активный отдых">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/resources/assets/css/main.css" />
+    <link rel="stylesheet" href="/resources/assets/css/font-awesome.min.css"/>
     <link rel="shortcut icon" href="/resources/images/indeximages/logo_icon_small.png" type="image/png">
 </head>
 <body class="subpage">
@@ -76,6 +79,7 @@
         <li><a href="murderMonastery">Убийство в монастыре</a></li>
         <li><a href="madWorld">Безумный мир</a></li>
         <li><a href="sherWood">Шервудский лес</a></li>
+        <li><a href="gangstaParty">Шервудский лес</a></li>
         <li><a href="gallery">Галерея</a></li>
         <li><a href="contacts">Контакты</a></li>
         <li><a href="registration">Заказать игру</a></li>
@@ -160,8 +164,10 @@
                         <div class="col-sm">
                             <h3>
                                 <strong>Игра рассчитана на:</strong> 15 - 30 человек<br>
-                                <strong>Длительность:</strong> 3-4 часа<br>
-                                <strong>Стоимость:</strong> 600 рублей с человека<br>
+                                <strong>Длительность:</strong> 3 часа<br>
+                                <strong>Стоимость:</strong> <br>
+                                - на компанию от 15 до 20 человек - 8 800 р.<br>
+                                - за каждого дополнительного человека - 600 р.
                             </h3>
                         </div>
                         <div class="col-sm">
