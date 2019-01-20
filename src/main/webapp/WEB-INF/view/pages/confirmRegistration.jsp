@@ -71,6 +71,7 @@
     <ul class="links">
         <li><a href="index">Главная</a></li>
         <li><a href="birthday">День рождения</a></li>
+        <li><a href="corporate">Корпоратив</a></li>
         <li><a href="masquerade">Бал-маскарад</a></li>
         <li><a href="zombiequest">Зомби-апокалипсис</a></li>
         <li><a href="houseInTheVillage">Домик в деревне</a></li>
@@ -83,7 +84,6 @@
         <li><a href="gangstaParty">По Законам Нью-Йоркской мафии</a></li>
         <li><a href="gallery">Галерея</a></li>
         <li><a href="contacts">Контакты</a></li>
-        <li><a href="registration">Заказать игру</a></li>
     </ul>
 </nav>
 
@@ -103,7 +103,7 @@
         <div class="box">
             <div class="content">
                 <header class="align-center">
-                    <h2>Вы успешно оставили заявку на игру ${ClientRegistration.game}.</h2>
+                    <h2>Вы успешно оставили заявку на игру.</h2>
                     </header>
                 <div class="container-fluid">
                     <div class="row">
@@ -114,9 +114,6 @@
                                     <strong> Данные вашей заявки:</strong><br>
                                     <strong> Имя:</strong> ${ClientRegistration.name} <br>
                                     <strong> Телефон для связи:</strong> ${ClientRegistration.telephone} <br>
-                                    <strong> e-mail:</strong> ${ClientRegistration.email} <br>
-                                    <strong> Игра:</strong> ${ClientRegistration.game} <br>
-                                    <strong> Колличество игроков:</strong> ${ClientRegistration.quantityPeople} <br>
                                     <strong>Комментарии:</strong> ${ClientRegistration.comments} <br>
                                 </header>
                             </h3>
@@ -126,9 +123,9 @@
                         </div>
                     </div>
                 </div>
-                <ul class="actions special fit">
-                    <li><a href="index" class="button special fit">Перейти на главную страницу</a></li>
-                </ul>
+                <footer class="align-center">
+                    <a href="index#ourQuests" class="btn btn-lg btn-outline-primary">Посмотреть другие квесты</a>
+                                   </footer>
             </div>
         </div>
     </div>

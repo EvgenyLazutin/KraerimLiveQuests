@@ -45,8 +45,6 @@ public class maincontroller {
         modelMailClient.put("subject", "Запрос на перезвонить");
         String email="lazutinakraerim@gmail.com";
         modelMailClient.put("to", email);
-        modelMailClient.put("ccList", new ArrayList<>());
-        modelMailClient.put("bccList", Collections.singletonList("vasilekcat@inbox.ru"));
         modelMailClient.put("userName", client.getName());
         modelMailClient.put("telephone", client.getTelephone());
         emailService.sendEmailClient("email.vm", modelMailClient);
@@ -124,6 +122,11 @@ public class maincontroller {
         return "gangstaParty";
     }
 
+    @RequestMapping(value="/corporate", method=RequestMethod.GET)
+    public String getCorporate() {
+        return "corporate";
+    }
+
     @RequestMapping(value="/registration", method=RequestMethod.GET)
     public ModelAndView getRegistration() {
         ModelAndView modelAndView = new ModelAndView();
@@ -139,11 +142,8 @@ public class maincontroller {
         Map<String, Object> modelMailClient = new HashMap<>();
         modelMailClient.put("from", "Kraerim@com");
         modelMailClient.put("subject", "Подтверждение заявки на сайте Kraerim.com");
-        String email=client.getEmail();
-        if(email.trim().isEmpty()) email="vasilekcat@inbox.ru";
+        String email="vasilekcat@inbox.ru";
         modelMailClient.put("to", email);
-        modelMailClient.put("ccList", new ArrayList<>());
-        modelMailClient.put("bccList", Collections.singletonList("vasilekcat@inbox.ru"));
         modelMailClient.put("userName", client.getName());
         modelMailClient.put("telephone", client.getTelephone());
         modelMailClient.put("game", client.getGame());

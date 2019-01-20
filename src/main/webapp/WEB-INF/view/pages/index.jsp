@@ -117,6 +117,7 @@
             <ul>
                 <li class="b-navbar_item"><a href="#ourQuests" class="root-item">Наши квесты</a></li>
                 <li class="b-navbar_item"><a href="birthday" class="root-item">День рождения</a></li>
+                <li class="b-navbar_item"><a href="corporate" class="root-item">Корпоратив</a></li>
                 <li class="b-navbar_item"><a href="registration" class="root-item">Заказать игру</a></li>
                 <li class="b-navbar_item"><a href="gallery" class="root-item">Галерея</a></li>
                 <li class="b-navbar_item"><a href="contacts" class="root-item">Контакты</a></li>
@@ -161,20 +162,22 @@
     <div class="wrapper">
         <div class="header_info">
             <h2>Что такое "Живой квест"?</h2>
-            <div class="title_descr">Живой квест - это игра, основанная на общении между игроками. Вы становитесь
+            <h3>
+            <div class="title_descr">Это игра на стыке иммерсивного театра, квеста в реальности и игры "мафия". Вы становитесь
                 персонажем фильма, главным героем собственной истории. У вас есть цели, которые надо выполнить любой
                 ценой и противники, которые вам мешают. Вариантов концовки игры всегда несколько, и они зависят только
                 от вас! Вы уже посетили квест-комнату, сыграли в мафию и поучавствовали в квизе? Тогда попробуйте что-то
                 совершенно новое!
             </div>
+            </h3>
         </div>
         <div class="header_icons">
             <div class="header_icons_item">
                 <div class="icon_1"></div>
                 <div class="header_icon_text">
                     <span>Вы — главный герой истории!</span>
-                    Вы давно хотели стать императором небольшой империи, единорожиком, волшебником, космонавтом и сжечь
-                    ведьму на костре? Тогда вы точно по адресу
+                    У каждого участника квеста будет уникальная роль и цели, которые персонаж хочет выполнить любой ценой!
+                    При этом поведение каждого отдельного персонажа вулияет на общий ход игры.
                 </div>
             </div>
             <div class="header_icons_item">
@@ -182,7 +185,7 @@
                 <div class="header_icon_text l_padding">
                     <span>От 9 лет</span>
                     Наши игры подойдут для людей совершенно разных возрастов, а мы поможем подобрать роли так, чтобы
-                    всем было интересно!
+                    всем было интересно! У нас есть несколько вариантов игр для детей и для смешанных команд из детей и взрослых!
                 </div>
             </div>
             <div class="header_icons_item">
@@ -190,15 +193,16 @@
                 <div class="header_icon_text">
                     <span>От 6 до 50 человек</span>
                     Наши квесты подходят для больших и маленьких компаний, и помогут познакомить и сплотить даже
-                    малознакомых людей!
+                    малознакомых людей! Такой квест подойдет как для большого корпоратива, так и для посиделок дома в тесной дружеской компании!
                 </div>
             </div>
             <div class="header_icons_item">
                 <div class="icon_1"></div>
                 <div class="header_icon_text l_padding">
                     <span>Полная перезагрузка</span>
-                    В начале вы можете потеряться от обилия возможностей, но потом... Захватить престол можно и
-                    пожертвовав парочкой родственников, не так ли?
+                    В начале вы можете потеряться от обилия возможностей, но буквально через 15 минут после начала игры...
+                     Вы будете азартно подставлять коллег и друзей под удар сомнительного заклинания, исследовать космический корабль и искать убийцу!
+
                 </div>
             </div>
         </div>
@@ -209,55 +213,21 @@
 
 <div class="mycard" id="ourQuests">
     <div class="text-center blackbackground">
-        <div class="card-header"><h1> Наши квесты </h1></div>
+        <div class="card-header text-center"><h1> Наши квесты </h1></div>
     </div>
 </div>
 <!-- One -->
 <section id="one" class="wrapper style2">
     <div class="card-deck m-lg-2">
         <div class="card">
-            <img class="card-img-top img-fluid img-thumbnail width: 50% " src="/resources/4pic.jpg"
-                 alt="Card image cap Responsive image ">
-            <div class="card-body">
-
-                <h2 class="card-title align-center">Живой квест "Зомби-апокалипсис"</h2>
-                <p class="card-text align-center">Жанр: боевик<br>
-                    От 6 до 12 (или от 20 до 25) человек<br>
-                    Сложность: средний<br>
-                    Время: 120 минут<br>
-                    Стоимость за команду: от 4 800 р.<br>
-                    16+</p>
-                <footer class="align-center">
-                    <a href="zombiequest" class="btn btn-outline-primary">Узнать больше</a>
-                    <a href="registration" class="btn btn-success ">Заказать игру</a>
-                </footer>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top img-fluid img-thumbnail" src="/resources/FirstGameImg.jpg"
-                 alt="Card image cap Responsive image">
-            <div class="card-body">
-                <h2 class="card-title align-center">Живой квест "Домик в деревне"</h2>
-                <p class="card-text align-center">
-                    Жанр: мистический<br>
-                    От 6 до 12 человек<br>
-                    Сложность: легкий<br>
-                    Время: 60 минут<br>
-                    Стоимость за команду: 3 900 р.<br>
-                    13+</p>
-                <footer class="align-center">
-                    <a href="houseInTheVillage" class="btn btn-outline-primary">Узнать больше</a>
-                    <a href="registration" class="btn btn-success ">Заказать игру</a>
-                </footer>
-            </div>
-        </div>
-        <div class="card">
             <img class="card-img-top img-fluid img-thumbnail" src="/resources/3pic.jpg"
                  alt="Card image cap Responsive image">
             <div class="card-body">
                 <h2 class="card-title align-center">
                     Живой квест "Бал-маскарад"</h2>
-                <p class="card-text align-center"> Жанр: роман<br>
+                <p class="card-text align-center">
+                    <strong>Наш самый романтичный квест! Подойдет для празднования 8 марта и Дня Рождения!</strong><br>
+                    Жанр: роман<br>
                     От 10 до 30 человек<br>
                     Сложность: легкий<br>
                     Время: 120 минут<br>
@@ -269,25 +239,68 @@
                 </footer>
             </div>
         </div>
+        <div class="card">
+            <img class="card-img-top img-fluid img-thumbnail width: 50% "
+                 src="/resources/images/madWorld/headerMadWorld.jpg" alt="Card image cap Responsive image ">
+            <div class="card-body">
+                <h2 class="card-title align-center">Живой квест "Этот безумный мир"</h2>
+                <p class="card-text align-center">   <strong>Хит! Наш самый безумный квест! Идеально подходит для Дня Рождения!</strong><br>
+                    Жанр: комедия<br>
+                   От 6 до 20 человек<br>
+                    Сложность: средний<br>
+                    Время: 120 минут<br>
+                    Стоимость за команду: от 4 900 р.<br>
+                    14+</p>
+                <footer class="align-center">
+                    <a href="madWorld" class="btn btn-outline-primary">Узнать больше</a>
+                    <a href="registration" class="btn btn-success ">Заказать игру</a>
+                </footer>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top img-fluid img-thumbnail"
+                 src="/resources/images/gangsterParty/headerGangsterParty.jpg" alt="Card image cap Responsive image">
+            <div class="card-body">
+                <h2 class="card-title align-center">
+                    Живой квест "По Законам Нью-Йоркской мафии"</h2>
+                                <p class="card-text align-center">
+                                    <strong>Хит! Идеально подходит для корпоратива!</strong><br>
+                                    Жанр: квест-вечеринка<br>
+                    От 20 до 50 человек<br>
+                    Сложность: средний<br>
+                    Время: 180 минут<br>
+                    Стоимость за команду: от 14 900 р.<br>
+                    18+</p>
+                <footer class="align-center">
+                    <a href="gangstaParty" class="btn btn-outline-primary">Узнать больше</a>
+                    <a href="registration" class="btn btn-success ">Заказать игру</a>
+                </footer>
+            </div>
+        </div>
+
+        </div>
+
+
     </div>
 </section>
 <!-- Two -->
 <section id="two" class="wrapper style2">
     <div class="card-deck m-lg-2">
         <div class="card">
-            <img class="card-img-top img-fluid img-thumbnail width: 50% "
-                 src="/resources/images/madWorld/headerMadWorld.jpg" alt="Card image cap Responsive image ">
+            <img class="card-img-top img-fluid img-thumbnail" src="/resources/2pic.jpg"
+                 alt="Card image cap Responsive image">
             <div class="card-body">
-
-                <h2 class="card-title align-center">Живой квест "Этот безумный мир"</h2>
-                <p class="card-text align-center">Жанр: комедия<br>
-                    От 6 до 20 человек<br>
-                    Сложность: средний<br>
+                <h2 class="card-title align-center">
+                    Живой квест "Убийство в монастыре"</h2>
+                <p class="card-text align-center">
+                    Жанр: детектив<br>
+                    От 6 до 13 человек<br>
+                    Сложность: сложный<br>
                     Время: 120 минут<br>
-                    Стоимость за команду: от 5 800 р.<br>
-                    14+</p>
+                    Стоимость за команду: от 4 900 р.<br>
+                    16+</p>
                 <footer class="align-center">
-                    <a href="madWorld" class="btn btn-outline-primary">Узнать больше</a>
+                    <a href="murderMonastery" class="btn btn-outline-primary">Узнать больше</a>
                     <a href="registration" class="btn btn-success ">Заказать игру</a>
                 </footer>
             </div>
@@ -312,12 +325,40 @@
             </div>
         </div>
         <div class="card">
+            <img class="card-img-top img-fluid img-thumbnail width: 50% "
+                 src="/resources/images/spaceAroundUs/headerSpace.jpg" alt="Card image cap Responsive image ">
+            <div class="card-body">
+
+                <h2 class="card-title align-center">Живой квест "Космос вокруг нас"</h2>
+                <p class="card-text align-center">
+                    <strong>Наш самый брутальный квест! Идеально подойдет для празднования 23 февраля!</strong><br>
+                    Жанр: ужасы<br>
+                    От 6 до 12 человек<br>
+                    Сложность: средний<br>
+                    Время: 120 минут<br>
+                    Стоимость за команду: от 4 900 р.<br>
+                    16+</p>
+                <footer class="align-center">
+                    <a href="spaceAroundUs" class="btn btn-outline-primary">Узнать больше</a>
+                    <a href="registration" class="btn btn-success ">Заказать игру</a>
+                </footer>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- Three -->
+<section id="three" class="wrapper style2">
+    <div class="card-deck m-lg-2">
+        <div class="card">
             <img class="card-img-top img-fluid img-thumbnail" src="/resources/images/fairyTale/headerTale.jpg"
                  alt="Card image cap Responsive image">
             <div class="card-body">
                 <h2 class="card-title align-center">
                     Живой квест "Недетская сказка"</h2>
-                <p class="card-text align-center"> Жанр: сказка<br>
+                <p class="card-text align-center">
+                <strong>Наш самый добрый и мимимишный квест!</strong><br>
+                    Жанр: сказка<br>
                     От 8 до 20 человек<br>
                     Сложность: средний<br>
                     Время: 120 минут (детский вариант - 60 минут)<br>
@@ -329,18 +370,15 @@
                 </footer>
             </div>
         </div>
-    </div>
-</section>
-<!-- Three -->
-<section id="three" class="wrapper style2">
-    <div class="card-deck m-lg-2">
         <div class="card">
             <img class="card-img-top img-fluid img-thumbnail width: 50% " src="/resources/SecondGameImg.jpg"
                  alt="Card image cap Responsive image ">
             <div class="card-body">
 
                 <h2 class="card-title align-center">Живой квест "Эпическая история"</h2>
-                <p class="card-text align-center">Жанр: фэнтези<br>
+                <p class="card-text align-center">
+                    <strong>Наш самый сложный квест!</strong><br>
+                    Жанр: фэнтези<br>
                     От 6 до 13 человек<br>
                     Сложность: сложный<br>
                     Время: 120 минут<br>
@@ -353,22 +391,21 @@
             </div>
         </div>
         <div class="card">
-            <img class="card-img-top img-fluid img-thumbnail" src="/resources/2pic.jpg"
-                 alt="Card image cap Responsive image">
+            <img class="card-img-top img-fluid img-thumbnail width: 50% " src="/resources/images/5.jpg"
+                 alt="Card image cap Responsive image ">
             <div class="card-body">
-                <h2 class="card-title align-center">
-                    Живой квест "Убийство в монастыре"</h2>
+
+                <h2 class="card-title align-center">Живой квест "Полицейский участок"</h2>
                 <p class="card-text align-center">
                     Жанр: детектив<br>
-                    От 6 до 13 человек<br>
+                    От 6 до 20 человек<br>
                     Сложность: сложный<br>
                     Время: 120 минут<br>
                     Стоимость за команду: от 4 900 р.<br>
                     16+</p>
                 <footer class="align-center">
-                    <a href="murderMonastery" class="btn btn-outline-primary">Узнать больше</a>
-                    <a href="registration" class="btn btn-success ">Заказать игру</a>
-                </footer>
+                    <a>Квест в разработке!</a>
+                                    </footer>
             </div>
         </div>
 
@@ -378,43 +415,45 @@
 <section id="four" class="wrapper style2">
     <div class="card-deck m-lg-2">
         <div class="card">
-            <img class="card-img-top img-fluid img-thumbnail width: 50% "
-                 src="/resources/images/spaceAroundUs/headerSpace.jpg" alt="Card image cap Responsive image ">
+            <img class="card-img-top img-fluid img-thumbnail width: 50% " src="/resources/4pic.jpg"
+                 alt="Card image cap Responsive image ">
             <div class="card-body">
 
-                <h2 class="card-title align-center">Живой квест "Космос вокруг нас"</h2>
-                <p class="card-text align-center">Жанр: ужасы<br>
-                    От 6 до 12 человек<br>
+                <h2 class="card-title align-center">Живой квест "Зомби-апокалипсис"</h2>
+                <p class="card-text align-center">
+                    <strong>Подойдет для 23 февраля!</strong><br>
+                    Жанр: боевик<br>
+                    От 6 до 12 (или от 20 до 25) человек<br>
                     Сложность: средний<br>
                     Время: 120 минут<br>
                     Стоимость за команду: от 4 900 р.<br>
                     16+</p>
                 <footer class="align-center">
-                    <a href="spaceAroundUs" class="btn btn-outline-primary">Узнать больше</a>
+                    <a href="zombiequest" class="btn btn-outline-primary">Узнать больше</a>
                     <a href="registration" class="btn btn-success ">Заказать игру</a>
                 </footer>
             </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top img-fluid img-thumbnail"
-                 src="/resources/images/gangsterParty/headerGangsterParty.jpg" alt="Card image cap Responsive image">
-            <div class="card-body">
-                <h2 class="card-title align-center">
-                    Живой квест "По Законам Нью-Йоркской мафии"</h2>
-                <p class="card-text align-center">
-                    Жанр: квест-вечеринка<br>
-                    От 20 до 50 человек<br>
-                    Сложность: средний<br>
-                    Время: 180 минут<br>
-                    Стоимость за команду: от 14 900 р.<br>
-                    18+</p>
-                <footer class="align-center">
-                    <a href="gangstaParty" class="btn btn-outline-primary">Узнать больше</a>
-                    <a href="registration" class="btn btn-success ">Заказать игру</a>
-                </footer>
-            </div>
-        </div>
 
+       </div>
+        <div class="card">
+            <img class="card-img-top img-fluid img-thumbnail" src="/resources/FirstGameImg.jpg"
+                 alt="Card image cap Responsive image">
+            <div class="card-body">
+                <h2 class="card-title align-center">Живой квест "Домик в деревне"</h2>
+                <p class="card-text align-center">
+                    <strong>Квест проходит в квест-комнате наших партнеров</strong><br>
+                    Жанр: мистический<br>
+                    От 6 до 12 человек<br>
+                    Сложность: легкий<br>
+                    Время: 60 минут<br>
+                    Стоимость за команду: 3 900 р.<br>
+                    13+</p>
+                <footer class="align-center">
+                    <a href="houseInTheVillage" class="btn btn-outline-primary">Узнать больше</a>
+                    <a href="registration" class="btn btn-success">Заказать игру</a>
+                </footer>
+            </div>
+        </div>
     </div>
 </section>
 <div class="mycard">
@@ -451,13 +490,13 @@
                             <div class="form-group">
                                 <form:input path="name" type="text" class="form-control" id="validationCustom01" placeholder="Имя" required="true"/>
                                 <div class="invalid-feedback">
-                                    Пожалуйста введите Ваше имя.
+                                    Пожалуйста, введите Ваше имя
                                 </div>
                             </div>
                             <div class="form-group">
                                 <form:input path="telephone" type="text" class="form-control" id="validationCustom02" placeholder="Телефон" required="true"/>
                                 <div class="invalid-feedback">
-                                    Пожалуйста введите корректный телефон, чтобы мы могли с Вами связаться.
+                                    Пожалуйста, введите корректный номер
                                 </div>
                             </div>
                         </form>

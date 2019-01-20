@@ -69,6 +69,7 @@
     <ul class="links">
         <li><a href="index">Главная</a></li>
         <li><a href="birthday">День рождения</a></li>
+        <li><a href="corporate">Корпоратив</a></li>
         <li><a href="masquerade">Бал-маскарад</a></li>
         <li><a href="zombiequest">Зомби-апокалипсис</a></li>
         <li><a href="houseInTheVillage">Домик в деревне</a></li>

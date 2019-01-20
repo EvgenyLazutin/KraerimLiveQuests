@@ -72,6 +72,7 @@
     <ul class="links">
         <li><a href="index">Главная</a></li>
         <li><a href="birthday">День рождения</a></li>
+        <li><a href="corporate">Корпоратив</a></li>
         <li><a href="masquerade">Бал маскарад</a></li>
         <li><a href="zombiequest">Зомби апокалипсис</a></li>
         <li><a href="houseInTheVillage">Домик в деревне</a></li>
@@ -112,71 +113,32 @@
                 </header>
                 <%request.setCharacterEncoding("ISO-8859-1");%>
                 <form:form modelAttribute="ClientRegistration" method="post" action="/registration" class="needs-validation" novalidate="false">
-                    <div class="form-row">
-                        <div class="col-md-6">
-                            <form:label path="name" for="validationCustom01">Имя</form:label>
-                            <form:input path="name" type="text" class="form-control" id="validationCustom01" placeholder="Введите Ваше Имя" required="true"/>
-                            <div class="invalid-feedback">
-                                Пожалуйста введите Ваше имя.
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <form:label path="telephone" for="validationCustom03">Ваш телефон</form:label>
-                            <form:input path="telephone" type="text" class="form-control" id="validationCustom03" placeholder="Введите Ваш телефон" required="true"/>
-                            <div class="invalid-feedback">
-                                Пожалуйста введите корректный телефон, чтобы мы могли с Вами связаться.
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <h3>Дополнительно (не обязательно):</h3>
-                    <div class="form-row">
-                        <div class="col-md-6">
-                           <form:label path="game" for="custom-select">На какую игру вы хотите сходить?</form:label>
-                            <form:select path="game" class="custom-select" required="">
-                            <option selected>Выберите игру</option>
-                                <form:option value="Зомби-апокалипсис">Зомби-апокалипсис</form:option>
-                                <form:option value="Домик в деревне">Домик в деревне</form:option>
-                                <form:option value="Бал-маскарад">Бал-маскарад</form:option>
-                                <form:option value="Этот безумный мир">Этот безумный мир</form:option>
-                                <form:option value="Шервудский лес">Шервудский лес</form:option>
-                                <form:option value="Недетская сказка">Недетская сказка</form:option>
-                                <form:option value="Эпическая история">Эпическая история</form:option>
-                                <form:option value="Убийство в монастыре">Убийство в монастыре</form:option>
-                                <form:option value="Космос вокруг нас">Космос вокруг нас</form:option>
-                                <div class="invalid-feedback">
-                                    Пожалуйста выберите выберите игру.
-                                </div>
-                        </form:select>
-                        </div>
-                        <div class="col-md-6">
-                            <form:label path="quantityPeople" for="validationCustom03">Сколько Вас будет человек?</form:label>
-                            <form:input path="quantityPeople" type="text" class="form-control" id="validationCustom03" placeholder="Введите колличество игроков" required=""/>
-                            <div class="invalid-feedback">
-                                Пожалуйста введите предпологаемое колличество игроков.
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="form-row">
-                        <div class="col-md-6">
-                            <form:label path="email" for="validationCustom04">Ваш e-mail</form:label>
-                            <form:input path="email" type="email" class="form-control" id="validationCustom04" placeholder="Введите Ваш e-mail" required=""/>
-                            <div class="invalid-feedback">
-                                Пожалуйста введите корректный e-mail, чтобы мы могли с Вами связаться.
-                        </div>
-                        </div>
-                    </div>
-                    <br>
                     <div class="form-group">
-                            <form:label path="comments" for="Comments">Комментарий</form:label>
-                            <form:textarea path="comments" class="form-control" id="Comments" rows="3" placeholder="Введите Ваш комментарий"></form:textarea>
+                        <div class="col-sx-6 form-control-lg">
+                            <form:label path="name" for="validationCustom01">Ваше имя*</form:label>
+                            <form:input path="name" type="text" class="form-control" id="validationCustom01" placeholder="Ваше имя" required="true"/>
+                            <div class="invalid-feedback">
+                                Пожалуйста, введите Ваше имя
+                            </div>
+                        </div>
+                        <div class="col-sx-6 form-control-lg">
+                            <form:label path="telephone" for="validationCustom03">Ваш телефон*</form:label>
+                            <form:input path="telephone" type="text" class="form-control" id="validationCustom03" placeholder="Ваш телефон" required="true"/>
+                            <div class="invalid-feedback">
+                                Пожалуйста, введите корректный телефон, чтобы мы могли с Вами связаться
+                            </div>
+                        </div>
                     </div>
+              <br>
+                    <div class="col-sx-6 form-control-lg">
+                            <form:label path="comments" for="Comments">Комментарий</form:label>
+                            <form:textarea path="comments" class="form-control" id="Comments" rows="3" placeholder="Напишите, какая именно игра вас заинтересовала?"></form:textarea>
+                    </div>
+                    <h3>* - обязательно для заполнения</h3>
                     <br>
-                    <h3>По вашему желанию мы проведем игру в любом месте и в любое время. Поможем с выбором помещения для игры,
-                        приведем фотографа и аквагримера, закажем торт.</h3>
-
-                    <button class="actions special fit" type="submit">Отправить заявку</button>
+                <footer class="align-center">
+                    <button class="btn btn-lg btn-success" type="submit">Отправить заявку</button>
+                </footer>
                 </form:form>
 
                 <script>
