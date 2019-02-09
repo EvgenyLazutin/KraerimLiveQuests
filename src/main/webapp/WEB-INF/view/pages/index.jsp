@@ -152,6 +152,7 @@
             <ul>
                 <li class="b-navbar_item"><a href="#ourQuests" class="root-item">Наши квесты</a></li>
                 <li class="b-navbar_item"><a href="birthday" class="root-item">День рождения</a></li>
+                <li class="b-navbar_item"><a href="corporate" class="root-item">Корпоратив</a></li>
                 <li class="b-navbar_item"><a href="registration" class="root-item">Заказать игру</a></li>
                 <li class="b-navbar_item"><a href="gallery" class="root-item">Галерея</a></li>
                 <li class="b-navbar_item"><a href="contacts" class="root-item">Контакты</a></li>
