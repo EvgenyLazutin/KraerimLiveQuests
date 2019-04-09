@@ -4,38 +4,18 @@
 <html>
 <head>
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript">
-        (function (d, w, c) {
-            (w[c] = w[c] || []).push(function () {
-                try {
-                    w.yaCounter49499182 = new Ya.Metrika2({
-                        id: 49499182,
-                        clickmap: true,
-                        trackLinks: true,
-                        accurateTrackBounce: true,
-                        webvisor: true
-                    });
-                } catch (e) {
-                }
-            });
-            var n = d.getElementsByTagName("script")[0],
-                s = d.createElement("script"),
-                f = function () {
-                    n.parentNode.insertBefore(s, n);
-                };
-            s.type = "text/javascript";
-            s.async = true;
-            s.src = "https://mc.yandex.ru/metrika/tag.js";
-            if (w.opera == "[object Opera]") {
-                d.addEventListener("DOMContentLoaded", f, false);
-            } else {
-                f();
-            }
-        })(document, window, "yandex_metrika_callbacks2");
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(53205610, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
     </script>
-    <noscript>
-        <div><img src="https://mc.yandex.ru/watch/49499182" style="position:absolute; left:-9999px;" alt=""/></div>
-    </noscript>
+    <noscript><div><img src="https://mc.yandex.ru/watch/53205610" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 
     <!--Bootstrap-->
@@ -117,9 +97,11 @@
             <ul>
                 <li class="b-navbar_item"><a href="#ourQuests" class="root-item">Наши квесты</a></li>
                 <li class="b-navbar_item"><a href="birthday" class="root-item">День рождения</a></li>
+                <li class="b-navbar_item"><a href="kids" class="root-item">Детский праздник</a></li>
                 <li class="b-navbar_item"><a href="corporate" class="root-item">Корпоратив</a></li>
                 <li class="b-navbar_item"><a href="registration" class="root-item">Заказать игру</a></li>
                 <li class="b-navbar_item"><a href="gallery" class="root-item">Галерея</a></li>
+                <li class="b-navbar_item"><a href="reviews" class="root-item">Ваши отзывы</a></li>
                 <li class="b-navbar_item"><a href="contacts" class="root-item">Контакты</a></li>
             </ul>
         </nav>
@@ -152,9 +134,11 @@
             <ul>
                 <li class="b-navbar_item"><a href="#ourQuests" class="root-item">Наши квесты</a></li>
                 <li class="b-navbar_item"><a href="birthday" class="root-item">День рождения</a></li>
+                <li class="b-navbar_item"><a href="kids" class="root-item">Детский праздник</a></li>
                 <li class="b-navbar_item"><a href="corporate" class="root-item">Корпоратив</a></li>
                 <li class="b-navbar_item"><a href="registration" class="root-item">Заказать игру</a></li>
                 <li class="b-navbar_item"><a href="gallery" class="root-item">Галерея</a></li>
+                <li class="b-navbar_item"><a href="reviews" class="root-item">Ваши отзывы</a></li>
                 <li class="b-navbar_item"><a href="contacts" class="root-item">Контакты</a></li>
             </ul>
         </nav>
@@ -211,7 +195,6 @@
 
 </header>
 
-
 <div class="mycard" id="ourQuests">
     <div class="text-center blackbackground">
         <div class="card-header text-center"><h1> Наши квесты </h1></div>
@@ -227,12 +210,12 @@
                 <h2 class="card-title align-center">
                     Живой квест "Бал-маскарад"</h2>
                 <p class="card-text align-center">
-                    <strong>Наш самый романтичный квест! Подойдет для празднования 8 марта и Дня Рождения!</strong><br>
+                    <strong>Наш самый романтичный квест! Подойдет для празднования Дня Рождения!</strong><br>
                     Жанр: роман<br>
                     От 10 до 30 человек<br>
                     Сложность: легкий<br>
                     Время: 120 минут<br>
-                    Стоимость за команду: от 4 900 р.<br>
+                    Стоимость за команду: от 5 300 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="masquerade" class="btn btn-outline-primary">Узнать больше</a>
@@ -245,12 +228,12 @@
                  src="/resources/images/madWorld/headerMadWorld.jpg" alt="Card image cap Responsive image ">
             <div class="card-body">
                 <h2 class="card-title align-center">Живой квест "Этот безумный мир"</h2>
-                <p class="card-text align-center">   <strong>Хит! Наш самый безумный квест! Идеально подходит для Дня Рождения!</strong><br>
+                <p class="card-text align-center"><strong>Наш самый безумный квест! Идеально подходит для Дня Рождения!</strong><br>
                     Жанр: комедия<br>
                    От 6 до 20 человек<br>
                     Сложность: средний<br>
                     Время: 120 минут<br>
-                    Стоимость за команду: от 4 900 р.<br>
+                    Стоимость за команду: от 5 300 р.<br>
                     14+</p>
                 <footer class="align-center">
                     <a href="madWorld" class="btn btn-outline-primary">Узнать больше</a>
@@ -265,12 +248,12 @@
                 <h2 class="card-title align-center">
                     Живой квест "По Законам Нью-Йоркской мафии"</h2>
                                 <p class="card-text align-center">
-                                    <strong>Хит! Идеально подходит для корпоратива!</strong><br>
+                                    <strong>Идеально подходит для корпоратива!</strong><br>
                                     Жанр: квест-вечеринка<br>
                     От 20 до 50 человек<br>
                     Сложность: средний<br>
                     Время: 180 минут<br>
-                    Стоимость за команду: от 14 900 р.<br>
+                    Стоимость за команду: от 22 900 р.<br>
                     18+</p>
                 <footer class="align-center">
                     <a href="gangstaParty" class="btn btn-outline-primary">Узнать больше</a>
@@ -295,10 +278,10 @@
                     Живой квест "Убийство в монастыре"</h2>
                 <p class="card-text align-center">
                     Жанр: детектив<br>
-                    От 6 до 13 человек<br>
+                    От 6 до 14 человек<br>
                     Сложность: сложный<br>
                     Время: 120 минут<br>
-                    Стоимость за команду: от 4 900 р.<br>
+                    Стоимость за команду: от 5 300 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="murderMonastery" class="btn btn-outline-primary">Узнать больше</a>
@@ -317,7 +300,7 @@
                     От 15 до 30 человек<br>
                     Сложность: средний<br>
                     Время: 180 минут<br>
-                    Стоимость за команду: от 8 800 р.<br>
+                    Стоимость за команду: от 9 800 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="sherWood" class="btn btn-outline-primary">Узнать больше</a>
@@ -337,7 +320,7 @@
                     От 6 до 12 человек<br>
                     Сложность: средний<br>
                     Время: 120 минут<br>
-                    Стоимость за команду: от 4 900 р.<br>
+                    Стоимость за команду: от 5 300 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="spaceAroundUs" class="btn btn-outline-primary">Узнать больше</a>
@@ -363,7 +346,7 @@
                     От 8 до 20 человек<br>
                     Сложность: средний<br>
                     Время: 120 минут (детский вариант - 60 минут)<br>
-                    Стоимость за команду: от 4 900 р.<br>
+                    Стоимость за команду: от 5 300 р.<br>
                     9+</p>
                 <footer class="align-center">
                     <a href="fairyTale" class="btn btn-outline-primary">Узнать больше</a>
@@ -383,7 +366,7 @@
                     От 6 до 13 человек<br>
                     Сложность: сложный<br>
                     Время: 120 минут<br>
-                    Стоимость за команду: от 4 900 р.<br>
+                    Стоимость за команду: от 5 300 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="worldEye" class="btn btn-outline-primary">Узнать больше</a>
@@ -402,11 +385,12 @@
                     От 6 до 20 человек<br>
                     Сложность: сложный<br>
                     Время: 120 минут<br>
-                    Стоимость за команду: от 4 900 р.<br>
+                    Стоимость за команду: от 5 300 р.<br>
                     16+</p>
                 <footer class="align-center">
-                    <a>Квест в разработке!</a>
-                                    </footer>
+                    <a href="police" class="btn btn-outline-primary">Узнать больше</a>
+                    <a href="registration" class="btn btn-success ">Заказать игру</a>
+                </footer>
             </div>
         </div>
 
@@ -422,12 +406,11 @@
 
                 <h2 class="card-title align-center">Живой квест "Зомби-апокалипсис"</h2>
                 <p class="card-text align-center">
-                    <strong>Подойдет для 23 февраля!</strong><br>
-                    Жанр: боевик<br>
+                  Жанр: боевик<br>
                     От 6 до 12 (или от 20 до 25) человек<br>
                     Сложность: средний<br>
                     Время: 120 минут<br>
-                    Стоимость за команду: от 4 900 р.<br>
+                    Стоимость за команду: от 5 300 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="zombiequest" class="btn btn-outline-primary">Узнать больше</a>
@@ -447,7 +430,7 @@
                     От 6 до 12 человек<br>
                     Сложность: легкий<br>
                     Время: 60 минут<br>
-                    Стоимость за команду: 3 900 р.<br>
+                    Стоимость за команду: 4 900 р.<br>
                     13+</p>
                 <footer class="align-center">
                     <a href="houseInTheVillage" class="btn btn-outline-primary">Узнать больше</a>

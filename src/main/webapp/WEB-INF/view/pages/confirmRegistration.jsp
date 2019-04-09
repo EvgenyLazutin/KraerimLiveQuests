@@ -13,30 +13,17 @@
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
-        (function (d, w, c) {
-            (w[c] = w[c] || []).push(function() {
-                try {
-                    w.yaCounter49499182 = new Ya.Metrika2({
-                        id:49499182,
-                        clickmap:true,
-                        trackLinks:true,
-                        accurateTrackBounce:true,
-                        webvisor:true
-                    });
-                } catch(e) { }
-            });
-            var n = d.getElementsByTagName("script")[0],
-                s = d.createElement("script"),
-                f = function () { n.parentNode.insertBefore(s, n); };
-            s.type = "text/javascript";
-            s.async = true;
-            s.src = "https://mc.yandex.ru/metrika/tag.js";
-            if (w.opera == "[object Opera]") {
-                d.addEventListener("DOMContentLoaded", f, false);
-            } else { f(); }
-        })(document, window, "yandex_metrika_callbacks2");
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(53205610, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/49499182" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <noscript><div><img src="https://mc.yandex.ru/watch/53205610" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -71,9 +58,11 @@
     <ul class="links">
         <li><a href="index">Главная</a></li>
         <li><a href="birthday">День рождения</a></li>
+        <li><a href="kids">Детский праздник</a></li>
         <li><a href="corporate">Корпоратив</a></li>
         <li><a href="index#ourQuests">Наши квесты</a></li>
         <li><a href="gallery">Галерея</a></li>
+        <li><a href="reviews">Ваши отзывы</a></li>
         <li><a href="contacts">Контакты</a></li>
     </ul>
 </nav>

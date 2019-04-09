@@ -13,30 +13,17 @@
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
-        (function (d, w, c) {
-            (w[c] = w[c] || []).push(function() {
-                try {
-                    w.yaCounter49499182 = new Ya.Metrika2({
-                        id:49499182,
-                        clickmap:true,
-                        trackLinks:true,
-                        accurateTrackBounce:true,
-                        webvisor:true
-                    });
-                } catch(e) { }
-            });
-            var n = d.getElementsByTagName("script")[0],
-                s = d.createElement("script"),
-                f = function () { n.parentNode.insertBefore(s, n); };
-            s.type = "text/javascript";
-            s.async = true;
-            s.src = "https://mc.yandex.ru/metrika/tag.js";
-            if (w.opera == "[object Opera]") {
-                d.addEventListener("DOMContentLoaded", f, false);
-            } else { f(); }
-        })(document, window, "yandex_metrika_callbacks2");
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(53205610, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/49499182" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <noscript><div><img src="https://mc.yandex.ru/watch/53205610" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -69,9 +56,11 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Главная</a></li>
+        <li><a href="kids">Детский праздник</a></li>
         <li><a href="corporate">Корпоратив</a></li>
         <li><a href="index#ourQuests">Наши квесты</a></li>
         <li><a href="gallery">Галерея</a></li>
+        <li><a href="reviews">Ваши отзывы</a></li>
         <li><a href="contacts">Контакты</a></li>
         <li><a href="registration">Заказать игру</a></li>
     </ul>
@@ -144,8 +133,7 @@
                                         <li> У вас собирается очень разношерстная компания, в которой многие люди не знакомы. Живой квест с легкостью поможет сдружить даже совершенно незнакомых людей!</li>
                                         <li> В вашей компании есть люди разного возраста. И вы переживаете, что они не найдут общей темы для разговора. Ограбление банка сплочает как детей, так и взорослых!</li>
                                         <li> У нас нет второстепенных персонажей, и каждый найдет себе роль по душе! Можно побывать безумцем, желающим уничтожить мир, капитаном космического корабля, магом, представителем знати и даже единорожеком!</li>
-                                        <li> Если вы заказываете квест у нас, то получаете фотографа в подарок!</li>
-                                        <li> 10% скидка всем именинникам, лично заказавшим живой квест</li></ul></div>
+                                        <li> Мы подберем место, идеально подходящее под ваш праздник!</li></ul></div>
                                 </h3>
                             </div>
                     </div>
@@ -159,7 +147,7 @@
                             — <a href="houseInTheVillage">«Домик в деревне»</a><br>
                             — <a href="spaceAroundUs"> «Космос вокруг нас»</a><br>
                             — <a href="zombiequest">«Зомби-апокалипсис»</a><br>
-                               <strong> На среднюю компанию (15-30 человек):</strong><br>
+                               <strong> На среднюю компанию (10-30 человек):</strong><br>
                             — <a href="masquerade"> «Бал-маскарад»</a><br>
                             — <a href="sherWood">«Шервудский лес»</a><br>
                             — <a href="madWorld">«Этот безумный мир»</a> <br>
@@ -177,19 +165,85 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm">
-                            <img class="image main" src="/resources/images/birthday/5.jpg" alt="" />
-                        </div>
-                        <div class="col-sm">
-                            <h3>
-                                <strong>Стоимость игры</strong><br>
-                                <div class="text-justify">Минимальная стоимость игры - 4 900 рублей. <br>
-                                <strong>Что входит в стоимость игры?</strong><br>
-                                - помощь в подборе места для проведения игры<br>
-                                - ведущий (или несколько, в зависимости от количества участников)<br>
-                                - музыкальное сопровождение<br>
-                                - базовый реквизит (шляпы, веерочки, сабли)<br>
-                                    - фотограф (25-30 фотографий)<br></div>
-                            </h3>
+                            <div class="card-header text-center"><h1>Стоимость:</h1>
+                                </strong>
+                                <div class="text-center"><h3>Цена указана до 10 человек и может измениться в зависимости от
+                                заказываемых услуг</h3></div>
+                                <br>
+                            </div>
+
+                            <table class="table table-striped">
+                                <thead class="thead-success">
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Экономный</th>
+                                    <th scope="col">Стандарт</th>
+                                    <th scope="col">Премиум</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row">Комплект игры</th>
+                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Ведущий</th>
+                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Возможность выбрать время и место игры</th>
+                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Музыкальное сопровождение</th>
+                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Базовый реквизит для игры</th>
+                                    <td></td>
+                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Профессиональный фотограф</th>
+                                    <td></td>
+                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Расширенный реквизит</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Пригласительные для гостей</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Ди-джей</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                </tr>
+                                <tr class="table-success">
+                                    <th scope="row">Стоимость</th>
+                                    <td>5 300</td>
+                                    <td>7 300</td>
+                                    <td>10 800 </td>
+                                </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
@@ -278,17 +332,91 @@
                         </div>
                     </div>
                 </div>
+                <div class="card-header text-center"><h2>Где провести праздник?</h2>
+                    </strong>
+                    <div class="text-center"><h3>Мы можем провести мероприятие как у вас дома, так и в любом кафе, баре и даже на свежем воздухе!</h3></div>
+                <br>
+                </div>
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" src="resources\images\places\2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Арт-пространство "Замок на Невском"</h5>
+                            <p class="card-text-justify">Пространство находится прямо на Невском проспекте и оформлено в стиле средневекового замка.
+                                Можно почувствовать себя настоящим Императором и посидеть на настоящем троне. Можно приносить свою еду и напитки. Алкоголь по пробковому сбору.<br>
+                            Адрес: Невский пр., 74-76<br>
+                                Вместимость: до 55 человек
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="resources\images\places\3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Лофт "Com.Nata"</h5>
+                            <p class="card-text-justify">Красивый и уютный лофт. В нем есть сцена, и можно устроить не только квест,
+                                но и шоу-программу. Можно организовтаь фуршет и банкет.<br>
+                                Адрес: Обводный канал, 136 <br>
+                                Вместимость: до 170 человек
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="resources\images\places\4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Скайрум</h5>
+                            <p class="card-text-justify">В пространство можно приносить свою еду и напитки, сыграть в VR, мафию и настольные игры. Есть платная парковка.<br>
+                            Адрес: Цветочная, 6 <br>
+                            Вместимость: до 30 человек</p>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="card-header text-center"><h2>Дополнительные услуги</h2>
+                    </strong>
+                    <div class="text-center"><h3>Кроме самого квеста, мы можем разнообразить ваш праздник различными выступлениями, и даже классической "мафией"</h3></div>
+                    <br>
+                </div>
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" src="resources\images\additionalService\1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Классическая "мафия"</h5>
+                            <p class="card-text-justify">Наши ведущие "мафии" - лучше всех! Мы проводим как классическую мафию, так
+                                и "вампирскую", например.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="resources\images\additionalService\3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Световое (огненное) шоу</h5>
+                            <p class="card-text-justify">Мы выключаем свет и... вы погружаетесь в мир фей, красоту танца и гармоничность музыки!
+                                Световое шоу оставляет только самые приятные впечатления.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="resources\images\additionalService\2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Мастер-классы</h5>
+                            <p class="card-text-justify">Мы можем провести мастер класс по созданию кофейных деревьев и мини-букетов, росписи копилок,
+                                стекла и т.д.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-                <h3> Мы позаботимся о том, чтобы вас окружала соответствующая игре атмосфера и о том,
+                            <h3> Мы позаботимся о том, чтобы вас окружала соответствующая игре атмосфера и о том,
                     чтобы у вас на память остались самые лучшие и веселые фотографии.
                     А вас попросим только написать отзыв)<br><br>
-                    We have the menu in english!<br><br>
-                    По вашему желанию мы проведем игру в любом месте и в любое время. Поможем с выбором помещения для игры, приведем фотографа и аквагримера, закажем торт.</h3>
+                    We have the menu in english!<br><br></h3>
                 <footer class="align-center">
                     <a href="index#ourQuests" class="btn btn-lg btn-outline-primary">Выбрать квест</a>
                     <a href="registration" class="btn btn-lg btn-success">Забронировать игру</a>
                 </footer>
+            </div>
+        </div>
+    </div>
             </div>
         </div>
     </div>

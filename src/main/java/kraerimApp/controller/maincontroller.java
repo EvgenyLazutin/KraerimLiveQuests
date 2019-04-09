@@ -127,6 +127,16 @@ public class maincontroller {
         return "corporate";
     }
 
+    @RequestMapping(value="/police", method=RequestMethod.GET)
+    public String getPolice() {
+        return "police";
+    }
+
+    @RequestMapping(value="/reviews", method=RequestMethod.GET)
+    public String getReviews() {
+        return "reviews";
+    }
+
     @RequestMapping(value="/registration", method=RequestMethod.GET)
     public ModelAndView getRegistration() {
         ModelAndView modelAndView = new ModelAndView();
@@ -160,5 +170,14 @@ public class maincontroller {
         modelAndView.setViewName("confirmRegistration");
         modelAndView.addObject("ClientRegistration", client);
         return modelAndView;
+    }
+    @RequestMapping(value="/kids", method=RequestMethod.GET)
+    public String getKids() {
+        return "kids";
+    }
+
+    @RequestMapping(value="/detective", method=RequestMethod.GET)
+    public String getDetective() {
+        return "detective";
     }
 }
