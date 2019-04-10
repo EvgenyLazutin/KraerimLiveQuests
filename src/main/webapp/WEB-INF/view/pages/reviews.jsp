@@ -48,6 +48,7 @@
 <!-- Header -->
 <header id="header">
     <div class="logo"><a href="registration">Заказать игру</a></div>
+    <a>+7 951 669 60 94</a>
     <a href="#menu">Меню</a>
 </header>
 

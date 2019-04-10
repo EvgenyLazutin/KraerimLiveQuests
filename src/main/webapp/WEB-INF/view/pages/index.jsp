@@ -101,7 +101,7 @@
                 <li class="b-navbar_item"><a href="detective" class="root-item">Детективные квесты</a></li>
                 <li class="b-navbar_item"><a href="registration" class="root-item">Заказать игру</a></li>
                 <li class="b-navbar_item"><a href="gallery" class="root-item">Галерея</a></li>
-                <li class="b-navbar_item"><a href="reviews" class="root-item">Ваши отзывы</a></li>
+                <li class="b-navbar_item"><a href="reviews" class="root-item">Отзывы</a></li>
                 <li class="b-navbar_item"><a href="contacts" class="root-item">Контакты</a></li>
             </ul>
         </nav>
