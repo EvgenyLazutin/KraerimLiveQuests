@@ -58,8 +58,9 @@
         <li><a href="index">Главная</a></li>
         <li><a href="corporate">День Рождения</a></li>
         <li><a href="corporate">Корпоратив</a></li>
-        <li><a href="index#ourQuests">Наши квесты</a></li>
-        <li><a href="gallery">Галерея</a></li>
+        <li><a href="detective">Детективные квесты</a></li>
+        <li><a href="index#ourQuests">Все квесты</a></li>
+                <li><a href="gallery">Галерея</a></li>
         <li><a href="reviews">Ваши отзывы</a></li>
         <li><a href="contacts">Контакты</a></li>
         <li><a href="registration">Заказать игру</a></li>
@@ -82,7 +83,8 @@
         <div class="box">
             <div class="content">
                 <header class="align-center">
-                    <h2><strong>Детский праздник с живым квестом</strong></h2>
+                    <h2><strong>День Рождения</strong></h2>
+                    <h3><strong>Праздники для детей от 8 лет, 10 лет, 12 лет</strong></h3>
                 </header>
                 <div class="container-fluid">
                     <div class="row">
@@ -214,11 +216,10 @@
                                     заказываемых услуг</h3></div>
                                 <br>
                             </div>
-
-                            <table class="table table-striped table-responsive-lg">
+                         <table class="table table-striped table-responsive-lg">
                                 <thead class="thead-success">
                                 <tr>
-                                    <th class="fixed-side" scope="col" ></th>
+                                    <th scope="col" ></th>
                                     <th scope="col">Экономный</th>
                                     <th scope="col">Стандарт</th>
                                     <th scope="col">Премиум</th>
@@ -226,61 +227,61 @@
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <th class="fixed-side" scope="row">Комплект игры</th>
+                                    <th scope="row">Комплект игры</th>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
                                 <tr>
-                                    <th class="fixed-side" scope="row">Ведущий</th>
+                                    <th scope="row">Ведущий</th>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
                                 <tr>
-                                    <th class="fixed-side" scope="row">Возможность выбрать время и место игры</th>
+                                    <th scope="row">Возможность выбрать время и место игры</th>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
                                 <tr>
-                                    <th class="fixed-side" scope="row">Музыкальное сопровождение</th>
+                                    <th scope="row">Музыкальное сопровождение</th>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
                                 <tr>
-                                    <th class="fixed-side" scope="row">Базовый реквизит для игры</th>
+                                    <th scope="row">Базовый реквизит для игры</th>
                                     <td></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
                                 <tr>
-                                    <th class="fixed-side" scope="row">Профессиональный фотограф</th>
+                                    <th scope="row">Профессиональный фотограф</th>
                                     <td></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
                                 <tr>
-                                    <th class="fixed-side" scope="row">Расширенный реквизит</th>
+                                    <th scope="row">Расширенный реквизит</th>
                                     <td></td>
                                     <td></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
                                 <tr>
-                                    <th class="fixed-side" scope="row">Пригласительные для гостей</th>
+                                    <th scope="row">Пригласительные для гостей</th>
                                     <td></td>
                                     <td></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
                                 <tr>
-                                    <th class="fixed-side" scope="row">Детская дискотека</th>
+                                    <th scope="row">Детская дискотека</th>
                                     <td></td>
                                     <td></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
                                 <tr class="table-success">
-                                    <th class="fixed-side" scope="row">Стоимость</th>
+                                    <th scope="row">Стоимость</th>
                                     <td>5 300</td>
                                     <td>7 300</td>
                                     <td>11 800 </td>
@@ -292,24 +293,25 @@
                 </div>
                 <div class="container-fluid">
                     <div class="mycard">
-                        <div class="card-header text-center"><h1>Отзывы об игре "Сказочный переполох":</h1>
+                        <div class="card-header text-center"><strong><h1>Отзывы об игре "Сказочный переполох":</h1>
                             </strong>
                             <br>
                             <div class="col-sm align-center">
                                 <img src="resources\images\kids\reviews\1.png" class="img-fluid img-thumbnail">
                             </div>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="col-sm align-center">
+                           <br>
+                         <div class="col-sm align-center">
                         <img src="resources\images\kids\reviews\2.png" class="img-fluid img-thumbnail">
+                         </div>
+                        <br>
+                             <div class="col-sm align-center">
+                         <img src="resources\images\kids\reviews\3.png" class="img-fluid img-thumbnail">
+                             </div>
+                        </div>
+                        <br>
                     </div>
-                <br>
-                <div class="col-sm align-center">
-                    <img src="resources\images\kids\reviews\3.png" class="img-fluid img-thumbnail">
                 </div>
-                <br>
-                </div>
+
                         <br>
                 <div class="card-header text-center"><h2>Где провести праздник?</h2>
                     </strong>

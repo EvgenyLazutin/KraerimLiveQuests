@@ -95,10 +95,10 @@
 
         <nav class="top_menu">
             <ul>
-                <li class="b-navbar_item"><a href="#ourQuests" class="root-item">Наши квесты</a></li>
                 <li class="b-navbar_item"><a href="birthday" class="root-item">День рождения</a></li>
                 <li class="b-navbar_item"><a href="kids" class="root-item">Детский праздник</a></li>
                 <li class="b-navbar_item"><a href="corporate" class="root-item">Корпоратив</a></li>
+                <li class="b-navbar_item"><a href="detective" class="root-item">Детективные квесты</a></li>
                 <li class="b-navbar_item"><a href="registration" class="root-item">Заказать игру</a></li>
                 <li class="b-navbar_item"><a href="gallery" class="root-item">Галерея</a></li>
                 <li class="b-navbar_item"><a href="reviews" class="root-item">Ваши отзывы</a></li>
@@ -132,10 +132,10 @@
         <div class="close_button"></div>
         <nav class="mobile_sub_menu">
             <ul>
-                <li class="b-navbar_item"><a href="#ourQuests" class="root-item">Наши квесты</a></li>
                 <li class="b-navbar_item"><a href="birthday" class="root-item">День рождения</a></li>
                 <li class="b-navbar_item"><a href="kids" class="root-item">Детский праздник</a></li>
                 <li class="b-navbar_item"><a href="corporate" class="root-item">Корпоратив</a></li>
+                <li class="b-navbar_item"><a href="detective" class="root-item">Детективные квесты</a></li>
                 <li class="b-navbar_item"><a href="registration" class="root-item">Заказать игру</a></li>
                 <li class="b-navbar_item"><a href="gallery" class="root-item">Галерея</a></li>
                 <li class="b-navbar_item"><a href="reviews" class="root-item">Ваши отзывы</a></li>
