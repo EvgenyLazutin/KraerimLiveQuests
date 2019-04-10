@@ -215,10 +215,10 @@
                                 <br>
                             </div>
 
-                            <table class="table table-striped">
+                            <table class="table table-striped table-responsive-lg">
                                 <thead class="thead-success">
                                 <tr>
-                                    <th scope="col"></th>
+                                    <th class="fixed-side" scope="col" ></th>
                                     <th scope="col">Экономный</th>
                                     <th scope="col">Стандарт</th>
                                     <th scope="col">Премиум</th>
@@ -226,61 +226,61 @@
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <th scope="row">Комплект игры</th>
+                                    <th class="fixed-side" scope="row">Комплект игры</th>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Ведущий</th>
+                                    <th class="fixed-side" scope="row">Ведущий</th>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Возможность выбрать время и место игры</th>
+                                    <th class="fixed-side" scope="row">Возможность выбрать время и место игры</th>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Музыкальное сопровождение</th>
+                                    <th class="fixed-side" scope="row">Музыкальное сопровождение</th>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Базовый реквизит для игры</th>
+                                    <th class="fixed-side" scope="row">Базовый реквизит для игры</th>
                                     <td></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Профессиональный фотограф</th>
+                                    <th class="fixed-side" scope="row">Профессиональный фотограф</th>
                                     <td></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Расширенный реквизит</th>
+                                    <th class="fixed-side" scope="row">Расширенный реквизит</th>
                                     <td></td>
                                     <td></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Пригласительные для гостей</th>
+                                    <th class="fixed-side" scope="row">Пригласительные для гостей</th>
                                     <td></td>
                                     <td></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Детская дискотека</th>
+                                    <th class="fixed-side" scope="row">Детская дискотека</th>
                                     <td></td>
                                     <td></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
                                 <tr class="table-success">
-                                    <th scope="row">Стоимость</th>
+                                    <th class="fixed-side" scope="row">Стоимость</th>
                                     <td>5 300</td>
                                     <td>7 300</td>
                                     <td>11 800 </td>

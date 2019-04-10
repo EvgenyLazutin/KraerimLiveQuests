@@ -169,7 +169,7 @@
                                             <br>
                                         </div>
 
-                                        <table class="table table-striped">
+                                        <table class="table table-striped table-responsive-lg">
                                             <thead class="thead-success">
                                             <tr>
                                                 <th scope="col"></th>
