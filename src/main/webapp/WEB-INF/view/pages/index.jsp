@@ -95,12 +95,12 @@
 
         <nav class="top_menu">
             <ul>
-                <li class="b-navbar_item"><a href="birthday" class="root-item">День рождения</a></li>
-                <li class="b-navbar_item"><a href="kids" class="root-item">Детский праздник</a></li>
+                <li class="b-navbar_item"><a href="birthday" class="root-item">Для взрослых</a></li>
+                <li class="b-navbar_item"><a href="kids" class="root-item">Для детей</a></li>
+                <li class="b-navbar_item"><a href="teens" class="root-item">Для подростков</a></li>
                 <li class="b-navbar_item"><a href="corporate" class="root-item">Корпоратив</a></li>
                 <li class="b-navbar_item"><a href="detective" class="root-item">Детективные квесты</a></li>
                 <li class="b-navbar_item"><a href="registration" class="root-item">Заказать игру</a></li>
-                <li class="b-navbar_item"><a href="gallery" class="root-item">Галерея</a></li>
                 <li class="b-navbar_item"><a href="reviews" class="root-item">Отзывы</a></li>
                 <li class="b-navbar_item"><a href="contacts" class="root-item">Контакты</a></li>
             </ul>
@@ -137,7 +137,6 @@
                 <li class="b-navbar_item"><a href="corporate" class="root-item">Корпоратив</a></li>
                 <li class="b-navbar_item"><a href="detective" class="root-item">Детективные квесты</a></li>
                 <li class="b-navbar_item"><a href="registration" class="root-item">Заказать игру</a></li>
-                <li class="b-navbar_item"><a href="gallery" class="root-item">Галерея</a></li>
                 <li class="b-navbar_item"><a href="reviews" class="root-item">Ваши отзывы</a></li>
                 <li class="b-navbar_item"><a href="contacts" class="root-item">Контакты</a></li>
             </ul>

@@ -48,7 +48,7 @@
 <!-- Header -->
 <header id="header">
     <div class="logo"><a href="registration">Заказать игру</a></div>
-    <a>+7 951 669 60 94</a>
+    <a href="tel:+7 951 669 60 94">+7 951 669 60 94</a>
     <a href="#menu">Меню</a>
 </header>
 
@@ -57,7 +57,8 @@
     <ul class="links">
         <li><a href="index">Главная</a></li>
         <li><a href="birthday">День рождения</a></li>
-        <li><a href="kids">Детский праздник</a></li>
+        <li><a href="kids">Для детей</a></li>
+        <li><a href="teens">Для подростков</a></li>
         <li><a href="corporate">Корпоратив</a></li>
         <li><a href="detective">Детективные квесты</a></li>
         <li><a href="index#ourQuests">Все квесты</a></li>

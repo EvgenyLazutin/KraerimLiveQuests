@@ -35,9 +35,9 @@
         gtag('config', 'UA-119774437-1');
     </script>
 
-    <title>Детективные квесты</title>
-    <meta name= "description" content = "Квест-расследование">
-    <meta name= "keywords" content = "убийство, расследование убийства, детективное расследование, квест-расследование">
+    <title>Детский день рождения с квестом!</title>
+    <meta name= "description" content = "Детский праздник">
+    <meta name= "keywords" content = "день рождения ребенка, праздник для ребенка, квест для детей, квест 10 детей, праздник 8 лет">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/resources/assets/css/main.css" />
@@ -59,8 +59,8 @@
         <li><a href="index">Главная</a></li>
         <li><a href="corporate">День Рождения</a></li>
         <li><a href="kids">Для детей</a></li>
-        <li><a href="teens">Для подростков</a></li>
         <li><a href="corporate">Корпоратив</a></li>
+        <li><a href="detective">Детективные квесты</a></li>
         <li><a href="index#ourQuests">Все квесты</a></li>
         <li><a href="reviews">Отзывы</a></li>
         <li><a href="contacts">Контакты</a></li>
@@ -84,24 +84,34 @@
         <div class="box">
             <div class="content">
                 <header class="align-center">
-                    <h2><strong>Детективные квесты</strong></h2>
+                    <h2><strong>День Рождения<br></strong></h2>
+                    <h3><strong>Праздник для подростков от 13 лет</strong></h3>
+                    <div class="text-justify">Подростки - это сложные ребята, которые хотят самостоятельно принимать решения и не зависеть от родителей.
+                        Они уже перепробовали все квест-комнаты и хотят чего-то необычного? Или наоборот, они все время сидят в телефонах, и их трудно оторвать от гаджета?
+                        Тогда "живой квест" - это то, что вам нужно! Это как компьютерная игра, только вживую.
+
+                        <br><br>
+                    </div>
                 </header>
                 <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs">
+                            <img class="image main" src="/resources/images/teens/1.jpg" alt=""/>
+                        </div>
+                        <div class="col-sm">
+                            <h3>
+                                <strong> Что такое "живой квест"?</strong><br>
+                                <div class="text-justify">Это отличный способ удивить гостей! На пару часов ребята станут персонажами
+                                    книг, фильмов и компьютерных игр и полностью забудут о мобильниках! У каждого участника будет своя роль и цели, которые можно
+                                    выполнить только общаясь с другими игроками. Такая игра не только развлекает, но и учит детей договариваться и нести ответсвенность за свои решения!
+                                    Например, один из тинеджеров будет капитаном космического корабля, а другой - шпионом, который отправился в космическое путешествие, чтобы
+                                    украсть секретные данные. Шпион может уговорить капитана перейти на его сторону, подкупить его или вытолкнуть его в открытый космос...<br>
 
-                    <div class="text-center"> <h2> <strong>Что такое детективный квест?</strong></h2></div><br>
-                                <div class="text-black text-justify">Вы смотрели сериал "Шерлок Холмс", "Убийство" или "Пуаро"
-                                    и хотели бы тоже поучаствовать в настоящем детективном расследвании? Тогда приглашаем вас поучаствовать в одном из наших детективных квестов!
-                                    На пару часов вы станете другими людьми. Кто-то - роковой красоткой, кто-то
-                                    детективом, а кто-то - убийцей. Вместо того, чтобы смотреть детективный сериал, вы станене его участниками, и сами будете
-                                    расследовать таинственные убийства и кражи. У каждого участника будет своя роль и цели, которые надо выполнить по ходу игры.
-                                    Например, среди участников есть детектив, который знает, кто убийца, но для того, чтобы изобличить убийцу, ему придется открыть и свою
-                                    страшную тайну, за которую его могут отправить в тюрьму. Как же поступить: объединиться с убийцей,
-                                    чтобы он не раскрыл ваш секрет, или честно сдать его властям, не смотря на последствия для вас?
-                                    Решение за вами!
                                 </div>
-                    <br>
-
-                 </div>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm">
@@ -111,99 +121,101 @@
                                     <li> Вы выбираете один из наших сюжетов</li>
                                     <li> Мы с вами распределяем роли (можно это делать как заранее, так и на месте) </li>
                                     <li> Мы помогаем вам выбрать место для игры (у вас дома, на свежем воздухе, в кафе)</li>
-                                    <li> На месте: мы выдаем участникам небольшие книжечки с описанием персонажа и реквизит персонажа</li>
-                                    <li> Вы знакомитесь друг с другом, и… Начинаете плести интриги и запутывать остальных, выяснять правду, расследовать убийство или кражу</li>
-                                    <li> Исход игры всегда зависит только от игроков, их убедительности и доверчивости</li></ul></div>
+                                    <li>На месте: мы выдаем детям карточки с описанием персонажа и реквизит персонажа</li>
+                                    <li> Ребята знакомятся друг с другом, и… Начинают плести интриги и запутывать остальных, выяснять правду, сражаться и спасать мир</li>
+                                    <li> Исход игры всегда зависит только от игроков, их фантазии и доверчивости</li></ul></div>
                             </h3>
                         </div>
                         <div class="col-sm">
-                            <img class="image main" src="/resources/images/detective/1.jpg" alt="" />
+                            <img class="image main" src="/resources/images/teens/2.jpg" alt="" />
                         </div>
                     </div>
                 </div>
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm">
-                            <img class="image main" src="/resources/images/detective/2.jpg" alt=""/>
+                            <img class="image main" src="/resources/images/teens/4.jpg" alt=""/>
                         </div>
                         <div class="col-sm">
                             <h3>
-                                <strong>Почему именно детективный квест?</strong><br>
+                                <strong>Почему именно наш живой квест?</strong><br>
                                 <div class="text-justify"> <ul>
-                                    <li> Вы любите расследовать загадочные преступления, когда все оказываются под подозрением</li>
-                                    <li> Вы давно хотели попробовать себя в роли опасного преступника</li>
-                                    <li> Наш квест не только развлекает, он помогает вам прокачивать скилл общения</li>
+                                    <li> Подростки смогут почувствовать себя самостоятельными и будут принимать решения, от которых будет действительно зависеть финал игры </li>
+                                    <li> Ребята отвлекутся от гаджетов и будут общаться между собой, договариваться, обмениваться, сторить коварные планы!</li>
+                                    <li> Такой квест не только развлекает, он разывивает навыки общения, внимательность и находчивость!</li>
                                     <li> Вы не ограничены местом, ведь квест можно провести где угодно: и дома, и на природе</li>
                                     <li> Вам не придется придумывать ничего дополнительного! Наш квест - это целый праздник!</li>
-                                    <li> Вы узнаете ваших друзей с новой стороны и сможете объединить людей из разных тусовок!</li></ul></div>
+                                    <li> После нашего квеста остаются самые лучшие фотографии, которые обязательно нужно выложить в Instagram!</li></ul></div>
                             </h3>
                         </div>
                     </div>
                 </div>
                 <div class="container-fluid">
                     <div class="mycard">
-                        <div class="card-header text-center"><h1>Наши детективные квесты</h1>
+                        <div class="card-header text-center"><h1>Живые квесты, идеально подходящие для Дня рождения подростка</h1>
                             </strong>
                             <br>
                             <div class="card-group">
                                 <div class="card">
-                                    <img class="card-img-top" src="resources\images\detective\8.jpg" alt="Card image cap">
+                                    <img class="card-img-top" src="resources\images\teens\5.jpg" alt="Card image cap">
                                     <div class="card-body">
-                                        <h5 class="card-title">"Убийство в монастыре"</h5>
-                                        <p class="card-text-justify"><strong>Классическое расследование убийства</strong><br>
-                                            15 век, где-то в горах Испании. В воскресенье в монастыре святой Девы Марии должен был состояться теологический
-                                            диспут по поводу бедности Христа. Однако в субботу утром мать-настоятельница монастыря обнаружила Хранителя местной
-                                            библиотеки и главного оратора монастыря, брата Титуса, мертвым. Кто совершил убийство и зачем? Вам предстоит это выяснить!<br>
-                                            Количество участников: от 6 до 14<br>
+                                        <h4 class="card-title">Квест-боевик "Зомби-апокалипсис"</h4>
+                                        <p class="card-text"><strong>Для тех, кто фанатеет от "Ходячих мертвецов", "Left 4 Dead" или "Resident Evil"</strong><br>
+                                        <div class="text-justify">В этом квесте ребята оказываются запертыми в бункере без запасов еды и воды. Вокруг бункера бродят зомби, связь не работает,
+                                        а некоторые из запертых в бункере выглядят довольно нездоровыми...
+                                        Что же делать, как выбраться из бункера, и нужно ли пожертвовать кем-то из друзей, чтобы спастись самому?<br>
+                                            Количество участников: от 6 до 25<br>
                                             Стоимость: 5 300 руб.<br>
-                                            Длительность: 2 часа</p>
+                                            Длительность: 2 часа</div> </p>
                                         <footer class="align-center">
-                                            <a href="murderMonastery" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
+                                            <a href="zombiequest" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
                                             <a href="registration" class="btn btn-lg btn-success">Заказать квест</a>
                                         </footer>
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <img class="card-img-top" src="resources\images\police\2.jpg" alt="Card image cap">
+                                    <img class="card-img-top" src="resources\images\teens\6.jpg" alt="Card image cap">
                                     <div class="card-body">
-                                        <h5 class="card-title">"Полицейский участок"</h5>
-                                        <p class="card-text-justify"><strong>Расследование загадочной кражи</strong><br>
-                                            Нью-Йорк, наши дни. Вы оказываетесь в полицейском участке, в котором только что была взорвана
-                                            бомба с каким-то белым порошком. Помещения были изолированы, никто не входил и не выходил.
-                                            Но буквально через 30 минут, из этого же полицейского участка был
-                                            украден сервер со всеми данными полиции. Такой сервер можно продать на черном рынке за несколько миллионов.
-                                            Кто же украл сервер, и куда он его дел?<br>
-                                            Количество участников: от 6 до 20<br>
+                                        <h4 class="card-title">Квест-шутка "Этот безумный мир"</h4>
+                                        <p class="card-text-justify"><strong>Для фанатов Гарри Поттера, Терри Пратчетта, фэнтези и игр "Magica"</strong><br>
+                                        <div class="text-justify">В этом квесте тинейджеры становятся безумными волшебниками! В Магической библиотеке произошел взрыв, в результате которого
+                                            из Книги Великих Магических Заклинаний вырвалось одно заклинание... Оно немного изменило реальность, и теперь к Плоскому миру
+                                            летит огромный красный метеорит! А еще, стали открываться порталы, из которых выходят разгневанные боги. А все волшебники
+                                            сошли с ума и не помнят ни одного заклинания. Что же делать? Что делать?!<br>
+                                            Количество участников: от 6 до 16<br>
                                             Стоимость: 5 300 руб.<br>
-                                            Длительность: 1,5 часа</p>
+                                            Длительность: 2 часа</div></p>
                                         </p>
                                         <footer class="align-center">
-                                            <a href="police" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
+                                            <a href="madWorld" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
                                             <a href="registration" class="btn btn-lg btn-success">Заказать квест</a>
                                         </footer>
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <img class="card-img-top" src="resources\images\detective\9.jpg" alt="Card image cap">
+                                    <img class="card-img-top" src="resources\images\teens\7.jpg" alt="Card image cap">
                                     <div class="card-body">
-                                        <h5 class="card-title">"Убийство лорда Четвела"</h5>
-                                        <p class="card-text-justify"><strong>Расследование убийства миллионера</strong><br>
-                                           Вы - родственник миллионера, который пригласил вас на выходные в свой особняк. Он хотел обсудить завещание.
-                                            Вечер пятницы проходил вполне себе спокойно, пока прислуга не обнаружила лорда Четвела мертвым. А ведь вы - на его личном острове, и никто не мог
-                                            проникнуть сюда незамеченным. Будет ли убийца убивать и дальше? И почему при лорде Четвеле были найдены сережки тети Эдны?
-                                            Количество участников: от 4 до 12<br>
+                                        <h4 class="card-title">Героический квест "Эпическая история"</h4>
+                                        <p class="card-text-justify"><strong>Для любителей средневековья, компьютерных игр "Skyrim", "Risen", "Dragon Age" и "Fable" </strong><br>
+                                        <div class="text-justify">В этом квесте ребята поучаствуют в легендарной схватке Добра со Злом. Причем они могут быть как на стороне Добра, так и Зла.
+                                       Им предстоит найти Избранного, переманить его на свою сторону, сразиться друг с другом и спасти мир!
+                                        Или просто смотреть как мир сгорает в огне, под их зловещий смех!
+                                        <br>
+                                           Количество участников: от 6 до 16<br>
                                             Стоимость: 5 300 руб.<br>
                                             Длительность: 2 часа
-                                        </p>
+                                        </div> </p>
                                         <footer class="align-center">
-                                            <div class="text-center">Квест находится в разработке!</div>
+                                            <a href="worldEye" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
+                                            <a href="registration" class="btn btn-lg btn-success">Заказать квест</a>
                                         </footer>
                                     </div>
                                 </div>
+                                </h3>
                             </div>
                         </div>
                         <br>
-                        <div class="container-fluid">
+                        <div class="container-fluid container-center">
                             <div class="row">
                                 <div class="col-sm">
                                     <div class="card-header text-center"><h1>Стоимость:</h1>
@@ -212,11 +224,10 @@
                                             заказываемых услуг</h3></div>
                                         <br>
                                     </div>
-
-                                    <table class="table table-striped table-responsive-lg">
+                                    <table class="table table-striped table-responsive-lg table-center">
                                         <thead class="thead-success">
                                         <tr>
-                                            <th scope="col"></th>
+                                            <th scope="col" ></th>
                                             <th scope="col">Экономный</th>
                                             <th scope="col">Стандарт</th>
                                             <th scope="col">Премиум</th>
@@ -272,7 +283,7 @@
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">Ди-джей</th>
+                                            <th scope="row">Детская дискотека</th>
                                             <td></td>
                                             <td></td>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
@@ -281,7 +292,7 @@
                                             <th scope="row">Стоимость</th>
                                             <td>5 300</td>
                                             <td>7 300</td>
-                                            <td>10 800 </td>
+                                            <td>11 800 </td>
                                         </tr>
                                         <tr>
                                             <td colspan="4" class="text-center"><a href="tel:+7951 669 60 94"><h3>Ответим на все ваши вопросы: +7951 669 60 94</h3></a></td>
@@ -289,43 +300,46 @@
                                         </tbody>
                                     </table>
                                 </div>
+                                <br>
                             </div>
                         </div>
-                    </div>
-                        <br>
                         <div class="container-fluid">
                             <div class="mycard">
-                                <div class="card-header text-center"><h1>Отзывы о наших детективных квестах:</h1>
-                                    </strong>
+                                <div class="card-header text-center"><strong><h1>Отзывы об играх:</h1>
+                                </strong>
                                     <br>
                                     <div class="col-sm align-center">
-                                        <img src="resources\images\detective\5.png" class="img-fluid img-thumbnail">
+                                        <img src="resources\images\teens\8.png" class="img-fluid img-thumbnail">
                                     </div>
+                                    <br>
+                                    <div class="col-sm align-center">
+                                        <img src="resources\images\teens\9.png" class="img-fluid img-thumbnail">
+                                    </div>
+                                    <br>
+                                    <div class="col-sm align-center">
+                                        <img src="resources\images\teens\10.png" class="img-fluid img-thumbnail">
+                                    </div>
+                                </div>
                                 <br>
-                                <div class="col-sm align-center">
-                                <img src="resources\images\detective\6.png" class="img-fluid img-thumbnail">
-                                 </div>
-                                 <br>
-                             <div class="col-sm align-center">
-                            <img src="resources\images\detective\7.png" class="img-fluid img-thumbnail">
-                              </div>
+                            </div>
                         </div>
+
                         <br>
-                    </div>
-                    <div class="card-header text-center"><h2>Где провести праздник?</h2>
-                        </strong>
-                        <div class="text-center"><h3>Мы можем провести мероприятие у вас дома, в любом баре и даже на свежем воздухе!</h3></div>
-                        <br>
+                        <div class="card-header text-center"><h2>Где провести праздник?</h2>
+                            </strong>
+                            <div class="text-center"><h3>Мы можем провести мероприятие у вас дома, в любом кафе и даже на свежем воздухе!</h3></div>
+                            <br>
+                        </div>
                     </div>
                     <div class="card-deck">
                         <div class="card">
-                            <img class="card-img-top" src="resources\images\detective\4.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="resources\images\places\2.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Бар "Mollies' Mews</h5>
-                                <p class="card-text-justify">Бар - отличное место для расследования преступления. Антуражные помещения,
-                                    индивидуальный зал и подходящая музыка настроят вас на нужный лад.<br>
-                                    Адрес: ул. Большая Конюшенная, 5<br>
-                                    Вместимость: до 14 человек
+                                <h5 class="card-title">Арт-пространство "Замок на Невском"</h5>
+                                <p class="card-text-justify">Пространство находится прямо на Невском проспекте и оформлено в стиле средневекового замка.
+                                    Можно почувствовать себя настоящим Императором и посидеть на настоящем троне. Можно приносить свою еду и напитки. Алкоголь по пробковому сбору.<br>
+                                    Адрес: Невский пр., 74-76<br>
+                                    Вместимость: до 55 человек
                                 </p>
                             </div>
                         </div>
@@ -362,29 +376,28 @@
                             <div class="card-body">
                                 <h5 class="card-title">Классическая "мафия"</h5>
                                 <p class="card-text-justify">Наши ведущие "мафии" - лучше всех! Мы проводим как классическую мафию, так
-                                    и "вампирскую", например. Кроме того, мы можем принести с собой детективные настольные игры: "Cluedo", "Джентельменская сделка"<br>
+                                    и "вампирскую", например.<br>
                                     Стоимость: 1 500р. за час игры
                                 </p>
                             </div>
                         </div>
                         <div class="card">
-                            <img class="card-img-top" src="resources\images\additionalService\3.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="resources\images\teens\11.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Световое (огненное) шоу</h5>
-                                <p class="card-text-justify">Мы выключаем свет и... вы погружаетесь в мир китайских драконов и магов огня!
-                                    Шоу оставляет только самые приятные впечатления!
+                                <h5 class="card-title">Огненное (световое) шоу</h5>
+                                <p class="card-text-justify">Мы выключаем свет, и показываем вам настоящую огненную магию!
                                     <br>
                                     Стоимость: 3 000р. за танец
                                 </p>
                             </div>
                         </div>
                         <div class="card">
-                            <img class="card-img-top" src="resources\images\detective\3.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="resources\images\teens\12.JPG" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Мастер-классы</h5>
-                                <p class="card-text-justify">Мы можем провести мастер класс по созданию и раскраске сувенирных пистолетов, букетов и бокалов
+                                <h5 class="card-title">Настольные игры</h5>
+                                <p class="card-text-justify">Мы можем провести для ребят игру в "Ужас Аркхема", "Джентельменскую сделку" и другие настолки!
                                     <br>
-                                    Стоимость: от 3 000р. за мастер-класс
+                                    Стоимость: 1 000 р. за час игры
                                 </p>
                             </div>
                         </div>
@@ -395,7 +408,7 @@
                         <br><br>
                         We have the menu in english!<br><br></h3>
                     <footer class="align-center">
-                        <a href="index#ourQuests" class="btn btn-lg btn-outline-primary">Выбрать другой квест</a>
+                        <a href="index#ourQuests" class="btn btn-lg btn-outline-primary">Выбрать квест</a>
                         <a href="registration" class="btn btn-lg btn-success">Забронировать игру</a>
                     </footer>
                 </div>

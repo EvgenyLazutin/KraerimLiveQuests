@@ -180,4 +180,9 @@ public class maincontroller {
     public String getDetective() {
         return "detective";
     }
+
+    @RequestMapping(value="/teens", method=RequestMethod.GET)
+    public String getTeens() {
+        return "teens";
+    }
 }

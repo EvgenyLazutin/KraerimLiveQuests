@@ -58,10 +58,10 @@
     <ul class="links">
         <li><a href="index">Главная</a></li>
         <li><a href="corporate">День Рождения</a></li>
+        <li><a href="teens">Для подростков</a></li>
         <li><a href="corporate">Корпоратив</a></li>
         <li><a href="detective">Детективные квесты</a></li>
         <li><a href="index#ourQuests">Все квесты</a></li>
-                <li><a href="gallery">Галерея</a></li>
         <li><a href="reviews">Отзывы</a></li>
         <li><a href="contacts">Контакты</a></li>
         <li><a href="registration">Заказать игру</a></li>
@@ -84,8 +84,8 @@
         <div class="box">
             <div class="content">
                 <header class="align-center">
-                    <h2><strong>День Рождения</strong></h2>
-                    <h3><strong>Праздники для детей от 8 лет, 10 лет, 12 лет</strong></h3>
+                    <h2><strong>День Рождения<br></strong></h2>
+                     <h3><strong>Праздники для детей от 8 лет, 10 лет, 12 лет</strong></h3>
                     <div class="text-justify">У вашего ребенка скоро день рождения, и вы не знаете, чем его удивить в этот раз? К тому же,
                         у именинника целая куча друзей и квест-комната вам не подходит? Ребенку хочется чего-то необычного и, возможно, магического или страшного? Причем, чего-то такого,
                         чтобы увлечь всех гостей, даже тихонь?
