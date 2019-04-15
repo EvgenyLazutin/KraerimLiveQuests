@@ -35,9 +35,9 @@
         gtag('config', 'UA-119774437-1');
     </script>
 
-    <title>Детский день рождения с квестом!</title>
-    <meta name= "description" content = "Детский праздник">
-    <meta name= "keywords" content = "день рождения ребенка, праздник для ребенка, квест для детей, квест 10 детей, праздник 8 лет">
+    <title>День рождения подростка с живым квестом!</title>
+    <meta name= "description" content = "День рождения подростка с живым квестом">
+    <meta name= "keywords" content = "день рождения подростка, большая компания тинейджеров, праздник для подростка, игры для подростков, интересный д.р. для подростка">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/resources/assets/css/main.css" />
