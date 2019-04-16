@@ -92,18 +92,24 @@
             <img src="/resources/images/indeximages/Logotip3.png" alt="" itemprop="logo">
             <span></span>
         </a>
-
-        <nav class="top_menu">
-            <ul>
-                <li class="b-navbar_item"><a href="birthday" class="root-item">Для взрослых</a></li>
-                <li class="b-navbar_item"><a href="kids" class="root-item">Для детей</a></li>
-                <li class="b-navbar_item"><a href="teens" class="root-item">Для подростков</a></li>
-                <li class="b-navbar_item"><a href="corporate" class="root-item">Корпоратив</a></li>
-                <li class="b-navbar_item"><a href="detective" class="root-item">Детективные квесты</a></li>
-                <li class="b-navbar_item"><a href="registration" class="root-item">Заказать игру</a></li>
-                <li class="b-navbar_item"><a href="reviews" class="root-item">Отзывы</a></li>
-                <li class="b-navbar_item"><a href="contacts" class="root-item">Контакты</a></li>
-            </ul>
+        <nav class="top_menu top_menu-expand-lg fixed-top">
+            <div class="btn-group">
+                <div class="dropdown">
+                    <button class="btn btn-success btn-lg dropdown-toggle" data-toggle="dropdown">
+                        День Рождения
+                    </button>
+                    <ul class="dropdown-menu bg-success align-center">
+                       <button class="btn btn-success"><a href="birthday"> Для взрослых</a></button><br>
+                        <button class="btn btn-success"><a href="kids">Для детей</a></button><br>
+                            <button class="btn btn-success"><a href="teens">Для подростков</a></button><br>
+                    </ul>
+                </div>
+            </div>
+            <button type="button" class="btn btn-lg btn-success"><a href="corporate">Корпоратив</a></button>
+            <button type="button" class="btn btn-lg btn-success"><a href="detective">Детективные квесты</a></button>
+            <button type="button" class="btn btn-lg btn-success"><a href="registration">Заказать игру</a></button>
+            <button type="button" class="btn btn-lg btn-success"><a href="reviews">Отзывы</a></button>
+            <button type="button" class="btn btn-lg btn-success"><a href="contacts">Контакты</a></button>
         </nav>
 
         <div class="topbar_right">
@@ -111,16 +117,17 @@
                 <li class="map_container">
                     <div class="map_icon"></div>
                     <a>Санкт-Петербург <br> <br></a>
-                    <a>+7 951 669 60 94</a>
+                    <a href="tel:+7 951 669 60 94">+7 951 669 60 94</a>
                 </li>
             </ul>
         </div>
 
-        <div class="topbar_mobile">
+        <div class="topbar_mobile align-center">
             <ul>
                 <li class="map_container">
                     <div class="map_icon"></div>
-                    <a>Санкт-Петербург</a>
+                    <a>Санкт-Петербург</a><br>
+                    <a href="tel:+7 951 669 60 94">+7 951 669 60 94</a>
                 </li>
                 <li class="menu_mobile">Меню</li>
             </ul>
@@ -132,7 +139,7 @@
         <div class="close_button"></div>
         <nav class="mobile_sub_menu">
             <ul>
-                <li class="b-navbar_item"><a href="birthday" class="root-item">Для взрослых</a></li>
+                <li class="b-navbar_item"><a href="birthday" class="root-item"> День рождения</a></li>
                 <li class="b-navbar_item"><a href="kids" class="root-item">Для детей</a></li>
                 <li class="b-navbar_item"><a href="teens" class="root-item">Для подростков</a></li>
                 <li class="b-navbar_item"><a href="corporate" class="root-item">Корпоратив</a></li>
@@ -538,6 +545,12 @@
 </footer>
 
 <!-- Scripts -->
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 <script src="/resources/assets/js/jquery.min.js"></script>
 <script src="/resources/assets/js/jquery.scrollex.min.js"></script>
 <script src="/resources/assets/js/skel.min.js"></script>
