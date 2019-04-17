@@ -171,7 +171,7 @@
                                         Длительность: 1,5 часа</div> </p>
                                         <footer class="align-center">
                                             <a href="fairyTale" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
-                                            <a href="registration" class="btn btn-lg btn-success">Заказать квест</a>
+                                            <a href="registration" class="btn btn-lg btn-success">Спасти Сказку!</a>
                                         </footer>
                                     </div>
                                 </div>
@@ -190,7 +190,7 @@
                                         </p>
                                         <footer class="align-center">
                                             <a href="madWorld" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
-                                            <a href="registration" class="btn btn-lg btn-success">Заказать квест</a>
+                                            <a href="registration" class="btn btn-lg btn-success">Спасти мир!</a>
                                         </footer>
                                     </div>
                                 </div>
@@ -209,7 +209,7 @@
                                         </div> </p>
                                             <footer class="align-center">
                                                 <a href="houseInTheVillage" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
-                                                <a href="registration" class="btn btn-lg btn-success">Заказать квест</a>
+                                                <a href="registration" class="btn btn-lg btn-success">Исследовать домик!</a>
                                             </footer>
                                     </div>
                                 </div>

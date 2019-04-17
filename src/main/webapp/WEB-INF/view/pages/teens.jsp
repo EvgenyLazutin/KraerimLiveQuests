@@ -169,7 +169,7 @@
                                             Длительность: 2 часа</div> </p>
                                         <footer class="align-center">
                                             <a href="zombiequest" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
-                                            <a href="registration" class="btn btn-lg btn-success">Заказать квест</a>
+                                            <a href="registration" class="btn btn-lg btn-success">Мочить зомби!</a>
                                         </footer>
                                     </div>
                                 </div>
@@ -188,7 +188,7 @@
                                         </p>
                                         <footer class="align-center">
                                             <a href="madWorld" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
-                                            <a href="registration" class="btn btn-lg btn-success">Заказать квест</a>
+                                            <a href="registration" class="btn btn-lg btn-responsive btn-success">Спасти мир!</a>
                                         </footer>
                                     </div>
                                 </div>
@@ -207,7 +207,7 @@
                                         </div> </p>
                                         <footer class="align-center">
                                             <a href="worldEye" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
-                                            <a href="registration" class="btn btn-lg btn-success">Заказать квест</a>
+                                            <a href="registration" class="btn btn-lg btn-success">Стать героем!</a>
                                         </footer>
                                     </div>
                                 </div>

@@ -162,7 +162,7 @@
                 <h3>По вашему желанию мы проведем игру в любом месте и в любое время. Поможем с выбором помещения для игры, приведем фотографа и аквагримера, закажем торт.</h3>
                 <footer class="align-center">
                     <a href="index#ourQuests" class="btn btn-lg btn-outline-primary">Выбрать другой квест</a>
-                    <a href="registration" class="btn btn-lg btn-success">Заказать квест</a>
+                    <a href="registration" class="btn btn-lg btn-success">Спасти Сказку!</a>
                 </footer>
             </div>
         </div>

@@ -227,7 +227,7 @@
                     16+</p>
                 <footer class="align-center">
                     <a href="masquerade" class="btn btn-outline-primary">Узнать больше</a>
-                    <a href="registration" class="btn btn-success">Заказать игру</a>
+                    <a href="registration" class="btn btn-success">Отправиться на бал!</a>
                 </footer>
             </div>
         </div>
@@ -245,7 +245,7 @@
                     14+</p>
                 <footer class="align-center">
                     <a href="madWorld" class="btn btn-outline-primary">Узнать больше</a>
-                    <a href="registration" class="btn btn-success ">Заказать игру</a>
+                    <a href="registration" class="btn btn-success ">Погрузиться в безумие!</a>
                 </footer>
             </div>
         </div>
@@ -265,7 +265,7 @@
                     18+</p>
                 <footer class="align-center">
                     <a href="gangstaParty" class="btn btn-outline-primary">Узнать больше</a>
-                    <a href="registration" class="btn btn-success ">Заказать игру</a>
+                    <a href="registration" class="btn btn-success ">Стать мафиози</a>
                 </footer>
             </div>
         </div>
@@ -293,7 +293,7 @@
                     16+</p>
                 <footer class="align-center">
                     <a href="murderMonastery" class="btn btn-outline-primary">Узнать больше</a>
-                    <a href="registration" class="btn btn-success ">Заказать игру</a>
+                    <a href="registration" class="btn btn-success ">Расследовать убийство</a>
                 </footer>
             </div>
         </div>
@@ -312,7 +312,7 @@
                     16+</p>
                 <footer class="align-center">
                     <a href="sherWood" class="btn btn-outline-primary">Узнать больше</a>
-                    <a href="registration" class="btn btn-success ">Заказать игру</a>
+                    <a href="registration" class="btn btn-success ">Спасти Англию</a>
                 </footer>
             </div>
         </div>
@@ -332,7 +332,7 @@
                     16+</p>
                 <footer class="align-center">
                     <a href="spaceAroundUs" class="btn btn-outline-primary">Узнать больше</a>
-                    <a href="registration" class="btn btn-success ">Заказать игру</a>
+                    <a href="registration" class="btn btn-success ">Поехали!</a>
                 </footer>
             </div>
         </div>
@@ -358,7 +358,7 @@
                     9+</p>
                 <footer class="align-center">
                     <a href="fairyTale" class="btn btn-outline-primary">Узнать больше</a>
-                    <a href="registration" class="btn btn-success">Заказать игру</a>
+                    <a href="registration" class="btn btn-success">Спасти Сказку!</a>
                 </footer>
             </div>
         </div>
@@ -378,7 +378,7 @@
                     16+</p>
                 <footer class="align-center">
                     <a href="worldEye" class="btn btn-outline-primary">Узнать больше</a>
-                    <a href="registration" class="btn btn-success ">Заказать игру</a>
+                    <a href="registration" class="btn btn-success ">Стать героем</a>
                 </footer>
             </div>
         </div>
@@ -397,7 +397,7 @@
                     16+</p>
                 <footer class="align-center">
                     <a href="police" class="btn btn-outline-primary">Узнать больше</a>
-                    <a href="registration" class="btn btn-success ">Заказать игру</a>
+                    <a href="registration" class="btn btn-success ">Расследовать кражу</a>
                 </footer>
             </div>
         </div>
@@ -422,7 +422,7 @@
                     16+</p>
                 <footer class="align-center">
                     <a href="zombiequest" class="btn btn-outline-primary">Узнать больше</a>
-                    <a href="registration" class="btn btn-success ">Заказать игру</a>
+                    <a href="registration" class="btn btn-success ">Мочить зомби</a>
                 </footer>
             </div>
 
@@ -442,7 +442,7 @@
                     13+</p>
                 <footer class="align-center">
                     <a href="houseInTheVillage" class="btn btn-outline-primary">Узнать больше</a>
-                    <a href="registration" class="btn btn-success">Заказать игру</a>
+                    <a href="registration" class="btn btn-success">Обследовать домик</a>
                 </footer>
             </div>
         </div>

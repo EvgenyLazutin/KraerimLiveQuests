@@ -159,7 +159,7 @@
                                             Длительность: 2 часа</p>
                                         <footer class="align-center">
                                             <a href="murderMonastery" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
-                                            <a href="registration" class="btn btn-lg btn-success">Заказать квест</a>
+                                            <a href="registration" class="btn btn-lg btn-success">Уйти в монастырь</a>
                                         </footer>
                                     </div>
                                 </div>
@@ -179,7 +179,7 @@
                                         </p>
                                         <footer class="align-center">
                                             <a href="police" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
-                                            <a href="registration" class="btn btn-lg btn-success">Заказать квест</a>
+                                            <a href="registration" class="btn btn-lg btn-success">Стать детективом</a>
                                         </footer>
                                     </div>
                                 </div>

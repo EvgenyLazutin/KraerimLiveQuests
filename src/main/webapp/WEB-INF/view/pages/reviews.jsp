@@ -43,7 +43,7 @@
     <link rel="stylesheet" href="/resources/assets/css/font-awesome.min.css"/>
     <link rel="shortcut icon" href="/resources/images/indeximages/logo_icon_small.png" type="image/png">
 </head>
-<body class="subpage">
+<div class="subpage"></div>
 
 <!-- Header -->
 <header id="header">
@@ -85,62 +85,62 @@
 
 <div class="container-fluid">
    <div class="mycard">
-                <div class="text-center blackbackground">
-                    <div class="card-header"><strong><h1>Ваши отзывы</h1></strong>
-                        <p class="text-white h3"> Постите фотографии в ВК и Instagram с хештегом #краерим, и получайте 10% скидку на следующую игру!</p>
+       <div class="text-center blackbackground">
+           <div class="card-header"><strong><h1>Ваши отзывы</h1></strong>
+               <p class="text-white h3"> Постите фотографии в ВК и Instagram с хештегом #краерим, и получайте 10% скидку на следующую игру!</p>
+               <br>
+                    <div class="col-sm align-center">
+                         <img src="resources\images\Reviews\1.png" class="img-fluid img-thumbnail">
                     </div>
-                       <br>
-<div class="col-sm align-center">
-    <img src="resources\images\Reviews\1.png" class="img-fluid img-thumbnail">
-              </div>
-    </div>
-       </div>
+                        <br>
+                <div class="col-sm align-center">
+                    <img src="resources\images\Reviews\2.png" class="img-fluid img-thumbnail">
+                 </div>
+
     <br>
-    <div class="col-sm align-center">
-        <img src="resources\images\Reviews\2.png" class="img-fluid img-thumbnail">
+            <div class="col-sm align-center">
+                 <img src="resources\images\Reviews\3.png" class="img-fluid img-thumbnail">
+            </div>
+    <br>
+            <div class="col-sm align-center">
+                  <img src="resources\images\Reviews\4.png" class="img-fluid img-thumbnail">
+            </div>
+    <br>
+            <div class="col-sm align-center">
+                  <img src="resources\images\Reviews\5.png" class="img-fluid img-thumbnail">
+            </div>
+    <br>
+            <div class="col-sm align-center">
+                  <img src="resources\images\Reviews\6.png" class="img-fluid img-thumbnail">
+            </div>
+    <br>
+            <div class="col-sm align-center">
+                  <img src="resources\images\Reviews\7.png" class="img-fluid img-thumbnail">
+            </div>
+    <br>
+            <div class="col-sm align-center">
+                  <img src="resources\images\Reviews\8.png" class="img-fluid img-thumbnail">
+            </div>
+    <br>
+            <div class="col-sm align-center">
+                  <img src="resources\images\Reviews\9.png" class="img-fluid img-thumbnail">
+            </div>
+    <br>
+            <div class="col-sm align-center">
+                  <img src="resources\images\Reviews\10.png" class="img-fluid img-thumbnail">
+            </div>
+               <br>
+            <div class="col-sm align-center">
+                  <img src="resources\images\Reviews\11.png" class="img-fluid img-thumbnail">
+            </div>
+        <br>
+             <div class="col-sm align-center">
+                  <img src="resources\images\Reviews\12.png" class="img-fluid img-thumbnail">
+             </div>
         </div>
     </div>
-<br>
-<div class="col-sm align-center">
-    <img src="resources\images\Reviews\3.png" class="img-fluid img-thumbnail">
-</div>
-<br>
-<div class="col-sm align-center">
-    <img src="resources\images\Reviews\4.png" class="img-fluid img-thumbnail">
-</div>
-<br>
-<div class="col-sm align-center">
-    <img src="resources\images\Reviews\5.png" class="img-fluid img-thumbnail">
-</div>
-<br>
-<div class="col-sm align-center">
-    <img src="resources\images\Reviews\6.png" class="img-fluid img-thumbnail">
-</div>
-<br>
-<div class="col-sm align-center">
-    <img src="resources\images\Reviews\7.png" class="img-fluid img-thumbnail">
-</div>
-<br>
-<div class="col-sm align-center">
-    <img src="resources\images\Reviews\8.png" class="img-fluid img-thumbnail">
-</div>
-<br>
-<div class="col-sm align-center">
-    <img src="resources\images\Reviews\9.png" class="img-fluid img-thumbnail">
-</div>
-<br>
-<div class="col-sm align-center">
-    <img src="resources\images\Reviews\10.png" class="img-fluid img-thumbnail">
-</div>
-<br>
-<div class="col-sm align-center">
-    <img src="resources\images\Reviews\11.png" class="img-fluid img-thumbnail">
-</div>
-<br>
-<div class="col-sm align-center">
-    <img src="resources\images\Reviews\12.png" class="img-fluid img-thumbnail">
-</div>
-</div>
+   </div>
+</body>
 <br>
 <footer class="align-center">
     <a href="index#ourQuests" class="btn btn-lg btn-outline-primary">Выбрать квест</a>
@@ -148,6 +148,7 @@
 </footer>
 <br>
 </div>
+
 
 
 <!-- Footer -->
