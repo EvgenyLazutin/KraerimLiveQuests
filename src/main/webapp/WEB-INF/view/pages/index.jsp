@@ -12,7 +12,8 @@
         ym(53205610, "init", {
             clickmap:true,
             trackLinks:true,
-            accurateTrackBounce:true
+            accurateTrackBounce:true,
+            webvisor:true
         });
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/53205610" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
@@ -232,7 +233,7 @@
             </div>
         </div>
         <div class="card">
-            <img class="card-img-top img-fluid img-thumbnail width: 50% "
+            <img class="card-img-top img-fluid img-thumbnail"
                  src="/resources/images/madWorld/headerMadWorld.jpg" alt="Card image cap Responsive image ">
             <div class="card-body">
                 <h2 class="card-title align-center">Живой квест "Этот безумный мир"</h2>

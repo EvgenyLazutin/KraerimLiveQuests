@@ -20,7 +20,8 @@
         ym(53205610, "init", {
             clickmap:true,
             trackLinks:true,
-            accurateTrackBounce:true
+            accurateTrackBounce:true,
+            webvisor:true
         });
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/53205610" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
@@ -143,8 +144,7 @@
                 <div class="container-fluid">
                     <div class="mycard">
                         <div class="card-header text-center"><h1>Наши детективные квесты</h1>
-                            </strong>
-                            <br>
+                              <br>
                             <div class="card-group">
                                 <div class="card">
                                     <img class="card-img-top" src="resources\images\detective\8.jpg" alt="Card image cap">
@@ -176,7 +176,6 @@
                                             Количество участников: от 6 до 20<br>
                                             Стоимость: 5 300 руб.<br>
                                             Длительность: 1,5 часа</p>
-                                        </p>
                                         <footer class="align-center">
                                             <a href="police" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
                                             <a href="registration" class="btn btn-lg btn-success">Стать детективом</a>
@@ -207,7 +206,6 @@
                             <div class="row">
                                 <div class="col-sm">
                                     <div class="card-header text-center"><h1>Стоимость:</h1>
-                                        </strong>
                                         <div class="text-center"><h3>Цена указана до 10 человек и может измениться в зависимости от
                                             заказываемых услуг</h3></div>
                                         <br>
@@ -296,7 +294,6 @@
                         <div class="container-fluid">
                             <div class="mycard">
                                 <div class="card-header text-center"><h1>Отзывы о наших детективных квестах:</h1>
-                                    </strong>
                                     <br>
                                     <div class="col-sm align-center">
                                         <img src="resources\images\detective\5.png" class="img-fluid img-thumbnail">
@@ -313,7 +310,6 @@
                         <br>
                     </div>
                     <div class="card-header text-center"><h2>Где провести праздник?</h2>
-                        </strong>
                         <div class="text-center"><h3>Мы можем провести мероприятие у вас дома, в любом баре и даже на свежем воздухе!</h3></div>
                         <br>
                     </div>
@@ -352,7 +348,6 @@
                     </div>
 
                     <div class="card-header text-center"><h2>Дополнительные услуги</h2>
-                        </strong>
                         <div class="text-center"><h3>Кроме самого квеста, мы можем разнообразить ваш праздник различными выступлениями, и даже классической "мафией"</h3></div>
                         <br>
                     </div>

@@ -20,7 +20,8 @@
         ym(53205610, "init", {
             clickmap:true,
             trackLinks:true,
-            accurateTrackBounce:true
+            accurateTrackBounce:true,
+            webvisor:true
         });
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/53205610" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
@@ -72,8 +73,8 @@
 <section id="one" class="wrapper style3" onclick="location.href='index'">
     <div class="inner">
         <header class="align-center">
-            <p>Узнай, что за краем мира</p>
-            <h2>Краерим. Живые квесты</h2>
+            <p>Лучше квесты для подростков в Санкт-Петербурге на дом или на природу</p>
+            <h2>Праздник для подростков от 13 лет</h2>
         </header>
     </div>
 </section>
@@ -83,16 +84,79 @@
     <div class="inner">
         <div class="box">
             <div class="content">
-                <header class="align-center">
-                    <h2><strong>Лучше квесты для подростков в Санкт-Петербурге на дом или на природу<br></strong></h2>
-                    <h3><strong>Праздник для подростков от 13 лет</strong></h3>
-                    <div class="text-justify">Подростки обычно хотят самостоятельно принимать решения и не зависеть от родителей.
-                        Они уже перепробовали все квест-комнаты и хотят чего-то необычного? Или наоборот, они все время сидят в телефонах, и их трудно оторвать от гаджета?
-                        Тогда "живой квест" - это то, что вам нужно! Это как компьютерная игра, только вживую.
-
-                        <br><br>
+                <div class="hero-image text-center">
+                    <div class="hero-text">
+                        <h1 style="font-size:40px;padding-top: 10px;"><strong>Весенняя акция!</strong></h1>
+                        <h3><strong>Фотограф в подарок к любой игре!</strong></h3>
+                        <h4><strong>*Акция действует только при заказе с сайта или по телефону: <a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></strong></h4>
+                        <a href="registration" class="btn btn-lg btn-success" style="margin-bottom: 5px;" >Уже интересно!</a>
                     </div>
-                </header>
+                </div>
+                <br>
+                <div class="container-fluid">
+                    <div class="mycard">
+                        <div class="card-header text-center"><h1>Живые квесты, идеально подходящие для Дня рождения подростка</h1>
+                            </strong>
+                            <br>
+                            <div class="card-group">
+                                <div class="card">
+                                    <img class="card-img-top" src="resources\images\teens\5.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Квест-боевик "Зомби-апокалипсис"</h4>
+                                        <p class="card-text"><strong>Для тех, кто фанатеет от "Ходячих мертвецов", "Left 4 Dead" или "Resident Evil"</strong><br>
+                                        <div class="text-justify">В этом квесте ребята оказываются запертыми в бункере без запасов еды и воды. Вокруг бункера бродят зомби, связь не работает,
+                                            а некоторые из запертых в бункере выглядят довольно нездоровыми...
+                                            Что же делать, как выбраться из бункера, и нужно ли пожертвовать кем-то из друзей, чтобы спастись самому?<br>
+                                            Количество участников: от 6 до 25<br>
+                                            Стоимость: 5 300 руб.<br>
+                                            Длительность: 2 часа</div> </p>
+                                        <footer class="align-center">
+                                            <a href="zombiequest" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
+                                            <a href="registration" class="btn btn-lg btn-success">Мочить зомби!</a>
+                                        </footer>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img class="card-img-top" src="resources\images\teens\6.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Квест-шутка "Этот безумный мир"</h4>
+                                        <p class="card-text-justify"><strong>Для фанатов Гарри Поттера, Терри Пратчетта, фэнтези и игр "Magica"</strong><br>
+                                        <div class="text-justify">В этом квесте тинейджеры становятся безумными волшебниками! В Магической библиотеке произошел взрыв, в результате которого
+                                            из Книги Великих Магических Заклинаний вырвалось одно заклинание... Оно немного изменило реальность, и теперь к Плоскому миру
+                                            летит огромный красный метеорит! А еще, стали открываться порталы, из которых выходят разгневанные боги. А все волшебники
+                                            сошли с ума и не помнят ни одного заклинания. Что же делать? Что делать?!<br>
+                                            Количество участников: от 6 до 16<br>
+                                            Стоимость: 5 300 руб.<br>
+                                            Длительность: 2 часа</div></p>
+                                        </p>
+                                        <footer class="align-center">
+                                            <a href="madWorld" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
+                                            <a href="registration" class="btn btn-lg btn-responsive btn-success">Спасти мир!</a>
+                                        </footer>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img class="card-img-top" src="resources\images\teens\7.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Героический квест "Эпическая история"</h4>
+                                        <p class="card-text-justify"><strong>Для любителей средневековья, компьютерных игр "Skyrim", "Risen", "Dragon Age" и "Fable" </strong><br>
+                                        <div class="text-justify">В этом квесте ребята поучаствуют в легендарной схватке Добра со Злом. Причем они могут быть как на стороне Добра, так и Зла.
+                                            Им предстоит найти Избранного, переманить его на свою сторону, сразиться друг с другом и спасти мир!
+                                            Или просто смотреть как мир сгорает в огне, под их зловещий смех!
+                                            <br>
+                                            Количество участников: от 6 до 16<br>
+                                            Стоимость: 5 300 руб.<br>
+                                            Длительность: 2 часа
+                                        </div> </p>
+                                        <footer class="align-center">
+                                            <a href="worldEye" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
+                                            <a href="registration" class="btn btn-lg btn-success">Стать героем!</a>
+                                        </footer>
+                                    </div>
+                                </div>
+                                </h3>
+                            </div>
+                        </div>
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-xs">
@@ -150,70 +214,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="container-fluid">
-                    <div class="mycard">
-                        <div class="card-header text-center"><h1>Живые квесты, идеально подходящие для Дня рождения подростка</h1>
-                            </strong>
-                            <br>
-                            <div class="card-group">
-                                <div class="card">
-                                    <img class="card-img-top" src="resources\images\teens\5.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Квест-боевик "Зомби-апокалипсис"</h4>
-                                        <p class="card-text"><strong>Для тех, кто фанатеет от "Ходячих мертвецов", "Left 4 Dead" или "Resident Evil"</strong><br>
-                                        <div class="text-justify">В этом квесте ребята оказываются запертыми в бункере без запасов еды и воды. Вокруг бункера бродят зомби, связь не работает,
-                                        а некоторые из запертых в бункере выглядят довольно нездоровыми...
-                                        Что же делать, как выбраться из бункера, и нужно ли пожертвовать кем-то из друзей, чтобы спастись самому?<br>
-                                            Количество участников: от 6 до 25<br>
-                                            Стоимость: 5 300 руб.<br>
-                                            Длительность: 2 часа</div> </p>
-                                        <footer class="align-center">
-                                            <a href="zombiequest" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
-                                            <a href="registration" class="btn btn-lg btn-success">Мочить зомби!</a>
-                                        </footer>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img class="card-img-top" src="resources\images\teens\6.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Квест-шутка "Этот безумный мир"</h4>
-                                        <p class="card-text-justify"><strong>Для фанатов Гарри Поттера, Терри Пратчетта, фэнтези и игр "Magica"</strong><br>
-                                        <div class="text-justify">В этом квесте тинейджеры становятся безумными волшебниками! В Магической библиотеке произошел взрыв, в результате которого
-                                            из Книги Великих Магических Заклинаний вырвалось одно заклинание... Оно немного изменило реальность, и теперь к Плоскому миру
-                                            летит огромный красный метеорит! А еще, стали открываться порталы, из которых выходят разгневанные боги. А все волшебники
-                                            сошли с ума и не помнят ни одного заклинания. Что же делать? Что делать?!<br>
-                                            Количество участников: от 6 до 16<br>
-                                            Стоимость: 5 300 руб.<br>
-                                            Длительность: 2 часа</div></p>
-                                        </p>
-                                        <footer class="align-center">
-                                            <a href="madWorld" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
-                                            <a href="registration" class="btn btn-lg btn-responsive btn-success">Спасти мир!</a>
-                                        </footer>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img class="card-img-top" src="resources\images\teens\7.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Героический квест "Эпическая история"</h4>
-                                        <p class="card-text-justify"><strong>Для любителей средневековья, компьютерных игр "Skyrim", "Risen", "Dragon Age" и "Fable" </strong><br>
-                                        <div class="text-justify">В этом квесте ребята поучаствуют в легендарной схватке Добра со Злом. Причем они могут быть как на стороне Добра, так и Зла.
-                                       Им предстоит найти Избранного, переманить его на свою сторону, сразиться друг с другом и спасти мир!
-                                        Или просто смотреть как мир сгорает в огне, под их зловещий смех!
-                                        <br>
-                                           Количество участников: от 6 до 16<br>
-                                            Стоимость: 5 300 руб.<br>
-                                            Длительность: 2 часа
-                                        </div> </p>
-                                        <footer class="align-center">
-                                            <a href="worldEye" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
-                                            <a href="registration" class="btn btn-lg btn-success">Стать героем!</a>
-                                        </footer>
-                                    </div>
-                                </div>
-                                </h3>
-                            </div>
-                        </div>
                         <br>
                         <div class="container-fluid container-center">
                             <div class="row">
@@ -296,6 +296,9 @@
                                         </tr>
                                         <tr>
                                             <td colspan="4" class="text-center"><a href="tel:+7951 669 60 94"><h3>Ответим на все ваши вопросы: +7951 669 60 94</h3></a></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="4" class="text-center"><a href="registration.jsp" class="btn btn-lg btn-success" >Перезвоните мне!</a></td>
                                         </tr>
                                         </tbody>
                                     </table>

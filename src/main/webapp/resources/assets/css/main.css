@@ -3629,3 +3629,26 @@ body.is-mobile .banner > article {
     }
 
 }
+/* Hero image */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+    background-image: url("https://cdn.pixabay.com/photo/2014/04/14/20/11/japanese-cherry-trees-324175_960_720.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 250px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: inherit;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
