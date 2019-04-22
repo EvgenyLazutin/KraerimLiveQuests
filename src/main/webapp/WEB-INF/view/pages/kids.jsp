@@ -70,7 +70,7 @@
 </nav>
 
 <!-- One -->
-<section id="one" class="wrapper style3" onclick="location.href='index'">
+<section id="grad1" class="wrapper style3" onclick="location.href='index'">
     <div class="inner">
         <header class="align-center">
             <p>Квесты на день рождения ребенка от 8 лет, 10 лет, 12 лет</p>
@@ -80,9 +80,7 @@
 </section>
 
 <!-- Two -->
-<section id="two" class="wrapper style2">
-    <div class="inner">
-        <div class="box">
+<section id="grad1" class="wrapper style2">
             <div class="content">
                 <div class="hero-image text-center">
                         <div class="hero-text">
@@ -182,9 +180,9 @@
                 <div class="card">
                     <div class="row">
                         <div class="col-xs">
-                            <img class="image main" src="/resources/images/kids/1.jpg" alt=""/>
+                            <img class="image main" src="/resources/images/kids/1.jpg" alt style="padding-left: 30px;">
                         </div>
-                        <div class="col-sm">
+                        <div class="col-sm" style="padding-right: 30px;">
                             <a class="text-center">
                                 <h3 style="margin-top: 10px;"><strong>Что такое "живой квест"?</strong></h3></a><br>
                                 <a class="text-justify"><h3>Это отличный способ удивить гостей! На пару часов дети станут персонажами
@@ -198,7 +196,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm">
+                        <div class="col-sm" style="padding-left: 30px;">
                             <a class="text-center"><h3>
                                 <strong>Как это работает?</strong>
                                 </h3></a>
@@ -221,7 +219,7 @@
                         <div class="col-sm">
                             <img class="image main" src="/resources/images/kids/3.JPG" alt=""/>
                         </div>
-                        <div class="col-sm">
+                        <div class="col-sm" style="padding-right: 30px;">
                             <h3>
                                 <strong>Почему именно наш живой квест?</strong></h3>
                                 <a class="text-justify">
@@ -441,6 +439,7 @@
             </div>
         </div>
 </div>
+    </div>
 </section>
 
 <!-- Three -->
