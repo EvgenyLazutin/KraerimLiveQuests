@@ -19,17 +19,18 @@
 <!----- NavBar ------>
 <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
 
-    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal">
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">
         <svg id="i-telephone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5px">
             <path d="M3 12 C3 5 10 5 16 5 22 5 29 5 29 12 29 20 22 11 22 11 L10 11 C10 11 3 20 3 12 Z M11 14 C11 14 6 19 6 28 L26 28 C26 19 21 14 21 14 L11 14 Z" />
             <circle cx="16" cy="21" r="4" />
         </svg>
     </button>
-    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+
+    <div class="modal fade" id="myModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title align-content-center" id="ModalLabel" href="tel:+7 951 669 60 94">+7 951 669 60 94</h5>
+                    <h5 class="modal-title justify-content-center" id="ModalLabel" href="tel:+7 951 669 60 94">+7 951 669 60 94</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -54,11 +55,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
 
 
     <a href="registration" class="navbar-brand align-content-center">Краерим, живые квесты</a>
@@ -100,7 +96,7 @@
 <br>
 <br>
 <!----- Two ----->
-<div id="grad1">
+<div id="grad1" class="wrapper style1">
     <h1>Живые квесты на день рождения, корпоратив и детский праздник!</h1>
     <h3></h3>
 </div>
