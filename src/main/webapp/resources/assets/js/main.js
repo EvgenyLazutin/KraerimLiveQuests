@@ -325,3 +325,10 @@ $(document).ready(function () {
     });
 
 });
+
+<!----- MyModal ----->
+
+$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+})
+

@@ -7,3 +7,10 @@
     background-color: darkgreen; /* For browsers that do not support gradients */
     background-image: linear-gradient(to bottom right, darkgreen, darkgoldenrod); /* Standard syntax (must be last) */
 }
+
+.modal var options {
+'backdrop': 'true';
+'keyboard': 'true';
+
+
+
