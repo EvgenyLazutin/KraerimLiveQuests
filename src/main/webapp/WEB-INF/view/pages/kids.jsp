@@ -118,7 +118,7 @@
                         </div>
                         <div class="card">
                             <img class="card-img-top img-fluid img-thumbnail"
-                                 src="resources\images\madWorld\headerMadWorld.jpg" alt="card image cap responsive image">
+                                 src="resources\images\kids\8.jpg" alt="card image cap responsive image">
                             <div class="card-body">
                                 <h4 class="card-title">Квест-шутка "Этот безумный мир"</h4>
                                 <p class="card-text-justify"><strong>Квест подходит для детей в возрасте от 12 лет.</strong><br>
