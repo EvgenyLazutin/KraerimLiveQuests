@@ -15,17 +15,16 @@
 
     <title>Краерим, живые квесты</title>
 </head>
-<body>
+<div>
 <!----- NavBar ------>
 <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
-
-    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">
-        <svg id="i-telephone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5px">
+    <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
+        <svg id="i-telephone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
             <path d="M3 12 C3 5 10 5 16 5 22 5 29 5 29 12 29 20 22 11 22 11 L10 11 C10 11 3 20 3 12 Z M11 14 C11 14 6 19 6 28 L26 28 C26 19 21 14 21 14 L11 14 Z" />
             <circle cx="16" cy="21" r="4" />
         </svg>
     </button>
-                <a href="registration" class="navbar-brand align-content-center">Краерим, живые квесты</a>
+    <a href="contacts" class="navbar-brand align-content-center">Краерим</a>
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -46,7 +45,16 @@
                 <a href="corporate" class="btn btn-success">Корпоратив</a>
             </li>
             <li class="navbar-item">
-                <a href="detective" class="btn btn-success">Детективные квесты</a>
+                <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                        Все квесты
+                    </button>
+                    <ul class="dropdown-menu bg-success align-center">
+                        <li class="btn btn-success" style="padding-bottom: 0px;"><a href="detective"><p class="text-light">Детективные</p></a></li><br>
+                        <li class="btn btn-success" style="padding-bottom: 0px;"><a href="outside"><p class="text-light">На природе</p></a></li><br>
+                        <li class="btn btn-success" style="padding-bottom: 0px;"><a href="mafia"><p class="text-light">Мафия (классика)</p></a></li><br>
+                    </ul>
+                </div>
             </li>
             <li class="navbar-item">
                 <a href="registration" class="btn btn-success">Заказать игру</a>
@@ -64,9 +72,11 @@
 <br>
 <br>
 <!----- Two ----->
-<div id="grad1" class="wrapper style1">
-    <h1>Живые квесты на день рождения, корпоратив и детский праздник!</h1>
-    <h3></h3>
+<div class="container">
+        <div id="grad1">
+            <h1 class="text-center">Живые квесты на день рождения, корпоратив и детский праздник!</h1>
+            <h3 class="text-center">Симпсоны и живые квесты)</h3>
+        </div>
 </div>
 
 
