@@ -65,6 +65,7 @@
         <li><a href="teens">Для подростков</a></li>
         <li><a href="corporate">Корпоратив</a></li>
         <li><a href="detective">Детективные квесты</a></li>
+        <li><a href="outside">Квесты на природе</a></li>
         <li><a href="index#ourQuests">Все квесты</a></li>
         <li><a href="reviews">Ваши отзывы</a></li>
         <li><a href="contacts">Контакты</a></li>

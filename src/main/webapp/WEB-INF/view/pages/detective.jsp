@@ -62,6 +62,7 @@
         <li><a href="kids">Для детей</a></li>
         <li><a href="teens">Для подростков</a></li>
         <li><a href="corporate">Корпоратив</a></li>
+        <li><a href="outside">Квесты на природе</a></li>
         <li><a href="index#ourQuests">Все квесты</a></li>
         <li><a href="reviews">Отзывы</a></li>
         <li><a href="contacts">Контакты</a></li>

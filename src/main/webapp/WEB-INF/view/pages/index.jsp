@@ -107,7 +107,8 @@
                 </div>
             </div>
             <button type="button" class="btn btn-lg btn-success"><a href="corporate">Корпоратив</a></button>
-            <button type="button" class="btn btn-lg btn-success"><a href="detective">Детективные квесты</a></button>
+            <button type="button" class="btn btn-lg btn-success"><a href="detective">Детективы</a></button>
+            <button type="button" class="btn btn-lg btn-success"><a href="outside">Квест на природе</a></button>
             <button type="button" class="btn btn-lg btn-success"><a href="registration">Заказать игру</a></button>
             <button type="button" class="btn btn-lg btn-success"><a href="reviews">Отзывы</a></button>
             <button type="button" class="btn btn-lg btn-success"><a href="contacts">Контакты</a></button>
@@ -144,8 +145,8 @@
                 <li class="b-navbar_item"><a href="kids" class="root-item">Для детей</a></li>
                 <li class="b-navbar_item"><a href="teens" class="root-item">Для подростков</a></li>
                 <li class="b-navbar_item"><a href="corporate" class="root-item">Корпоратив</a></li>
-                <li class="b-navbar_item"><a href="detective" class="root-item">Детективные квесты</a></li>
-                <li class="b-navbar_item"><a href="#ourQuests" class="root-item">Все квесты</a></li>
+                <li class="b-navbar_item"><a href="detective" class="root-item">Детективы</a></li>
+                <li class="b-navbar_item"><a href="outside" class="root-item">На природе</a></li>
                 <li class="b-navbar_item"><a href="registration" class="root-item">Заказать игру</a></li>
                 <li class="b-navbar_item"><a href="reviews" class="root-item">Ваши отзывы</a></li>
                 <li class="b-navbar_item"><a href="contacts" class="root-item">Контакты</a></li>

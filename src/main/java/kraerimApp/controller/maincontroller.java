@@ -185,4 +185,9 @@ public class maincontroller {
     public String getTeens() {
         return "teens";
     }
+
+    @RequestMapping(value="/outside", method=RequestMethod.GET)
+    public String getOutside() {
+        return "outside";
+    }
 }
