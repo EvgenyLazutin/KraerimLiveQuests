@@ -81,14 +81,79 @@
 </section>
 
 <!-- Two -->
-<section id="two" class="wrapper style2">
+<div id="grad1" class="wrapper style2">
     <div class="inner">
-            <div class="content">
-                <header class="align-center">
-                    <h2><strong>Детективные квесты</strong></h2>
-                </header>
+        <div class="content">
+            <div class="hero-image text-center">
+                <div class="hero-text">
+                    <h1 style="font-size:40px;padding-top: 10px;"><strong>Весенняя акция!</strong></h1>
+                    <h3><strong>Фотограф в подарок к любой игре!</strong></h3>
+                    <h4><strong>*Акция действует только при заказе с сайта или по телефону: <a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></strong></h4>
+                    <a href="registration" class="btn btn-lg btn-success" style="margin-bottom: 5px;" >Уже интересно!</a>
+                </div>
+            </div>
+            <br>
+            <div class="container-fluid">
+                <div class="mycard">
+                    <div class="card-header text-center"><h1>Наши детективные квесты</h1>
+                        <br>
+                        <div class="card-group">
+                            <div class="card">
+                                <img class="card-img-top" src="resources\images\detective\8.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">"Убийство в монастыре"</h5>
+                                    <p class="card-text-justify"><strong>Классическое расследование убийства</strong><br>
+                                        15 век, где-то в горах Испании. В воскресенье в монастыре святой Девы Марии должен был состояться теологический
+                                        диспут по поводу бедности Христа. Однако в субботу утром мать-настоятельница монастыря обнаружила Хранителя местной
+                                        библиотеки и главного оратора монастыря, брата Титуса, мертвым. Кто совершил убийство и зачем? Вам предстоит это выяснить!<br>
+                                        Количество участников: от 6 до 14<br>
+                                        Стоимость: 5 300 руб.<br>
+                                        Длительность: 2 часа</p>
+                                    <footer class="align-center">
+                                        <a href="murderMonastery" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
+                                        <a href="registration" class="btn btn-lg btn-success">Уйти в монастырь</a>
+                                    </footer>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img class="card-img-top" src="resources\images\police\2.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">"Полицейский участок"</h5>
+                                    <p class="card-text-justify"><strong>Расследование загадочной кражи</strong><br>
+                                        Нью-Йорк, наши дни. Вы оказываетесь в полицейском участке, в котором только что была взорвана
+                                        бомба с каким-то белым порошком. Помещения были изолированы, никто не входил и не выходил.
+                                        Но буквально через 30 минут, из этого же полицейского участка был
+                                        украден сервер со всеми данными полиции. Такой сервер можно продать на черном рынке за несколько миллионов.
+                                        Кто же украл сервер, и куда он его дел?<br>
+                                        Количество участников: от 6 до 20<br>
+                                        Стоимость: 5 300 руб.<br>
+                                        Длительность: 1,5 часа</p>
+                                    <footer class="align-center">
+                                        <a href="police" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
+                                        <a href="registration" class="btn btn-lg btn-success">Стать детективом</a>
+                                    </footer>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img class="card-img-top" src="resources\images\detective\9.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">"Убийство лорда Четвела"</h5>
+                                    <p class="card-text-justify"><strong>Расследование убийства миллионера</strong><br>
+                                        Вы - родственник миллионера, который пригласил вас на выходные в свой особняк. Он хотел обсудить завещание.
+                                        Вечер пятницы проходил вполне себе спокойно, пока прислуга не обнаружила лорда Четвела мертвым. А ведь вы - на его личном острове, и никто не мог
+                                        проникнуть сюда незамеченным. Будет ли убийца убивать и дальше? И почему при лорде Четвеле были найдены сережки тети Эдны?
+                                        Количество участников: от 4 до 12<br>
+                                        Стоимость: 5 300 руб.<br>
+                                        Длительность: 2 часа
+                                    </p>
+                                    <footer class="align-center">
+                                        <div class="text-center">Квест находится в разработке!</div>
+                                    </footer>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 <div class="container-fluid">
-
                     <div class="text-center"> <h2> <strong>Что такое детективный квест?</strong></h2></div><br>
                                 <div class="text-black text-justify">Вы смотрели сериал "Шерлок Холмс", "Убийство" или "Пуаро"
                                     и хотели бы тоже поучаствовать в настоящем детективном расследвании? Тогда приглашаем вас поучаствовать в одном из наших детективных квестов!
@@ -143,66 +208,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="container-fluid">
-                    <div class="mycard">
-                        <div class="card-header text-center"><h1>Наши детективные квесты</h1>
-                              <br>
-                            <div class="card-group">
-                                <div class="card">
-                                    <img class="card-img-top" src="resources\images\detective\8.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">"Убийство в монастыре"</h5>
-                                        <p class="card-text-justify"><strong>Классическое расследование убийства</strong><br>
-                                            15 век, где-то в горах Испании. В воскресенье в монастыре святой Девы Марии должен был состояться теологический
-                                            диспут по поводу бедности Христа. Однако в субботу утром мать-настоятельница монастыря обнаружила Хранителя местной
-                                            библиотеки и главного оратора монастыря, брата Титуса, мертвым. Кто совершил убийство и зачем? Вам предстоит это выяснить!<br>
-                                            Количество участников: от 6 до 14<br>
-                                            Стоимость: 5 300 руб.<br>
-                                            Длительность: 2 часа</p>
-                                        <footer class="align-center">
-                                            <a href="murderMonastery" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
-                                            <a href="registration" class="btn btn-lg btn-success">Уйти в монастырь</a>
-                                        </footer>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img class="card-img-top" src="resources\images\police\2.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">"Полицейский участок"</h5>
-                                        <p class="card-text-justify"><strong>Расследование загадочной кражи</strong><br>
-                                            Нью-Йорк, наши дни. Вы оказываетесь в полицейском участке, в котором только что была взорвана
-                                            бомба с каким-то белым порошком. Помещения были изолированы, никто не входил и не выходил.
-                                            Но буквально через 30 минут, из этого же полицейского участка был
-                                            украден сервер со всеми данными полиции. Такой сервер можно продать на черном рынке за несколько миллионов.
-                                            Кто же украл сервер, и куда он его дел?<br>
-                                            Количество участников: от 6 до 20<br>
-                                            Стоимость: 5 300 руб.<br>
-                                            Длительность: 1,5 часа</p>
-                                        <footer class="align-center">
-                                            <a href="police" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
-                                            <a href="registration" class="btn btn-lg btn-success">Стать детективом</a>
-                                        </footer>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img class="card-img-top" src="resources\images\detective\9.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">"Убийство лорда Четвела"</h5>
-                                        <p class="card-text-justify"><strong>Расследование убийства миллионера</strong><br>
-                                           Вы - родственник миллионера, который пригласил вас на выходные в свой особняк. Он хотел обсудить завещание.
-                                            Вечер пятницы проходил вполне себе спокойно, пока прислуга не обнаружила лорда Четвела мертвым. А ведь вы - на его личном острове, и никто не мог
-                                            проникнуть сюда незамеченным. Будет ли убийца убивать и дальше? И почему при лорде Четвеле были найдены сережки тети Эдны?
-                                            Количество участников: от 4 до 12<br>
-                                            Стоимость: 5 300 руб.<br>
-                                            Длительность: 2 часа
-                                        </p>
-                                        <footer class="align-center">
-                                            <div class="text-center">Квест находится в разработке!</div>
-                                        </footer>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
                         <br>
                         <div class="container-fluid">
                             <div class="row">
@@ -311,6 +317,7 @@
                         </div>
                         <br>
                     </div>
+                            <div class="card">
                     <div class="card-header text-center"><h2>Где провести праздник?</h2>
                         <div class="text-center"><h3>Мы можем провести мероприятие у вас дома, в любом баре и даже на свежем воздухе!</h3></div>
                         <br>
@@ -348,7 +355,8 @@
                             </div>
                         </div>
                     </div>
-
+                            </div>
+<div class="card">
                     <div class="card-header text-center"><h2>Дополнительные услуги</h2>
                         <div class="text-center"><h3>Кроме самого квеста, мы можем разнообразить ваш праздник различными выступлениями, и даже классической "мафией"</h3></div>
                         <br>
@@ -395,11 +403,13 @@
                         <a href="index#ourQuests" class="btn btn-lg btn-outline-primary">Выбрать другой квест</a>
                         <a href="registration" class="btn btn-lg btn-success">Забронировать игру</a>
                     </footer>
+</div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</div>
+
 
 <!-- Three -->
 <section id="three" class="wrapper style3" onclick="location.href='index'">

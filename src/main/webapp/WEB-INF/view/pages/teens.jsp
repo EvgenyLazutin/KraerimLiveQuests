@@ -370,6 +370,7 @@
                             </div>
                         </div>
                     </div>
+                    <div class="card">
 
                     <div class="card-header text-center"><h2><strong>Дополнительные услуги</strong></h2>
 
@@ -409,14 +410,15 @@
                         </div>
                     </div>
 
-                    <h3> Мы позаботимся о том, чтобы вас окружала соответствующая игре атмосфера и о том,
+                        <h3> Мы позаботимся о том, чтобы вас окружала соответствующая игре атмосфера и о том,
                         чтобы у вас на память остались самые лучшие и веселые фотографии.
-                        <br><br>
+                            <br><br>
                         We have the menu in english!<br><br></h3>
-                    <footer class="align-center">
-                        <a href="index#ourQuests" class="btn btn-lg btn-outline-primary">Выбрать квест</a>
-                        <a href="registration" class="btn btn-lg btn-success">Забронировать игру</a>
-                    </footer>
+                        <footer class="align-center">
+                            <a href="index#ourQuests" class="btn btn-lg btn-outline-primary">Выбрать квест</a>
+                            <a href="registration" class="btn btn-lg btn-success">Забронировать игру</a>
+                        </footer>
+                    </div>
                 </div>
             </div>
     </div>
