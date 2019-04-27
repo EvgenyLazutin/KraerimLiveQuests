@@ -15,7 +15,7 @@
 
     <title>Краерим, живые квесты</title>
 </head>
-<div>
+    <body class="subpage">
 <!----- NavBar ------>
 <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
     <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
@@ -72,8 +72,8 @@
 <br>
 <br>
 <!----- Two ----->
-<div class="container">
-        <div id="grad1">
+<div id="grad1" class="wrapper style2">
+        <div class="inner">
             <h1 class="text-center">Живые квесты на день рождения, корпоратив и детский праздник!</h1>
             <h3 class="text-center">Симпсоны и живые квесты)</h3>
         </div>
