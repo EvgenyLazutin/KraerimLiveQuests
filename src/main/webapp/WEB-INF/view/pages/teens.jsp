@@ -81,7 +81,7 @@
 </section>
 
 <!-- Two -->
-<section id="two" class="wrapper style2">
+<div id="grad1" class="wrapper style2">
     <div class="inner">
             <div class="content">
                 <div class="hero-image text-center">
@@ -158,6 +158,7 @@
                                 </div>
                             </div>
                         </div>
+                        <br>
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-xs">
@@ -422,7 +423,7 @@
                 </div>
             </div>
     </div>
-</section>
+</div>
 
 <!-- Three -->
 <section id="three" class="wrapper style3" onclick="location.href='index'">

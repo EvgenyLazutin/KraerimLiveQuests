@@ -148,7 +148,7 @@
                                     слова странного заклинания...<br>
                                     Квест можно сделать страшным, с актером!<br>
                                     Количество участников: от 4 до 12<br>
-                                    Стоимость: 5 300 руб.<br>
+                                    Стоимость: 4 900 руб.<br>
                                     Длительность: 1 час
                                 </a>
                                 </p>
@@ -165,6 +165,7 @@
                 <div class="container-fluid">
                     <div class="card text-center">
                             <div class="card-header h1"><strong>Вы можете сразу забронировать дату и время!</strong>
+                                <h3>В стоимость игры по-расписанию включены: аренда помещения-партнера, игра в варианте "эконом", скидка за аренду партнерских помещений!</h3>
                                 <iframe id="scheduleWidgetAll" width="100%" src="https://broni.biz/order/showAllSchedule/?userId=743&hash=721e6a6d06180bada770de40e9d4ddb3&theme=white&questId=1917,1919,1921"
                                         frameborder="0" scrolling="no">Ваш браузер не поддерживает плавающие фреймы! </iframe><script>function widgetHeight()
                                 {let frame=document.getElementById("scheduleWidgetAll"),height=0,listener=function(event){if(event.data.constructor !== Object || event.data.type=="height")
@@ -401,30 +402,30 @@
                                             <div class="card-body">
                                                 <h5 class="card-title">Классическая "мафия"</h5>
                                                 <p class="card-text-justify">Наши ведущие "мафии" - лучше всех! Мы проводим как классическую мафию, так
-                                                 и "вампирскую", например.<br>
+                                                 и "вампирскую", например. Можем провести мафию для взрослых, пока дети заняты квестом, или мафию для детей! И мафию для детей от 8 лет.<br>
                                                 Стоимость: 1 500р. за час игры
                                                 </p>
                                              </div>
                                     </div>
                     <div class="card">
-                            <img class="card-img-top" src="resources\images\additionalService\3.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="resources\images\additionalService\4.jpg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Световое (огненное) шоу</h5>
-                                    <p class="card-text-justify">Мы выключаем свет и... вы погружаетесь в мир фей, красоту танца и гармоничность музыки!
-                                    Световое шоу всегда вызывает только самые приятные эмоции. А в конце танца девушки могут вручить имениннику подарок!
+                                    <h5 class="card-title">Шоу мыльных пузырей/химическое шоу</h5>
+                                    <p class="card-text-justify">Дети могут не только посмотреть на крутые гигантские мыльные пузыри, но и стать частью шоу! Побывать внутри мыльного пузыря,
+                                        поесть ледяного попкорна, создать настоящий гейзер и даже выпустить джинна!
                                     <br>
-                                    Стоимость: 3 000р. за танец
+                                    Стоимость: от 3000 за шоу
                                     </p>
                                 </div>
                     </div>
                     <div class="card">
-                            <img class="card-img-top" src="resources\images\additionalService\2.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="resources\images\additionalService\5.jpg" alt="Card image cap">
                                  <div class="card-body">
-                                    <h5 class="card-title">Мастер-классы</h5>
-                                    <p class="card-text-justify">Мы можем провести мастер класс по созданию кофейных деревьев и мини-букетов, росписи копилок,
-                                    стекла и т.д.
+                                    <h5 class="card-title">Аквагример</h5>
+                                    <p class="card-text-justify">Это самое классное развлечение для детей. Наши краски - безопасны для кожи, рисунки легко смываются, и доставят массу
+                                        удовольствия детям (и родителям)!
                                     <br>
-                                    Стоимость: 3 000р. за 1 мастер-класс
+                                    Стоимость: 2500 за час работы аквагримера
                                     </p>
                                 </div>
                     </div>
