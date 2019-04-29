@@ -81,41 +81,118 @@
 </section>
 
 <!-- Two -->
-<section id="two" class="wrapper style2">
+<div id="grad1" class="wrapper style2">
     <div class="inner">
-        <div class="box">
-            <div class="content">
-                <header class="align-center">
-                    <h2><strong>Живой квест на День рождения</strong></h2>
-                </header>
+        <div class="content">
+            <div class="hero-image text-center">
+                <div class="hero-text">
+                    <h1 style="font-size:40px;padding-top: 10px;"><strong>Весенняя акция!</strong></h1>
+                    <h3><strong>Фотограф в подарок к любой игре!</strong></h3>
+                    <h4><strong>*Акция действует только при заказе с сайта или по телефону: <a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></strong></h4>
+                    <a href="registration" class="btn btn-lg btn-success" style="margin-bottom: 5px;" >Уже интересно!</a>
+                </div>
+            </div>
+            <br>
+            <div class="container-fluid">
+                <div class="card">
+                    <div class="card text-center"><h1><strong>Живые квесты, идеально подходящие для Дня Рождения</strong></h1>
+                        <br>
+                        <div class="card-deck m-lg-2">
+                            <div class="card">
+                                <img class="card-img-top img-fluid img-thumbnail" src="resources\images\masquerade\1.jpg"
+                                     alt="Card image cap Responsive image">
+                                <div class="card-body">
+                                    <h4 class="card-title">Квест "Бал-маскарад"</h4>
+                                    <a class="card-text"><strong>Если вам хочется изысканности, придворных интриг и стать Императором!</strong><br>
+                                    <div class="text-justify">Итак, старый Император умер, не оставив после себя ни наследников, ни завещания.
+                                    Кто же станет новым Императором? Все великие семьи
+                                    Империи собрались на этот великолепный бал, чтобы выбрать нового Императора путем мирных переговоров.
+                                    Кто же станет новым правителем? Может быть, вы?<br>
+                                        Количество участников: от 6 до 30<br>
+                                        Стоимость: 5 300 руб.<br>
+                                        Длительность: 2 часа</div>
+                                    </a>
+                                    <footer class="align-center">
+                                        <a href="masquerade" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
+                                        <a href="registration" class="btn btn-lg btn-success">Хочу на бал!</a>
+                                    </footer>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img class="card-img-top img-fluid img-thumbnail"
+                                     src="resources\images\birthday\6.jpg" alt="card image cap responsive image">
+                                <div class="card-body">
+                                    <h4 class="card-title">Квест-шутка "Этот безумный мир"</h4>
+                                    <a class="card-text-justify"><strong>Если вы любите безумие, магию и готовы ставить подножку коллегам ради огурца!</strong><br>
+                                    <div class="text-justify">В этом квесте вы становитесь безумными волшебниками! В Магической библиотеке произошел взрыв, в результате которого
+                                        из Книги Великих Магических Заклинаний вырвалось одно... Оно немного изменило реальность, и теперь к Плоскому миру
+                                        летит огромный красный метеорит! А еще, стали открываться порталы, из которых выходят разгневанные боги. А все волшебники
+                                        сошли с ума и не помнят ни одного заклинания. Что же делать? Что делать?!<br>
+                                        Количество участников: от 6 до 16<br>
+                                        Стоимость: 5 300 руб.<br>
+                                        Длительность: 2 часа</div>
+                                    </a>
+                                    <footer class="align-center">
+                                        <a href="madWorld" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
+                                        <a href="registration" class="btn btn-lg btn-success">Спасти мир!</a>
+                                    </footer>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img class="card-img-top img-fluid img-thumbnail"
+                                     src="resources\images\police\2.jpg" alt="card image cap responsive image">
+                                <div class="card-body">
+                                    <h4 class="card-title">Квест-детектив "Полицейский участок"</h4>
+                                    <p class="card-text-justify"><strong>Настоящее детективное расследование для настоящих детективов!</strong><br>
+                                        <a class="text-justify">В полицейском участке произошел взрыв какого-то ядовитого вещества.
+                                            Через некоторое время выяснилось, что из участка также был украден сервер со всеми данными!
+                                            Помещения были изолированны, поэтому в краже виновен кто-то из присутствующих. Но на расследование у нас всего час, а потом
+                                            яд, распыленный в воздухе, начнет убивать вас...<br>
+                                            Количество участников: от 6 до 20<br>
+                                            Стоимость: 5 300 руб.<br>
+                                            Длительность: 1,5 часа
+                                        </a>
+                                    </p>
+                                    <footer class="align-center">
+                                        <a href="police" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
+                                        <a href="registration" class="btn btn-lg btn-success">Стать детективом!</a>
+                                    </footer>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
                 <div class="container-fluid">
+                    <div class="card">
                     <div class="row">
-                        <div class="col-xs">
-                            <img class="image main" src="/resources/images/birthday/1.jpg" alt=""/>
+                        <div class="col-sm">
+                            <img class="image main" src="/resources/images/birthday/1.jpg" alt style="padding-left: 30px;">
                         </div>
                         <div class="col-sm">
                             <h3>
                                 <strong> Что такое "живой квест"?</strong><br>
-                                <div class="text-justify"> Это игра на стыке иммерсивного театра, квеста в реальности и игры "мафия". Обычно, у игроков есть некая общая цель - обследовать космический корабль, выбраться из бункера, окруженного зомби
+                                <a class="text-justify"> Это игра на стыке иммерсивного театра, квеста в реальности и игры "мафия". Обычно, у игроков есть некая общая цель - обследовать космический корабль, выбраться из бункера, окруженного зомби
                                 найти убийцу или даже спасти мир. Но у каждого персонажа игры есть и собственные цели, которых он может достичь через переговоры, убеждение,
                                 ультиматумы другим игрокам. На пару часов вы становитесь персонажами фильма или книги, при этом вы сами влияете на исход игры: спасти мир или разрушить его?
-                                    Кто в итоге зваладеет ценной информацией, хранящейся в сейфе офиса? Кто станет Императором? И кто выживет и не будет съеден зомби? Решение за вами!</div>
+                                    Кто в итоге зваладеет ценной информацией, хранящейся в сейфе офиса? Кто станет Императором? И кто выживет и не будет съеден зомби? Решение за вами!</a>
                             </h3>
                         </div>
                     </div>
                 </div>
                 <div class="container-fluid">
+                    <div class="card">
                     <div class="row">
-                        <div class="col-sm">
+                        <div class="col-sm" style="padding-left: 30px;">
                             <h3>
                                 <strong>Как это работает?</strong><br>
-                                <div class="text-justify"> <ul>
+                                <a class="text-justify"> <ul>
                                     <li> Вы выбираете один из наших сюжетов</li>
                                     <li> Мы с вами распределяем роли (можно это делать как заранее, так и на месте) </li>
                                     <li> Мы помогаем вам выбрать место для игры (у вас дома, в офисе, в кафе)</li>
                                     <li>На месте: мы выдаем вам буклет с описанием персонажа, в котором написано - как вы здесь оказались и указано несколько целей вашего персонажа.</li>
                                     <li> Вы знакомитесь со всеми присутствующими, и… Начинаете плести интриги и запутывать остальных, или, наоборот, выяснять правду.</li>
-                                    <li> Исход игры всегда зависит только от игроков, их фантазии и доверчивости</li></ul></div>
+                                    <li> Исход игры всегда зависит только от игроков, их фантазии и доверчивости</li></ul></a>
                             </h3>
                         </div>
                         <div class="col-sm">
@@ -124,53 +201,34 @@
                     </div>
                 </div>
                 <div class="container-fluid">
+                    <div class="card">
                     <div class="row">
                             <div class="col-sm">
                                 <img class="image main" src="/resources/images/birthday/3.jpg" alt=""/>
                             </div>
-                            <div class="col-sm">
+                            <div class="col-sm" style="padding-right: 30px;">
                                 <h3>
                                     <strong>Почему именно наш живой квест?</strong><br>
-                                    <div class="text-justify"> <ul>
+                                    <a class="text-justify"> <ul>
                                         <li> Вы устали от скучных посиделок за столом и хотите острых ощущений</li>
                                         <li> Вы хотите узнать ваших друзей получше и увидеть их с новой стороны</li>
                                         <li> У вас собирается очень разношерстная компания, в которой многие люди не знакомы. Живой квест с легкостью поможет сдружить даже совершенно незнакомых людей!</li>
                                         <li> В вашей компании есть люди разного возраста. И вы переживаете, что они не найдут общей темы для разговора. Ограбление банка сплочает как детей, так и взорослых!</li>
                                         <li> У нас нет второстепенных персонажей, и каждый найдет себе роль по душе! Можно побывать безумцем, желающим уничтожить мир, капитаном космического корабля, магом, представителем знати и даже единорожеком!</li>
-                                        <li> Мы подберем место, идеально подходящее под ваш праздник!</li></ul></div>
+                                        <li> Мы подберем место, идеально подходящее под ваш праздник!</li></ul>
+                                    </a>
                                 </h3>
                             </div>
                     </div>
                 </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm">
-                           <h3>
-                            <strong>Живые квесты, идеально подходящие для Дня Рождения</strong><br>
-                               <strong> На небольшую компанию (5-14 человек):</strong><br>
-                            — <a href="houseInTheVillage">«Домик в деревне»</a><br>
-                            — <a href="spaceAroundUs"> «Космос вокруг нас»</a><br>
-                            — <a href="zombiequest">«Зомби-апокалипсис»</a><br>
-                               <strong> На среднюю компанию (10-30 человек):</strong><br>
-                            — <a href="masquerade"> «Бал-маскарад»</a><br>
-                            — <a href="sherWood">«Шервудский лес»</a><br>
-                            — <a href="madWorld">«Этот безумный мир»</a> <br>
-                               <strong> На большую компанию (от 20 человек):</strong><br>
-                            — <a href="gangstaParty">«По законам Нью-Йоркской мафии»</a><br>
-                            — <a href="masquerade"> «Бал-маскарад»</a><br>
-                            — <a href="sherWood">«Шервудский лес»</a><br>
-                           </h3>
-                        </div>
-                        <div class="col-sm">
-                            <img class="image main" src="/resources/images/birthday/4.jpg" alt="" />
-                        </div>
-                    </div>
                 </div>
+                    <br>
                 <div class="container-fluid">
+                    <div class="card">
                     <div class="row">
                         <div class="col-sm">
-                            <div class="card-header text-center"><h1>Стоимость:</h1>
-                                </strong>
+                            <div class="card-header text-center"><h1><strong>Стоимость:</strong></h1>
+
                                 <div class="text-center"><h3>Цена указана до 10 человек и может измениться в зависимости от
                                 заказываемых услуг</h3></div>
                                 <br>
@@ -250,98 +308,15 @@
                             </table>
                         </div>
                     </div>
-                </div>
-                <!--Birthday gallery-->
-                <div>
-                    <div class="box">
-                        <div class="image fit">
-                            <div id="birthday" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#birthday" data-slide-to="0" class="active"></li>
-                                    <li data-target="#birthday" data-slide-to="1"></li>
-                                    <li data-target="#birthday" data-slide-to="2"></li>
-                                    <li data-target="#birthday" data-slide-to="3"></li>
-                                    <li data-target="#birthday" data-slide-to="4"></li>
-                                    <li data-target="#birthday" data-slide-to="5"></li>
-                                    <li data-target="#birthday" data-slide-to="6"></li>
-                                    <li data-target="#birthday" data-slide-to="7"></li>
-                                </ol>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img class="d-block w-100" src="/resources/images/birthday/galleryBirthday/1.jpg" alt="First slide">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5></h5>
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="/resources/images/birthday/galleryBirthday/2.jpg" alt="Second slide">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5></h5>
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="/resources/images/birthday/galleryBirthday/3.jpg" alt="Third slide">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5></h5>
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="/resources/images/birthday/galleryBirthday/4.jpg" alt="Fourth slide">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5></h5>
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="/resources/images/birthday/galleryBirthday/5.jpg" alt="Fifth slide">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5></h5>
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="/resources/images/birthday/galleryBirthday/6.jpg" alt="Sixth slide">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5></h5>
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="/resources/images/gallery/zombiequest/2.jpg" alt="Seventh slide">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5></h5>
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="/resources/images/gallery/zombiequest/8.jpg" alt="Eighth slide">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5></h5>
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#birthday" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#birthday" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                        </div>
                     </div>
                 </div>
-                <div class="card-header text-center"><h2>Где провести праздник?</h2>
-                    </strong>
-                    <div class="text-center"><h3>Мы можем провести мероприятие как у вас дома, так и в любом кафе, баре и даже на свежем воздухе!</h3></div>
-                <br>
-                </div>
-                <div class="card-deck">
+                    <br>
+                <div class="card">
+                            <div class="card-header text-center"><h2><strong>Где провести праздник?</strong></h2>
+                            <div class="text-center"><h3>Мы можем провести мероприятие как у вас дома, так и в любом кафе, баре и даже на свежем воздухе!</h3></div>
+                            <br>
+                             </div>
+                    <div class="card-deck">
                     <div class="card">
                         <img class="card-img-top" src="resources\images\places\2.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -374,9 +349,10 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="card-header text-center"><h2>Дополнительные услуги</h2>
-                    </strong>
+                </div>
+                <br>
+<div class="card">
+                <div class="card-header text-center"><h2><strong>Дополнительные услуги</strong></h2>
                     <div class="text-center"><h3>Кроме самого квеста, мы можем разнообразить ваш праздник различными выступлениями, и даже классической "мафией"</h3></div>
                     <br>
                 </div>
@@ -410,6 +386,8 @@
                     </div>
                 </div>
 
+                    <br>
+
                             <h3> Мы позаботимся о том, чтобы вас окружала соответствующая игре атмосфера и о том,
                     чтобы у вас на память остались самые лучшие и веселые фотографии.
                     А вас попросим только написать отзыв)<br><br>
@@ -418,13 +396,13 @@
                     <a href="index#ourQuests" class="btn btn-lg btn-outline-primary">Выбрать квест</a>
                     <a href="registration" class="btn btn-lg btn-success">Забронировать игру</a>
                 </footer>
+</div>
             </div>
         </div>
     </div>
-            </div>
-        </div>
+</div>
     </div>
-</section>
+</div>
 
 <!-- Three -->
 <section id="three" class="wrapper style3" onclick="location.href='index'">
