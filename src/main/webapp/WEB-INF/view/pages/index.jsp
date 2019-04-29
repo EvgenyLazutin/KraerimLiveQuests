@@ -72,12 +72,38 @@
 <br>
 <br>
 <!----- Two ----->
-<div id="grad1" class="wrapper style2">
-        <div class="inner">
+<div id="grad1">
             <h1 class="text-center">Живые квесты на день рождения, корпоратив и детский праздник!</h1>
             <h3 class="text-center">Симпсоны и живые квесты)</h3>
+    <div class="container">
+        <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="560" height="315"
+                src="https://www.youtube.com/embed/3TSEqWvFnqU" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-</div>
+    </div>
+    <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 bg-dark">
+                    <img class="img-responsive" src="" alt=""></p>
+                </div>
+                <div class="col">
+                    <h2><u>Что такое "живой квест"?</u></h2><br>
+                       <h3><p class="text-justify">Это оригинальный способ отметить ваш праздник! Это история, в которой вы
+                           главный герой. Это сюжет, который увлекает, и шикарные фотографии!</p></h3>
+                </div>
+            </div>
+        </div>
+<br>
+        <div class="container">
+            <h1 class="text-center">Как проходит игра?</h1>
+                <div class="row">
+                    <div class="col-sm-3">
+
+                    </div>
+                </div>
+        </div>
 
 
 
@@ -134,6 +160,7 @@
             </script>
         </div>
     </div>
+</div>
 </div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

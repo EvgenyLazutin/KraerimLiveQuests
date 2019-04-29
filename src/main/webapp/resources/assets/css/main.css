@@ -3,19 +3,17 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom right, darkgreen, darkgoldenrod);
+    background-color: forestgreen;
+    background-image: linear-gradient(to bottom right, forestgreen, yellow);
 }
 
 #grad1 {
     height: auto;
-    background-color: darkgreen; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to bottom right, darkgreen, darkgoldenrod); /* Standard syntax (must be last) */
+    background-color: forestgreen; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, forestgreen, yellow); /* Standard syntax (must be last) */
 }
 
 .modal var options {
 'backdrop': 'true';
 'keyboard': 'true';
 }
-
-
-
