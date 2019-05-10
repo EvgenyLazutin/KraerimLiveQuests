@@ -72,7 +72,7 @@
 <br>
 <br>
 <!----- Two ----->
-<div id="grad1">
+<div id="grad1" class="bg-gradient-forestgreen">
             <h1 class="text-center">Живые квесты на день рождения, корпоратив и детский праздник!</h1>
             <h3 class="text-center">Симпсоны и живые квесты)</h3>
     <div class="container">
@@ -85,8 +85,8 @@
     <br>
         <div class="container">
             <div class="row">
-                <div class="col-4 bg-dark">
-                    <img class="img-responsive" src="" alt=""></p>
+                <div class="col-4">
+                    <img class="img-left img-fluid bg-dark" size="width: 50%" src="resources\images\index\2.png" alt="">
                 </div>
                 <div class="col">
                     <h2><u>Что такое "живой квест"?</u></h2><br>
@@ -97,13 +97,105 @@
         </div>
 <br>
         <div class="container">
-            <h1 class="text-center">Как проходит игра?</h1>
-                <div class="row">
-                    <div class="col-sm-3">
-
+                <h1 class="text-center">Как проходит игра?</h1>
+                    <div class="card-deck">
+                        <div class="card text-justify">
+                            <img class="card-img-top" src="resources\images\index\3.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Роль для каждого</h5>
+                            <p class="card-text">Перед игрой мы распределяем роли среди игроков. Это можно сделать как заранее, так и перед игрой. У нас нет второстепенных ролей, каждый персонаж интересен по-своему!</p>
+                         </div>
+                        </div>
+                        <div class="card text-justify">
+                            <img class="card-img-top" src="resources\images\index\4.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Цели на игру</h5>
+                                <p class="card-text">В начале игры мы раздаем вам книжечки с описанием ваших персонажей, и реквизит ваших персонажей.
+                                Вы знакомитесь со своим пресонажем и узанете ваши цели на игру.</p>
+                            </div>
+                        </div>
+                        <div class="card text-justify">
+                            <img class="card-img-top" src="resources\images\index\5.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Выполняйте цели, общаясь!</h5>
+                                <p class="card-text">Ведущий рассказывает вам предысторию, и игра начинается! Вам необходимо выполнить цели персонажа любой ценой. Обманывайте,
+                                подкупайте, договаривайтесь и убеждайте других участников!</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
+
         </div>
+    <div class="container">
+        <h1 class="text-center">Кому будет интересно?</h1>
+            <div class="card-deck">
+                <div class="card text-white border-dark mb-3" style="background-color: #8A2BE2; padding: 10px;">
+                    <h5 class="card-title">Вы любите: интеллектуальные игры</h5>
+                    <p class="card-text">Квизы, Мозгобойня, QuizFun, DetectIt</p>
+                </div>
+                <div class="card text-white bg-danger border-dark mb-3" style="padding: 10px;">
+                    <h5 class="card-title">Квест-комнаты</h5>
+                    <p class="card-text">Клаустрофобия, EscapeRoom, ILocked</p>
+                </div>
+                <div class="card text-white bg-warning border-dark mb-3" style="padding: 10px;">
+                    <h5 class="card-title">Квесты-прогулки по городу</h5>
+                    <p class="card-text">Dozor, Бегущий город, Surprise Me</p>
+                </div>
+                <div class="card text-white bg-primary border-dark mb-3" style="padding: 10px;">
+                <h5 class="card-title">Настольные игры</h5>
+                <p class="card-text">Колонизаторы, Имаджинариум, Кодовые имена, Диксит, Ужас Аркхема</p>
+                </div>
+                <div class="card text-white border-dark mb-3" style="background-color: #FF1493; padding: 10px;">
+                    <h5 class="card-title">Сериалы</h5>
+                    <p class="card-text">Шерлок, Игра Престолов, Побег, Ходячие Мертвецы</p>
+                </div>
+            </div>
+        <h1 class="text-center">Тогда вам понравится и один из наших квестов!</h1>
+    <form class="row d-flex justify-content-center">
+        <div class="form-row align-items-center">
+            <div class="col-auto">
+                        <%request.setCharacterEncoding("ISO-8859-1");%>
+                            <form:form modelAttribute="ClientQuestion" method="post" action="/index" class="needs-validation" novalidate="false">
+                                     <form:input path="name" type="text" class="form-control" id="validationCustom01" placeholder="Имя" required="true"/>
+                                            <div class="invalid-feedback">
+                                                Пожалуйста, введите Ваше имя
+                                            </div>
+            </div>
+            <div class="col-auto">
+                <form:input path="telephone" type="text" class="form-control" id="validationCustom02" placeholder="Телефон" required="true"/>
+                    <div class="invalid-feedback">
+                        Пожалуйста, введите корректный номер
+                    </div>
+            </div>
+                <%--<a href="registration" class="btn btn-success align-center">Перезвоните мне</a>--%>
+            <button class="btn btn-success align-center" type="submit">Хочу квест!</button>
+
+        </div>
+                    </form:form>
+                            <script>
+                    // Example starter JavaScript for disabling form submissions if there are invalid fields
+                    (function() {
+                     'use strict';
+                     window.addEventListener('load', function() {
+                     // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                     var forms = document.getElementsByClassName('needs-validation');
+                        // Loop over them and prevent submission
+                         var validation = Array.prototype.filter.call(forms, function(form) {
+                          form.addEventListener('submit', function(event) {
+                             if (form.checkValidity() === false) {
+                                event.preventDefault();
+                                event.stopPropagation();
+                            }
+                             form.classList.add('was-validated');
+                             }, false);
+                             });
+                             }, false);
+                            })();
+                            </script>
+        </form>
+    </div>
+<br>
+
+</div>
 
 
 
