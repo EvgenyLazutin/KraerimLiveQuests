@@ -86,7 +86,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-4">
-                    <img class="img-left img-fluid bg-dark" size="width: 50%" src="resources\images\index\2.png" alt="">
+                    <img class="img-left img-fluid bg-dark" size="width: 50%" src="resources\images\index\1.jpg" alt="">
                 </div>
                 <div class="col">
                     <h2><u>Что такое "живой квест"?</u></h2><br>
@@ -194,9 +194,74 @@
         </form>
     </div>
 <br>
+    <div class="container">
+        <h1 class="text-center">Наши квесты подходят для</h1>
+        <div class="card-deck">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\index\6.png" alt="Card image cap">
+                <div class="card-body">
+                    <a href="birthday" class="btn btn-success text-center">Дня Рождения!</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\index\7.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <a href="kids" class="btn btn-success text-center">Детского праздника</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\index\8.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <a href="corporate" class="btn btn-success text-center">Корпоратива</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\index\9.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <a href="#" class="btn btn-success text-center">Выезда на природу</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="resources\images\index\10.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <a href="mafia" class="btn btn-success text-center">Классического вечера с мафией</a>
+                        </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <h1 class="text-center">Сценарии</h1>
+        <br>
+        <div class="card-deck">
+            <div class="card text-justify">
+                <img class="card-img-top" src="resources\images\index\3.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Бал-маскарад</h5>
+                    <p class="card-text">В этом квесте вы становитесь
+                    </p>
+                </div>
+            </div>
+            <div class="card text-justify">
+                <img class="card-img-top" src="resources\images\index\4.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Этот безумный мир</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+            <div class="card text-justify">
+                <img class="card-img-top" src="resources\images\index\5.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Сказочный переполох</h5>
+                    <p class="card-text">Квест для детей в возрасте от 8 лет!</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+<br>
 
 </div>
-
 
 
 <!----- Popup ----->
