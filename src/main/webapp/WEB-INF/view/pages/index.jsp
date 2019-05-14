@@ -36,9 +36,9 @@
                         День Рождения
                     </button>
                     <ul class="dropdown-menu bg-success align-center">
-                        <li class="btn btn-success" style="padding-bottom: 0px;"><a href="birthday"><p class="text-light">Для взрослых</p></a></li><br>
-                        <li class="btn btn-success" style="padding-bottom: 0px;"><a href="kids"><p class="text-light">Для детей</p></a></li><br>
-                        <li class="btn btn-success" style="padding-bottom: 0px;"><a href="teens"><p class="text-light">Для подростков</p></a></li>
+                        <li class="btn btn-success"><a href="birthday"><p class="text-light">Для взрослых</p></a></li><br>
+                        <li class="btn btn-success"><a href="kids"><p class="text-light">Для детей</p></a></li><br>
+                        <li class="btn btn-success"><a href="teens"><p class="text-light">Для подростков</p></a></li>
                     </ul>
                 </div>
             <li class="navbar-item">
@@ -50,9 +50,9 @@
                         Все квесты
                     </button>
                     <ul class="dropdown-menu bg-success align-center">
-                        <li class="btn btn-success" style="padding-bottom: 0px;"><a href="detective"><p class="text-light">Детективные</p></a></li><br>
-                        <li class="btn btn-success" style="padding-bottom: 0px;"><a href="outside"><p class="text-light">На природе</p></a></li><br>
-                        <li class="btn btn-success" style="padding-bottom: 0px;"><a href="mafia"><p class="text-light">Мафия (классика)</p></a></li><br>
+                        <li class="btn btn-success"><a href="detective"><p class="text-light">Детективные</p></a></li><br>
+                        <li class="btn btn-success"><a href="outside"><p class="text-light">На природе</p></a></li><br>
+                        <li class="btn btn-success"><a href="mafia"><p class="text-light">Мафия (классика)</p></a></li><br>
                     </ul>
                 </div>
             </li>
@@ -90,8 +90,8 @@
                 </div>
                 <div class="col">
                     <h2><u>Что такое "живой квест"?</u></h2><br>
-                       <h3><p class="text-justify">Это оригинальный способ отметить ваш праздник! Это история, в которой вы
-                           главный герой. Это сюжет, который увлекает, и шикарные фотографии!</p></h3>
+                       <h3><a class="text-justify">Это оригинальный способ отметить ваш праздник! Это история, в которой вы
+                           главный герой. Это сюжет, который увлекает, и шикарные фотографии!</a></h3>
                 </div>
             </div>
         </div>
