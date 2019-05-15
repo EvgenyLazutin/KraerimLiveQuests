@@ -107,8 +107,20 @@
                 </div>
             </div>
             <button type="button" class="btn btn-lg btn-success"><a href="corporate">Корпоратив</a></button>
-            <button type="button" class="btn btn-lg btn-success"><a href="detective">Детективы</a></button>
-            <button type="button" class="btn btn-lg btn-success"><a href="outside">Квест на природе</a></button>
+                <div class="btn-group">
+                    <div class="dropdown">
+                            <button class="btn btn-success btn-lg dropdown-toggle" data-toggle="dropdown">
+                            Квесты
+                            </button>
+                        <ul class="dropdown-menu bg-success align-center">
+                            <button class="btn btn-success"><a href="#ourQuests">Все квесты</a></button><br>
+                            <button class="btn btn-success"><a href="detective">Детективы</a></button><br>
+                            <button class="btn btn-success"><a href="outside">На природе</a></button><br>
+                            <button class="btn btn-success"><a href="mafia">Мафия</a></button><br>
+                            <button class="btn btn-success"><a href="ostrov">"Остров"</a></button><br>
+                        </ul>
+                    </div>
+                </div>
             <button type="button" class="btn btn-lg btn-success"><a href="registration">Заказать игру</a></button>
             <button type="button" class="btn btn-lg btn-success"><a href="reviews">Отзывы</a></button>
             <button type="button" class="btn btn-lg btn-success"><a href="contacts">Контакты</a></button>

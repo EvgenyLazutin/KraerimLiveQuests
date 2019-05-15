@@ -190,4 +190,9 @@ public class maincontroller {
     public String getOutside() {
         return "outside";
     }
+
+    @RequestMapping(value="/ostrov", method=RequestMethod.GET)
+    public String getOstrov() {
+        return "ostrov";
+    }
 }

@@ -156,6 +156,27 @@
                                         </footer>
                                     </div>
                                 </div>
+                                <div class="card">
+                                    <img class="card-img-top img-fluid img-thumbnail"
+                                         src="esources\images\ostrov\4.jpg" alt="card image cap responsive image">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Стратегия "Остров"</h4>
+                                        <p class="card-text-justify"><strong>Игра подходит для детей в возрасте от 8 лет.</strong><br>
+                                            <a class="text-justify">В этой игре ребята превращаются в пиратов и ищут сокровища на таинственном
+                                                острове, полном крокодилов, людоедов и ловушек. По мотивам настольной игры "Шакал".
+                                                Только в нашей стратегии фишки - это сами ребята, а поле для игры - это целое помещение!<br>
+                                                Где находится: метро Чкаловская, Большая Разночинная, дом 4.
+                                                Количество участников: от 4 до 12<br>
+                                                Стоимость: 7 500 руб.<br>
+                                                Длительность: 80 минут
+                                            </a>
+                                        </p>
+                                        <footer class="align-center">
+                                            <a href="ostrov" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
+                                            <a href="registration" class="btn btn-lg btn-success">Аррррр!</a>
+                                        </footer>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <br>
