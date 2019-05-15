@@ -158,7 +158,7 @@
                                 </div>
                                 <div class="card">
                                     <img class="card-img-top img-fluid img-thumbnail"
-                                         src="esources\images\ostrov\4.jpg" alt="card image cap responsive image">
+                                         src="resources\images\ostrov\4.jpg" alt="card image cap responsive image">
                                     <div class="card-body">
                                         <h4 class="card-title">Стратегия "Остров"</h4>
                                         <p class="card-text-justify"><strong>Игра подходит для детей в возрасте от 8 лет.</strong><br>
