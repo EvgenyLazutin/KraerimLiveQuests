@@ -186,34 +186,51 @@
             <header class="align-center">
                 <h2>Перезвоните мне!</h2>
             </header>
-            <form>
+
+            <form class="row d-flex justify-content-center">
                 <div class="form-row align-items-center">
                     <div class="col-auto">
-                        <label class="sr-only" for="inlineFormInput">Name</label>
-                        <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
-                    </div>
-                    <div class="col-auto">
-                        <label class="sr-only" for="inlineFormInputGroup">Username</label>
-                        <div class="input-group mb-2">
-                            <div class="input-group-prepend">
-                                <div class="input-group-text">@</div>
-                            </div>
-                            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                        <%request.setCharacterEncoding("ISO-8859-1");%>
+                        <form:form modelAttribute="ClientQuestion" method="post" action="/index" class="needs-validation" novalidate="false">
+                        <form:input path="name" type="text" class="form-control" id="validationCustom01" placeholder="Имя" required="true"/>
+                        <div class="invalid-feedback">
+                            Пожалуйста, введите Ваше имя
                         </div>
                     </div>
                     <div class="col-auto">
-                        <div class="form-check mb-2">
-                            <input class="form-check-input" type="checkbox" id="autoSizingCheck">
-                            <label class="form-check-label" for="autoSizingCheck">
-                                Remember me
-                            </label>
+                        <form:input path="telephone" type="text" class="form-control" id="validationCustom02" placeholder="Телефон" required="true"/>
+                        <div class="invalid-feedback">
+                            Пожалуйста, введите корректный номер
                         </div>
                     </div>
-                    <div class="col-auto">
-                        <button type="submit" class="btn btn-primary mb-2">Submit</button>
-                    </div>
+                        <%--<a href="registration" class="btn btn-success align-center">Перезвоните мне</a>--%>
+                    <button class="btn btn-success align-center" type="submit">Стать пиратом!</button>
+
                 </div>
+                </form:form>
+                <script>
+                    // Example starter JavaScript for disabling form submissions if there are invalid fields
+                    (function() {
+                        'use strict';
+                        window.addEventListener('load', function() {
+                            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                            var forms = document.getElementsByClassName('needs-validation');
+                            // Loop over them and prevent submission
+                            var validation = Array.prototype.filter.call(forms, function(form) {
+                                form.addEventListener('submit', function(event) {
+                                    if (form.checkValidity() === false) {
+                                        event.preventDefault();
+                                        event.stopPropagation();
+                                    }
+                                    form.classList.add('was-validated');
+                                }, false);
+                            });
+                        }, false);
+                    })();
+                </script>
             </form>
+
+            <br>
             <header class="align-center">
                 <h2>Как нас найти:</h2>
             </header>
