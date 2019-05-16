@@ -187,7 +187,7 @@
                     <div class="card text-center">
                             <div class="card-header h1"><strong>Вы можете сразу забронировать дату и время!</strong>
                                 <h3>В стоимость игры по-расписанию включены: аренда помещения-партнера, игра в варианте "эконом", скидка за аренду партнерских помещений!</h3>
-                                <iframe id="scheduleWidgetAll" width="100%" src="https://broni.biz/order/showAllSchedule/?userId=743&hash=721e6a6d06180bada770de40e9d4ddb3&theme=white&questId=1917,1919,1921"
+                                <iframe id="scheduleWidgetAll" width="100%" src="https://broni.biz/order/showAllSchedule/?userId=743&hash=721e6a6d06180bada770de40e9d4ddb3&theme=white&questId=2021,2023,2025,2027"
                                         frameborder="0" scrolling="no">Ваш браузер не поддерживает плавающие фреймы! </iframe><script>function widgetHeight()
                                 {let frame=document.getElementById("scheduleWidgetAll"),height=0,listener=function(event){if(event.data.constructor !== Object || event.data.type=="height")
                                 {height=parseInt(event.data.height);if(height!=frame.height){frame.style.height=height+"px"}}if(event.data.type=="scroll")

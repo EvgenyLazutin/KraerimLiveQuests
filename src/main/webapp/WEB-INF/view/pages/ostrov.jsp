@@ -161,16 +161,15 @@
                 <br>
                 <div class="card text-center">
                     <div class="card-header h1"><strong>Вы можете сразу забронировать дату и время!</strong>
-                    <h3>В стоимость игры включены: аренда лофта на 3 часа и 80 минут игры!</h3>
                     </div>
-                    <iframe id="scheduleWidget" width="100%" src="https://broni.biz/order/?questId=2015&userId=743&theme=white" frameborder="0"
-                            scrolling="no" height="750" style="height: 750px!important;"> Ваш браузер не поддерживает плавающие фреймы!
-                    </iframe><script>function widgetHeight(){let frame=document.getElementById("scheduleWidget"),height=0,listener=function(event)
-                    {if(event.data.constructor !== Object || event.data.type=="height"){height=parseInt(event.data.height);if(height!=frame.height)
-                    {frame.style.height=height+"px"}}if(event.data.type=="scroll"){window.scrollTo({"top":document.getElementById("scheduleWidget")
-                            .getBoundingClientRect().top + pageYOffset - 50})}};function addEvent(elem,evnt,func){if(elem.addEventListener)
-                            {elem.addEventListener(evnt,func,!1)}else if(elem.attachEvent){elem.attachEvent("on"+evnt,func)}else{elem["on"+evnt]=func}}
-                            addEvent(window,"message",listener)}widgetHeight() </script>
+                    <iframe id="scheduleWidget" width="100%" src="https://broni.biz/order/?questId=2029&userId=743&theme=white"
+                            frameborder="0" scrolling="no" height="750" style="height: 750px!important;"> Ваш браузер не поддерживает
+                        плавающие фреймы! </iframe><script>function widgetHeight(){let frame=document.getElementById("scheduleWidget"),height=0,
+                    listener=function(event){if(event.data.constructor !== Object || event.data.type=="height"){height=parseInt(event.data.height)
+                    ;if(height!=frame.height){frame.style.height=height+"px"}}if(event.data.type=="scroll"){window.scrollTo({"top":document.getElementById
+                        ("scheduleWidget").getBoundingClientRect().top + pageYOffset - 50})}};function addEvent(elem,evnt,func){if(elem.addEventListener)
+                        {elem.addEventListener(evnt,func,!1)}else if(elem.attachEvent){elem.attachEvent("on"+evnt,func)}else{elem["on"+evnt]=func}}addEvent
+                (window,"message",listener)}widgetHeight() </script>
                 </div>
                 <br>
                     <header class="align-center">
@@ -183,52 +182,8 @@
                     </div>
                 </div>
 </div>
-            <header class="align-center">
-                <h2>Перезвоните мне!</h2>
-            </header>
+        </div>
 
-            <form class="row d-flex justify-content-center">
-                <div class="form-row align-items-center">
-                    <div class="col-auto">
-                        <%request.setCharacterEncoding("ISO-8859-1");%>
-                        <form:form modelAttribute="ClientQuestion" method="post" action="/index" class="needs-validation" novalidate="false">
-                        <form:input path="name" type="text" class="form-control" id="validationCustom01" placeholder="Имя" required="true"/>
-                        <div class="invalid-feedback">
-                            Пожалуйста, введите Ваше имя
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <form:input path="telephone" type="text" class="form-control" id="validationCustom02" placeholder="Телефон" required="true"/>
-                        <div class="invalid-feedback">
-                            Пожалуйста, введите корректный номер
-                        </div>
-                    </div>
-                        <%--<a href="registration" class="btn btn-success align-center">Перезвоните мне</a>--%>
-                    <button class="btn btn-success align-center" type="submit">Стать пиратом!</button>
-
-                </div>
-                </form:form>
-                <script>
-                    // Example starter JavaScript for disabling form submissions if there are invalid fields
-                    (function() {
-                        'use strict';
-                        window.addEventListener('load', function() {
-                            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                            var forms = document.getElementsByClassName('needs-validation');
-                            // Loop over them and prevent submission
-                            var validation = Array.prototype.filter.call(forms, function(form) {
-                                form.addEventListener('submit', function(event) {
-                                    if (form.checkValidity() === false) {
-                                        event.preventDefault();
-                                        event.stopPropagation();
-                                    }
-                                    form.classList.add('was-validated');
-                                }, false);
-                            });
-                        }, false);
-                    })();
-                </script>
-            </form>
 
             <br>
             <header class="align-center">
