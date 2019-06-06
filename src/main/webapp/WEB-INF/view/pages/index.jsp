@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
 
 
     <title>Краерим, живые квесты</title>
 </head>
-    <body class="subpage">
 <!----- NavBar ------>
+<body>
 <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
     <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
         <svg id="i-telephone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
@@ -24,7 +24,7 @@
             <circle cx="16" cy="21" r="4" />
         </svg>
     </button>
-    <a href="contacts" class="navbar-brand align-content-center">Краерим</a>
+    <a href="contacts" class="navbar-brand align-content-center">Краерим, Санкт-Петербург</a>
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -35,7 +35,7 @@
                     <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">
                         День Рождения
                     </button>
-                    <ul class="dropdown-menu bg-success align-center">
+                    <ul class="dropdown-menu bg-success text-center">
                         <li class="btn btn-success"><a href="birthday"><p class="text-light">Для взрослых</p></a></li><br>
                         <li class="btn btn-success"><a href="kids"><p class="text-light">Для детей</p></a></li><br>
                         <li class="btn btn-success"><a href="teens"><p class="text-light">Для подростков</p></a></li>
@@ -47,12 +47,14 @@
             <li class="navbar-item">
                 <div class="dropdown">
                     <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">
-                        Все квесты
+                        Квесты
                     </button>
                     <ul class="dropdown-menu bg-success align-center">
+                        <li class="btn btn-success"><a href="#ourQuests"><p class="text-light">Все квесты</p></a></li><br>
                         <li class="btn btn-success"><a href="detective"><p class="text-light">Детективные</p></a></li><br>
                         <li class="btn btn-success"><a href="outside"><p class="text-light">На природе</p></a></li><br>
                         <li class="btn btn-success"><a href="mafia"><p class="text-light">Мафия (классика)</p></a></li><br>
+                        <li class="btn btn-success"><a href="ostrov"><p class="text-light">"Остров"</p></a></li><br>
                     </ul>
                 </div>
             </li>
@@ -199,69 +201,201 @@
         <div class="card-deck">
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="resources\images\index\6.png" alt="Card image cap">
-                <div class="card-body">
+                <div class="card-body text-center">
                     <a href="birthday" class="btn btn-success text-center">Дня Рождения!</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="resources\images\index\7.jpg" alt="Card image cap">
-                <div class="card-body">
+                <div class="card-body text-center">
                     <a href="kids" class="btn btn-success text-center">Детского праздника</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="resources\images\index\8.jpg" alt="Card image cap">
-                <div class="card-body">
+                <div class="card-body text-center">
                     <a href="corporate" class="btn btn-success text-center">Корпоратива</a>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="resources\images\index\9.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <a href="#" class="btn btn-success text-center">Выезда на природу</a>
+        </div>
+        <br>
+            <div class="card-deck">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="resources\images\index\9.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <a href="#" class="btn btn-success text-center">Выезда на природу</a>
                 </div>
-            </div>
+                </div>
             <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="resources\images\index\10.jpg" alt="Card image cap">
-                        <div class="card-body">
+                        <div class="card-body text-center">
                             <a href="mafia" class="btn btn-success text-center">Классического вечера с мафией</a>
                         </div>
             </div>
         </div>
     </div>
     <br>
-    <div class="container">
+    <div class="container" id="ourQuests">
         <h1 class="text-center">Сценарии</h1>
         <br>
-        <div class="card-deck">
-            <div class="card text-justify">
-                <img class="card-img-top" src="resources\images\index\3.png" alt="Card image cap">
-                <div class="card-body">
+        <div class="card mb-3">
+            <a href="masquerade"><img class="card-img-top" src="resources\images\index\11.jpg" alt="Card image cap">
+                <div class="card-body text-center text-dark">
                     <h5 class="card-title">Бал-маскарад</h5>
-                    <p class="card-text">В этом квесте вы становитесь
-                    </p>
+                    <p class="card-text">Император скончался, не оставив ни наследников, ни завещания... Кому достанется огромная Империя? Кто станет следующим Императором? Решать вам!</p>
+                    <p class="card-text"><small class="text-muted">16+</small></p>
                 </div>
-            </div>
-            <div class="card text-justify">
-                <img class="card-img-top" src="resources\images\index\4.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Этот безумный мир</h5>
-                    <p class="card-text"></p>
-                </div>
-            </div>
-            <div class="card text-justify">
-                <img class="card-img-top" src="resources\images\index\5.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Сказочный переполох</h5>
-                    <p class="card-text">Квест для детей в возрасте от 8 лет!</p>
-                </div>
-            </div>
+            </a>
         </div>
-
+        <div class="card mb-3">
+            <a href="madWorld"><img class="card-img-top" src="resources\images\index\12.png" alt="Card image cap" href="madWorld">
+                <div class="card-body text-center text-dark">
+                    <h5 class="card-title">Этот безумный мир</h5>
+                    <p class="card-text">Хееееей! А что это за огромный красный метеорит, который летит к земле? Не связан ли он со взрывом в магической бибилотеке и с тем, что мы все сошли с ума?</p>
+                    <p class="card-text"><small class="text-muted">12+</small></p>
+                </div>
+            </a>
+        </div>
+        <div class="card mb-3">
+            <a href="fairyTale"><img class="card-img-top" src="resources\images\index\13.jpg" alt="Card image cap" href="fairyTale">
+                <div class="card-body text-center text-dark">
+                    <h5 class="card-title">Сказочный переполох</h5>
+                    <p class="card-text">Кажется, с миром Сказки что-то не то. Часть Сказок исчезли, а другие начали терять свои сказочные силы. Кощей позвал вас в отель "Теремок", чтобы разобраться
+                    с этим. Однако, прибыв в отель, вы не нашли ни Кощея, ни его указаний...</p>
+                    <p class="card-text"><small class="text-muted">8+</small></p>
+                </div>
+            </a>
+        </div>
+        <div class="card mb-3">
+            <a href="fairyTale"><img class="card-img-top" src="resources\images\index\14.jpg" alt="Card image cap" href="murderMonastery">
+                <div class="card-body text-center text-dark">
+                    <h5 class="card-title">Убийство в монастыре</h5>
+                    <p class="card-text">В монастыре святой девы Марии было совершенно таинственное убийство. Попасть в монастырь извне совсем не просто, поэтому убийца, скорее всего, среди нас.
+                    Кто же и зачем прикончил старого монаха? Придется вам раскрыть все тайны монастыря!</p>
+                    <p class="card-text"><small class="text-muted">16+</small></p>
+                </div>
+            </a>
+        </div>
+        <div class="card mb-3">
+            <a href="murderMonastery"><img class="card-img-top" src="resources\images\index\15.jpg" alt="Card image cap" href="murderMonastery">
+                <div class="card-body text-center text-dark">
+                    <h5 class="card-title">Домик в деревне</h5>
+                    <p class="card-text">Вы - студенты, решившие отметить окончание сессии загородом. Вечер пятницы прошел на ура, но вот утро началось странно...</p>
+                    <p class="card-text"><small class="text-muted">12+</small></p>
+                </div>
+            </a>
+        </div>
+        <div class="card mb-3">
+            <a href="sherWood"><img class="card-img-top" src="resources\images\index\16.jpg" alt="Card image cap" href="sherWood">
+                <div class="card-body text-center text-dark">
+                    <h5 class="card-title">Шервудский лес</h5>
+                    <p class="card-text">Средневековая Англия, борьба за справедливость и немного мистики. Попробуете себя в роли Робин Гуда
+                    или злого шерифа? Встать на сторону короля или простх крестьян? Решение за вами!</p>
+                    <p class="card-text"><small class="text-muted">16+</small></p>
+                </div>
+            </a>
+        </div>
+        <div class="card mb-3">
+            <a href="gangstaParty"><img class="card-img-top" src="resources\images\index\17.jpg" alt="Card image cap" href="gangstaParty">
+                <div class="card-body text-center text-dark">
+                    <h5 class="card-title">По законам мафии Нью-Йорка</h5>
+                    <p class="card-text">Крестный отец Нью-Йоркской мафии решил закатить вечеринку в честь окончания года.
+                    Он позвал все банды Нью-Йорка, чтобы наградить тех, кто вел себя хорошо, и покарать тех, кто вредил семье. Самое время разобраться
+                    с конкурентами и подчистить хвосты!</p>
+                    <p class="card-text"><small class="text-muted">16+</small></p>
+                </div>
+            </a>
+        </div>
+        <div class="card mb-3">
+            <a href="spaceAroundUs"><img class="card-img-top" src="resources\images\index\18.jpg" alt="Card image cap" href="spaceAroundUs">
+                <div class="card-body text-center text-dark">
+                    <h5 class="card-title">Космос вокруг нас</h5>
+                    <p class="card-text">Вас, команду непрофессиональных космонавтов, отправляют спасать космический корабль с колонистами.
+                    На корабле произошел какой-то сбой, на базе получили сигнал SOS, который вскоре оборвался. Вам предстоит выяснить, что
+                    произошло на корабле...</p>
+                    <p class="card-text"><small class="text-muted">16+</small></p>
+                </div>
+            </a>
+        </div>
+        <div class="card mb-3">
+            <a href="worldEye"><img class="card-img-top" src="resources\images\index\19.jpg" alt="Card image cap" href="worldEye">
+                <div class="card-body text-center text-dark">
+                    <h5 class="card-title">Эпическая история</h5>
+                    <p class="card-text">Все пророчества сбываются! Скоро Темный выберется из клетки, и придет время последней битвы Добра
+                    со Злом. На чьей стороне будете вы?</p>
+                    <p class="card-text"><small class="text-muted">14+</small></p>
+                </div>
+            </a>
+        </div>
+        <div class="card mb-3">
+            <a href="police"><img class="card-img-top" src="resources\images\index\20.jpg" alt="Card image cap" href="police">
+                <div class="card-body text-center text-dark">
+                    <h5 class="card-title">Полицейский участок</h5>
+                    <p class="card-text">В полицейском участке была взорвана бомба с неким белым порошком. Участок был изолирован,
+                    а через какое-то время выяснилось, что куда-то пропал сервер со всеми данными полиции. Скорее всего
+                        сервер и преступник все еще в участке, надо только вычислить, кто есть кто.</p>
+                    <p class="card-text"><small class="text-muted">14+</small></p>
+                </div>
+            </a>
+        </div>
+        <div class="card mb-3">
+            <a href="zombiequest"><img class="card-img-top" src="resources\images\index\21.jpg" alt="Card image cap" href="zombiequest">
+                <div class="card-body text-center text-dark">
+                    <h5 class="card-title">Зомби-апокалипсис</h5>
+                    <p class="card-text">Итак, вы заперты в бункере и окружены зомби. С вами еще несколько таких же выживших,
+                    но вы уверенны, что любой из них готов вас предать, чтобы выжить самому. Выживете ли вы?</p>
+                    <p class="card-text"><small class="text-muted">14+</small></p>
+                </div>
+            </a>
+        </div>
     </div>
+
+    <div class="container">
+        <h1 class="text-center">Отзывы</h1>
+        <script type="text/javascript">
+            VK.init({
+                apiId: 7010334,
+                onlyWidgets: true
+            });
+        </script>
+        <div id="vk_comments"></div>
+        <script type="text/javascript">
+            VK.Widgets.Comments('vk_comments');
+        </script>
+    </div>
+
+    <div class="container text-center">
+        <h1 class="text-center">Как нас найти</h1>
+        <div class="card-deck">
+            <div class="card">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1997.415680407487!2d30.290484316317645!3d59.958427981883354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963148699f777b%3A0x576a4fd3b03ba5a1!2z0JHQvtC70YzRiNCw0Y8g0KDQsNC30L3QvtGH0LjQvdC90LDRjyDRg9C7LiwgNCwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDE5NzExMA!5e0!3m2!1sru!2sru!4v1559728621895!5m2!1sru!2sru"
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    Контакты
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><span class="glyphicon glyphicon-earphone"><a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></span></li>
+                    <li class="list-group-item"><i class="fa fa-vk" aria-hidden="true"></i><a href="https://vk.com/kraerim">Мы в Вконтакте</a></li>
+                    <li class="list-group-item"><i class="fa fa-facebook" aria-hidden="true"></i><a href="https://www.facebook.com/kraerim">Мы в Facebook</a></li>
+                    <li class="list-group-item"><i class="fa fa-instagram" aria-hidden="true"></i><a href="https://www.instagram.com/kraerim">Мы в Instagram</a></li>
+                    <li class="list-group-item"><button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
+                        <svg id="i-telephone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <path d="M3 12 C3 5 10 5 16 5 22 5 29 5 29 12 29 20 22 11 22 11 L10 11 C10 11 3 20 3 12 Z M11 14 C11 14 6 19 6 28 L26 28 C26 19 21 14 21 14 L11 14 Z" />
+                            <circle cx="16" cy="21" r="4" />
+                        </svg> Перезвоните мне!
+                    </button></li>
+                </ul>
+                </div>
+<br>
+</div>
 <br>
 
-</div>
+<!----- Footer ----->
+<footer>
+    <div class="footer-copyright text-center py-3">© 2017 Краерим</div>
+</footer>
 
 
 <!----- Popup ----->
@@ -319,6 +453,7 @@
     </div>
 </div>
 </div>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
