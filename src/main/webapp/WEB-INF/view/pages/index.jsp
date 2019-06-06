@@ -3,18 +3,67 @@
 
 <html>
 <head>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(53205610, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/53205610" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119774437-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-119774437-1');
+    </script>
+
+    <meta name="google-site-verification" content="QpooFdE9BjrhVV3SEKFOLYlPwkxnwyzdfwI-XZaKtMs"/>
+
+    <title>Краерим, живые квесты в СПб</title>
+    <meta name="description"
+          content="Живые квесты на день рождения, корпоративы и тематические вечеринки! Низкие цены, интересные сюжеты, яркие впечатления!">
+    <meta name="keywords"
+          content="живые квесты, день рождения, корпоратив, выездной квест, квесты спб, квесты питер, интересные квесты">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/resources/assets/css/main.css"/>
+    <link rel="stylesheet" href="/resources/assets/css/font-awesome.min.css"/>
+    <link rel="shortcut icon" href="/resources/images/indeximages/logo_icon_small.png" type="image/png">
+    <script type="text/javascript">!function () {
+        var t = document.createElement("script");
+        t.type = "text/javascript", t.async = !0, t.src = "https://vk.com/js/api/openapi.js?154", t.onload = function () {
+            VK.Retargeting.Init("VK-RTRG-247838-1tyxI"), VK.Retargeting.Hit()
+        }, document.head.appendChild(t)
+    }();</script>
+    <noscript><img src="https://vk.com/rtrg?p=VK-RTRG-247838-1tyxI" ; style="position:fixed; left:-999px;" alt=""/>
+    </noscript>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/resources/assets/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
-
-
-    <title>Краерим, живые квесты</title>
 </head>
+
 <!----- NavBar ------>
 <body>
 <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
@@ -377,9 +426,9 @@
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item"><span class="glyphicon glyphicon-earphone"><a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></span></li>
-                    <li class="list-group-item"><i class="fa fa-vk" aria-hidden="true"></i><a href="https://vk.com/kraerim">Мы в Вконтакте</a></li>
-                    <li class="list-group-item"><i class="fa fa-facebook" aria-hidden="true"></i><a href="https://www.facebook.com/kraerim">Мы в Facebook</a></li>
-                    <li class="list-group-item"><i class="fa fa-instagram" aria-hidden="true"></i><a href="https://www.instagram.com/kraerim">Мы в Instagram</a></li>
+                    <li class="list-group-item"><i class="fa fa-vk" aria-hidden="true"></i><a href="https://vk.com/kraerim"> Мы в Вконтакте</a></li>
+                    <li class="list-group-item"><i class="fa fa-facebook" aria-hidden="true"></i><a href="https://www.facebook.com/kraerim"> Мы в Facebook</a></li>
+                    <li class="list-group-item"><i class="fa fa-instagram" aria-hidden="true"></i><a href="https://www.instagram.com/kraerim"> Мы в Instagram</a></li>
                     <li class="list-group-item"><button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
                         <svg id="i-telephone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                             <path d="M3 12 C3 5 10 5 16 5 22 5 29 5 29 12 29 20 22 11 22 11 L10 11 C10 11 3 20 3 12 Z M11 14 C11 14 6 19 6 28 L26 28 C26 19 21 14 21 14 L11 14 Z" />
