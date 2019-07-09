@@ -84,6 +84,9 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
             <li class="navbar-item">
+                <a href="index" class="btn btn-success">Главная</a>
+            </li>
+            <li class="navbar-item">
                 <div class="dropdown">
                     <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">
                         День Рождения
@@ -128,6 +131,142 @@
 <br>
 
 <!---- Two ---->
+<div class="container">
+    <h1 class="text-center">День Рождения с живым квестом</h1>
+    <h2 class="text-center" style="padding-top: 10px; padding-bottom: 10px;">Несколько вариантов сценариев на день рождения</h2>
+    <div class="card-deck">
+        <div class="card text-center" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\birthday\1.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Бал-маскарад</h5>
+                <p class="card-text text-justify">Император скончался, не оставив ни завещания, ни наследника. Для огромной Империи
+                    это чревато кровавой войной. Именно поэтому сегодня самые знатные семьи Империи собрались на этот великолепный
+                    бал, чтобы путем мирных переговоров выбрать нового Императора. Кто же им станет?<br><br>
+                    <div class="text-danger">Участников: от 6 до 30<br>
+                                             Длительность: 2 часа<br>
+                                             Стоимость: 5 300 руб
+                    </div>
+                </p>
+                <a href="masquerade" class="btn btn-primary">Подробнее</a>
+                <a href="registration" class="btn btn-success">Хочу на бал!</a>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\birthday\2.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Этот безумный мир</h5>
+                <p class="card-text text-justify">Итак, в Магической библиотеке произошел маааленький взрыв, в результате
+                    которого из Книги Великих Магических Заклинаний вырвалось одно...
+                    Оно немного изменило реальность, и теперь к Плоскому миру летит огромный красный
+                    метеорит! А еще, стали открываться порталы, из которых выходят разгневанные боги.
+                    А все волшебники сошли с ума и не помнят ни одного заклинания.
+                    Что же делать? Что делать?!<br><br>
+                    <div class="text-danger">Участников: от 6 до 17<br>
+                                            Длительность: 2 часа<br>
+                                            Стоимость: 5 300 руб
+                    </div>
+                </p>
+                <a href="#" class="btn btn-primary">Подробнее</a>
+                <a href="#" class="btn btn-success">Спасти мир!</a>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\birthday\3.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Убийство в монастыре</h5>
+                <p class="card-text text-justify">Братья и сестры! В воскресенье в нашем монастыре должен
+                    был состояться диспут по поводу бедности Христа. На него прибыло немало известных теологов из разных монастырей.
+                    Но сегодня утром... произошло ужасное и таинственное
+                    убийство. Убит был брат Титус, хранитель библиотеки и главный знаток
+                    темы бедности Христа. Кто же убийца?
+                    <br>
+                    <div class="text-danger">Участников: от 6 до 14<br><br>
+                                            Длительность: 2,5 часа<br>
+                                            Стоимость: 5 300 руб
+                    </div>
+                </p>
+                <a href="#" class="btn btn-primary btn-responsive">Подробнее</a>
+                <a href="#" class="btn btn-success">Хочу расследовать!</a>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<!---- Three ---->
+<div class="container">
+    <h1 class="text-center">Как проходит квест?</h1>
+    <div class="card-group text-justify">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\birthday\4.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Выбираем сюжет</h5>
+                <p class="card-text">Вы выбираете сюжет в зависимости от ваших предпочтений, количества человек и темы праздника</p>
+                </div>
+        </div>
+        <i class="fa fa-arrow-right" style="font-size:48px; padding-top: 150px;"></i>
+         <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\birthday\4.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Распределяем роли</h5>
+                <p class="card-text">Мы распределяем роли среди участников квеста и раздаем всем книжечки с описанием персонажей</p>
+                </div>
+         </div>
+        <i class="fa fa-arrow-right" style="font-size:48px; padding-top: 150px;"></i>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\birthday\4.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Выполняем цели!</h5>
+                    <p class="card-text">У кажого персонажа есть цели, которые он хочет выполнить. Как их выполнять? Можно уговаривать, убеждать, обманывать, угрожать и подкупать!</p>
+                </div>
+        </div>
+    </div>
+</div>
+<br>
+<!---- Four ---->
+<div class="container">
+    <h1 class="text-center">Праздник под ключ!</h1>
+    <h2 class="text-center">Мы можем не только провести квест, но и помочь вам продумать все мелочи</h2>
+        <div class="card-deck">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\index\6.png" alt="Card image cap">
+                <div class="card-body text-center">
+                    <a class="btn btn-success btn-lg btn-block text-center">Подобрать помещение</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\index\7.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                    <a class="btn btn-success btn-lg btn-block text-center">Организовать банкет/фуршет</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\index\8.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                    <a href="corporate" class="btn btn-success btn-lg btn-block text-center">Развлекательная программа до/после квеста</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="card-deck">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\index\9.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                    <a href="#" class="btn btn-success btn-lg btn-block text-center">Доставка до/от места проведения игры</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\index\10.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                    <a href="mafia" class="btn btn-success btn-lg btn-block text-center">Проведение классической мафии/настольных игр</a>
+                </div>
+            </div>
+        </div>
+</div>
+<!---- Four ---->
+<div class="container">
+    <h1 class="text-center">Стоимость</h1>
+
+</div>
 
 
 <!----- Footer ----->

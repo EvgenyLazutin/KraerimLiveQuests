@@ -176,6 +176,7 @@
                     </div>
 
         </div>
+    <br>
     <div class="container">
         <h1 class="text-center">Кому будет интересно?</h1>
             <div class="card-deck">
