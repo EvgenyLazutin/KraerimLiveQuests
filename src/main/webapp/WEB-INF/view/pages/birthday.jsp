@@ -64,11 +64,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="/resources/assets/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
 </head>
 <body class="subpage">
+
 <!----- NavBar ------>
 <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
     <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
@@ -142,7 +144,7 @@
                 <p class="card-text text-justify">Император скончался, не оставив ни завещания, ни наследника. Для огромной Империи
                     это чревато кровавой войной. Именно поэтому сегодня самые знатные семьи Империи собрались на этот великолепный
                     бал, чтобы путем мирных переговоров выбрать нового Императора. Кто же им станет?<br><br>
-                    <div class="text-danger">Участников: от 6 до 30<br>
+                    <div class="text-dark">Участников: от 6 до 30<br>
                                              Длительность: 2 часа<br>
                                              Стоимость: 5 300 руб
                     </div>
@@ -161,7 +163,7 @@
                     метеорит! А еще, стали открываться порталы, из которых выходят разгневанные боги.
                     А все волшебники сошли с ума и не помнят ни одного заклинания.
                     Что же делать? Что делать?!<br><br>
-                    <div class="text-danger">Участников: от 6 до 17<br>
+                    <div class="text-dark">Участников: от 6 до 17<br>
                                             Длительность: 2 часа<br>
                                             Стоимость: 5 300 руб
                     </div>
@@ -180,7 +182,7 @@
                     убийство. Убит был брат Титус, хранитель библиотеки и главный знаток
                     темы бедности Христа. Кто же убийца?
                     <br>
-                    <div class="text-danger">Участников: от 6 до 14<br><br>
+                    <div class="text-dark">Участников: от 6 до 14<br>
                                             Длительность: 2,5 часа<br>
                                             Стоимость: 5 300 руб
                     </div>
@@ -216,7 +218,9 @@
             <img class="card-img-top" src="resources\images\birthday\4.png" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title text-center">Выполняем цели!</h5>
-                    <p class="card-text">У кажого персонажа есть цели, которые он хочет выполнить. Как их выполнять? Можно уговаривать, убеждать, обманывать, угрожать и подкупать!</p>
+                    <p class="card-text">У вас будет одна общая цель. Например, найти преступника, укравшего полицейский
+                        сервер. Но у кажого персонажа будут и личные цели, которые он хочет выполнить. Как их выполнять?
+                        Можно уговаривать, убеждать, обманывать, угрожать и подкупать других участников!</p>
                 </div>
         </div>
     </div>
@@ -225,24 +229,24 @@
 <!---- Four ---->
 <div class="container">
     <h1 class="text-center">Праздник под ключ!</h1>
-    <h2 class="text-center">Мы можем не только провести квест, но и помочь вам продумать все мелочи</h2>
+    <h2 class="text-center">Мы можем не только провести квест, но и помочь вам продумать все детали</h2>
         <div class="card-deck">
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="resources\images\index\6.png" alt="Card image cap">
                 <div class="card-body text-center">
-                    <a class="btn btn-success btn-lg btn-block text-center">Подобрать помещение</a>
+                    <a class="btn-success btn-lg btn-block text-center">Подобрать помещение</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="resources\images\index\7.jpg" alt="Card image cap">
                 <div class="card-body text-center">
-                    <a class="btn btn-success btn-lg btn-block text-center">Организовать банкет/фуршет</a>
+                    <a class="btn-success btn-lg btn-block text-center">Организовать банкет/фуршет</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="resources\images\index\8.jpg" alt="Card image cap">
                 <div class="card-body text-center">
-                    <a href="corporate" class="btn btn-success btn-lg btn-block text-center">Развлекательная программа до/после квеста</a>
+                    <a class="btn-success btn-lg btn-block text-center">Развлекательная программа до/после квеста</a>
                 </div>
             </div>
         </div>
@@ -251,27 +255,217 @@
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="resources\images\index\9.jpg" alt="Card image cap">
                 <div class="card-body text-center">
-                    <a href="#" class="btn btn-success btn-lg btn-block text-center">Доставка до/от места проведения игры</a>
+                    <a class="btn-success btn-lg btn-block text-center">Доставка до/от места проведения игры</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="resources\images\index\10.jpg" alt="Card image cap">
                 <div class="card-body text-center">
-                    <a href="mafia" class="btn btn-success btn-lg btn-block text-center">Проведение классической мафии/настольных игр</a>
+                    <a class="btn-success btn-lg btn-block text-center">Проведение классической мафии/настольных игр</a>
                 </div>
             </div>
         </div>
 </div>
-<!---- Four ---->
+<br>
+<br>
+<!---- Five ---->
 <div class="container">
-    <h1 class="text-center">Стоимость</h1>
+    <div class="container-fluid">
+        <div class="card">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card-header text-center"><h1><strong>Стоимость:</strong></h1>
 
+                        <div class="text-center"><h3>Цена указана до 10 человек</h3></div>
+                        <br>
+                    </div>
+
+                    <table class="table table-striped table-responsive-lg">
+                        <thead class="thead-success">
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Экономный</th>
+                            <th scope="col">Стандарт</th>
+                            <th scope="col">Премиум</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">Комплект игры</th>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Ведущий</th>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Возможность выбрать время и место игры</th>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Музыкальное сопровождение</th>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Базовый реквизит для игры</th>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Игра в классическую "мафию"</th>
+                            <td></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Профессиональный фотограф</th>
+                            <td></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Расширенный реквизит</th>
+                            <td></td>
+                            <td></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Пригласительные для гостей</th>
+                            <td></td>
+                            <td></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Ди-джей</th>
+                            <td></td>
+                            <td></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                        </tr>
+                        <tr class="table-success">
+                            <th scope="row">Стоимость</th>
+                            <td>5 300</td>
+                            <td>7 300</td>
+                            <td>12 800 </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<!----- Six ----->
+<div class="container">
+        <h1 class="text-center">Где провести праздник?</h1>
+        <h3 class="text-center">Мы можем привезти наш квест к вам домой, в офис, в любое кафе, бар и даже на природу!</h3>
+    <div class="card-deck">
+        <div class="card text-center" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\birthday\1.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Скайрум</h5>
+                <p class="card-text text-justify">Секретное пространство недалеко от Московских ворот.
+                    В пространство можно приносить свою еду и напитки, есть холодильник и микроволновка, кулер с горячей и холодной водой,
+                    можно сыграть в VR, мафию и настольные игры. Есть платная парковка.<br>
+                    Адрес: Цветочная, 6 <br>
+                    Вместимость: до 30 человек</p>
+                </div>
+        </div>
+        <div class="card text-center" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\birthday\1.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Остров</h5>
+                        <p class="card-text text-justify">Симпатичное пространство на Чкаловской для небольших компаний.
+                            Сюда можно приносить свою еду и напитки, есть кулер с горячей и холодной водой, микроволновка, посуда. Можно сыграть в мафию, настольные игры.
+                            Парковка на улице перед пространством.<br>
+                            Адрес: Большая Разночинная, 4 <br>
+                            Вместимость: до 30 человек</p>
+                </div>
+        </div>
+        <div class="card text-center" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\birthday\1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Культурный Кактус</h5>
+                    <p class="card-text text-justify">Большие и светлые партнерские помещения. Еду и напитки можно приносить за отдельную плату,
+                        имеется кухня, приставки, посуда.
+                        Парковка только на улице перед пространством.<br>
+                        Адрес: Садовая 28-30, к.1 <br>
+                        Вместимость: до 50 человек</p>
+                    </div>
+        </div>
+    </div>
+</div>
+<br>
+<!----- Seven ----->
+<div class="container">
+    <h1 class="text-center">Дополнительные услуги</h1>
+    <h3 class="text-center">Мы можем разнообразить ваш праздник разными интересными деталями, например, выступлением артистов, классической "мафией" и мастер-классами</h3>
+    <div class="card-deck">
+        <div class="card text-center" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\birthday\1.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Классическая и не очень "мафия"</h5>
+                <p class="card-text text-justify">Вы любите мафию? Мы тоже! У нас есть все для игры в "мафию". Если вам надоела классика,
+                    можем провести для вас "оборотней" и вампирскую мафию. А если вы настоящий профессионал, то можем организовать для вас
+                    расширенную версию игры с интересными дополнительными персонажами.<br>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\birthday\1.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Световое (огненое) шоу</h5>
+                <p class="card-text text-justify">Завораживающий танец в полной темноте... Световое шоу оставляет только самые приятные впечатления!<br>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 18rem;">
+        <img class="card-img-top" src="resources\images\birthday\1.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Интересные мастер-классы</h5>
+            <p class="card-text text-justify">Вы можете сделать собственную волшебную палочку, маску на следующий бал-маскарад или нарисовать новый шедевр! Все под контролем опытных мастеров ;)<br>
+        </div>
+    </div>
+    </div>
+</div>
+<br>
+<!----- Eight ----->
+<h1 class="text-center">Готовы к необычному празднику?</h1>
+<div class="container">
+<form>
+    <div class="form-row">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Ваше имя">
+        </div>
+        <div class="col">
+            <input type="tel" class="form-control" placeholder="Телефон">
+        </div>
+        <div class="col">
+            <a class="btn-success btn-lg btn-block text-center">Перезвоните мне!</a>
+        </div>
+    </div>
+</form>
 </div>
 
-
 <!----- Footer ----->
-<footer>
-    <div class="footer-copyright text-center py-3">© 2017 Краерим</div>
+<footer class="page-footer" style="background-color: black; padding-top: 30px;">
+    <div class="container text-center">
+            <a href="https://www.facebook.com/kraerim/" class="fa fa-facebook fa-lg" style="padding-right: 30px; color:white;"></a>
+            <a href="https://www.instagram.com/kraerim/" class="fa fa-instagram fa-lg" style="padding-right: 30px; color:white;"></a>
+            <a href="https://vk.com/kraerim" class="fa fa-vk fa-lg" style="color:white;"></a>
+        </div>
+    </div>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" style="color:white;"> © 2018 Краерим</a>
+    </div>
+    <!-- Copyright -->
 </footer>
 
 <!----- Popup ----->

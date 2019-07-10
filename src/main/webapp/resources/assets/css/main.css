@@ -18,3 +18,28 @@ body {
 'keyboard': 'true';
 }
 
+/* Font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 100px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-vk {
+    background: #3B5998;
+    color: white;
+}
+
