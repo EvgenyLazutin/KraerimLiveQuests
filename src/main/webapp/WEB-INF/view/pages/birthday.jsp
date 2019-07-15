@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <html>
 <head>
     <!-- Yandex.Metrika counter -->
@@ -85,9 +86,6 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
-            <li class="navbar-item">
-                <a href="index" class="btn btn-success">Главная</a>
-            </li>
             <li class="navbar-item">
                 <div class="dropdown">
                     <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">
@@ -199,23 +197,23 @@
     <h1 class="text-center">Как проходит квест?</h1>
     <div class="card-group text-justify">
         <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="resources\images\birthday\4.png" alt="Card image cap">
+            <img class="card-img-top" src="resources\images\birthday\5.PNG" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title text-center">Выбираем сюжет</h5>
                 <p class="card-text">Вы выбираете сюжет в зависимости от ваших предпочтений, количества человек и темы праздника</p>
                 </div>
         </div>
-        <i class="fa fa-arrow-right" style="font-size:48px; padding-top: 150px;"></i>
+        <i class="fa fa-arrow-right" style="font-size:48px; padding-top: 150px; padding-right: 50px;"></i>
          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="resources\images\birthday\4.png" alt="Card image cap">
+            <img class="card-img-top" src="resources\images\birthday\6.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title text-center">Распределяем роли</h5>
                 <p class="card-text">Мы распределяем роли среди участников квеста и раздаем всем книжечки с описанием персонажей</p>
                 </div>
          </div>
-        <i class="fa fa-arrow-right" style="font-size:48px; padding-top: 150px;"></i>
+        <i class="fa fa-arrow-right" style="font-size:48px; padding-top: 150px; padding-right: 50px;"></i>
         <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="resources\images\birthday\4.png" alt="Card image cap">
+            <img class="card-img-top" src="resources\images\birthday\7.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title text-center">Выполняем цели!</h5>
                     <p class="card-text">У вас будет одна общая цель. Например, найти преступника, укравшего полицейский
@@ -232,7 +230,7 @@
     <h2 class="text-center">Мы можем не только провести квест, но и помочь вам продумать все детали</h2>
         <div class="card-deck">
             <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="resources\images\index\6.png" alt="Card image cap">
+                <img class="card-img-top" src="resources\images\birthday\8.jpg" alt="Card image cap">
                 <div class="card-body text-center">
                     <a class="btn-success btn-lg btn-block text-center">Подобрать помещение</a>
                 </div>
@@ -244,7 +242,7 @@
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="resources\images\index\8.jpg" alt="Card image cap">
+                <img class="card-img-top" src="resources\images\birthday\9.jpg" alt="Card image cap">
                 <div class="card-body text-center">
                     <a class="btn-success btn-lg btn-block text-center">Развлекательная программа до/после квеста</a>
                 </div>
@@ -253,7 +251,7 @@
         <br>
         <div class="card-deck">
             <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="resources\images\index\9.jpg" alt="Card image cap">
+                <img class="card-img-top" src="resources\images\birthday\10.jpg" alt="Card image cap">
                 <div class="card-body text-center">
                     <a class="btn-success btn-lg btn-block text-center">Доставка до/от места проведения игры</a>
                 </div>
@@ -370,7 +368,7 @@
         <h3 class="text-center">Мы можем привезти наш квест к вам домой, в офис, в любое кафе, бар и даже на природу!</h3>
     <div class="card-deck">
         <div class="card text-center" style="width: 18rem;">
-            <img class="card-img-top" src="resources\images\birthday\1.jpg" alt="Card image cap">
+            <img class="card-img-top" src="resources\images\birthday\11.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Скайрум</h5>
                 <p class="card-text text-justify">Секретное пространство недалеко от Московских ворот.
@@ -381,7 +379,7 @@
                 </div>
         </div>
         <div class="card text-center" style="width: 18rem;">
-            <img class="card-img-top" src="resources\images\birthday\1.jpg" alt="Card image cap">
+            <img class="card-img-top" src="resources\images\birthday\12.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Остров</h5>
                         <p class="card-text text-justify">Симпатичное пространство на Чкаловской для небольших компаний.
@@ -392,7 +390,7 @@
                 </div>
         </div>
         <div class="card text-center" style="width: 18rem;">
-                <img class="card-img-top" src="resources\images\birthday\1.jpg" alt="Card image cap">
+                <img class="card-img-top" src="resources\images\birthday\13.jpg" alt="Card image cap">
                     <div class="card-body">
                     <h5 class="card-title">Культурный Кактус</h5>
                     <p class="card-text text-justify">Большие и светлые партнерские помещения. Еду и напитки можно приносить за отдельную плату,
@@ -411,7 +409,7 @@
     <h3 class="text-center">Мы можем разнообразить ваш праздник разными интересными деталями, например, выступлением артистов, классической "мафией" и мастер-классами</h3>
     <div class="card-deck">
         <div class="card text-center" style="width: 18rem;">
-            <img class="card-img-top" src="resources\images\birthday\1.jpg" alt="Card image cap">
+            <img class="card-img-top" src="resources\images\birthday\14.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Классическая и не очень "мафия"</h5>
                 <p class="card-text text-justify">Вы любите мафию? Мы тоже! У нас есть все для игры в "мафию". Если вам надоела классика,
@@ -420,14 +418,14 @@
             </div>
         </div>
         <div class="card text-center" style="width: 18rem;">
-            <img class="card-img-top" src="resources\images\birthday\1.jpg" alt="Card image cap">
+            <img class="card-img-top" src="resources\images\birthday\9.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Световое (огненое) шоу</h5>
                 <p class="card-text text-justify">Завораживающий танец в полной темноте... Световое шоу оставляет только самые приятные впечатления!<br>
             </div>
         </div>
         <div class="card text-center" style="width: 18rem;">
-        <img class="card-img-top" src="resources\images\birthday\1.jpg" alt="Card image cap">
+        <img class="card-img-top" src="resources\images\birthday\15.jpg" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">Интересные мастер-классы</h5>
             <p class="card-text text-justify">Вы можете сделать собственную волшебную палочку, маску на следующий бал-маскарад или нарисовать новый шедевр! Все под контролем опытных мастеров ;)<br>
@@ -439,19 +437,48 @@
 <!----- Eight ----->
 <h1 class="text-center">Готовы к необычному празднику?</h1>
 <div class="container">
-<form>
-    <div class="form-row">
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Ваше имя">
+
+    <%request.setCharacterEncoding("ISO-8859-1");%>
+    <form:form modelAttribute="ClientQuestion" method="post" action="/index" class="needs-validation" novalidate="false">
+    <div class="form-row justify-content-center">
+        <div class="form">
+            <form:input path="name" type="text" class="form-control" id="validationCustom01" placeholder="Имя" required="true"/>
+            <div class="invalid-feedback">
+                Пожалуйста, введите Ваше имя
+            </div>
         </div>
-        <div class="col">
-            <input type="tel" class="form-control" placeholder="Телефон">
+        <div class="form">
+            <form:input path="telephone" type="text" class="form-control" id="validationCustom02" placeholder="Телефон" required="true"/>
+            <div class="invalid-feedback">
+                Пожалуйста, введите корректный номер
+            </div>
         </div>
-        <div class="col">
-            <a class="btn-success btn-lg btn-block text-center">Перезвоните мне!</a>
-        </div>
+            <%--<a href="registration" class="btn btn-success align-center">Перезвоните мне</a>--%>
+        <button class="btn btn-success align-center" type="submit">Хочу квест</button>
     </div>
-</form>
+</div>
+</form:form>
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+                form.addEventListener('submit', function(event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+</script>
+
 </div>
 
 <!----- Footer ----->
@@ -480,7 +507,7 @@
             </div>
             <div class="modal-body">
                 <%request.setCharacterEncoding("ISO-8859-1");%>
-                <form:form modelAttribute="ClientQuestion" method="post" action="/index" class="needs-validation" novalidate="false">
+                <form:form modelAttribute="ClientQuestion" method="post" action="/birthday" class="needs-validation" novalidate="false">
                 <div class="form-group">
                     <div class="form-group">
                         <form:input path="name" type="text" class="form-control" id="validationCustom01" placeholder="Имя" required="true"/>
@@ -529,15 +556,6 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-<!-- Scripts -->
-<script src="/resources/assets/js/jquery.min.js"></script>
-<script src="/resources/assets/js/bootstrap.bundle.min.js"></script>
-<script src="/resources/assets/js/bootstrap.min.js"></script>
-<script src="/resources/assets/js/jquery.scrollex.min.js"></script>
-<script src="/resources/assets/js/skel.min.js"></script>
-<script src="/resources/assets/js/util.js"></script>
-<script src="/resources/assets/js/main.js"></script>
 
 
 </body>

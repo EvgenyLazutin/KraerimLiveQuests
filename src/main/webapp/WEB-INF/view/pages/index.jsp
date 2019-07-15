@@ -202,49 +202,48 @@
                 </div>
             </div>
         <h1 class="text-center">Тогда вам понравится и один из наших квестов!</h1>
-    <form class="row d-flex justify-content-center">
-        <div class="form-row align-items-center">
-            <div class="col-auto">
-                        <%request.setCharacterEncoding("ISO-8859-1");%>
-                            <form:form modelAttribute="ClientQuestion" method="post" action="/index" class="needs-validation" novalidate="false">
-                                     <form:input path="name" type="text" class="form-control" id="validationCustom01" placeholder="Имя" required="true"/>
-                                            <div class="invalid-feedback">
-                                                Пожалуйста, введите Ваше имя
-                                            </div>
+
+        <%request.setCharacterEncoding("ISO-8859-1");%>
+        <form:form modelAttribute="ClientQuestion" method="post" action="/index" class="needs-validation" novalidate="false">
+        <div class="form-row justify-content-center">
+            <div class="form">
+                <form:input path="name" type="text" class="form-control" id="validationCustom01" placeholder="Имя" required="true"/>
+                <div class="invalid-feedback">
+                    Пожалуйста, введите Ваше имя
+                </div>
             </div>
-            <div class="col-auto">
+            <div class="form">
                 <form:input path="telephone" type="text" class="form-control" id="validationCustom02" placeholder="Телефон" required="true"/>
-                    <div class="invalid-feedback">
-                        Пожалуйста, введите корректный номер
-                    </div>
+                <div class="invalid-feedback">
+                    Пожалуйста, введите корректный номер
+                </div>
             </div>
                 <%--<a href="registration" class="btn btn-success align-center">Перезвоните мне</a>--%>
-            <button class="btn btn-success align-center" type="submit">Хочу квест!</button>
-
+            <button class="btn btn-success align-center" type="submit">Хочу квест</button>
         </div>
-                    </form:form>
-                            <script>
-                    // Example starter JavaScript for disabling form submissions if there are invalid fields
-                    (function() {
-                     'use strict';
-                     window.addEventListener('load', function() {
-                     // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                     var forms = document.getElementsByClassName('needs-validation');
-                        // Loop over them and prevent submission
-                         var validation = Array.prototype.filter.call(forms, function(form) {
-                          form.addEventListener('submit', function(event) {
-                             if (form.checkValidity() === false) {
-                                event.preventDefault();
-                                event.stopPropagation();
-                            }
-                             form.classList.add('was-validated');
-                             }, false);
-                             });
-                             }, false);
-                            })();
-                            </script>
-        </form>
     </div>
+    </form:form>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+
 <br>
     <div class="container">
         <h1 class="text-center">Наши квесты подходят для</h1>
@@ -427,9 +426,9 @@
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item"><span class="glyphicon glyphicon-earphone"><a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></span></li>
-                    <li class="list-group-item"><i class="fa fa-vk" aria-hidden="true"></i><a href="https://vk.com/kraerim"> Мы в Вконтакте</a></li>
-                    <li class="list-group-item"><i class="fa fa-facebook" aria-hidden="true"></i><a href="https://www.facebook.com/kraerim"> Мы в Facebook</a></li>
-                    <li class="list-group-item"><i class="fa fa-instagram" aria-hidden="true"></i><a href="https://www.instagram.com/kraerim"> Мы в Instagram</a></li>
+                    <li class="list-group-item"><i class="fa fa-vk" aria-hidden="true" style="text-color: dark !important;"></i><a href="https://vk.com/kraerim"> Мы в Вконтакте</a></li>
+                    <li class="list-group-item"><i class="fa fa-facebook" aria-hidden="true" style="text-color: dark !important;"></i><a href="https://www.facebook.com/kraerim"> Мы в Facebook</a></li>
+                    <li class="list-group-item"><i class="fa fa-instagram" aria-hidden="true" style="text-color: dark !important;"></i><a href="https://www.instagram.com/kraerim"> Мы в Instagram</a></li>
                     <li class="list-group-item"><button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
                         <svg id="i-telephone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                             <path d="M3 12 C3 5 10 5 16 5 22 5 29 5 29 12 29 20 22 11 22 11 L10 11 C10 11 3 20 3 12 Z M11 14 C11 14 6 19 6 28 L26 28 C26 19 21 14 21 14 L11 14 Z" />
