@@ -108,10 +108,10 @@
                 </div>
             </li>
             <li class="navbar-item">
-                <a href="registration" class="btn btn-success">Заказать игру</a>
+                <a href="addservice" class="btn btn-success">Дополнительно</a>
             </li>
             <li class="navbar-item">
-                <a href="reviews" class="btn btn-success">Отзывы</a>
+                <a href="registration" class="btn btn-success">Заказать игру</a>
             </li>
             <li class="navbar-item">
                 <a href="contacts" class="btn btn-success">Контакты</a>

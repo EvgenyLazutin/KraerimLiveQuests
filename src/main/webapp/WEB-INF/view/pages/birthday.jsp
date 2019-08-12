@@ -86,13 +86,15 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a href="index" class="btn btn-success">Главная</a>
+            </li>
             <li class="navbar-item">
                 <div class="dropdown">
                     <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">
                         День Рождения
                     </button>
                     <ul class="dropdown-menu bg-success text-center">
-                        <li class="btn btn-success"><a href="birthday"><p class="text-light">Для взрослых</p></a></li><br>
                         <li class="btn btn-success"><a href="kids"><p class="text-light">Для детей</p></a></li><br>
                         <li class="btn btn-success"><a href="teens"><p class="text-light">Для подростков</p></a></li>
                     </ul>
@@ -115,10 +117,10 @@
                 </div>
             </li>
             <li class="navbar-item">
-                <a href="registration" class="btn btn-success">Заказать игру</a>
+                <a href="addservice" class="btn btn-success">Дополнительно</a>
             </li>
             <li class="navbar-item">
-                <a href="reviews" class="btn btn-success">Отзывы</a>
+                <a href="registration" class="btn btn-success">Заказать игру</a>
             </li>
             <li class="navbar-item">
                 <a href="contacts" class="btn btn-success">Контакты</a>
@@ -133,6 +135,7 @@
 <!---- Two ---->
 <div class="container">
     <h1 class="text-center">День Рождения с живым квестом</h1>
+    <h4 class="text-center">Необычное развлечение для больших и маленьких компаний!</h4>
     <h2 class="text-center" style="padding-top: 10px; padding-bottom: 10px;">Несколько вариантов сценариев на день рождения</h2>
     <div class="card-deck">
         <div class="card text-center" style="width: 18rem;">
@@ -166,8 +169,8 @@
                                             Стоимость: 5 300 руб
                     </div>
                 </p>
-                <a href="#" class="btn btn-primary">Подробнее</a>
-                <a href="#" class="btn btn-success">Спасти мир!</a>
+                <a href="madWorld" class="btn btn-primary">Подробнее</a>
+                <a href="registration" class="btn btn-success">Спасти мир!</a>
             </div>
         </div>
         <div class="card text-center" style="width: 18rem;">
@@ -185,8 +188,8 @@
                                             Стоимость: 5 300 руб
                     </div>
                 </p>
-                <a href="#" class="btn btn-primary btn-responsive">Подробнее</a>
-                <a href="#" class="btn btn-success">Хочу расследовать!</a>
+                <a href="murderMonastery" class="btn btn-primary btn-responsive">Подробнее</a>
+                <a href="registration" class="btn btn-success">Хочу расследовать!</a>
             </div>
         </div>
     </div>
@@ -282,7 +285,7 @@
                         <thead class="thead-success">
                         <tr>
                             <th scope="col"></th>
-                            <th scope="col">Экономный</th>
+                            <th scope="col">Лайт</th>
                             <th scope="col">Стандарт</th>
                             <th scope="col">Премиум</th>
                         </tr>
@@ -331,12 +334,6 @@
                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                         </tr>
                         <tr>
-                            <th scope="row">Расширенный реквизит</th>
-                            <td></td>
-                            <td></td>
-                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                        </tr>
-                        <tr>
                             <th scope="row">Пригласительные для гостей</th>
                             <td></td>
                             <td></td>
@@ -352,7 +349,7 @@
                             <th scope="row">Стоимость</th>
                             <td>5 300</td>
                             <td>7 300</td>
-                            <td>12 800 </td>
+                            <td>11 800 </td>
                         </tr>
                         </tbody>
                     </table>

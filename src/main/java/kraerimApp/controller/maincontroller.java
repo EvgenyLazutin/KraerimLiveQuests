@@ -191,8 +191,27 @@ public class maincontroller {
         return modelAndView;
     }
     @RequestMapping(value="/kids", method=RequestMethod.GET)
-    public String getKids() {
-        return "kids";
+    public ModelAndView getKids() {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.addObject("ClientQuestion", new Client());
+        modelAndView.setViewName("kids");
+        return modelAndView;
+    }
+
+    @RequestMapping(value="/kids", method=RequestMethod.POST)
+    public RedirectView PostKids(@ModelAttribute("ClientQuestion")Client client) {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.addObject("ClientQuestion", client );
+        Map<String, Object> modelMailClient = new HashMap<>();
+        modelMailClient.put("from", "Kraerim@com");
+        modelMailClient.put("subject", "Запрос на перезвонить");
+        String email="lazutinakraerim@gmail.com";
+        modelMailClient.put("to", email);
+        modelMailClient.put("userName", client.getName());
+        modelMailClient.put("telephone", client.getTelephone());
+        emailService.sendEmailClient("email.vm", modelMailClient);
+
+        return new RedirectView("confirmQuestion");
     }
 
     @RequestMapping(value="/detective", method=RequestMethod.GET)
