@@ -286,7 +286,7 @@
                 <div class="col-sm">
                     <div class="card-header text-center"><h1><strong>Стоимость:</strong></h1>
 
-                        <div class="text-center"><h3>Цена указана до 10 человек</h3></div>
+                        <div class="text-center"><h3>Цена указана за квест до 10 человек в наших помещениях</h3></div>
                         <br>
                     </div>
 
@@ -294,7 +294,7 @@
                         <thead class="thead-success">
                         <tr>
                             <th scope="col"></th>
-                            <th scope="col">Экономный</th>
+                            <th scope="col">Лайт</th>
                             <th scope="col">Стандарт</th>
                             <th scope="col">Премиум</th>
                         </tr>
@@ -326,7 +326,7 @@
                         </tr>
                         <tr>
                             <th scope="row">Базовый реквизит для игры</th>
-                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td></td>
                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                         </tr>
@@ -357,7 +357,7 @@
                         <tr class="table-success">
                             <th scope="row">Стоимость</th>
                             <td>5 300</td>
-                            <td>7 300</td>
+                            <td>8 300</td>
                             <td>11 800 </td>
                         </tr>
                         </tbody>

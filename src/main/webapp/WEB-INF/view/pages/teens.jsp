@@ -6,11 +6,9 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <html>
 <head>
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="/resources/assets/css/bootstrap.min.css"/>
-
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -31,430 +29,536 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119774437-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
         gtag('config', 'UA-119774437-1');
     </script>
 
-    <title>День рождения подростка с живым квестом!</title>
-    <meta name= "description" content = "День рождения подростка с живым квестом">
-    <meta name= "keywords" content = "день рождения подростка, большая компания тинейджеров, праздник для подростка, игры для подростков, интересный д.р. для подростка">
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/resources/assets/css/main.css" />
+    <meta name="google-site-verification" content="QpooFdE9BjrhVV3SEKFOLYlPwkxnwyzdfwI-XZaKtMs"/>
+
+    <title>День рождения подростка</title>
+    <meta name="description"
+          content="праздник для подростка, квест для подростков">
+    <meta name="keywords"
+          content="интересный день рождения подростка, квесты для подростков, 14-15 лет квест, квест на 10 детей, интересный д.р. подростка">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/resources/assets/css/main.css"/>
     <link rel="stylesheet" href="/resources/assets/css/font-awesome.min.css"/>
     <link rel="shortcut icon" href="/resources/images/indeximages/logo_icon_small.png" type="image/png">
+    <script type="text/javascript">!function () {
+        var t = document.createElement("script");
+        t.type = "text/javascript", t.async = !0, t.src = "https://vk.com/js/api/openapi.js?154", t.onload = function () {
+            VK.Retargeting.Init("VK-RTRG-247838-1tyxI"), VK.Retargeting.Hit()
+        }, document.head.appendChild(t)
+    }();</script>
+    <noscript><img src="https://vk.com/rtrg?p=VK-RTRG-247838-1tyxI" ; style="position:fixed; left:-999px;" alt=""/>
+    </noscript>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/resources/assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
 </head>
 <body class="subpage">
 
-<!-- Header -->
-<header id="header">
-    <div class="logo"><a href="registration">Заказать игру</a></div>
-    <a href="tel:+7 951 669 60 94">+7 951 669 60 94</a>
-    <a href="#menu">Меню</a>
-</header>
-
-<!-- Nav -->
-<nav id="menu">
-    <ul class="links">
-        <li><a href="index">Главная</a></li>
-        <li><a href="corporate">День Рождения</a></li>
-        <li><a href="kids">Для детей</a></li>
-        <li><a href="corporate">Корпоратив</a></li>
-        <li><a href="detective">Детективные квесты</a></li>
-        <li><a href="index#ourQuests">Все квесты</a></li>
-        <li><a href="reviews">Отзывы</a></li>
-        <li><a href="contacts">Контакты</a></li>
-        <li><a href="registration">Заказать игру</a></li>
-    </ul>
-</nav>
-
-<!-- One -->
-<section id="one" class="wrapper style3" onclick="location.href='index'">
-    <div class="inner">
-        <header class="align-center">
-            <p>Лучше квесты для подростков в Санкт-Петербурге на дом или на природу</p>
-            <h2>Праздник для подростков от 13 лет</h2>
-        </header>
+<!----- NavBar ------>
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
+    <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
+        <svg id="i-telephone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M3 12 C3 5 10 5 16 5 22 5 29 5 29 12 29 20 22 11 22 11 L10 11 C10 11 3 20 3 12 Z M11 14 C11 14 6 19 6 28 L26 28 C26 19 21 14 21 14 L11 14 Z" />
+            <circle cx="16" cy="21" r="4" />
+        </svg>
+    </button>
+    <a href="contacts" class="navbar-brand align-content-center">Краерим, Санкт-Петербург</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a href="index" class="btn btn-success">Главная</a>
+            </li>
+            <li class="navbar-item">
+                <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                        День Рождения
+                    </button>
+                    <ul class="dropdown-menu bg-success text-center">
+                        <li class="btn btn-success"><a href="birthday"><p class="text-light">Для взрослых</p></a></li><br>
+                        <li class="btn btn-success"><a href="kids"><p class="text-light">Для детей</p></a></li>
+                    </ul>
+                </div>
+            <li class="navbar-item">
+                <a href="corporate" class="btn btn-success">Корпоратив</a>
+            </li>
+            <li class="navbar-item">
+                <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                        Квесты
+                    </button>
+                    <ul class="dropdown-menu bg-success align-center">
+                        <li class="btn btn-success"><a href="#ourQuests"><p class="text-light">Все квесты</p></a></li><br>
+                        <li class="btn btn-success"><a href="detective"><p class="text-light">Детективные</p></a></li><br>
+                        <li class="btn btn-success"><a href="outside"><p class="text-light">На природе</p></a></li><br>
+                        <li class="btn btn-success"><a href="mafia"><p class="text-light">Мафия (классика)</p></a></li><br>
+                        <li class="btn btn-success"><a href="ostrov"><p class="text-light">"Остров"</p></a></li><br>
+                    </ul>
+                </div>
+            </li>
+            <li class="navbar-item">
+                <a href="addservice" class="btn btn-success">Дополнительно</a>
+            </li>
+            <li class="navbar-item">
+                <a href="registration" class="btn btn-success">Заказать игру</a>
+            </li>
+            <li class="navbar-item">
+                <a href="contacts" class="btn btn-success">Контакты</a>
+            </li>
+        </ul>
     </div>
-</section>
+</nav>
+<br>
+<br>
+<br>
 
-<!-- Two -->
-<section id="two" class="wrapper style2">
-    <div class="inner">
-        <div class="box">
-            <div class="content">
-                <div class="hero-image text-center">
-                    <div class="hero-text">
-                        <h1 style="font-size:40px;padding-top: 10px;"><strong>Весенняя акция!</strong></h1>
-                        <h3><strong>Фотограф в подарок к любой игре!</strong></h3>
-                        <h4><strong>*Акция действует только при заказе с сайта или по телефону: <a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></strong></h4>
-                        <a href="registration" class="btn btn-lg btn-success" style="margin-bottom: 5px;" >Уже интересно!</a>
-                    </div>
+<!---- Two ---->
+<div class="container">
+    <h1 class="text-center">День рождения подростка</h1>
+    <h4 class="text-center">Квесты на день рождения подростка от 12 лет</h4>
+    <h2 class="text-center" style="padding-top: 10px; padding-bottom: 10px;">Квесты, идеально подходящие для подростков</h2>
+    <div class="card-deck">
+        <div class="card text-center" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\teens\1.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Зомби-апокалипсис</h5>
+                <p class="card-text text-justify"><strong>Для тех, кто фанатеет от "Ходячих мертвецов", "Left 4 Dead" или "Resident Evil"</strong><br>
+                    В этом квесте ребята оказываются запертыми в бункере без запасов еды и воды. Вокруг бункера бродят
+                    зомби, связь не работает, а некоторые из запертых в бункере выглядят довольно нездоровыми...
+                    Что же делать, как выбраться из бункера, и нужно ли пожертвовать кем-то из друзей, чтобы спастись самому?
+                    <div class="text-dark">
+                    Участников: от 6 до 25<br>
+                    Длительность: 2 часа<br>
+                    Стоимость: 5 300 руб
                 </div>
-                <br>
-                <div class="container-fluid">
-                    <div class="mycard">
-                        <div class="card-header text-center"><h1>Живые квесты, идеально подходящие для Дня рождения подростка</h1>
-                            </strong>
-                            <br>
-                            <div class="card-group">
-                                <div class="card">
-                                    <img class="card-img-top" src="resources\images\teens\5.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Квест-боевик "Зомби-апокалипсис"</h4>
-                                        <p class="card-text"><strong>Для тех, кто фанатеет от "Ходячих мертвецов", "Left 4 Dead" или "Resident Evil"</strong><br>
-                                        <div class="text-justify">В этом квесте ребята оказываются запертыми в бункере без запасов еды и воды. Вокруг бункера бродят зомби, связь не работает,
-                                            а некоторые из запертых в бункере выглядят довольно нездоровыми...
-                                            Что же делать, как выбраться из бункера, и нужно ли пожертвовать кем-то из друзей, чтобы спастись самому?<br>
-                                            Количество участников: от 6 до 25<br>
-                                            Стоимость: 5 300 руб.<br>
-                                            Длительность: 2 часа</div> </p>
-                                        <footer class="align-center">
-                                            <a href="zombiequest" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
-                                            <a href="registration" class="btn btn-lg btn-success">Мочить зомби!</a>
-                                        </footer>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img class="card-img-top" src="resources\images\teens\6.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Квест-шутка "Этот безумный мир"</h4>
-                                        <p class="card-text-justify"><strong>Для фанатов Гарри Поттера, Терри Пратчетта, фэнтези и игр "Magica"</strong><br>
-                                        <div class="text-justify">В этом квесте тинейджеры становятся безумными волшебниками! В Магической библиотеке произошел взрыв, в результате которого
-                                            из Книги Великих Магических Заклинаний вырвалось одно заклинание... Оно немного изменило реальность, и теперь к Плоскому миру
-                                            летит огромный красный метеорит! А еще, стали открываться порталы, из которых выходят разгневанные боги. А все волшебники
-                                            сошли с ума и не помнят ни одного заклинания. Что же делать? Что делать?!<br>
-                                            Количество участников: от 6 до 16<br>
-                                            Стоимость: 5 300 руб.<br>
-                                            Длительность: 2 часа</div></p>
-                                        </p>
-                                        <footer class="align-center">
-                                            <a href="madWorld" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
-                                            <a href="registration" class="btn btn-lg btn-responsive btn-success">Спасти мир!</a>
-                                        </footer>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img class="card-img-top" src="resources\images\teens\7.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Героический квест "Эпическая история"</h4>
-                                        <p class="card-text-justify"><strong>Для любителей средневековья, компьютерных игр "Skyrim", "Risen", "Dragon Age" и "Fable" </strong><br>
-                                        <div class="text-justify">В этом квесте ребята поучаствуют в легендарной схватке Добра со Злом. Причем они могут быть как на стороне Добра, так и Зла.
-                                            Им предстоит найти Избранного, переманить его на свою сторону, сразиться друг с другом и спасти мир!
-                                            Или просто смотреть как мир сгорает в огне, под их зловещий смех!
-                                            <br>
-                                            Количество участников: от 6 до 16<br>
-                                            Стоимость: 5 300 руб.<br>
-                                            Длительность: 2 часа
-                                        </div> </p>
-                                        <footer class="align-center">
-                                            <a href="worldEye" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
-                                            <a href="registration" class="btn btn-lg btn-success">Стать героем!</a>
-                                        </footer>
-                                    </div>
-                                </div>
-                                </h3>
-                            </div>
-                        </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-xs">
-                            <img class="image main" src="/resources/images/teens/1.jpg" alt=""/>
-                        </div>
-                        <div class="col-sm">
-                            <h3>
-                                <strong> Что такое "живой квест"?</strong><br>
-                                <div class="text-justify">Это отличный способ удивить гостей! На пару часов ребята станут персонажами
-                                    книг, фильмов и компьютерных игр и полностью забудут о мобильниках! У каждого участника будет своя роль и цели, которые можно
-                                    выполнить только общаясь с другими игроками. Такая игра не только развлекает, но и учит детей договариваться и нести ответсвенность за свои решения!
-                                    Например, один из тинеджеров будет капитаном космического корабля, а другой - шпионом, который отправился в космическое путешествие, чтобы
-                                    украсть секретные данные. Шпион может уговорить капитана перейти на его сторону, подкупить его или вытолкнуть его в открытый космос...<br>
+                </p>
+                <a href="zombiequest" class="btn btn-primary">Подробнее</a>
+                <a href="registration" class="btn btn-success">Мочить зомби!</a>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\teens\2.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Этот безумный мир</h5>
+                <p class="card-text text-justify"><strong>Для фанатов Гарри Поттера, Терри Пратчетта, фэнтези и игр "Magica"</strong><br>
+                    В этом квесте тинейджеры становятся безумными волшебниками! В Магической библиотеке произошел взрыв,
+                    в результате которого из Книги Великих Магических Заклинаний вырвалось одно заклинание... Оно немного
+                    изменило реальность, и теперь к Плоскому миру летит огромный красный метеорит! А еще, стали открываться
+                    порталы, из которых выходят разгневанные боги. А все волшебники сошли с ума и не помнят ни одного заклинания.
+                    Что же делать? Что делать?!
+                    <br><br>
+                <div class="text-dark">
+                    Участников: от 6 до 20<br>
+                    Длительность: 2 часа<br>
+                    Стоимость: 5 300 руб
+                </div>
+                </p>
+                <a href="madWorld" class="btn btn-primary">Подробнее</a>
+                <a href="registration" class="btn btn-success">Спасти мир!</a>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\teens\3.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Эпическая история</h5>
+                <p class="card-text text-justify"><strong>Для любителей средневековья, компьютерных игр "Skyrim", "Risen", "Dragon Age" и "Fable"</strong><br>
+                    В этом квесте ребята поучаствуют в легендарной схватке Добра со Злом. Причем они могут быть как на
+                    стороне Добра, так и Зла. Им предстоит найти Избранного, переманить его на свою сторону, сразиться
+                    друг с другом и спасти мир! Или просто смотреть как мир сгорает в огне, под их зловещий смех!
+                    <div class="text-dark">
+                    Участников: от 6 до 16<br>
+                    Длительность: 2 часа<br>
+                    Стоимость: 5 300 руб
+                </div>
+                </p>
+                <a href="worldEye" class="btn btn-primary btn-responsive">Подробнее</a>
+                <a href="registration" class="btn btn-success">Стать героем!</a>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<!---- Three ---->
+<div class="container">
+    <h1 class="text-center">Как проходит квест?</h1>
+    <div class="card-group text-justify">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\birthday\5.PNG" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title text-center">Выбираем сюжет</h5>
+                <p class="card-text">Вы выбираете сюжет в зависимости от предпочтений детей, количества человек и темы праздника</p>
+            </div>
+        </div>
+        <i class="fa fa-arrow-right" style="font-size:48px; padding-top: 150px; padding-right: 50px;"></i>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\birthday\6.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title text-center">Распределяем роли</h5>
+                <p class="card-text">Мы распределяем роли среди участников квеста и раздаем всем книжечки с описанием персонажей.
+                    Ребята знакомятся со своими персонажами и друг с другом, узнают, как они тут оказались и чего же хотят их персонажи.</p>
+            </div>
+        </div>
+        <i class="fa fa-arrow-right" style="font-size:48px; padding-top: 150px; padding-right: 50px;"></i>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\teens\4.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title text-center">Выполняем цели!</h5>
+                <p class="card-text">У ребят будет одна общая цель. Например, спастись из лабораторий, полных зомби.
+                    Но у кажого персонажа будут и личные цели, которые он хочет выполнить. Как их выполнять?
+                    Это решать детям: они смогут общать друг с другом, договариваться, убеждать, а если уговоры не помогут,
+                    то и сразиться друг с другом!</p>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<!---- Four ---->
+<div class="container">
+    <h1 class="text-center">Праздник под ключ!</h1>
+    <h2 class="text-center">Мы можем не только провести квест, но и помочь вам продумать все детали</h2>
+    <div class="card-deck">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\birthday\8.jpg" alt="Card image cap">
+            <div class="card-body text-center">
+                <a class="btn-success btn-lg btn-block text-center">Подобрать помещение</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\index\7.jpg" alt="Card image cap">
+            <div class="card-body text-center">
+                <a class="btn-success btn-lg btn-block text-center">Организовать банкет/фуршет</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\birthday\9.jpg" alt="Card image cap">
+            <div class="card-body text-center">
+                <a class="btn-success btn-lg btn-block text-center">Развлекательная программа до/после квеста</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="card-deck">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\birthday\10.jpg" alt="Card image cap">
+            <div class="card-body text-center">
+                <a class="btn-success btn-lg btn-block text-center">Доставка до/от места проведения игры</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\index\10.jpg" alt="Card image cap">
+            <div class="card-body text-center">
+                <a class="btn-success btn-lg btn-block text-center">Проведение классической мафии/настольных игр</a>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<!---- Five ---->
+<div class="container">
+    <div class="container-fluid">
+        <div class="card">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card-header text-center"><h1><strong>Стоимость:</strong></h1>
 
-                                </div>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm">
-                            <h3>
-                                <strong>Как это работает?</strong><br>
-                                <div class="text-justify"> <ul>
-                                    <li> Вы выбираете один из наших сюжетов</li>
-                                    <li> Мы с вами распределяем роли (можно это делать как заранее, так и на месте) </li>
-                                    <li> Мы помогаем вам выбрать место для игры (у вас дома, на свежем воздухе, в кафе)</li>
-                                    <li>На месте: мы выдаем детям карточки с описанием персонажа и реквизит персонажа</li>
-                                    <li> Ребята знакомятся друг с другом, и… Начинают плести интриги и запутывать остальных, выяснять правду, сражаться и спасать мир</li>
-                                    <li> Исход игры всегда зависит только от игроков, их фантазии и доверчивости</li></ul></div>
-                            </h3>
-                        </div>
-                        <div class="col-sm">
-                            <img class="image main" src="/resources/images/teens/2.jpg" alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm">
-                            <img class="image main" src="/resources/images/teens/4.jpg" alt=""/>
-                        </div>
-                        <div class="col-sm">
-                            <h3>
-                                <strong>Почему именно наш живой квест?</strong><br>
-                                <div class="text-justify"> <ul>
-                                    <li> Подростки смогут почувствовать себя самостоятельными и будут принимать решения, от которых будет действительно зависеть финал игры </li>
-                                    <li> Ребята отвлекутся от гаджетов и будут общаться между собой, договариваться, обмениваться, сторить коварные планы!</li>
-                                    <li> Такой квест не только развлекает, он разывивает навыки общения, внимательность и находчивость!</li>
-                                    <li> Вы не ограничены местом, ведь квест можно провести где угодно: и дома, и на природе</li>
-                                    <li> Вам не придется придумывать ничего дополнительного! Наш квест - это целый праздник!</li>
-                                    <li> После нашего квеста остаются самые лучшие фотографии, которые обязательно нужно выложить в Instagram!</li></ul></div>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-                        <br>
-                        <div class="container-fluid container-center">
-                            <div class="row">
-                                <div class="col-sm">
-                                    <div class="card-header text-center"><h1>Стоимость:</h1>
-                                        </strong>
-                                        <div class="text-center"><h3>Цена указана до 10 человек и может измениться в зависимости от
-                                            заказываемых услуг</h3></div>
-                                        <br>
-                                    </div>
-                                    <table class="table table-striped table-responsive-lg table-center">
-                                        <thead class="thead-success">
-                                        <tr>
-                                            <th scope="col" ></th>
-                                            <th scope="col">Экономный</th>
-                                            <th scope="col">Стандарт</th>
-                                            <th scope="col">Премиум</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <th scope="row">Комплект игры</th>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Ведущий</th>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Возможность выбрать время и место игры</th>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Музыкальное сопровождение</th>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Базовый реквизит для игры</th>
-                                            <td></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Профессиональный фотограф</th>
-                                            <td></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Расширенный реквизит</th>
-                                            <td></td>
-                                            <td></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Пригласительные для гостей</th>
-                                            <td></td>
-                                            <td></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Детская дискотека</th>
-                                            <td></td>
-                                            <td></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                        </tr>
-                                        <tr class="table-success">
-                                            <th scope="row">Стоимость</th>
-                                            <td>5 300</td>
-                                            <td>7 300</td>
-                                            <td>11 800 </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="4" class="text-center"><a href="tel:+7951 669 60 94"><h3>Ответим на все ваши вопросы: +7951 669 60 94</h3></a></td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="4" class="text-center"><a href="registration.jsp" class="btn btn-lg btn-success" >Перезвоните мне!</a></td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <br>
-                            </div>
-                        </div>
-                        <div class="container-fluid">
-                            <div class="mycard">
-                                <div class="card-header text-center"><strong><h1>Отзывы об играх:</h1>
-                                </strong>
-                                    <br>
-                                    <div class="col-sm align-center">
-                                        <img src="resources\images\teens\8.png" class="img-fluid img-thumbnail">
-                                    </div>
-                                    <br>
-                                    <div class="col-sm align-center">
-                                        <img src="resources\images\teens\9.png" class="img-fluid img-thumbnail">
-                                    </div>
-                                    <br>
-                                    <div class="col-sm align-center">
-                                        <img src="resources\images\teens\10.png" class="img-fluid img-thumbnail">
-                                    </div>
-                                </div>
-                                <br>
-                            </div>
-                        </div>
-
-                        <br>
-                        <div class="card-header text-center"><h2>Где провести праздник?</h2>
-                            </strong>
-                            <div class="text-center"><h3>Мы можем провести мероприятие у вас дома, в любом кафе и даже на свежем воздухе!</h3></div>
-                            <br>
-                        </div>
-                    </div>
-                    <div class="card-deck">
-                        <div class="card">
-                            <img class="card-img-top" src="resources\images\places\2.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Арт-пространство "Замок на Невском"</h5>
-                                <p class="card-text-justify">Пространство находится прямо на Невском проспекте и оформлено в стиле средневекового замка.
-                                    Можно почувствовать себя настоящим Императором и посидеть на настоящем троне. Можно приносить свою еду и напитки. Алкоголь по пробковому сбору.<br>
-                                    Адрес: Невский пр., 74-76<br>
-                                    Вместимость: до 55 человек
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="resources\images\places\3.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Лофт "Com.Nata"</h5>
-                                <p class="card-text-justify">Красивый и уютный лофт. В нем есть сцена, и можно устроить не только квест,
-                                    но и шоу-программу. Можно организовтаь фуршет и банкет.<br>
-                                    Адрес: Обводный канал, 136 <br>
-                                    Вместимость: до 170 человек
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="resources\images\places\4.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Скайрум</h5>
-                                <p class="card-text-justify">В пространство можно приносить свою еду и напитки, сыграть в VR, мафию и настольные игры. Есть платная парковка.<br>
-                                    Адрес: Цветочная, 6 <br>
-                                    Вместимость: до 30 человек</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-header text-center"><h2>Дополнительные услуги</h2>
-                        </strong>
-                        <div class="text-center"><h3>Кроме самого квеста, мы можем разнообразить ваш праздник различными выступлениями, и даже классической "мафией"</h3></div>
+                        <div class="text-center"><h3>Цена указана за квест до 10 человек в наших помещениях</h3></div>
                         <br>
                     </div>
-                    <div class="card-deck">
-                        <div class="card">
-                            <img class="card-img-top" src="resources\images\additionalService\1.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Классическая "мафия"</h5>
-                                <p class="card-text-justify">Наши ведущие "мафии" - лучше всех! Мы проводим как классическую мафию, так
-                                    и "вампирскую", например.<br>
-                                    Стоимость: 1 500р. за час игры
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="resources\images\teens\11.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Огненное (световое) шоу</h5>
-                                <p class="card-text-justify">Мы выключаем свет, и показываем вам настоящую огненную магию!
-                                    <br>
-                                    Стоимость: 3 000р. за танец
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="resources\images\teens\12.JPG" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Настольные игры</h5>
-                                <p class="card-text-justify">Мы можем провести для ребят игру в "Ужас Аркхема", "Джентельменскую сделку" и другие настолки!
-                                    <br>
-                                    Стоимость: 1 000 р. за час игры
-                                </p>
-                            </div>
-                        </div>
-                    </div>
 
-                    <h3> Мы позаботимся о том, чтобы вас окружала соответствующая игре атмосфера и о том,
-                        чтобы у вас на память остались самые лучшие и веселые фотографии.
-                        <br><br>
-                        We have the menu in english!<br><br></h3>
-                    <footer class="align-center">
-                        <a href="index#ourQuests" class="btn btn-lg btn-outline-primary">Выбрать квест</a>
-                        <a href="registration" class="btn btn-lg btn-success">Забронировать игру</a>
-                    </footer>
+                    <table class="table table-striped table-responsive-lg">
+                        <thead class="thead-success">
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Лайт</th>
+                            <th scope="col">Стандарт</th>
+                            <th scope="col">Премиум</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">Комплект игры</th>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Ведущий</th>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Возможность выбрать время и место игры</th>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Музыкальное сопровождение</th>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Базовый реквизит для игры</th>
+                            <td></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Игра в классическую "мафию"</th>
+                            <td></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Профессиональный фотограф</th>
+                            <td></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Пригласительные для гостей</th>
+                            <td></td>
+                            <td></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Ди-джей</th>
+                            <td></td>
+                            <td></td>
+                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                        </tr>
+                        <tr class="table-success">
+                            <th scope="row">Стоимость</th>
+                            <td>5 300</td>
+                            <td>8 300</td>
+                            <td>11 800 </td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
     </div>
+</div>
+<br>
+<!----- Six ----->
+<div class="container">
+    <h1 class="text-center">Где провести праздник?</h1>
+    <h3 class="text-center">Мы можем привезти наш квест к вам домой, в школу, в любое кафе и даже на природу!</h3>
+    <div class="card-deck">
+        <div class="card text-center" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\birthday\11.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Скайрум</h5>
+                <p class="card-text text-justify">Секретное пространство недалеко от Московских ворот.
+                    В пространство можно приносить свою еду и напитки, есть холодильник и микроволновка, кулер с горячей и холодной водой,
+                    можно сыграть в VR, мафию и настольные игры. Есть платная парковка.<br>
+                    Адрес: Цветочная, 6 <br>
+                    Вместимость: до 30 человек</p>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\birthday\12.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Остров</h5>
+                <p class="card-text text-justify">Симпатичное пространство на Чкаловской.
+                    Сюда можно приносить свою еду и напитки, есть кулер с горячей и холодной водой, микроволновка, посуда. Можно сыграть в мафию, настольные игры.
+                    Парковка на улице перед пространством.<br>
+                    Адрес: Большая Разночинная, 4 <br>
+                    Вместимость: до 30 человек</p>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\birthday\13.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Культурный Кактус</h5>
+                <p class="card-text text-justify">Большие и светлые партнерские помещения. Еду и напитки можно приносить за отдельную плату,
+                    имеется кухня, приставки, посуда.
+                    Парковка только на улице перед пространством.<br>
+                    Адрес: Садовая 28-30, к.1 <br>
+                    Вместимость: до 50 человек</p>
+            </div>
+        </div>
     </div>
+</div>
+<br>
+<!----- Seven ----->
+<div class="container">
+    <h1 class="text-center">Дополнительные услуги</h1>
+    <h3 class="text-center">Мы можем разнообразить ваш праздник разными интересными деталями, например, выступлением артистов, классической "мафией" и мастер-классами</h3>
+    <div class="card-deck">
+        <div class="card text-center" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\birthday\14.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Классическая и не очень "мафия"</h5>
+                <p class="card-text text-justify">Вы любите мафию? Мы тоже! У нас есть все для игры в "мафию". Ваши дети еще ни разу не играли в мафию?
+                    Тем интереснее им будет играть в первый раз! Наши ведущие помогут всем быстро освоиться с игрой. А если вам хочется чего-то необычного, то
+                    у нас есть "вампирска" мафия, "оборотни", детская мафия.<br>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\birthday\9.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Световое (огненое) шоу</h5>
+                <p class="card-text text-justify">Завораживающий танец в полной темноте... Световое шоу оставляет только самые приятные впечатления!<br>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\birthday\15.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Интересные мастер-классы</h5>
+                <p class="card-text text-justify">Вы можете сделать собственную волшебную палочку, маску на бал-маскарад
+                    или нарисовать новый шедевр! Все под контролем опытных мастеров ;)<br>
+            </div>
+        </div>
     </div>
-</section>
+</div>
+<br>
+<!----- Eight ----->
+<h1 class="text-center">Готовы к необычному празднику?</h1>
+<div class="container">
 
-<!-- Three -->
-<section id="three" class="wrapper style3" onclick="location.href='index'">
-    <div class="inner">
-        <header class="align-center">
-            <p>Узнай, что за краем мира</p>
-            <h2>Краерим. Живые квесты</h2>
-        </header>
+    <%request.setCharacterEncoding("ISO-8859-1");%>
+    <form:form modelAttribute="ClientQuestion" method="post" action="/index" class="needs-validation" novalidate="false">
+    <div class="form-row justify-content-center">
+        <div class="form">
+            <form:input path="name" type="text" class="form-control" id="validationCustom01" placeholder="Имя" required="true"/>
+            <div class="invalid-feedback">
+                Пожалуйста, введите Ваше имя
+            </div>
+        </div>
+        <div class="form">
+            <form:input path="telephone" type="text" class="form-control" id="validationCustom02" placeholder="Телефон" required="true"/>
+            <div class="invalid-feedback">
+                Пожалуйста, введите корректный номер
+            </div>
+        </div>
+            <%--<a href="registration" class="btn btn-success align-center">Перезвоните мне</a>--%>
+        <button class="btn btn-success align-center" type="submit">Хочу квест</button>
     </div>
-</section>
-<!-- Footer -->
-<footer id="footer">
-    <div class="container">
-        <ul class="icons">
-            <li><a href="https://twitter.com/realkraerim" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="https://www.facebook.com/kraerim/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-            <li><a href="https://www.instagram.com/kraerim/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-            <li><a href="https://vk.com/kraerim" class="icon fa-vk"><span class="label">VK</span></a></li>
-            <%--<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>--%>
-        </ul>
+</div>
+</form:form>
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+                form.addEventListener('submit', function(event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+</script>
+
+</div>
+
+<!----- Footer ----->
+<footer class="page-footer" style="background-color: black; padding-top: 30px;">
+    <div class="container text-center">
+        <a href="https://www.facebook.com/kraerim/" class="fa fa-facebook fa-lg" style="padding-right: 30px; color:white;"></a>
+        <a href="https://www.instagram.com/kraerim/" class="fa fa-instagram fa-lg" style="padding-right: 30px; color:white;"></a>
+        <a href="https://vk.com/kraerim" class="fa fa-vk fa-lg" style="color:white;"></a>
     </div>
-    <div class="copyright">
-        Kraerim
     </div>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" style="color:white;"> © 2018 Краерим</a>
+    </div>
+    <!-- Copyright -->
 </footer>
 
-<!-- Scripts -->
-<script src="/resources/assets/js/jquery.min.js"></script>
-<script src="/resources/assets/js/bootstrap.bundle.min.js"></script>
-<script src="/resources/assets/js/bootstrap.min.js"></script>
-<script src="/resources/assets/js/jquery.scrollex.min.js"></script>
-<script src="/resources/assets/js/skel.min.js"></script>
-<script src="/resources/assets/js/util.js"></script>
-<script src="/resources/assets/js/main.js"></script>
+<!----- Popup ----->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="ModalLabel"><a href="tel:+7 951 669 60 94" text="align-center">+7 951 669 60 94</a></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <%request.setCharacterEncoding("ISO-8859-1");%>
+                <form:form modelAttribute="ClientQuestion" method="post" action="/birthday" class="needs-validation" novalidate="false">
+                <div class="form-group">
+                    <div class="form-group">
+                        <form:input path="name" type="text" class="form-control" id="validationCustom01" placeholder="Имя" required="true"/>
+                        <div class="invalid-feedback">
+                            Пожалуйста, введите Ваше имя
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <form:input path="telephone" type="text" class="form-control" id="validationCustom02" placeholder="Телефон" required="true"/>
+                        <div class="invalid-feedback">
+                            Пожалуйста, введите корректный номер
+                        </div>
+                    </div>
+                        <%--<a href="registration" class="btn btn-success align-center">Перезвоните мне</a>--%>
+                    <button class="btn btn-success align-center" type="submit">Перезвоните мне</button>
+                </div>
+            </div>
+            </form:form>
+            <script>
+                // Example starter JavaScript for disabling form submissions if there are invalid fields
+                (function() {
+                    'use strict';
+                    window.addEventListener('load', function() {
+                        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                        var forms = document.getElementsByClassName('needs-validation');
+                        // Loop over them and prevent submission
+                        var validation = Array.prototype.filter.call(forms, function(form) {
+                            form.addEventListener('submit', function(event) {
+                                if (form.checkValidity() === false) {
+                                    event.preventDefault();
+                                    event.stopPropagation();
+                                }
+                                form.classList.add('was-validated');
+                            }, false);
+                        });
+                    }, false);
+                })();
+            </script>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
 </body>

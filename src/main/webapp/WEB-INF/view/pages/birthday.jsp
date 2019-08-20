@@ -317,7 +317,7 @@
                         </tr>
                         <tr>
                             <th scope="row">Базовый реквизит для игры</th>
-                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            <td></td>
                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                         </tr>
@@ -348,7 +348,7 @@
                         <tr class="table-success">
                             <th scope="row">Стоимость</th>
                             <td>5 300</td>
-                            <td>7 300</td>
+                            <td>8 300</td>
                             <td>11 800 </td>
                         </tr>
                         </tbody>
