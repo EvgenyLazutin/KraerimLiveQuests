@@ -30,25 +30,14 @@ public class maincontroller {
 
     @RequestMapping(value = "/index", method = RequestMethod.GET)
     public ModelAndView getIndex() {
-        ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("ClientQuestion", new Client());
+        ModelAndView modelAndView = initialisationQuestion();
         modelAndView.setViewName("index");
         return modelAndView;
     }
 
     @RequestMapping(value = "/index", method = RequestMethod.POST)
-    public RedirectView PostIndex(@ModelAttribute("ClientQuestion") Client client) {
-        ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("ClientQuestion", client);
-        Map<String, Object> modelMailClient = new HashMap<>();
-        modelMailClient.put("from", "Kraerim@com");
-        modelMailClient.put("subject", "Запрос на перезвонить");
-        String email = "lazutinakraerim@gmail.com";
-        modelMailClient.put("to", email);
-        modelMailClient.put("userName", client.getName());
-        modelMailClient.put("telephone", client.getTelephone());
-        emailService.sendEmailClient("email.vm", modelMailClient);
-
+    public RedirectView postIndex(@ModelAttribute("ClientQuestion") Client client) {
+        sendEmail(client);
         return new RedirectView("confirmQuestion");
     }
 
@@ -114,25 +103,14 @@ public class maincontroller {
 
     @RequestMapping(value = "/birthday", method = RequestMethod.GET)
     public ModelAndView getBirthday() {
-        ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("ClientQuestion", new Client());
+        ModelAndView modelAndView = initialisationQuestion();
         modelAndView.setViewName("birthday");
         return modelAndView;
     }
 
     @RequestMapping(value = "/birthday", method = RequestMethod.POST)
-    public RedirectView PostBirthday(@ModelAttribute("ClientQuestion") Client client) {
-        ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("ClientQuestion", client);
-        Map<String, Object> modelMailClient = new HashMap<>();
-        modelMailClient.put("from", "Kraerim@com");
-        modelMailClient.put("subject", "Запрос на перезвонить");
-        String email = "lazutinakraerim@gmail.com";
-        modelMailClient.put("to", email);
-        modelMailClient.put("userName", client.getName());
-        modelMailClient.put("telephone", client.getTelephone());
-        emailService.sendEmailClient("email.vm", modelMailClient);
-
+    public RedirectView postBirthday(@ModelAttribute("ClientQuestion") Client client) {
+        sendEmail(client);
         return new RedirectView("confirmQuestion");
     }
 
@@ -160,7 +138,7 @@ public class maincontroller {
     }
 
     @RequestMapping(value = "/registration", method = RequestMethod.POST)
-    public ModelAndView PostRegistration(@ModelAttribute("ClientRegistration") Client client) {
+    public ModelAndView postRegistration(@ModelAttribute("ClientRegistration") Client client) {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.addObject("ClientRegistration", client);
         Map<String, Object> modelMailClient = new HashMap<>();
@@ -188,88 +166,58 @@ public class maincontroller {
 
     @RequestMapping(value = "/kids", method = RequestMethod.GET)
     public ModelAndView getKids() {
-        ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("ClientQuestion", new Client());
+        ModelAndView modelAndView = initialisationQuestion();
         modelAndView.setViewName("kids");
         return modelAndView;
     }
 
     @RequestMapping(value = "/kids", method = RequestMethod.POST)
-    public RedirectView PostKids(@ModelAttribute("ClientQuestion") Client client) {
-        ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("ClientQuestion", client);
-        Map<String, Object> modelMailClient = new HashMap<>();
-        modelMailClient.put("from", "Kraerim@com");
-        modelMailClient.put("subject", "Запрос на перезвонить");
-        String email = "lazutinakraerim@gmail.com";
-        modelMailClient.put("to", email);
-        modelMailClient.put("userName", client.getName());
-        modelMailClient.put("telephone", client.getTelephone());
-        emailService.sendEmailClient("email.vm", modelMailClient);
-
+    public RedirectView postKids(@ModelAttribute("ClientQuestion") Client client) {
+        sendEmail(client);
         return new RedirectView("confirmQuestion");
     }
-
-    @RequestMapping(value = "/detective", method = RequestMethod.GET)
-    public ModelAndView getDetective() {
-        ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("ClientQuestion", new Client());
-        modelAndView.setViewName("detective");
-        return modelAndView;
-    }
-
-    @RequestMapping(value = "/detective", method = RequestMethod.POST)
-    public RedirectView PostDetective(@ModelAttribute("ClientQuestion") Client client) {
-        ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("ClientQuestion", client);
-        Map<String, Object> modelMailClient = new HashMap<>();
-        modelMailClient.put("from", "Kraerim@com");
-        modelMailClient.put("subject", "Запрос на перезвонить");
-        String email = "lazutinakraerim@gmail.com";
-        modelMailClient.put("to", email);
-        modelMailClient.put("userName", client.getName());
-        modelMailClient.put("telephone", client.getTelephone());
-        emailService.sendEmailClient("email.vm", modelMailClient);
-
-        return new RedirectView("confirmQuestion");
-    }
-
 
     @RequestMapping(value = "/teens", method = RequestMethod.GET)
     public ModelAndView getTeens() {
-        ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("ClientQuestion", new Client());
+        ModelAndView modelAndView = initialisationQuestion();
         modelAndView.setViewName("teens");
         return modelAndView;
     }
 
     @RequestMapping(value = "/teens", method = RequestMethod.POST)
-    public RedirectView PostTeens(@ModelAttribute("ClientQuestion") Client client) {
-        ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("ClientQuestion", client);
-        Map<String, Object> modelMailClient = new HashMap<>();
-        modelMailClient.put("from", "Kraerim@com");
-        modelMailClient.put("subject", "Запрос на перезвонить");
-        String email = "lazutinakraerim@gmail.com";
-        modelMailClient.put("to", email);
-        modelMailClient.put("userName", client.getName());
-        modelMailClient.put("telephone", client.getTelephone());
-        emailService.sendEmailClient("email.vm", modelMailClient);
-
+    public RedirectView postTeens(@ModelAttribute("ClientQuestion") Client client) {
+        sendEmail(client);
         return new RedirectView("confirmQuestion");
     }
 
 
     @RequestMapping(value = "/corporate", method = RequestMethod.GET)
     public ModelAndView getCorporate() {
-        ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("ClientQuestion", new Client());
+        ModelAndView modelAndView = initialisationQuestion();
         modelAndView.setViewName("corporate");
         return modelAndView;
     }
 
     @RequestMapping(value = "/corporate", method = RequestMethod.POST)
-    public RedirectView PostCorporate(@ModelAttribute("ClientQuestion") Client client) {
+    public RedirectView postCorporate(@ModelAttribute("ClientQuestion") Client client) {
+        sendEmail(client);
+        return new RedirectView("confirmQuestion");
+    }
+
+    @RequestMapping(value = "/detective", method = RequestMethod.POST)
+    public RedirectView postDetective(@ModelAttribute("ClientQuestion") Client client) {
+        sendEmail(client);
+        return new RedirectView("confirmQuestion");
+    }
+
+    @RequestMapping(value = "/detective", method = RequestMethod.GET)
+    public ModelAndView getDetective() {
+        ModelAndView modelAndView = initialisationQuestion();
+        modelAndView.setViewName("detective");
+        return modelAndView;
+    }
+
+    private void sendEmail(Client client) {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.addObject("ClientQuestion", client);
         Map<String, Object> modelMailClient = new HashMap<>();
@@ -281,7 +229,13 @@ public class maincontroller {
         modelMailClient.put("telephone", client.getTelephone());
         emailService.sendEmailClient("email.vm", modelMailClient);
 
-        return new RedirectView("confirmQuestion");
     }
+
+    private ModelAndView initialisationQuestion(){
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.addObject("ClientQuestion", new Client());
+        return modelAndView;
+    }
+
 
 }

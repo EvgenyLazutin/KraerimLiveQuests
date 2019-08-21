@@ -38,7 +38,7 @@
 
     <title>Детективные квесты</title>
     <meta name= "description" content = "Квест-расследование">
-    <meta name= "keywords" content = "убийство, расследование убийства, детективное расследование, квест-расследование">
+    <meta name= "keywords" content = "убийство, расследование убийства, детективное расследование, квест-расследование, детектив">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/resources/assets/css/main.css" />
@@ -47,393 +47,543 @@
 </head>
 <body class="subpage">
 
-<!-- Header -->
-<header id="header">
-    <div class="logo"><a href="registration">Заказать игру</a></div>
-    <a href="tel:+7 951 669 60 94">+7 951 669 60 94</a>
-    <a href="#menu">Меню</a>
-</header>
+<body class="subpage">
 
-<!-- Nav -->
-<nav id="menu">
-    <ul class="links">
-        <li><a href="index">Главная</a></li>
-        <li><a href="corporate">День Рождения</a></li>
-        <li><a href="kids">Для детей</a></li>
-        <li><a href="teens">Для подростков</a></li>
-        <li><a href="corporate">Корпоратив</a></li>
-        <li><a href="index#ourQuests">Все квесты</a></li>
-        <li><a href="reviews">Отзывы</a></li>
-        <li><a href="contacts">Контакты</a></li>
-        <li><a href="registration">Заказать игру</a></li>
-    </ul>
-</nav>
-
-<!-- One -->
-<section id="one" class="wrapper style3" onclick="location.href='index'">
-    <div class="inner">
-        <header class="align-center">
-            <p>Узнай, что за краем мира</p>
-            <h2>Краерим. Живые квесты</h2>
-        </header>
+<!----- NavBar ------>
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
+    <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
+        <svg id="i-telephone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M3 12 C3 5 10 5 16 5 22 5 29 5 29 12 29 20 22 11 22 11 L10 11 C10 11 3 20 3 12 Z M11 14 C11 14 6 19 6 28 L26 28 C26 19 21 14 21 14 L11 14 Z" />
+            <circle cx="16" cy="21" r="4" />
+        </svg>
+    </button>
+    <a href="contacts" class="navbar-brand align-content-center">Краерим, Санкт-Петербург</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a href="index" class="btn btn-success">Главная</a>
+            </li>
+            <li class="navbar-item">
+                <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                        День Рождения
+                    </button>
+                    <ul class="dropdown-menu bg-success text-center">
+                        <li class="btn btn-success"><a href="birthday"><p class="text-light">Для взрослых</p></a></li><br>
+                        <li class="btn btn-success"><a href="kids"><p class="text-light">Для детей</p></a></li>
+                        <li class="btn btn-success"><a href="teens"><p class="text-light">Для подростков</p></a></li>
+                    </ul>
+                </div>
+            <li class="navbar-item">
+                <a href="corporate" class="btn btn-success">Корпоратив</a>
+            </li>
+            <li class="navbar-item">
+                <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                        Квесты
+                    </button>
+                    <ul class="dropdown-menu bg-success align-center">
+                        <li class="btn btn-success"><a href="#ourQuests"><p class="text-light">Все квесты</p></a></li><br>
+                        <li class="btn btn-success"><a href="outside"><p class="text-light">На природе</p></a></li><br>
+                        <li class="btn btn-success"><a href="mafia"><p class="text-light">Мафия (классика)</p></a></li><br>
+                        <li class="btn btn-success"><a href="ostrov"><p class="text-light">"Остров"</p></a></li><br>
+                    </ul>
+                </div>
+            </li>
+            <li class="navbar-item">
+                <a href="addservice" class="btn btn-success">Дополнительно</a>
+            </li>
+            <li class="navbar-item">
+                <a href="registration" class="btn btn-success">Заказать игру</a>
+            </li>
+            <li class="navbar-item">
+                <a href="contacts" class="btn btn-success">Контакты</a>
+            </li>
+        </ul>
     </div>
-</section>
+</nav>
+<br>
+<br>
+<br>
 
-<!-- Two -->
-<section id="two" class="wrapper style2">
-    <div class="inner">
-        <div class="box">
-            <div class="content">
-                <header class="align-center">
-                    <h2><strong>Детективные квесты</strong></h2>
-                </header>
-                <div class="container-fluid">
-
-                    <div class="text-center"> <h2> <strong>Что такое детективный квест?</strong></h2></div><br>
-                                <div class="text-black text-justify">Вы смотрели сериал "Шерлок Холмс", "Убийство" или "Пуаро"
-                                    и хотели бы тоже поучаствовать в настоящем детективном расследвании? Тогда приглашаем вас поучаствовать в одном из наших детективных квестов!
-                                    На пару часов вы станете другими людьми. Кто-то - роковой красоткой, кто-то
-                                    детективом, а кто-то - убийцей. Вместо того, чтобы смотреть детективный сериал, вы станене его участниками, и сами будете
-                                    расследовать таинственные убийства и кражи. У каждого участника будет своя роль и цели, которые надо выполнить по ходу игры.
-                                    Например, среди участников есть детектив, который знает, кто убийца, но для того, чтобы изобличить убийцу, ему придется открыть и свою
-                                    страшную тайну, за которую его могут отправить в тюрьму. Как же поступить: объединиться с убийцей,
-                                    чтобы он не раскрыл ваш секрет, или честно сдать его властям, не смотря на последствия для вас?
-                                    Решение за вами!
-                                </div>
-                    <br>
-
-                 </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm">
-                            <h3>
-                                <strong>Как это работает?</strong><br>
-                                <div class="text-justify"> <ul>
-                                    <li> Вы выбираете один из наших сюжетов</li>
-                                    <li> Мы с вами распределяем роли (можно это делать как заранее, так и на месте) </li>
-                                    <li> Мы помогаем вам выбрать место для игры (у вас дома, на свежем воздухе, в кафе)</li>
-                                    <li> На месте: мы выдаем участникам небольшие книжечки с описанием персонажа и реквизит персонажа</li>
-                                    <li> Вы знакомитесь друг с другом, и… Начинаете плести интриги и запутывать остальных, выяснять правду, расследовать убийство или кражу</li>
-                                    <li> Исход игры всегда зависит только от игроков, их убедительности и доверчивости</li></ul></div>
-                            </h3>
-                        </div>
-                        <div class="col-sm">
-                            <img class="image main" src="/resources/images/detective/1.jpg" alt="" />
-                        </div>
-                    </div>
+<!---- Two ---->
+<div class="container">
+    <h1 class="text-center">Детективный квест</h1>
+         <h4 class="text-center">Настоящее детективное расследование с вами в главной роли!</h4>
+            <div class="text-center"> <h2> <strong>Что такое детективный квест?</strong></h2>
+                <img class="img-fluid" src="resources\images\detective\1.jpg"><br>
+                     <div class="text-black text-justify">Вы смотрели сериалы "Шерлок Холмс", "Убийство" или "Пуаро"
+                     и хотели бы поучаствовать в настоящем детективном расследвании? Тогда приглашаем вас поучаствовать в одном из наших детективных квестов!
+                        На пару часов вы станете другими людьми. Кто-то - роковой красоткой, кто-то
+                            детективом, а кто-то - убийцей. Вместо того, чтобы смотреть детективный сериал, вы станене его участниками, и сами будете
+                            расследовать таинственные убийства и кражи. У каждого участника будет своя роль и цели, которые надо выполнить по ходу игры.
+                        Например, среди участников есть детектив, который знает, кто убийца, но для того, чтобы разоблачить убийцу, ему придется открыть и свою
+                    страшную тайну, за которую его могут отправить в тюрьму. Как же поступить: объединиться с убийцей,
+                чтобы он не раскрыл ваш секрет, или честно сдать его властям, не смотря на последствия для вас?</div>
+    </div>
+    <br>
+    <h2 class="text-center" style="padding-top: 10px; padding-bottom: 10px;">В чем особенность детективных квестов?</h2>
+    <div class="container">
+        <div class="card-deck">
+            <div class="card text-white border-dark mb-3" style="background-color: #8A2BE2; padding: 10px;">
+                <h5 class="card-title">Вам придется учитывать каждую деталь!</h5>
+            </div>
+            <div class="card text-white bg-danger border-dark mb-3" style="padding: 10px;">
+                <h5 class="card-title">Кто-то из вас будет мешать следствию!</h5>
+            </div>
+            <div class="card text-white bg-warning border-dark mb-3" style="padding: 10px;">
+                <h5 class="card-title">Такой квест развивает внимательность, лидерские качества и хитрость ;)</h5>
+            </div>
+            <div class="card text-white bg-primary border-dark mb-3" style="padding: 10px;">
+                <h5 class="card-title">Вы не ограничены местом, ведь квест можно провести где угодно: и дома, и на природе</h5>
+            </div>
+            <div class="card text-white border-dark mb-3" style="background-color: #FF1493; padding: 10px;">
+                <h5 class="card-title">Вы узнаете ваших друзей с новой стороны и сможете объединить людей из разных тусовок!</h5>
+            </div>
+        </div>
+    </div>
+    <br>
+    <h2 class="text-center" style="padding-top: 10px; padding-bottom: 10px;">Наши детективные квесты</h2>
+    <div class="card-deck">
+        <div class="card text-center" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\teens\1.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Убийство в монастыре</h5>
+                <p class="card-text text-justify"><strong>Средневековый детектив</strong><br>
+                    15 век, где-то в горах Испании. В воскресенье в монастыре святой Девы Марии должен был состояться теологический
+                    диспут по поводу бедности Христа. Однако в субботу утром мать-настоятельница монастыря обнаружила Хранителя местной
+                    библиотеки и главного оратора монастыря, брата Титуса, мертвым. Кто совершил убийство и зачем? Вам предстоит это выяснить!
+                <div class="text-dark">
+                    Участников: от 6 до 14<br>
+                    Длительность: 2,5 часа<br>
+                    Стоимость: 5 300 руб
                 </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm">
-                            <img class="image main" src="/resources/images/detective/2.jpg" alt=""/>
-                        </div>
-                        <div class="col-sm">
-                            <h3>
-                                <strong>Почему именно детективный квест?</strong><br>
-                                <div class="text-justify"> <ul>
-                                    <li> Вы любите расследовать загадочные преступления, когда все оказываются под подозрением</li>
-                                    <li> Вы давно хотели попробовать себя в роли опасного преступника</li>
-                                    <li> Наш квест не только развлекает, он помогает вам прокачивать скилл общения</li>
-                                    <li> Вы не ограничены местом, ведь квест можно провести где угодно: и дома, и на природе</li>
-                                    <li> Вам не придется придумывать ничего дополнительного! Наш квест - это целый праздник!</li>
-                                    <li> Вы узнаете ваших друзей с новой стороны и сможете объединить людей из разных тусовок!</li></ul></div>
-                            </h3>
-                        </div>
-                    </div>
+                </p>
+                <a href="murderMonastery" class="btn btn-primary">Подробнее</a>
+                <a href="registration" class="btn btn-success">Уйти в монастырь</a>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\teens\2.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Полицейский участок</h5>
+                <p class="card-text text-justify"><strong>Расследование загадочной кражи</strong><br>
+                    Нью-Йорк, наши дни. Вы оказываетесь в полицейском участке, в котором только что была взорвана
+                    бомба с каким-то белым порошком. Помещения были изолированы, никто не входил и не выходил.
+                    Но буквально через 30 минут, из этого же полицейского участка был
+                    украден сервер со всеми данными полиции. Такой сервер можно продать на черном рынке за несколько миллионов.
+                    Кто же украл сервер, и куда он его дел?
+                    <br><br>
+                <div class="text-dark">
+                    Участников: от 6 до 20<br>
+                    Длительность: 2 часа<br>
+                    Стоимость: 5 300 руб
                 </div>
-                <div class="container-fluid">
-                    <div class="mycard">
-                        <div class="card-header text-center"><h1>Наши детективные квесты</h1>
-                              <br>
-                            <div class="card-group">
-                                <div class="card">
-                                    <img class="card-img-top" src="resources\images\detective\8.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">"Убийство в монастыре"</h5>
-                                        <p class="card-text-justify"><strong>Классическое расследование убийства</strong><br>
-                                            15 век, где-то в горах Испании. В воскресенье в монастыре святой Девы Марии должен был состояться теологический
-                                            диспут по поводу бедности Христа. Однако в субботу утром мать-настоятельница монастыря обнаружила Хранителя местной
-                                            библиотеки и главного оратора монастыря, брата Титуса, мертвым. Кто совершил убийство и зачем? Вам предстоит это выяснить!<br>
-                                            Количество участников: от 6 до 14<br>
-                                            Стоимость: 5 300 руб.<br>
-                                            Длительность: 2 часа</p>
-                                        <footer class="align-center">
-                                            <a href="murderMonastery" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
-                                            <a href="registration" class="btn btn-lg btn-success">Уйти в монастырь</a>
-                                        </footer>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img class="card-img-top" src="resources\images\police\2.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">"Полицейский участок"</h5>
-                                        <p class="card-text-justify"><strong>Расследование загадочной кражи</strong><br>
-                                            Нью-Йорк, наши дни. Вы оказываетесь в полицейском участке, в котором только что была взорвана
-                                            бомба с каким-то белым порошком. Помещения были изолированы, никто не входил и не выходил.
-                                            Но буквально через 30 минут, из этого же полицейского участка был
-                                            украден сервер со всеми данными полиции. Такой сервер можно продать на черном рынке за несколько миллионов.
-                                            Кто же украл сервер, и куда он его дел?<br>
-                                            Количество участников: от 6 до 20<br>
-                                            Стоимость: 5 300 руб.<br>
-                                            Длительность: 1,5 часа</p>
-                                        <footer class="align-center">
-                                            <a href="police" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
-                                            <a href="registration" class="btn btn-lg btn-success">Стать детективом</a>
-                                        </footer>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img class="card-img-top" src="resources\images\detective\9.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">"Убийство лорда Четвела"</h5>
-                                        <p class="card-text-justify"><strong>Расследование убийства миллионера</strong><br>
-                                           Вы - родственник миллионера, который пригласил вас на выходные в свой особняк. Он хотел обсудить завещание.
-                                            Вечер пятницы проходил вполне себе спокойно, пока прислуга не обнаружила лорда Четвела мертвым. А ведь вы - на его личном острове, и никто не мог
-                                            проникнуть сюда незамеченным. Будет ли убийца убивать и дальше? И почему при лорде Четвеле были найдены сережки тети Эдны?
-                                            Количество участников: от 4 до 12<br>
-                                            Стоимость: 5 300 руб.<br>
-                                            Длительность: 2 часа
-                                        </p>
-                                        <footer class="align-center">
-                                            <div class="text-center">Квест находится в разработке!</div>
-                                        </footer>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-sm">
-                                    <div class="card-header text-center"><h1>Стоимость:</h1>
-                                        <div class="text-center"><h3>Цена указана до 10 человек и может измениться в зависимости от
-                                            заказываемых услуг</h3></div>
-                                        <br>
-                                    </div>
+                </p>
+                <a href="police" class="btn btn-primary">Подробнее</a>
+                <a href="registration" class="btn btn-success">Стать детективом</a>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 18rem;">
+            <img class="card-img-top" src="resources\images\teens\3.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Убийство лорда Четвела</h5>
+                <p class="card-text text-justify"><strong>Классическое расследование убийства миллионера</strong><br>
+                    Вы - родственник миллионера, который пригласил вас на выходные в свой особняк. Он хотел обсудить завещание.
+                    Вечер пятницы проходил вполне себе спокойно, пока прислуга не обнаружила лорда Четвела мертвым. А ведь вы - на его личном острове, и никто не мог
+                    проникнуть сюда незамеченным. Будет ли убийца убивать и дальше? И почему при лорде Четвеле были найдены сережки тети Эдны?
+                <div class="text-dark">
+                    Участников: от 6 до 16<br>
+                    Длительность: 2 часа<br>
+                    Стоимость: 5 300 руб
+                </div>
+                </p>
+                <a class="text-center">Квест находится в разработке!</a>
+            </div>
+        </div>
+    </div>
 
-                                    <table class="table table-striped table-responsive-lg">
-                                        <thead class="thead-success">
-                                        <tr>
-                                            <th scope="col"></th>
-                                            <th scope="col">Экономный</th>
-                                            <th scope="col">Стандарт</th>
-                                            <th scope="col">Премиум</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <th scope="row">Комплект игры</th>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Ведущий</th>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Возможность выбрать время и место игры</th>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Музыкальное сопровождение</th>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Базовый реквизит для игры</th>
-                                            <td></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Профессиональный фотограф</th>
-                                            <td></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Расширенный реквизит</th>
-                                            <td></td>
-                                            <td></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Пригласительные для гостей</th>
-                                            <td></td>
-                                            <td></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Ди-джей</th>
-                                            <td></td>
-                                            <td></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                        </tr>
-                                        <tr class="table-success">
-                                            <th scope="row">Стоимость</th>
-                                            <td>5 300</td>
-                                            <td>7 300</td>
-                                            <td>10 800 </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="4" class="text-center"><a href="tel:+7951 669 60 94"><h3>Ответим на все ваши вопросы: +7951 669 60 94</h3></a></td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                        <br>
-                        <div class="container-fluid">
-                            <div class="mycard">
-                                <div class="card-header text-center"><h1>Отзывы о наших детективных квестах:</h1>
-                                    <br>
-                                    <div class="col-sm align-center">
-                                        <img src="resources\images\detective\5.png" class="img-fluid img-thumbnail">
-                                    </div>
-                                <br>
-                                <div class="col-sm align-center">
-                                <img src="resources\images\detective\6.png" class="img-fluid img-thumbnail">
-                                 </div>
-                                 <br>
-                             <div class="col-sm align-center">
-                            <img src="resources\images\detective\7.png" class="img-fluid img-thumbnail">
-                              </div>
-                        </div>
-                        <br>
-                    </div>
-                    <div class="card-header text-center"><h2>Где провести праздник?</h2>
-                        <div class="text-center"><h3>Мы можем провести мероприятие у вас дома, в любом баре и даже на свежем воздухе!</h3></div>
-                        <br>
-                    </div>
-                    <div class="card-deck">
-                        <div class="card">
-                            <img class="card-img-top" src="resources\images\detective\4.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Бар "Mollies' Mews</h5>
-                                <p class="card-text-justify">Бар - отличное место для расследования преступления. Антуражные помещения,
-                                    индивидуальный зал и подходящая музыка настроят вас на нужный лад.<br>
-                                    Адрес: ул. Большая Конюшенная, 5<br>
-                                    Вместимость: до 14 человек
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="resources\images\places\3.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Лофт "Com.Nata"</h5>
-                                <p class="card-text-justify">Красивый и уютный лофт. В нем есть сцена, и можно устроить не только квест,
-                                    но и шоу-программу. Можно организовтаь фуршет и банкет.<br>
-                                    Адрес: Обводный канал, 136 <br>
-                                    Вместимость: до 170 человек
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="resources\images\places\4.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Скайрум</h5>
-                                <p class="card-text-justify">В пространство можно приносить свою еду и напитки, сыграть в VR, мафию и настольные игры. Есть платная парковка.<br>
-                                    Адрес: Цветочная, 6 <br>
-                                    Вместимость: до 30 человек</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-header text-center"><h2>Дополнительные услуги</h2>
-                        <div class="text-center"><h3>Кроме самого квеста, мы можем разнообразить ваш праздник различными выступлениями, и даже классической "мафией"</h3></div>
-                        <br>
-                    </div>
-                    <div class="card-deck">
-                        <div class="card">
-                            <img class="card-img-top" src="resources\images\additionalService\1.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Классическая "мафия"</h5>
-                                <p class="card-text-justify">Наши ведущие "мафии" - лучше всех! Мы проводим как классическую мафию, так
-                                    и "вампирскую", например. Кроме того, мы можем принести с собой детективные настольные игры: "Cluedo", "Джентельменская сделка"<br>
-                                    Стоимость: 1 500р. за час игры
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="resources\images\additionalService\3.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Световое (огненное) шоу</h5>
-                                <p class="card-text-justify">Мы выключаем свет и... вы погружаетесь в мир китайских драконов и магов огня!
-                                    Шоу оставляет только самые приятные впечатления!
-                                    <br>
-                                    Стоимость: 3 000р. за танец
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="resources\images\detective\3.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Мастер-классы</h5>
-                                <p class="card-text-justify">Мы можем провести мастер класс по созданию и раскраске сувенирных пистолетов, букетов и бокалов
-                                    <br>
-                                    Стоимость: от 3 000р. за мастер-класс
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <h3> Мы позаботимся о том, чтобы вас окружала соответствующая игре атмосфера и о том,
-                        чтобы у вас на память остались самые лучшие и веселые фотографии.
-                        <br><br>
-                        We have the menu in english!<br><br></h3>
-                    <footer class="align-center">
-                        <a href="index#ourQuests" class="btn btn-lg btn-outline-primary">Выбрать другой квест</a>
-                        <a href="registration" class="btn btn-lg btn-success">Забронировать игру</a>
-                    </footer>
+    <!---- Three ---->
+    <div class="container">
+        <h1 class="text-center">Как проходит квест?</h1>
+        <div class="card-group text-justify">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\birthday\5.PNG" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Выбираем сюжет</h5>
+                    <p class="card-text">Вы выбираете сюжет в зависимости от ваших предпочтений, количества человек и темы праздника</p>
+                </div>
+            </div>
+            <i class="fa fa-arrow-right" style="font-size:48px; padding-top: 150px; padding-right: 50px;"></i>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\birthday\6.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Распределяем роли</h5>
+                    <p class="card-text">Мы распределяем роли среди участников квеста и раздаем всем книжечки с описанием персонажей</p>
+                </div>
+            </div>
+            <i class="fa fa-arrow-right" style="font-size:48px; padding-top: 150px; padding-right: 50px;"></i>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\birthday\7.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Выполняем цели!</h5>
+                    <p class="card-text">У вас будет одна общая цель. Например, найти преступника, укравшего полицейский
+                        сервер. Но у кажого персонажа будут и личные цели, которые он хочет выполнить. Как их выполнять?
+                        Можно уговаривать, убеждать, обманывать, угрожать и подкупать других участников!</p>
                 </div>
             </div>
         </div>
     </div>
-    </div>
-    </div>
-</section>
+    <br>
 
-<!-- Three -->
-<section id="three" class="wrapper style3" onclick="location.href='index'">
-    <div class="inner">
-        <header class="align-center">
-            <p>Узнай, что за краем мира</p>
-            <h2>Краерим. Живые квесты</h2>
-        </header>
-    </div>
-</section>
-<!-- Footer -->
-<footer id="footer">
+    <!---- Four ---->
     <div class="container">
-        <ul class="icons">
-            <li><a href="https://twitter.com/realkraerim" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="https://www.facebook.com/kraerim/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-            <li><a href="https://www.instagram.com/kraerim/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-            <li><a href="https://vk.com/kraerim" class="icon fa-vk"><span class="label">VK</span></a></li>
-            <%--<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>--%>
-        </ul>
+        <h1 class="text-center">Праздник под ключ!</h1>
+        <h2 class="text-center">Мы можем не только провести квест, но и помочь вам продумать все детали</h2>
+        <div class="card-deck">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\birthday\8.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                    <a class="btn-success btn-lg btn-block text-center">Подобрать помещение</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\index\7.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                    <a class="btn-success btn-lg btn-block text-center">Организовать банкет/фуршет</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\birthday\9.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                    <a class="btn-success btn-lg btn-block text-center">Развлекательная программа до/после квеста</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="card-deck">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\birthday\10.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                    <a class="btn-success btn-lg btn-block text-center">Доставка до/от места проведения игры</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\index\10.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                    <a class="btn-success btn-lg btn-block text-center">Проведение классической мафии/настольных игр</a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="copyright">
-        Kraerim
+    <br>
+    <br>
+
+    <!---- Five ---->
+    <div class="container">
+        <div class="container-fluid">
+            <div class="card">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card-header text-center"><h1><strong>Стоимость:</strong></h1>
+
+                            <div class="text-center"><h3>Цена указана за квест до 10 человек в наших помещениях</h3></div>
+                            <br>
+                        </div>
+
+                        <table class="table table-striped table-responsive-lg">
+                            <thead class="thead-success">
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Лайт</th>
+                                <th scope="col">Стандарт</th>
+                                <th scope="col">Премиум</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">Комплект игры</th>
+                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Ведущий</th>
+                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Возможность выбрать время и место игры</th>
+                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Музыкальное сопровождение</th>
+                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Базовый реквизит для игры</th>
+                                <td></td>
+                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Игра в классическую "мафию"</th>
+                                <td></td>
+                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Профессиональный фотограф</th>
+                                <td></td>
+                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Пригласительные для гостей</th>
+                                <td></td>
+                                <td></td>
+                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Ди-джей</th>
+                                <td></td>
+                                <td></td>
+                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                            </tr>
+                            <tr class="table-success">
+                                <th scope="row">Стоимость</th>
+                                <td>5 300</td>
+                                <td>8 300</td>
+                                <td>11 800 </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <br>
+
+    <!----- Six ----->
+    <div class="container">
+        <h1 class="text-center">Где провести праздник?</h1>
+        <h3 class="text-center">Мы можем привезти наш квест к вам домой, в офис, в любое кафе, бар и даже на природу!</h3>
+        <div class="card-deck">
+            <div class="card text-center" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\birthday\11.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Скайрум</h5>
+                    <p class="card-text text-justify">Секретное пространство недалеко от Московских ворот.
+                        В пространство можно приносить свою еду и напитки, есть холодильник и микроволновка, кулер с горячей и холодной водой,
+                        можно сыграть в VR, мафию и настольные игры. Есть платная парковка.<br>
+                        Адрес: Цветочная, 6 <br>
+                        Вместимость: до 30 человек</p>
+                </div>
+            </div>
+            <div class="card text-center" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\birthday\12.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Остров</h5>
+                    <p class="card-text text-justify">Симпатичное пространство на Чкаловской для небольших компаний.
+                        Сюда можно приносить свою еду и напитки, есть кулер с горячей и холодной водой, микроволновка, посуда. Можно сыграть в мафию, настольные игры.
+                        Парковка на улице перед пространством.<br>
+                        Адрес: Большая Разночинная, 4 <br>
+                        Вместимость: до 30 человек</p>
+                </div>
+            </div>
+            <div class="card text-center" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\birthday\13.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Культурный Кактус</h5>
+                    <p class="card-text text-justify">Большие и светлые партнерские помещения. Еду и напитки можно приносить за отдельную плату,
+                        имеется кухня, приставки, посуда.
+                        Парковка только на улице перед пространством.<br>
+                        Адрес: Садовая 28-30, к.1 <br>
+                        Вместимость: до 50 человек</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!----- Seven ----->
+    <div class="container">
+        <h1 class="text-center">Дополнительные услуги</h1>
+        <h3 class="text-center">Мы можем разнообразить ваш праздник разными интересными деталями, например, выступлением артистов, классической "мафией" и мастер-классами</h3>
+        <div class="card-deck">
+            <div class="card text-center" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\birthday\14.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Классическая и не очень "мафия"</h5>
+                    <p class="card-text text-justify">Вы любите мафию? Мы тоже! У нас есть все для игры в "мафию". Если вам надоела классика,
+                        можем провести для вас "оборотней" и вампирскую мафию. А если вы настоящий профессионал, то можем организовать для вас
+                        расширенную версию игры с интересными дополнительными персонажами.<br>
+                </div>
+            </div>
+            <div class="card text-center" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\birthday\9.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Световое (огненое) шоу</h5>
+                    <p class="card-text text-justify">Завораживающий танец в полной темноте... Световое шоу оставляет только самые приятные впечатления!<br>
+                </div>
+            </div>
+            <div class="card text-center" style="width: 18rem;">
+                <img class="card-img-top" src="resources\images\birthday\15.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Интересные мастер-классы</h5>
+                    <p class="card-text text-justify">Вы можете сделать собственную волшебную палочку, маску на следующий бал-маскарад или нарисовать новый шедевр! Все под контролем опытных мастеров ;)<br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!----- Eight ----->
+    <div class="container">
+        <h1 class="text-center">Отзывы</h1>
+        <script type="text/javascript">
+            VK.init({
+                apiId: 7010334,
+                onlyWidgets: true
+            });
+        </script>
+        <div id="vk_comments"></div>
+        <script type="text/javascript">
+            VK.Widgets.Comments('vk_comments');
+        </script>
+    </div>
+
+    <!----- Nine ----->
+    <h1 class="text-center">Готовы к необычному празднику?</h1>
+    <div class="container">
+
+        <%request.setCharacterEncoding("ISO-8859-1");%>
+        <form:form modelAttribute="ClientQuestion" method="post" action="/index" class="needs-validation" novalidate="false">
+        <div class="form-row justify-content-center">
+            <div class="form">
+                <form:input path="name" type="text" class="form-control" id="validationCustom01" placeholder="Имя" required="true"/>
+                <div class="invalid-feedback">
+                    Пожалуйста, введите Ваше имя
+                </div>
+            </div>
+            <div class="form">
+                <form:input path="telephone" type="text" class="form-control" id="validationCustom02" placeholder="Телефон" required="true"/>
+                <div class="invalid-feedback">
+                    Пожалуйста, введите корректный номер
+                </div>
+            </div>
+                <%--<a href="registration" class="btn btn-success align-center">Перезвоните мне</a>--%>
+            <button class="btn btn-success align-center" type="submit">Хочу квест</button>
+        </div>
+    </div>
+    </form:form>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+
+</div>
+
+<!----- Footer ----->
+<footer class="page-footer" style="background-color: black; padding-top: 30px;">
+    <div class="container text-center">
+        <a href="https://www.facebook.com/kraerim/" class="fa fa-facebook fa-lg" style="padding-right: 30px; color:white;"></a>
+        <a href="https://www.instagram.com/kraerim/" class="fa fa-instagram fa-lg" style="padding-right: 30px; color:white;"></a>
+        <a href="https://vk.com/kraerim" class="fa fa-vk fa-lg" style="color:white;"></a>
+    </div>
+    </div>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" style="color:white;"> © 2018 Краерим</a>
+    </div>
+    <!-- Copyright -->
 </footer>
 
-<!-- Scripts -->
-<script src="/resources/assets/js/jquery.min.js"></script>
-<script src="/resources/assets/js/bootstrap.bundle.min.js"></script>
-<script src="/resources/assets/js/bootstrap.min.js"></script>
-<script src="/resources/assets/js/jquery.scrollex.min.js"></script>
-<script src="/resources/assets/js/skel.min.js"></script>
-<script src="/resources/assets/js/util.js"></script>
-<script src="/resources/assets/js/main.js"></script>
+<!----- Popup ----->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="ModalLabel"><a href="tel:+7 951 669 60 94" text="align-center">+7 951 669 60 94</a></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <%request.setCharacterEncoding("ISO-8859-1");%>
+                <form:form modelAttribute="ClientQuestion" method="post" action="/birthday" class="needs-validation" novalidate="false">
+                <div class="form-group">
+                    <div class="form-group">
+                        <form:input path="name" type="text" class="form-control" id="validationCustom01" placeholder="Имя" required="true"/>
+                        <div class="invalid-feedback">
+                            Пожалуйста, введите Ваше имя
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <form:input path="telephone" type="text" class="form-control" id="validationCustom02" placeholder="Телефон" required="true"/>
+                        <div class="invalid-feedback">
+                            Пожалуйста, введите корректный номер
+                        </div>
+                    </div>
+                        <%--<a href="registration" class="btn btn-success align-center">Перезвоните мне</a>--%>
+                    <button class="btn btn-success align-center" type="submit">Перезвоните мне</button>
+                </div>
+            </div>
+            </form:form>
+            <script>
+                // Example starter JavaScript for disabling form submissions if there are invalid fields
+                (function() {
+                    'use strict';
+                    window.addEventListener('load', function() {
+                        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                        var forms = document.getElementsByClassName('needs-validation');
+                        // Loop over them and prevent submission
+                        var validation = Array.prototype.filter.call(forms, function(form) {
+                            form.addEventListener('submit', function(event) {
+                                if (form.checkValidity() === false) {
+                                    event.preventDefault();
+                                    event.stopPropagation();
+                                }
+                                form.classList.add('was-validated');
+                            }, false);
+                        });
+                    }, false);
+                })();
+            </script>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
 </body>
