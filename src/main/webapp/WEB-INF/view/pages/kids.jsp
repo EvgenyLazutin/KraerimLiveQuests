@@ -84,14 +84,6 @@
 <div id="grad1" class="wrapper style2">
     <div class="inner">
             <div class="content">
-                <div class="hero-image text-center">
-                        <div class="hero-text">
-                            <h1 style="font-size:40px;padding-top: 10px;"><strong>Весенняя акция!</strong></h1>
-                            <h3><strong>Фотограф в подарок к любой игре!</strong></h3>
-                            <h4><strong>*Акция действует только при заказе с сайта или по телефону: <a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></strong></h4>
-                            <a href="registration" class="btn btn-lg btn-success" style="margin-bottom: 5px;" >Уже интересно!</a>
-                        </div>
-                </div>
                 <br>
             <div class="container-fluid">
                 <div class="card">
@@ -103,11 +95,11 @@
                                  alt="Card image cap Responsive image">
                             <div class="card-body">
                                 <h4 class="card-title">Квест-мимимишка "Сказочный переполох"</h4>
-                                <p class="card-text"><strong>Квест подходит для детей в возрасте от 8 до 12 лет.</strong><br>
+                                <p class="card-text"><strong>Квест подходит для детей в возрасте от 7 до 10 лет.</strong><br>
                                     <div class="text-justify">В этом квесте дети становятся разными Сказками и будут спасать Сказочный мир! Им предстоит решить
                                     немало головоломок и загадок. Не обойдется без единорогов и фей, а также разборок между Сказками.
                                     Кто получит все Сказочные конфеты? И кто сразит, наконец, Змея-Горыныча?!<br>
-                                    Количество участников: от 8 до 20<br>
+                                    Количество участников: от 2 до 12<br>
                                     Стоимость: 7 500 руб.<br>
                                     Длительность: 1,5 часа</div>
                                 </p>
@@ -158,27 +150,6 @@
                                 </footer>
                             </div>
                         </div>
-                    <div class="card">
-                        <img class="card-img-top img-fluid img-thumbnail"
-                             src="resources\images\ostrov\4.jpg" alt="card image cap responsive image">
-                        <div class="card-body">
-                            <h4 class="card-title">Стратегия "Остров"</h4>
-                            <p class="card-text-justify"><strong>Игра подходит для детей в возрасте от 8 лет.</strong><br>
-                                <a class="text-justify">В этой игре ребята превращаются в пиратов и ищут сокровища на таинственном
-                                    острове, полном крокодилов, людоедов и ловушек. По мотивам настольной игры "Шакал".
-                                    Только в нашей стратегии фишки - это сами ребята, а поле для игры - это целое помещение!<br>
-                                    Где находится: метро Чкаловская, Большая Разночинная, дом 4.
-                                    Количество участников: от 4 до 12<br>
-                                    Стоимость: 7 500 руб.<br>
-                                    Длительность: 80 минут
-                                </a>
-                            </p>
-                            <footer class="align-center">
-                                <a href="ostrov" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
-                                <a href="registration" class="btn btn-lg btn-success">Аррррр!</a>
-                            </footer>
-                        </div>
-                    </div>
                 </div>
                     </div>
                 </div>

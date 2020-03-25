@@ -84,14 +84,6 @@
 <div id="grad1" class="wrapper style2">
     <div class="inner">
         <div class="content">
-            <div class="hero-image text-center">
-                <div class="hero-text">
-                    <h1 style="font-size:40px;padding-top: 10px;"><strong>Весенняя акция!</strong></h1>
-                    <h3><strong>Фотограф в подарок к любой игре!</strong></h3>
-                    <h4><strong>*Акция действует только при заказе с сайта или по телефону: <a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></strong></h4>
-                    <a href="registration" class="btn btn-lg btn-success" style="margin-bottom: 5px;" >Уже интересно!</a>
-                </div>
-            </div>
             <br>
             <div class="container-fluid">
                 <div class="card">

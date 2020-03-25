@@ -36,7 +36,7 @@
   gtag('config', 'UA-119774437-1');
 </script>
 
-    <title>Шервудский лес</title>
+    <title>По законам мафии</title>
     <meta name= "description" content = "квест-вечеринка на любой праздник">
     <meta name= "keywords" content = "мафия, играть в мафию, великий гетсби, квест с мафией, квест на корпоратив">
     <meta charset="utf-8" />

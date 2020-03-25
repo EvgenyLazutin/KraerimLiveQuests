@@ -84,14 +84,6 @@
 <div id="grad1" class="wrapper style2">
     <div class="inner">
         <div class="content">
-            <div class="hero-image text-center">
-                <div class="hero-text">
-                    <h1 style="font-size:40px;padding-top: 10px;"><strong>Весенняя акция!</strong></h1>
-                    <h3><strong>Фотограф в подарок к любой игре!</strong></h3>
-                    <h4><strong>*Акция действует только при заказе с сайта или по телефону: <a href="tel:+7 951 669 60 94">+7 951 669 60 94</a></strong></h4>
-                    <a href="registration" class="btn btn-lg btn-success" style="margin-bottom: 5px;" >Уже интересно!</a>
-                </div>
-            </div>
             <br>
             <div class="container-fluid">
                 <div class="mycard">
@@ -142,12 +134,13 @@
                                         Вы - родственник миллионера, который пригласил вас на выходные в свой особняк. Он хотел обсудить завещание.
                                         Вечер пятницы проходил вполне себе спокойно, пока прислуга не обнаружила лорда Четвела мертвым. А ведь вы - на его личном острове, и никто не мог
                                         проникнуть сюда незамеченным. Будет ли убийца убивать и дальше? И почему при лорде Четвеле были найдены сережки тети Эдны?
-                                        Количество участников: от 4 до 12<br>
-                                        Стоимость: 5 300 руб.<br>
+                                        Количество участников: от 6 до 17<br>
+                                        Стоимость: 4 900 руб.<br>
                                         Длительность: 2 часа
                                     </p>
                                     <footer class="align-center">
-                                        <div class="text-center">Квест находится в разработке!</div>
+                                        <a href="lordChetwell" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
+                                        <a href="registration" class="btn btn-lg btn-success">Получить наследство</a>
                                     </footer>
                                 </div>
                             </div>
@@ -357,6 +350,7 @@
                     </div>
                             </div>
 <div class="card">
+    <div class="container">
                     <div class="card-header text-center"><h2>Дополнительные услуги</h2>
                         <div class="text-center"><h3>Кроме самого квеста, мы можем разнообразить ваш праздник различными выступлениями, и даже классической "мафией"</h3></div>
                         <br>
@@ -403,7 +397,9 @@
                         <a href="index#ourQuests" class="btn btn-lg btn-outline-primary">Выбрать другой квест</a>
                         <a href="registration" class="btn btn-lg btn-success">Забронировать игру</a>
                     </footer>
+    </div>
 </div>
+                            <br>
                 </div>
             </div>
         </div>

@@ -151,7 +151,7 @@
                             — <a href="sherWood">«Шервудский лес»</a><br>
                             — <a href="madWorld">«Этот безумный мир»</a> <br>
                             — <a href="zombiequest">«Зомби-апокалипсис»</a><br>
-                                   — <a href="gangstaParty">«По законам Нью-Йоркской мафии»</a><br></div>
+                                   — <a href="gangstaParty">«По законам мафии Нью-Йорка»</a><br></div>
                            </h3>
                         </div>
                         <div class="col-sm">

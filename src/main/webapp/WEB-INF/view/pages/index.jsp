@@ -117,7 +117,6 @@
                             <button class="btn btn-success"><a href="detective">Детективы</a></button><br>
                             <button class="btn btn-success"><a href="outside">На природе</a></button><br>
                             <button class="btn btn-success"><a href="mafia">Мафия</a></button><br>
-                            <button class="btn btn-success"><a href="ostrov">"Остров"</a></button><br>
                         </ul>
                     </div>
                 </div>
@@ -230,7 +229,7 @@
                  alt="Card image cap Responsive image">
             <div class="card-body">
                 <h2 class="card-title align-center">
-                    Живой квест "Бал-маскарад"</h2>
+                    "Бал-маскарад"</h2>
                 <p class="card-text align-center">
                     <strong>Наш самый романтичный квест! Подойдет для празднования Дня Рождения!</strong><br>
                     Жанр: роман<br>
@@ -249,7 +248,7 @@
             <img class="card-img-top img-fluid img-thumbnail"
                  src="/resources/images/madWorld/headerMadWorld.jpg" alt="Card image cap Responsive image ">
             <div class="card-body">
-                <h2 class="card-title align-center">Живой квест "Этот безумный мир"</h2>
+                <h2 class="card-title align-center">"Этот безумный мир"</h2>
                 <p class="card-text align-center"><strong>Наш самый безумный квест! Идеально подходит для Дня Рождения!</strong><br>
                     Жанр: комедия<br>
                    От 6 до 20 человек<br>
@@ -268,7 +267,7 @@
                  src="/resources/images/gangsterParty/headerGangsterParty.jpg" alt="Card image cap Responsive image">
             <div class="card-body">
                 <h2 class="card-title align-center">
-                    Живой квест "По Законам Нью-Йоркской мафии"</h2>
+                   "По законам мафии Нью-Йорка"</h2>
                                 <p class="card-text align-center">
                                     <strong>Идеально подходит для корпоратива!</strong><br>
                                     Жанр: квест-вечеринка<br>
@@ -297,7 +296,7 @@
                  alt="Card image cap Responsive image">
             <div class="card-body">
                 <h2 class="card-title align-center">
-                    Живой квест "Убийство в монастыре"</h2>
+                    "Убийство в монастыре"</h2>
                 <p class="card-text align-center">
                     Жанр: детектив<br>
                     От 6 до 14 человек<br>
@@ -316,7 +315,7 @@
                  alt="Card image cap Responsive image">
             <div class="card-body">
                 <h2 class="card-title align-center">
-                    Живой квест "Шервудский лес"</h2>
+                    "Шервудский лес"</h2>
                 <p class="card-text align-center">
                     Жанр: спортивный квест<br>
                     От 15 до 30 человек<br>
@@ -335,7 +334,7 @@
                  src="/resources/images/spaceAroundUs/headerSpace.jpg" alt="Card image cap Responsive image ">
             <div class="card-body">
 
-                <h2 class="card-title align-center">Живой квест "Космос вокруг нас"</h2>
+                <h2 class="card-title align-center">"Космос вокруг нас"</h2>
                 <p class="card-text align-center">
                     <strong>Наш самый брутальный квест! Идеально подойдет для празднования 23 февраля!</strong><br>
                     Жанр: ужасы<br>
@@ -361,7 +360,7 @@
                  alt="Card image cap Responsive image">
             <div class="card-body">
                 <h2 class="card-title align-center">
-                    Живой квест "Недетская сказка"</h2>
+                    "Недетская сказка"</h2>
                 <p class="card-text align-center">
                 <strong>Наш самый добрый и мимимишный квест!</strong><br>
                     Жанр: сказка<br>
@@ -381,7 +380,7 @@
                  alt="Card image cap Responsive image ">
             <div class="card-body">
 
-                <h2 class="card-title align-center">Живой квест "Эпическая история"</h2>
+                <h2 class="card-title align-center">"Эпическая история"</h2>
                 <p class="card-text align-center">
                     <strong>Наш самый сложный квест!</strong><br>
                     Жанр: фэнтези<br>
@@ -401,7 +400,7 @@
                  alt="Card image cap Responsive image ">
             <div class="card-body">
 
-                <h2 class="card-title align-center">Живой квест "Полицейский участок"</h2>
+                <h2 class="card-title align-center">"Полицейский участок"</h2>
                 <p class="card-text align-center">
                     Жанр: детектив<br>
                     От 6 до 20 человек<br>
@@ -421,6 +420,26 @@
 <!-- Four -->
 <section id="four" class="wrapper style2">
     <div class="card-deck m-lg-2">
+        <div class="card">
+            <img class="card-img-top img-fluid img-thumbnail width: 50% " src="resources\images\evilMasquerade\1.jpg"
+                 alt="Card image cap Responsive image ">
+            <div class="card-body">
+
+                <h2 class="card-title align-center">"Маскарад нечисти"</h2>
+                <p class="card-text align-center">
+                    Жанр: юмористический квест<br>
+                    Участников: от 10 до бесконечности<br>
+                    Сложность: легкий<br>
+                    Время: 120 минут<br>
+                    Стоимость за команду: от 8 600 р.<br>
+                    16+</p>
+                <footer class="align-center">
+                    <a href="evilMasquerade" class="btn btn-outline-primary">Узнать больше</a>
+                    <a href="registration" class="btn btn-success ">Муа-ха-ха!</a>
+                </footer>
+            </div>
+
+        </div>
         <div class="card">
             <img class="card-img-top img-fluid img-thumbnail width: 50% " src="/resources/4pic.jpg"
                  alt="Card image cap Responsive image ">
@@ -462,6 +481,50 @@
         </div>
     </div>
 </section>
+<!-- Five -->
+<section id="three" class="wrapper style2">
+    <div class="card-deck m-lg-2">
+        <div class="card">
+            <img class="card-img-top img-fluid img-thumbnail" src="resources\images\lordChetwell\1.jpg"
+                 alt="Card image cap Responsive image">
+            <div class="card-body">
+                <h2 class="card-title align-center">
+                    "Убийство лорда Четвела"</h2>
+                <p class="card-text align-center">
+                    <strong>Расследование убийства миллионера</strong><br>
+                    Жанр: детектив<br>
+                    От 6 до 17 человек<br>
+                    Сложность: средний<br>
+                    Время: 120 минут<br>
+                    Стоимость за команду: от 4 900 р.<br>
+                    16+</p>
+                <footer class="align-center">
+                    <a href="lordChetwell" class="btn btn-outline-primary">Узнать больше</a>
+                    <a href="registration" class="btn btn-success">Получить наследство</a>
+                </footer>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top img-fluid img-thumbnail width: 50% " src="resources\images\saveGalaxy\1.jpg"
+                 alt="Card image cap Responsive image ">
+            <div class="card-body">
+
+                <h2 class="card-title align-center">"Спасите Галактику!"</h2>
+                <p class="card-text align-center">
+                    Жанр: фантастика<br>
+                    От 4 до 35 человек<br>
+                    Сложность: средний<br>
+                    Время: 120 минут<br>
+                    Стоимость за команду: от 7 300 р.<br>
+                    8+</p>
+                <footer class="align-center">
+                    <p class="card-text align-center">Квест в разработке!</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+</section>
+
 <div class="mycard">
     <div class="text-center blackbackground">
         <div class="card-header"><h1> Как с нами связаться </h1>
@@ -487,7 +550,7 @@
                     </div>
                 </div>
             </div>
-
+<!--Six-->
             <div class="card">
             <%request.setCharacterEncoding("ISO-8859-1");%>
             <form:form modelAttribute="ClientQuestion" method="post" action="/index" class="needs-validation" novalidate="false">

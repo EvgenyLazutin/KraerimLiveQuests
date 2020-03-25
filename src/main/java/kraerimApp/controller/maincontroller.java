@@ -13,7 +13,8 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.view.RedirectView;
 
 import javax.servlet.http.HttpServletResponse;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 @Controller
 @SessionAttributes(value = "ClientRegistration")
@@ -191,8 +192,14 @@ public class maincontroller {
         return "outside";
     }
 
-    @RequestMapping(value="/ostrov", method=RequestMethod.GET)
-    public String getOstrov() {
-        return "ostrov";
+    @RequestMapping(value="/evilMasquerade", method=RequestMethod.GET)
+    public String getEvilMasquerade() {
+        return "evilMasquerade";
     }
+
+    @RequestMapping(value="/lordChetwell", method=RequestMethod.GET)
+    public String getLordChetwell() {
+        return "lordChetwell";
+    }
+
 }

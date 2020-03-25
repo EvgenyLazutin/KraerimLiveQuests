@@ -34,7 +34,7 @@
     gtag('config', 'UA-119774437-1');
 </script>
 
-<title>Контакты</title>
+<title>Классическая мафия</title>
 <meta name= "description" content = "Классическая Мафия">
 <meta name= "keywords" content = "мафия, играть в мафию, мафия для большой компании, профессиональный ведущий мафии">
 <meta charset="utf-8" />
