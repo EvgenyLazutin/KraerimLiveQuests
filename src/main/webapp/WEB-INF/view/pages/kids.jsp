@@ -95,16 +95,16 @@
                                  alt="Card image cap Responsive image">
                             <div class="card-body">
                                 <h4 class="card-title">Квест-мимимишка "Сказочный переполох"</h4>
-                                <p class="card-text"><strong>Квест подходит для детей в возрасте от 7 до 10 лет.</strong><br>
+                                <p class="card-text"><strong>Для ребят от 6 до 10 лет.</strong><br>
                                     <div class="text-justify">В этом квесте дети становятся разными Сказками и будут спасать Сказочный мир! Им предстоит решить
                                     немало головоломок и загадок. Не обойдется без единорогов и фей, а также разборок между Сказками.
-                                    Кто получит все Сказочные конфеты? И кто сразит, наконец, Змея-Горыныча?!<br>
+                                    Кто получит все Сказочные конфеты? И справятся ли ребята со сказочным монстром? <br>
                                     Количество участников: от 2 до 12<br>
-                                    Стоимость: 7 500 руб.<br>
+                                    Стоимость: 9 500 руб.<br>
                                     Длительность: 1,5 часа</div>
                                 </p>
                                 <footer class="align-center">
-                                    <a href="fairyTale" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
+                                    <a href="fairyForKids" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
                                     <a href="registration" class="btn btn-lg btn-success">Спасти Сказку!</a>
                                 </footer>
                             </div>
@@ -114,13 +114,13 @@
                                  src="resources\images\kids\8.jpg" alt="card image cap responsive image">
                             <div class="card-body">
                                 <h4 class="card-title">Квест-шутка "Этот безумный мир"</h4>
-                                <p class="card-text-justify"><strong>Квест подходит для детей в возрасте от 12 лет.</strong><br>
+                                <p class="card-text-justify"><strong>Для ребят от 9 лет.</strong><br>
                                 <div class="text-justify">В этом квесте дети становятся безумными волшебниками! В Магической библиотеке произошел взрыв, в результате которого
                                     из Книги Великих Магических Заклинаний вырвалось одно... Оно немного изменило реальность, и теперь к Плоскому миру
                                     летит огромный красный метеорит! А еще, стали открываться порталы, из которых выходят разгневанные боги. А все волшебники
                                     сошли с ума и не помнят ни одного заклинания. Что же делать? Что делать?!<br>
-                                    Количество участников: от 6 до 16<br>
-                                    Стоимость: 7 500 руб.<br>
+                                    Количество участников: от 3<br>
+                                    Стоимость: 9 500 руб.<br>
                                     Длительность: 2 часа</div>
                                 </p>
                                 <footer class="align-center">
@@ -133,20 +133,19 @@
                             <img class="card-img-top img-fluid img-thumbnail"
                                  src="resources\FirstGameImg.jpg" alt="card image cap responsive image">
                             <div class="card-body">
-                                <h4 class="card-title">Мистический квест "Домик в деревне"</h4>
-                                <p class="card-text-justify"><strong>Квест подходит для детей в возрасте от 12 лет.</strong><br>
-                                <a class="text-justify">В этом квесте дети оказываются в загадочном особняке, и совершенно забывают, что же было вчера...
-                                    Им предстоит выяснить, что же они делали вчера, куда пропал их друг и что это за странные голоса шепчут им
-                                    слова странного заклинания...<br>
-                                    Квест можно сделать страшным, с актером!<br>
+                                <h4 class="card-title">Квест "Among Us"</h4>
+                                <p class="card-text-justify"><strong>Для ребят от 5 до 15 лет</strong><br>
+                                <a class="text-justify">Ребятам предстоит не только найти предателя, но и обследовать космический корабль,
+                                    разгадать логические головоломки и сразиться с пришельцами! Ребят ждет куча тематического
+                                    реквизита и ведущий в уникальном костюме!<br>
                                     Количество участников: от 4 до 12<br>
-                                    Стоимость: 7 500 руб.<br>
-                                    Длительность: 1 час
+                                    Стоимость: 6 500 руб.<br>
+                                    Длительность: 1,5 часа
                                 </a>
                                 </p>
                                 <footer class="align-center">
-                                    <a href="houseInTheVillage" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
-                                    <a href="registration" class="btn btn-lg btn-success">Исследовать домик!</a>
+                                    <a href="AmongUs" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
+                                    <a href="registration" class="btn btn-lg btn-success">Отправиться в космос!</a>
                                 </footer>
                             </div>
                         </div>
@@ -154,21 +153,6 @@
                     </div>
                 </div>
                 <br>
-                <div class="container-fluid">
-                    <div class="card text-center">
-                            <div class="card-header h1"><strong>Вы можете сразу забронировать дату и время!</strong>
-                                <h3>В стоимость игры по-расписанию включены: аренда помещения-партнера, игра в варианте "эконом", скидка за аренду партнерских помещений!</h3>
-                                <iframe id="scheduleWidgetAll" width="100%" src="https://broni.biz/order/showAllSchedule/?userId=743&hash=721e6a6d06180bada770de40e9d4ddb3&theme=white&questId=2021,2023,2025,2027"
-                                        frameborder="0" scrolling="no">Ваш браузер не поддерживает плавающие фреймы! </iframe><script>function widgetHeight()
-                                {let frame=document.getElementById("scheduleWidgetAll"),height=0,listener=function(event){if(event.data.constructor !== Object || event.data.type=="height")
-                                {height=parseInt(event.data.height);if(height!=frame.height){frame.style.height=height+"px"}}if(event.data.type=="scroll")
-                                {window.scrollTo({"top":document.getElementById("scheduleWidgetAll").getBoundingClientRect().top + pageYOffset - 50})}};
-                                function addEvent(elem,evnt,func){if(elem.addEventListener){elem.addEventListener(evnt,func,!1)}else if(elem.attachEvent)
-                                {elem.attachEvent("on"+evnt,func)}else{elem["on"+evnt]=func}}addEvent(window,"message",listener)}widgetHeight() </script>
-
-                            </div>
-                    </div>
-                </div>
             </div>
         <br>
             <div class="container-fluid">

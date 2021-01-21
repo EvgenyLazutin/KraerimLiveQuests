@@ -1,11 +1,10 @@
 <%--
   Created by IntelliJ IDEA.
-  User: J(o)n
-  Date: 31.03.2019
-  Time: 23:12
+  User: jon
+  Date: 11.02.18
+  Time: 1:16
   To change this template use File | Settings | File Templates.
 --%>
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -37,9 +36,9 @@
         gtag('config', 'UA-119774437-1');
     </script>
 
-    <title>Полицейский участок</title>
-    <meta name= "description" content = "настоящие детективное расследование">
-    <meta name= "keywords" content = "квест-детектив, расследование, интеллектуальная игра, день рождения">
+    <title>Police station</title>
+    <meta name= "description" content = "детективное расследование на корпоратив и день рождения">
+    <meta name= "keywords" content = "детективное расследование, необычный корпоратив, квест детектив, ролевой квест">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/resources/assets/css/main.css" />
@@ -76,7 +75,7 @@
 <style>
     .wrapper.style3 {
 
-        background-image: url(/resources/1pic.jpg);
+        background-image: url(/resources/2pic.jpg);
     }
 </style>
 <!-- One -->
@@ -96,142 +95,74 @@
         <div class="box">
             <div class="content">
                 <header class="align-center">
-                    <p>"Это же элементарно!"</p>
+                    <p>Служить и защищать!</p>
                     <h2>Живой квест "Полицейский участок"</h2>
-                    <h3>Жанр: детектив. Сложность: легкий.</h3>
+                    <h3>Жанр: детектив. Сложность: высокая.</h3>
                 </header>
-                <div class="row">
-                    <div class="col-sm">
-                        <img class="image main" src="/resources/images/police/2.jpg" alt=""/>
-                    </div>
-                              <div class="container-fluid">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm">
+                            <img class="image main" src="/resources/images/police/2.jpg" alt=""/>
+                        </div>
+                        <div class="col-sm">
                             <h3>
-                                <div class="text-justify">Нью-Йорк, наши дни.<br>
-                                Буквально полчаса назад в 12:00 в полицейском участке, в котором, волею судеб, оказались и вы, произошел взрыв. Была взорвана бомба с каким-то белым
-                                порошком. Полицейские сразу же изолировали помещения, и вызвали бригаду врачей из эпидимиологического центра. Врачи прибыли на место в 12:10. А в 12:30 вы обнаружили,
-                                что из участка был украден сервер со всеми данными полиции. Такой сервер можно продать за очень хорошую цену на черном рынке.
-                                    Так как помещения участка были изолированы, воры, скорее всего, все еще здесь. И это кто-то из нас. Кому можно поверить в такой ситуации?</div>
+                                <div class="text-justify">США, Нью-Йорк, наши дни.<br>
+                                    В одном из полицейских участков Нью-Йорка была взорвана бомба с каким-то подозрительным белым порошком. Бомба, как и весь участок, сразу же была изолирована. И буквально через полчаса выясняется, что из полицейского участка был украден сервер со всеми данными полиции! Но ведь никто не входил и не выходил в участок, кроме прибывших на место врачей из центра по контролю заболеваниями.</div>
                             </h3>
                         </div>
                     </div>
                 </div>
-              <div>
-                  <div class="text-center">
-                      <h2><strong> Что вас ждет на игре?</strong></h2>
-                      <div class="container-fluid image-center">
-                              <img src="/resources/images/police/1.png" class="img-fluid img-thumbnail">
-                          </div>
-
-                  </div>
-<br>
-                  <div class="box">
-                      <div class="text-justify">
-                          <h3><strong> Игра подходит для:</strong></h3>
-                            <h3>   - Дня Рождения <br>
-                                - Корпоратива <br>
-                                - Вечера с друзьями <br>
-                                <br>
-                          <strong>Длительность:</strong> 1,5 часа<br>
-                                <strong>Количество участников:</strong> от 6 до 20<br>
-                          </h3><br></div>
-                      <div class="container-fluid">
-                          <div class="row">
-                              <div class="col-sm">
-                                  <div class="card-header text-center"><h1>Стоимость:</h1>
-                                      </strong>
-                                      <div class="text-center"><h3>Цена указана до 10 человек и может измениться в зависимости от
-                                          заказываемых услуг</h3></div>
-                                      <br>
-                                  </div>
-
-                                  <table class="table table-striped table-responsive-lg">
-                                      <thead class="thead-success">
-                                      <tr>
-                                          <th scope="col"></th>
-                                          <th scope="col">Экономный</th>
-                                          <th scope="col">Стандарт</th>
-                                          <th scope="col">Премиум</th>
-                                      </tr>
-                                      </thead>
-                                      <tbody>
-                                      <tr>
-                                          <th scope="row">Комплект игры</th>
-                                          <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                          <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                          <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                      </tr>
-                                      <tr>
-                                          <th scope="row">Ведущий</th>
-                                          <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                          <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                          <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                      </tr>
-                                      <tr>
-                                          <th scope="row">Возможность выбрать время и место игры</th>
-                                          <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                          <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                          <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                      </tr>
-                                      <tr>
-                                          <th scope="row">Музыкальное сопровождение</th>
-                                          <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                          <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                          <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                      </tr>
-                                      <tr>
-                                          <th scope="row">Базовый реквизит для игры</th>
-                                          <td></td>
-                                          <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                          <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                      </tr>
-                                      <tr>
-                                          <th scope="row">Профессиональный фотограф</th>
-                                          <td></td>
-                                          <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                          <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                      </tr>
-                                      <tr>
-                                          <th scope="row">Расширенный реквизит</th>
-                                          <td></td>
-                                          <td></td>
-                                          <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                      </tr>
-                                      <tr>
-                                          <th scope="row">Пригласительные для гостей</th>
-                                          <td></td>
-                                          <td></td>
-                                          <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                      </tr>
-                                      <tr>
-                                          <th scope="row">Праздник "под ключ"</th>
-                                          <td></td>
-                                          <td></td>
-                                          <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                      </tr>
-                                      <tr class="table-success">
-                                          <th scope="row">Стоимость</th>
-                                          <td>5 300</td>
-                                          <td>7 300</td>
-                                          <td>10 800 </td>
-                                      </tr>
-                                      </tbody>
-                                  </table>
-                              </div>
-                          </div>
-                      </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm">
+                            <h3>
+                                <div class="text-justify">Связан ли взрыв бомбы с кражей сервера? И здесь ли все еще преступники? Кто из присутствующих врет?
+                                    Все это нам предстоит выяснить всего за полтора часа, потому что таймер на бомбе продолжает работать...</div></h3>
+                            </h3>
+                        </div>
+                        <div class="col-sm">
+                            <img class="image main" src="/resources/images/5.jpg" alt="" />
+                        </div>
+                    </div>
                 </div>
-
-                      <footer class="align-center">
-                          <a href="index#ourQuests" class="btn btn-lg btn-outline-primary">Выбрать другой квест</a>
-                          <a href="registration" class="btn btn-lg btn-success">Заказать квест</a>
-                      </footer>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm">
+                            <img class="image main" src="/resources/images/spaceAroundUs/2.jpg" alt="" />
+                        </div>
+                        <div class="col-sm">
+                            <h3><strong>Почему стоит поиграть:</strong></h3>
+                            <ul class="alt">
+                                <li> <h3>вы чувствуете, что могли бы стать настоящим детективом<br></h3></li>
+                                <li> <h3>вы профессионально играете в мафию (или всегда хотели попробовать, но не было времени)<br></h3></li>
+                                <li> <h3>вам давно не поручали расследовать настоящих преступлений и завалили бумажной работой</h3></li> </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm">
+                            <h3>
+                                <strong>Игра рассчитана на:</strong> 6 - 20 человек<br>
+                                <strong>Длительность:</strong> 2 часа<br>
+                                <strong>Стоимость:</strong> <br>
+                                - за компанию от 6 до 10 человек - 5 300 рублей<br>
+                                за 11-15 игроков - 8400<br>
+                                за 16-20 игроков - 11500<br>
+                            </h3>
+                        </div>
+                        <div class="col-sm">
+                            <img class="image main" src="/resources/images/murderMonastery/4.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <h3>По вашему желанию мы проведем игру в любом месте и в любое время. Поможем с выбором помещения для игры, приведем фотографа и аквагримера, закажем торт.</h3>
+                <footer class="align-center">
+                    <a href="index#ourQuests" class="btn btn-lg btn-outline-primary">Выбрать другой квест</a>
+                    <a href="registration" class="btn btn-lg btn-success">Заказать квест</a>
+                </footer>
             </div>
         </div>
-    </div>
-    </div>
-    </div>
     </div>
 </section>
 
@@ -243,14 +174,13 @@
     }
 </style>
 <!-- Three -->
-<div id="three" class="wrapper style3" onclick="location.href='index'">
+<section id="three" class="wrapper style3" onclick="location.href='index'">
     <div class="inner">
         <header class="align-center">
             <p>Узнай, что за краем мира</p>
             <h2>Краерим. Живые квесты</h2>
         </header>
     </div>
-</div>
 </section>
 <!-- Footer -->
 <footer id="footer">

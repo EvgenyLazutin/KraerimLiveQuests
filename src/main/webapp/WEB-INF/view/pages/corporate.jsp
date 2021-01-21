@@ -98,8 +98,9 @@
                             <h3>
                                 <strong> Что такое "живой квест"?</strong><br>
                                 <div class="text-justify"> Это игра на стыке иммерсивного театра, квеста в реальности и игры "мафия". Обычно, у игроков есть некая общая цель - обследовать космический корабль, выбраться из бункера, окруженного зомби
-                                найти убийцу или даже спасти мир. Но у каждого персонажа игры есть и собственные цели, которых он может достичь через переговоры, убеждение,
-                                ультиматумы другим игрокам. На пару часов вы становитесь персонажами фильма или книги, при этом вы сами влияете на исход игры. Такой квест вполне можно совместить с фуршетом или банкетом!
+                                найти убийцу или даже спасти мир. Но у каждого персонажа игры есть и собственные цели, которых он может достичь только через переговоры, убеждение,
+                                ультиматумы другим игрокам. На пару часов вы становитесь персонажами фильма или книги, при этом вы сами влияете на исход игры. Основная задача игроков - общаться друг с другом!
+                                    Квест вполне можно совместить с фуршетом или банкетом!
                                 </div></h3>
                         </div>
                     </div>
@@ -109,10 +110,10 @@
                         <div class="col-sm">
                             <h3>
                                 <div class="text-justify"><strong>Как это работает?</strong><br><ul>
-                                <li> Вы выбираете один из наших сюжетов </li>
-                                <li> Мы с вами распределяем роли (можно это делать как заранее, так и на месте) </li>
-                                <li> Мы помогаем вам выбрать место для игры (у вас дома, в офисе, в кафе)</li>
-                                <li> На месте: мастер раздает книжечки с описанием персонажа. В книжечке написано: как вы здесь оказались и указано несколько целей вашего персонажа.</li>
+                                <li> Заранее: вы выбираете один из наших сюжетов, дату и время игры </li>
+                                <li> Мы помогаем вам выбрать место для игры (у вас в офисе, в кафе)</li>
+                                    <li> На месте: мы с вами распределяем роли </li>
+                                <li> Мастер раздает книжечки с описанием персонажа. Вы их читаете. В книжечке написано: кто вы и указано несколько целей вашего персонажа.</li>
                                 <li> Вы знакомитесь со всеми присутствующими, и… Начинаете плести интриги и запутывать остальных, или, наоборот, выяснять правду.</li>
                                     <li> Исход игры всегда зависит только от игроков, их фантазии и доверчивости</li>
                                     <li> Игру можно совместить с банкетом, фуршетом, конкурсами и танцами</li></ul></div>
@@ -135,122 +136,85 @@
                                         <li>Вы хотите узнать ваших коллег получше и увидеть их с новой стороны</li>
                                         <li>В вашей компании есть люди разного возраста, не знакомые между собой. И вы переживаете, что они не найдут общей темы для разговора. Ограбление банка сплочает начальников и подчиненных!</li>
                                         <li> У нас нет второстепенных персонажей, и каждый найдет себе роль по душе! Можно побывать безумцем, желающим уничтожить мир, капитаном космического корабля, магом, представителем знати и даже единорожеком!</li>
-                                        <li> Если вы заказываете квест у нас, то получаете фотографа в подарок!</li><br></ul></div>
+                                       </ul></div>
 
                                 </h3>
                             </div>
                     </div>
                 </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm">
-                           <h3>
-                               <div class="text-justify"><strong>Живые квесты, идеально подходящие для корпоратива</strong><br>
-                            — <a href="spaceAroundUs"> «Космос вокруг нас»</a><br>
-                            — <a href="masquerade"> «Бал-маскарад»</a><br>
-                            — <a href="sherWood">«Шервудский лес»</a><br>
-                            — <a href="madWorld">«Этот безумный мир»</a> <br>
-                            — <a href="zombiequest">«Зомби-апокалипсис»</a><br>
-                                   — <a href="gangstaParty">«По законам мафии Нью-Йорка»</a><br></div>
-                           </h3>
+            </div>
+        </div>
+    </div>
+    </section>
+<!-- Three -->
+<section id="three" class="wrapper style2">
+    <div class="inner">
+      <div class="box">
+         <div class="content">
+                <header class="align-center">
+                    <div class="card-header text-center"><h1> Квесты на корпоратив </h1></div> </header>
+                   <div class="card-deck m-lg-2">
+                        <div class="card">
+                            <img class="card-img-top img-fluid img-thumbnail" src="/resources/3pic.jpg"
+                                 alt="Card image cap Responsive image">
+                            <div class="card-body">
+                                <h2 class="card-title align-center">
+                                    "Бал-маскарад"</h2>
+                                <p class="card-text align-center">
+                                    <strong>Веселая квест-вечеринка</strong><br>
+                                    Жанр: роман<br>
+                                    От 8 до 30 человек<br>
+                                    Сложность: легкий<br>
+                                    Время: 120 минут<br>
+                                    Стоимость за команду: от 5 300 р.<br>
+                                    16+</p>
+                                <footer class="align-center">
+                                    <a href="masquerade" class="btn btn-outline-primary">Узнать больше</a>
+                                    <a href="registration" class="btn btn-success">Отправиться на бал!</a>
+                                </footer>
+                            </div>
                         </div>
-                        <div class="col-sm">
-                            <img class="image main" src="/resources/images/corporate/4.jpg" alt="" />
+                        <div class="card">
+                            <img class="card-img-top img-fluid img-thumbnail"
+                                 src="/resources/images/madWorld/headerMadWorld.jpg" alt="Card image cap Responsive image ">
+                            <div class="card-body">
+                                <h2 class="card-title align-center">"Этот безумный мир"</h2>
+                                <p class="card-text align-center"><strong>Шуточный квест по станциям</strong><br>
+                                    Жанр: комедия<br>
+                                    От 6 человек<br>
+                                    Сложность: средний<br>
+                                    Время: 120 минут<br>
+                                    Стоимость за команду: от 5 300 р.<br>
+                                    10+</p>
+                                <footer class="align-center">
+                                    <a href="madWorld" class="btn btn-outline-primary">Узнать больше</a>
+                                    <a href="registration" class="btn btn-success ">Погрузиться в безумие!</a>
+                                </footer>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                                                <div class="col-sm">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-sm">
-                                        <div class="card-header text-center"><h1>Стоимость:
-                                            </strong>
-                                            <div class="text-center"><h3>Цена указана до 10 человек и может измениться в зависимости от
-                                                заказываемых услуг</h3></div>
-                                        </h1>
-                                            <br>
-                                        </div>
+                        <div class="card">
+                            <img class="card-img-top img-fluid img-thumbnail"
+                                 src="/resources/images/gangsterParty/headerGangsterParty.jpg" alt="Card image cap Responsive image">
+                            <div class="card-body">
+                                <h2 class="card-title align-center">
+                                    "По законам мафии Нью-Йорка"</h2>
+                                <p class="card-text align-center">
+                                    <strong>Командный квест-вечеринка</strong><br>
+                                    Жанр: квест-вечеринка<br>
+                                    От 9 человек<br>
+                                    Сложность: средний<br>
+                                    Время: 180 минут<br>
+                                    Стоимость за команду: от 5 300 р.<br>
+                                    18+</p>
+                                <footer class="align-center">
+                                    <a href="gangstaParty" class="btn btn-outline-primary">Узнать больше</a>
+                                    <a href="registration" class="btn btn-success ">Стать мафиози</a>
+                                </footer>
+                            </div>
+                        </div>
 
-                                        <table class="table table-striped table-responsive-lg">
-                                            <thead class="thead-success">
-                                            <tr>
-                                                <th scope="col"></th>
-                                                <th scope="col">Экономный</th>
-                                                <th scope="col">Стандарт</th>
-                                                <th scope="col">Премиум</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <th scope="row">Комплект игры</th>
-                                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">Ведущий</th>
-                                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">Возможность выбрать время и место игры</th>
-                                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">Музыкальное сопровождение</th>
-                                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">Базовый реквизит для игры</th>
-                                                <td></td>
-                                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">Профессиональный фотограф</th>
-                                                <td></td>
-                                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">Расширенный реквизит</th>
-                                                <td></td>
-                                                <td></td>
-                                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">Пригласительные для гостей</th>
-                                                <td></td>
-                                                <td></td>
-                                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">Ди-джей</th>
-                                                <td></td>
-                                                <td></td>
-                                                <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                            </tr>
-                                            <tr class="table-success">
-                                                <th scope="row">Стоимость</th>
-                                                <td>5 300</td>
-                                                <td>7 300</td>
-                                                <td>11 800 </td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                        </div>
                     </div>
-                </div>
-                    <div class="card-header text-center"><h2>Где провести праздник?</h2>
+                    <div class="card-header text-center"><strong><h2>Где провести праздник?</h2>
                         </strong>
                         <div class="text-center"><h3>Мы можем провести мероприятие как у вас дома, так и в любом кафе, баре и даже на свежем воздухе!</h3></div>
                         <br>
@@ -289,7 +253,7 @@
                         </div>
                     </div>
 
-                    <div class="card-header text-center"><h2>Дополнительные услуги</h2>
+                    <div class="card-header text-center"><strong><h2>Дополнительные услуги</h2>
                         </strong>
                         <div class="text-center"><h3>Кроме самого квеста, мы можем разнообразить ваш праздник различными выступлениями, и даже классической "мафией"</h3></div>
                         <br>
@@ -334,11 +298,11 @@
             </div>
         </div>
     </div>
-    </div>
+
 </section>
 
-<!-- Three -->
-<section id="three" class="wrapper style3" onclick="location.href='index'">
+<!-- Four -->
+<section id="four" class="wrapper style2" onclick="location.href='index'">
     <div class="inner">
         <header class="align-center">
             <p>Узнай, что за краем мира</p>
