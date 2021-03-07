@@ -2,7 +2,7 @@ package kraerimApp.controller;
 
 
 import kraerimApp.model.Client;
-import kraerimApp.service.EmailService;
+import kraerimApp.service.MessageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -16,12 +16,14 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.HashMap;
 import java.util.Map;
 
+import static kraerimApp.service.MessageBuilder.buildMessageToSqs;
+
 @Controller
 @SessionAttributes(value = "ClientRegistration")
 public class maincontroller {
 
     @Autowired
-    EmailService emailService;
+    MessageService messageService;
 
     @RequestMapping(value="/", method=RequestMethod.GET)
     public RedirectView getStartIndex(final HttpServletResponse response) {
@@ -41,14 +43,7 @@ public class maincontroller {
     public RedirectView PostIndex(@ModelAttribute("ClientQuestion")Client client) {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.addObject("ClientQuestion", client );
-        Map<String, Object> modelMailClient = new HashMap<>();
-        modelMailClient.put("from", "Kraerim@com");
-        modelMailClient.put("subject", "Запрос на перезвонить");
-        String email="lazutinakraerim@gmail.com";
-        modelMailClient.put("to", email);
-        modelMailClient.put("userName", client.getName());
-        modelMailClient.put("telephone", client.getTelephone());
-        emailService.sendEmailClient("email.vm", modelMailClient);
+        messageService.sendMessage(buildMessageToSqs(client.getName(), client.getTelephone(), "Запрос на перезвонить"));
 
         return new RedirectView("confirmQuestion");
     }
@@ -150,17 +145,7 @@ public class maincontroller {
     public ModelAndView PostRegistration(@ModelAttribute("ClientRegistration")Client client) {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.addObject("ClientRegistration", client );
-        Map<String, Object> modelMailClient = new HashMap<>();
-        modelMailClient.put("from", "Kraerim@com");
-        modelMailClient.put("subject", "Подтверждение заявки на сайте Kraerim.com");
-        String email="vasilekcat@inbox.ru";
-        modelMailClient.put("to", email);
-        modelMailClient.put("userName", client.getName());
-        modelMailClient.put("telephone", client.getTelephone());
-        modelMailClient.put("game", client.getGame());
-        modelMailClient.put("quantity", client.getQuantityPeople());
-        modelMailClient.put("comments", client.getComments());
-        emailService.sendEmailClient("email.vm", modelMailClient);
+        messageService.sendMessage(buildMessageToSqs(client.getName(), client.getTelephone(), client.getComments()));
 
         return new ModelAndView("redirect:/confirmRegistration",  "ClientRegistration", client);
     }
