@@ -13,8 +13,6 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.view.RedirectView;
 
 import javax.servlet.http.HttpServletResponse;
-import java.util.HashMap;
-import java.util.Map;
 
 import static kraerimApp.service.MessageBuilder.buildMessageToSqs;
 
@@ -185,6 +183,11 @@ public class maincontroller {
     @RequestMapping(value="/lordChetwell", method=RequestMethod.GET)
     public String getLordChetwell() {
         return "lordChetwell";
+    }
+
+    @RequestMapping(value="/whatIsIt", method=RequestMethod.GET)
+    public String getwhatIsIt() {
+        return "whatIsIt";
     }
 
 }

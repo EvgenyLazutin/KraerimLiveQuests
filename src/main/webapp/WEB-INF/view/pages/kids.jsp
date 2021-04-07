@@ -58,6 +58,7 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Главная</a></li>
+        <li><a href="whatIsIt">Что это такое</a></li>
         <li><a href="corporate">День Рождения</a></li>
         <li><a href="teens">Для подростков</a></li>
         <li><a href="corporate">Корпоратив</a></li>
@@ -100,7 +101,7 @@
                                     немало головоломок и загадок. Не обойдется без единорогов и фей, а также разборок между Сказками.
                                     Кто получит все Сказочные конфеты? И справятся ли ребята со сказочным монстром? <br>
                                     Количество участников: от 2 до 12<br>
-                                    Стоимость: 9 500 руб.<br>
+                                    Стоимость: 10 500 руб.<br>
                                     Длительность: 1,5 часа</div>
                                 </p>
                                 <footer class="align-center">
@@ -114,13 +115,13 @@
                                  src="resources\images\kids\8.jpg" alt="card image cap responsive image">
                             <div class="card-body">
                                 <h4 class="card-title">Квест-шутка "Этот безумный мир"</h4>
-                                <p class="card-text-justify"><strong>Для ребят от 9 лет.</strong><br>
+                                <p class="card-text-justify"><strong>Для ребят от 10 лет.</strong><br>
                                 <div class="text-justify">В этом квесте дети становятся безумными волшебниками! В Магической библиотеке произошел взрыв, в результате которого
                                     из Книги Великих Магических Заклинаний вырвалось одно... Оно немного изменило реальность, и теперь к Плоскому миру
                                     летит огромный красный метеорит! А еще, стали открываться порталы, из которых выходят разгневанные боги. А все волшебники
                                     сошли с ума и не помнят ни одного заклинания. Что же делать? Что делать?!<br>
                                     Количество участников: от 3<br>
-                                    Стоимость: 9 500 руб.<br>
+                                    Стоимость: 10 500 руб.<br>
                                     Длительность: 2 часа</div>
                                 </p>
                                 <footer class="align-center">
@@ -163,7 +164,7 @@
                         </div>
                         <div class="col-sm" style="padding-right: 30px;">
                             <a class="text-center">
-                                <h3 style="margin-top: 10px;"><strong>Что такое "живой квест"?</strong></h3></a><br>
+                                <h3 style="margin-top: 10px;"><strong>Что такое "сюжетно-ролевой квест"?</strong></h3></a><br>
                                 <a class="text-justify"><h3>Это отличный способ удивить гостей! На пару часов дети станут персонажами
                                     книг и фильмов и полностью забудут о мобильниках! У каждого ребенка будет своя роль и цели, которые можно
                                     выполнить только общаясь с другими игроками. Например, ребенок будет одним из богатырей,
@@ -225,21 +226,13 @@
                          <table class="table table-striped table-responsive-lg table-center">
                                 <thead class="thead-success">
                                 <tr>
-                                    <th scope="col" ></th>
-                                    <th scope="col">Экономный</th>
-                                    <th scope="col">Стандарт</th>
-                                    <th scope="col">Премиум</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <th scope="row">Комплект игры</th>
+                                    <th scope="row">Роль для каждого участника</th>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Ведущий</th>
+                                    <th scope="row">Ведущий (или несколько, зависит от сюжета)</th>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
@@ -251,14 +244,20 @@
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Музыкальное сопровождение</th>
+                                    <th scope="row">Фоновая музыка</th>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">Базовый реквизит для игры</th>
-                                    <td></td>
+                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Дипломы/мини-призы для участников</th>
+                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
@@ -269,28 +268,16 @@
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Расширенный реквизит</th>
-                                    <td></td>
-                                    <td></td>
-                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Пригласительные для гостей</th>
-                                    <td></td>
-                                    <td></td>
-                                    <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Детская дискотека</th>
+                                    <th scope="row">Ди-джей</th>
                                     <td></td>
                                     <td></td>
                                     <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                 </tr>
                                 <tr class="table-success">
                                     <th scope="row">Стоимость</th>
-                                    <td>5 300</td>
-                                    <td>7 300</td>
-                                    <td>11 800 </td>
+                                    <td>10 500</td>
+                                    <td>13 500</td>
+                                    <td>18 500 </td>
                                 </tr>
                                 <tr>
                                     <td colspan="4" class="text-center"><a href="tel:+7951 669 60 94"><h3>Ответим на все ваши вопросы: +7951 669 60 94</h3></a></td>
@@ -379,7 +366,7 @@
                                                 <h5 class="card-title">Классическая "мафия"</h5>
                                                 <p class="card-text-justify">Наши ведущие "мафии" - лучше всех! Мы проводим как классическую мафию, так
                                                  и "вампирскую", например. Можем провести мафию для взрослых, пока дети заняты квестом, или мафию для детей! И мафию для детей от 8 лет.<br>
-                                                Стоимость: 1 500р. за час игры
+                                                Стоимость: 2 000р. за час игры
                                                 </p>
                                              </div>
                                     </div>
@@ -390,7 +377,7 @@
                                     <p class="card-text-justify">Дети могут не только посмотреть на крутые гигантские мыльные пузыри, но и стать частью шоу! Побывать внутри мыльного пузыря,
                                         поесть ледяного попкорна, создать настоящий гейзер и даже выпустить джинна!
                                     <br>
-                                    Стоимость: от 3000 за шоу
+                                    Стоимость: от 4000 за шоу
                                     </p>
                                 </div>
                     </div>
@@ -401,7 +388,7 @@
                                     <p class="card-text-justify">Это самое классное развлечение для детей. Наши краски - безопасны для кожи, рисунки легко смываются, и доставят массу
                                         удовольствия детям (и родителям)!
                                     <br>
-                                    Стоимость: 2500 за час работы аквагримера
+                                    Стоимость: 3000 за час работы аквагримера
                                     </p>
                                 </div>
                     </div>

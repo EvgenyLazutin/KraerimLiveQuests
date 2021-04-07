@@ -58,6 +58,7 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Главная</a></li>
+        <li><a href="whatIsIt">Что это такое</a></li>
         <li><a href="birthday">День рождения</a></li>
         <li><a href="kids">Для детей</a></li>
         <li><a href="teens">Для подростков</a></li>
@@ -154,7 +155,7 @@
                                 <strong>Игра рассчитана на:</strong> 6 - 12 человек<br>
                                 <strong>Длительность:</strong> 2 часа<br>
                                 <strong>Стоимость:</strong> <br>
-                                - на компанию от 6 до 10 человек - 5 300 р.<br>
+                                - на компанию от 6 до 10 человек - 7 800 р.<br>
                                 - за каждого дополнительного человека - 500 р.
                             </h3>
                         </div>

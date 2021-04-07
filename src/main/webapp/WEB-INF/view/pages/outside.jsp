@@ -59,7 +59,9 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Главная</a></li>
-        <li><a href="corporate">День Рождения</a></li>
+        <li><a href="whatIsIt">Что это такое</a></li>
+        <li><a href="birthday">День Рождения</a></li>
+        <li><a href="kids">Для детей</a></li>
         <li><a href="teens">Для подростков</a></li>
         <li><a href="corporate">Корпоратив</a></li>
         <li><a href="detective">Детективные квесты</a></li>
@@ -95,15 +97,15 @@
                                 <img class="card-img-top img-fluid img-thumbnail" src="resources\images\outside\1.jpg"
                                      alt="Card image cap responsive image">
                                 <div class="card-body">
-                                    <h4 class="card-title">Спортивный квест "Шервудский лес"</h4>
+                                    <h4 class="card-title">Квест по станциям+ролевой "Шервудский лес"</h4>
                                     <p class="card-text"><strong>Квест подойдет для компании из взрослых и детей!</strong><br>
                                     <div class="text-justify">В этом квесте вы становитесь жителями средневековой Англии.
                                     Для всех вас настали нелегкие времена. Любимый всеми король Ричард погиб, и на престол взошел новый король.
                                     В некоторых частях страны началась засуха, в дргуих - чума, а в лесах поселились разбойники.
                                     Что вы будете делать в этой ситуации? Проверим?<br>
                                         Количество участников: от 10 до 20<br>
-                                        Стоимость: 8 600 руб.<br>
-                                        Длительность: 2,5 часа</div>
+                                        Стоимость: 10 500 руб.<br>
+                                        Длительность: 2 часа</div>
                                     </p>
                                     <footer class="align-center">
                                         <a href="sherWood" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
@@ -115,14 +117,14 @@
                                 <img class="card-img-top img-fluid img-thumbnail"
                                      src="resources\images\outside\2.jpg" alt="card image cap responsive image">
                                 <div class="card-body">
-                                    <h4 class="card-title">Квест-шутка "Этот безумный мир"</h4>
+                                    <h4 class="card-title">Квест по станциям "Этот безумный мир"</h4>
                                     <p class="card-text-justify"><strong>Безумное приключение!</strong><br>
                                     <div class="text-justify">Вы - безумные волшебники! В Магической библиотеке произошел взрыв, в результате которого
                                         из Книги Великих Магических Заклинаний вырвалось одно... Оно немного изменило реальность, и теперь к Плоскому миру
                                         летит огромный красный метеорит! А еще, стали открываться порталы, из которых выходят разгневанные боги. А все волшебники
                                         сошли с ума и не помнят ни одного заклинания. Что же делать? Что делать?!<br>
                                         Количество участников: от 3<br>
-                                        Стоимость: 6 500 руб.<br>
+                                        Стоимость: 10 500 руб.<br>
                                         Длительность: 2 часа</div>
                                     </p>
                                     <footer class="align-center">
@@ -135,19 +137,19 @@
                                 <img class="card-img-top img-fluid img-thumbnail"
                                      src="resources\images\outside\3.jpg" alt="card image cap responsive image">
                                 <div class="card-body">
-                                    <h4 class="card-title">Квест-боевик "Зомби-апокалипсис"</h4>
-                                    <p class="card-text-justify"><strong>Квест-выживалка</strong><br>
-                                        <div class="text-justify">Итак, вы оказываетесь запертыми в бункере, окуженном зомби. Что делать?
-                                            Как выбраться? И кто виноват в том, что ваш тихий некогда городок наводнили ожившие мертвецы?
-                                            Вам придется это выяснить!<br>
-                                            Количество участников: от 6 до 25<br>
-                                            Стоимость: 5 300 руб.<br>
+                                    <h4 class="card-title">Квест по станциям "Спасите Галактику"</h4>
+                                    <p class="card-text-justify"><strong>Супер-геройский квест</strong><br>
+                                        <div class="text-justify">Супер-злодей решил захватить 6 Древних артефактов и уничтожить
+                                    про помощи них половину Галактики. Вы собираетесь опередить его, и собрать шесть артефактов первыми.
+                                    А вот что с ними делать дальше - решать вам!<br>
+                                            Количество участников: от 3<br>
+                                            Стоимость: 10 500 руб.<br>
                                             Длительность: 2 часа
                                         </div>
                                     </p>
                                     <footer class="align-center">
-                                        <a href="zombiequest" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
-                                        <a href="registration" class="btn btn-lg btn-success">Мочить зомби!</a>
+                                        <a href="saveTheGalaxy" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
+                                        <a href="registration" class="btn btn-lg btn-success">Спасти Галактику!</a>
                                     </footer>
                                 </div>
                             </div>
@@ -165,7 +167,7 @@
                         </div>
                         <div class="col-sm" style="padding-right: 30px;">
                             <a class="text-center">
-                                <h3 style="margin-top: 10px;"><strong>Что такое "живой квест"?</strong></h3></a><br>
+                                <h3 style="margin-top: 10px;"><strong>Что такое "сюжетно-ролевой квест"?</strong></h3></a><br>
                             <a class="text-justify"><h3>Это отличный способ удивить гостей! На пару часов вы станете персонажами
                                 книг и фильмов и полностью погрузитесь в сюжет! У каждого участника - своя роль и цели, которые можно
                                 выполнить только общаясь с другими игроками. Например, глава семейства может быть старостой деревни, без которого
@@ -234,13 +236,13 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <th scope="row">Комплект игры</th>
+                        <th scope="row">Роль для каждого участника</th>
                         <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                         <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                         <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                     </tr>
                     <tr>
-                        <th scope="row">Ведущий</th>
+                        <th scope="row">Ведущий (или несколько, зависит от сюжета)</th>
                         <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                         <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                         <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
@@ -252,14 +254,20 @@
                         <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                     </tr>
                     <tr>
-                        <th scope="row">Музыкальное сопровождение</th>
+                        <th scope="row">Фоновая музыка</th>
                         <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                         <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                         <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                     </tr>
                     <tr>
                         <th scope="row">Базовый реквизит для игры</th>
-                        <td></td>
+                        <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                        <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                        <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Дипломы/мини-призы для участников</th>
+                        <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                         <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                         <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                     </tr>
@@ -270,28 +278,16 @@
                         <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                     </tr>
                     <tr>
-                        <th scope="row">Расширенный реквизит</th>
-                        <td></td>
-                        <td></td>
-                        <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Пригласительные для гостей</th>
-                        <td></td>
-                        <td></td>
-                        <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">DJ</th>
+                        <th scope="row">Ди-джей</th>
                         <td></td>
                         <td></td>
                         <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                     </tr>
                     <tr class="table-success">
                         <th scope="row">Стоимость</th>
-                        <td>5 300</td>
-                        <td>7 300</td>
-                        <td>11 800 </td>
+                        <td>10 500</td>
+                        <td>13 800</td>
+                        <td>18 800 </td>
                     </tr>
                     <tr>
                         <td colspan="4" class="text-center"><a href="tel:+7951 669 60 94"><h3>Ответим на все ваши вопросы: +7951 669 60 94</h3></a></td>

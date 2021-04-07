@@ -58,6 +58,7 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Главная</a></li>
+        <li><a href="whatIsIt">Что это такое</a></li>
         <li><a href="corporate">День Рождения</a></li>
         <li><a href="kids">Для детей</a></li>
         <li><a href="corporate">Корпоратив</a></li>
@@ -75,7 +76,7 @@
     <div class="inner">
         <header class="align-center">
             <p>Лучше квесты для подростков в Санкт-Петербурге на дом или на природу</p>
-            <h2>Праздник для подростков от 13 лет</h2>
+            <h2>Праздник для подростков от 10 лет</h2>
         </header>
     </div>
 </section>
@@ -118,7 +119,7 @@
                                             летит огромный красный метеорит! А еще, стали открываться порталы, из которых выходят разгневанные боги. А все волшебники
                                             сошли с ума и не помнят ни одного заклинания. Что же делать? Что делать?!<br>
                                             Количество участников: от 2<br>
-                                            Стоимость: 6 500 руб.<br>
+                                            Стоимость: 10 500 руб.<br>
                                             Длительность: 2 часа</div></p>
                                         </p>
                                         <footer class="align-center">
@@ -155,7 +156,7 @@
                         </div>
                         <div class="col-sm">
                             <h3>
-                                <strong> Что такое "живой квест"?</strong><br>
+                                <strong> Что такое "сюжетно-ролевой квест"?</strong><br>
                                 <a class="text-justify">Это отличный способ удивить гостей! На пару часов ребята станут персонажами
                                     книг, фильмов и компьютерных игр и полностью забудут о мобильниках! У каждого участника будет своя роль и цели, которые можно
                                     выполнить только общаясь с другими игроками. Такая игра не только развлекает, но и учит детей договариваться и нести ответсвенность за свои решения!
@@ -227,13 +228,13 @@
                                         </thead>
                                         <tbody>
                                         <tr>
-                                            <th scope="row">Комплект игры</th>
+                                            <th scope="row">Роль для каждого участника</th>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">Ведущий</th>
+                                            <th scope="row">Ведущий (или несколько, зависит от сюжета)</th>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
@@ -245,14 +246,20 @@
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">Музыкальное сопровождение</th>
+                                            <th scope="row">Фоновая музыка</th>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                         </tr>
                                         <tr>
                                             <th scope="row">Базовый реквизит для игры</th>
-                                            <td></td>
+                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Дипломы/мини-призы для участников</th>
+                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                         </tr>
@@ -263,28 +270,16 @@
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">Расширенный реквизит</th>
-                                            <td></td>
-                                            <td></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Пригласительные для гостей</th>
-                                            <td></td>
-                                            <td></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Детская дискотека</th>
+                                            <th scope="row">Ди-джей</th>
                                             <td></td>
                                             <td></td>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                         </tr>
                                         <tr class="table-success">
                                             <th scope="row">Стоимость</th>
-                                            <td>5 300</td>
-                                            <td>7 300</td>
-                                            <td>11 800 </td>
+                                            <td>10 500</td>
+                                            <td>13 500</td>
+                                            <td>18 500 </td>
                                         </tr>
                                         <tr>
                                             <td colspan="4" class="text-center"><a href="tel:+7951 669 60 94"><h3>Ответим на все ваши вопросы: +7951 669 60 94</h3></a></td>
@@ -373,7 +368,7 @@
                                 <h5 class="card-title">Классическая "мафия"</h5>
                                 <p class="card-text-justify">Наши ведущие "мафии" - лучше всех! Мы проводим как классическую мафию, так
                                     и "вампирскую", например.<br>
-                                    Стоимость: 1 500р. за час игры
+                                    Стоимость: 2 000р. за час игры
                                 </p>
                             </div>
                         </div>
@@ -383,7 +378,7 @@
                                 <h5 class="card-title">Огненное (световое) шоу</h5>
                                 <p class="card-text-justify">Мы выключаем свет, и показываем вам настоящую огненную магию!
                                     <br>
-                                    Стоимость: 3 000р. за танец
+                                    Стоимость: 4 000р. за танец
                                 </p>
                             </div>
                         </div>
@@ -391,9 +386,9 @@
                             <img class="card-img-top" src="resources\images\teens\12.JPG" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Настольные игры</h5>
-                                <p class="card-text-justify">Мы можем провести для ребят игру в "Ужас Аркхема", "Джентельменскую сделку" и другие настолки!
+                                <p class="card-text-justify">Мы можем провести для ребят игру в "Uno", "ДаНетки", "Доббль", "Свинтус" и другие настолки!
                                     <br>
-                                    Стоимость: 1 000 р. за час игры
+                                    Стоимость: 1 500 р. за час
                                 </p>
                             </div>
                         </div>

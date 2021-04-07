@@ -94,6 +94,7 @@
             <span></span>
         </a>
         <nav class="top_menu top_menu-expand-lg fixed-top">
+            <button type="button" class="btn btn-lg btn-success"><a href="whatIsIt">Что это такое?</a></button>
             <div class="btn-group">
                 <div class="dropdown">
                     <button class="btn btn-success btn-lg dropdown-toggle" data-toggle="dropdown">
@@ -231,12 +232,12 @@
                 <h2 class="card-title align-center">
                     "Бал-маскарад"</h2>
                 <p class="card-text align-center">
-                    <strong>Наш самый романтичный квест! Подойдет для празднования Дня Рождения или свадьбы!</strong><br>
-                    Жанр: роман<br>
+                    <strong>Наш самый романтичный квест! Подойдет для празднования Дня Рождения и свадьбы!</strong><br>
+                    Сюжетно-ролевой квест<br>
                     От 10 до 30 человек<br>
                     Сложность: легкий<br>
-                    Время: 120 минут<br>
-                    Стоимость за команду: от 5 300 р.<br>
+                    Время: 2,5 часа<br>
+                    Стоимость за команду: от 7 800 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="masquerade" class="btn btn-outline-primary">Узнать больше</a>
@@ -250,11 +251,11 @@
             <div class="card-body">
                 <h2 class="card-title align-center">"Этот безумный мир"</h2>
                 <p class="card-text align-center"><strong>Наш самый безумный квест! Идеально подходит для Дня Рождения!</strong><br>
-                    Жанр: комедия<br>
+                    Квест по станциям<br>
                    От 3 человек<br>
                     Сложность: средний<br>
-                    Время: 120 минут<br>
-                    Стоимость за команду: от 6 500 р.<br>
+                    Время: 2 часа<br>
+                    Стоимость за команду: от 10 500 р.<br>
                     10+</p>
                 <footer class="align-center">
                     <a href="madWorld" class="btn btn-outline-primary">Узнать больше</a>
@@ -270,11 +271,11 @@
                    "По законам мафии Нью-Йорка"</h2>
                                 <p class="card-text align-center">
                                     <strong>Идеально подходит для корпоратива!</strong><br>
-                                    Жанр: квест-вечеринка<br>
+                                    Квест-вечеринка<br>
                     От 10 человек<br>
                     Сложность: средний<br>
-                    Время: 180 минут<br>
-                    Стоимость за команду: от 8 500 р.<br>
+                    Время: 3 часа<br>
+                    Стоимость за команду: от 10 500 р.<br>
                     18+</p>
                 <footer class="align-center">
                     <a href="gangstaParty" class="btn btn-outline-primary">Узнать больше</a>
@@ -298,11 +299,11 @@
                 <h2 class="card-title align-center">
                     "Убийство в монастыре"</h2>
                 <p class="card-text align-center">
-                    Жанр: детектив<br>
+                    Сюжетно-ролевой квест<br>
                     От 6 до 14 человек<br>
                     Сложность: сложный<br>
-                    Время: 120 минут<br>
-                    Стоимость за команду: от 5 300 р.<br>
+                    Время: 2,5 часа<br>
+                    Стоимость за команду: от 7 800 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="murderMonastery" class="btn btn-outline-primary">Узнать больше</a>
@@ -317,11 +318,11 @@
                 <h2 class="card-title align-center">
                     "Шервудский лес"</h2>
                 <p class="card-text align-center">
-                    Жанр: спортивный квест<br>
+                    Квест по станциям<br>
                     От 10 до 20 человек<br>
                     Сложность: средний<br>
-                    Время: 180 минут<br>
-                    Стоимость за команду: от 8 600 р.<br>
+                    Время: 2,5 часа<br>
+                    Стоимость за команду: от 10 500 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="sherWood" class="btn btn-outline-primary">Узнать больше</a>
@@ -337,11 +338,11 @@
                 <h2 class="card-title align-center">"Космос вокруг нас"</h2>
                 <p class="card-text align-center">
                     <strong>Наш самый брутальный квест! Идеально подойдет для празднования 23 февраля!</strong><br>
-                    Жанр: ужасы<br>
+                    Сюжетно-ролевой квест<br>
                     От 6 до 12 человек<br>
                     Сложность: средний<br>
-                    Время: 120 минут<br>
-                    Стоимость за команду: от 5 300 р.<br>
+                    Время: 2 часа<br>
+                    Стоимость за команду: от 7 800 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="spaceAroundUs" class="btn btn-outline-primary">Узнать больше</a>
@@ -363,11 +364,11 @@
                     "Недетская сказка"</h2>
                 <p class="card-text align-center">
                 <strong>Наш самый добрый и мимимишный квест!</strong><br>
-                    Жанр: сказка<br>
+                    Сюжетно-ролевой квест<br>
                     От 8 до 30 человек<br>
                     Сложность: средний<br>
                     Время: 120 минут<br>
-                    Стоимость за команду: от 5 300 р.<br>
+                    Стоимость за команду: от 7 800 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="fairyTale" class="btn btn-outline-primary">Узнать больше</a>
@@ -383,11 +384,11 @@
                 <h2 class="card-title align-center">"Эпическая история"</h2>
                 <p class="card-text align-center">
                     <strong>Наш самый сложный квест!</strong><br>
-                    Жанр: фэнтези<br>
+                    Сюжетно-ролевой квест<br>
                     От 6 до 13 человек<br>
                     Сложность: сложный<br>
-                    Время: 120 минут<br>
-                    Стоимость за команду: от 5 300 р.<br>
+                    Время: 2,5 часа<br>
+                    Стоимость за команду: от 7 800 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="worldEye" class="btn btn-outline-primary">Узнать больше</a>
@@ -402,11 +403,11 @@
 
                 <h2 class="card-title align-center">"Полицейский участок"</h2>
                 <p class="card-text align-center">
-                    Жанр: детектив<br>
+                   Сюжетно-ролевой квест<br>
                     От 6 до 20 человек<br>
                     Сложность: сложный<br>
-                    Время: 120 минут<br>
-                    Стоимость за команду: от 5 300 р.<br>
+                    Время: 2 часа<br>
+                    Стоимость за команду: от 7 800 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="police" class="btn btn-outline-primary">Узнать больше</a>
@@ -427,11 +428,11 @@
 
                 <h2 class="card-title align-center">"Маскарад нечисти"</h2>
                 <p class="card-text align-center">
-                    Жанр: юмористический квест<br>
+                    Квест по станциям<br>
                     Участников: от 3 до бесконечности<br>
                     Сложность: легкий<br>
-                    Время: 120 минут<br>
-                    Стоимость за команду: от 9 500 р.<br>
+                    Время: 2 часа<br>
+                    Стоимость за команду: от 10 500 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="evilMasquerade" class="btn btn-outline-primary">Узнать больше</a>
@@ -447,11 +448,11 @@
 
                 <h2 class="card-title align-center">Живой квест "Зомби-апокалипсис"</h2>
                 <p class="card-text align-center">
-                  Жанр: боевик<br>
+                  Сюжетно-ролевой квест<br>
                     От 6 до 25 человек<br>
                     Сложность: средний<br>
-                    Время: 120 минут<br>
-                    Стоимость за команду: от 5 300 р.<br>
+                    Время: 2,5 часа<br>
+                    Стоимость за команду: от 7 800 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="zombiequest" class="btn btn-outline-primary">Узнать больше</a>
@@ -495,8 +496,8 @@
                     Жанр: детектив<br>
                     От 6 до 17 человек<br>
                     Сложность: средний<br>
-                    Время: 120 минут<br>
-                    Стоимость за команду: от 5 300 р.<br>
+                    Время: 2 часа<br>
+                    Стоимость за команду: от 7 800 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="lordChetwell" class="btn btn-outline-primary">Узнать больше</a>
@@ -514,8 +515,8 @@
                     Жанр: фантастика<br>
                     От 4 до 35 человек<br>
                     Сложность: средний<br>
-                    Время: 120 минут<br>
-                    Стоимость за команду: от 9 500 р.<br>
+                    Время: 2 часа<br>
+                    Стоимость за команду: от 10 500 р.<br>
                     8+</p>
                 <footer class="align-center">
                     <p class="card-text align-center">Квест в разработке!</p>

@@ -58,6 +58,7 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Главная</a></li>
+        <li><a href="whatIsIt">Что это такое</a></li>
         <li><a href="corporate">День Рождения</a></li>
         <li><a href="kids">Для детей</a></li>
         <li><a href="teens">Для подростков</a></li>
@@ -99,8 +100,8 @@
                                         диспут по поводу бедности Христа. Однако в субботу утром мать-настоятельница монастыря обнаружила Хранителя местной
                                         библиотеки и главного оратора монастыря, брата Титуса, мертвым. Кто совершил убийство и зачем? Вам предстоит это выяснить!<br>
                                         Количество участников: от 6 до 14<br>
-                                        Стоимость: 5 300 руб.<br>
-                                        Длительность: 2 часа</p>
+                                        Стоимость: 7 800 руб.<br>
+                                        Длительность: 2,5 часа</p>
                                     <footer class="align-center">
                                         <a href="murderMonastery" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
                                         <a href="registration" class="btn btn-lg btn-success">Уйти в монастырь</a>
@@ -118,8 +119,8 @@
                                         украден сервер со всеми данными полиции. Такой сервер можно продать на черном рынке за несколько миллионов.
                                         Кто же украл сервер, и куда он его дел?<br>
                                         Количество участников: от 6 до 20<br>
-                                        Стоимость: 5 300 руб.<br>
-                                        Длительность: 2 часа</p>
+                                        Стоимость: 7 800 руб.<br>
+                                        Длительность: 2,5 часа</p>
                                     <footer class="align-center">
                                         <a href="police" class="btn btn-lg btn-outline-primary">Узнать подробнее</a>
                                         <a href="registration" class="btn btn-lg btn-success">Стать детективом</a>
@@ -135,7 +136,7 @@
                                         Вечер пятницы проходил вполне себе спокойно, пока прислуга не обнаружила лорда Четвела мертвым. А ведь вы - на его личном острове, и никто не мог
                                         проникнуть сюда незамеченным. Будет ли убийца убивать и дальше? И почему при лорде Четвеле были найдены сережки тети Эдны?
                                         Количество участников: от 6 до 17<br>
-                                        Стоимость: 5 300 руб.<br>
+                                        Стоимость: 7 800 руб.<br>
                                         Длительность: 2 часа
                                     </p>
                                     <footer class="align-center">
@@ -223,13 +224,13 @@
                                         </thead>
                                         <tbody>
                                         <tr>
-                                            <th scope="row">Комплект игры</th>
+                                            <th scope="row">Роль для каждого участника</th>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">Ведущий</th>
+                                            <th scope="row">Ведущий (или несколько, зависит от сюжета)</th>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
@@ -241,14 +242,20 @@
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">Музыкальное сопровождение</th>
+                                            <th scope="row">Фоновая музыка</th>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                         </tr>
                                         <tr>
                                             <th scope="row">Базовый реквизит для игры</th>
-                                            <td></td>
+                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Дипломы/мини-призы для участников</th>
+                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                         </tr>
@@ -259,18 +266,6 @@
                                             <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">Расширенный реквизит</th>
-                                            <td></td>
-                                            <td></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Пригласительные для гостей</th>
-                                            <td></td>
-                                            <td></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/checkmark.png"></td>
-                                        </tr>
-                                        <tr>
                                             <th scope="row">Ди-джей</th>
                                             <td></td>
                                             <td></td>
@@ -278,9 +273,9 @@
                                         </tr>
                                         <tr class="table-success">
                                             <th scope="row">Стоимость</th>
-                                            <td>5 300</td>
-                                            <td>7 300</td>
-                                            <td>10 800 </td>
+                                            <td>7 800</td>
+                                            <td>10 800</td>
+                                            <td>15 800 </td>
                                         </tr>
                                         <tr>
                                             <td colspan="4" class="text-center"><a href="tel:+7951 669 60 94"><h3>Ответим на все ваши вопросы: +7951 669 60 94</h3></a></td>

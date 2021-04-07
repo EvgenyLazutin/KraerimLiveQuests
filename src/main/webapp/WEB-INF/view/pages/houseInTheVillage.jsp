@@ -58,6 +58,7 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Главная</a></li>
+        <li><a href="whatIsIt">Что это такое</a></li>
         <li><a href="birthday">День рождения</a></li>
         <li><a href="kids">Для детей</a></li>
         <li><a href="teens">Для подростков</a></li>

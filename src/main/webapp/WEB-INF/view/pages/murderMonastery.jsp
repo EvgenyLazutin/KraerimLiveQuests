@@ -58,6 +58,7 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Главная</a></li>
+        <li><a href="whatIsIt">Что это такое</a></li>
         <li><a href="birthday">День рождения</a></li>
         <li><a href="kids">Для детей</a></li>
         <li><a href="teens">Для подростков</a></li>
@@ -149,10 +150,10 @@
                         <div class="col-sm">
                             <h3>
                                 <strong>Игра рассчитана на:</strong> 6 - 14 человек<br>
-                                <strong>Длительность:</strong> 2 часа<br>
+                                <strong>Длительность:</strong> 2,5 часа<br>
                                 <strong>Стоимость:</strong> <br>
-                                - за компанию 6 - 10 человек: 5 300 р.<br>
-                                - за 11-14 человек: 8 400<br>
+                                - за компанию 6 - 10 человек: 7 800 р.<br>
+                                - за 11-14 человек: 10 600<br>
                                 - есть дополнительная роль для ребенка!<br>
                             </h3>
                         </div>

@@ -58,6 +58,7 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Главная</a></li>
+        <li><a href="whatIsIt">Что это такое</a></li>
         <li><a href="birthday">День рождения</a></li>
         <li><a href="kids">Для детей</a></li>
         <li><a href="teens">Для подростков</a></li>
@@ -128,7 +129,7 @@
                             <strong>На какое мероприятие можно заказать такой квест?<br></strong>
                             — 23 февраля: <a href="zombiequest"> «Зомби-апокалипсис», </a> <a href="spaceAroundUs"> «Космос вокруг нас»</a><br>
                                 — 8 марта: <a href="masquerade"> «Бал-маскарад», </a> <a href="fairyTale"> «Недетская сказка»<br></a>
-                            — День рождения: <a href="masquerade"> «Бал-маскарад», </a> <a href="fairyTale"> «Недетская сказка»,</a> <a href="houseInTheVillage">«Домик в деревне»,</a> <a href="sherWood">«Шервудский лес»</a><br>
+                            — День рождения: <a href="masquerade"> «Бал-маскарад», </a> <a href="fairyTale"> «Недетская сказка»,</a> </a> <a href="sherWood">«Шервудский лес»</a><br>
                             — Детский праздник: <a href="fairyTale"> «Недетская сказка»,</a> <a href="madWorld">«Этот безумный мир»</a> <br>
                             — Корпоратив: <a href="madWorld">«Этот безумный мир»,</a> <a href="spaceAroundUs"> «Космос вокруг нас»,</a> <a href="worldEye">«Эпическая история»,</a> <a href="sherWood">«Шервудский лес»</a><br>
                             — Тренинг/тимбилдинг: <a href="madWorld">«Этот безумный мир»,</a> <a href="spaceAroundUs"> «Космос вокруг нас»,</a> <a href="sherWood">«Шервудский лес»</a><br> <br>

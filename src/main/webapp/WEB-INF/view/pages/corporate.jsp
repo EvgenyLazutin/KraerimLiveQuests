@@ -58,6 +58,7 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index">Главная</a></li>
+        <li><a href="whatIsIt">Что это такое</a></li>
         <li><a href="birthday">День рождения</a></li>
         <li><a href="kids">Для детей</a></li>
         <li><a href="teens">Для подростков</a></li>
@@ -165,8 +166,8 @@
                                     Жанр: роман<br>
                                     От 8 до 30 человек<br>
                                     Сложность: легкий<br>
-                                    Время: 120 минут<br>
-                                    Стоимость за команду: от 5 300 р.<br>
+                                    Время: 2,5 часа<br>
+                                    Стоимость за команду: от 7 800 р.<br>
                                     16+</p>
                                 <footer class="align-center">
                                     <a href="masquerade" class="btn btn-outline-primary">Узнать больше</a>
@@ -183,8 +184,8 @@
                                     Жанр: комедия<br>
                                     От 6 человек<br>
                                     Сложность: средний<br>
-                                    Время: 120 минут<br>
-                                    Стоимость за команду: от 5 300 р.<br>
+                                    Время: 2 часа<br>
+                                    Стоимость за команду: от 10 500 р.<br>
                                     10+</p>
                                 <footer class="align-center">
                                     <a href="madWorld" class="btn btn-outline-primary">Узнать больше</a>
@@ -203,8 +204,8 @@
                                     Жанр: квест-вечеринка<br>
                                     От 9 человек<br>
                                     Сложность: средний<br>
-                                    Время: 180 минут<br>
-                                    Стоимость за команду: от 5 300 р.<br>
+                                    Время: 2,5 часа<br>
+                                    Стоимость за команду: от 10 500 р.<br>
                                     18+</p>
                                 <footer class="align-center">
                                     <a href="gangstaParty" class="btn btn-outline-primary">Узнать больше</a>
