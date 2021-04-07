@@ -167,10 +167,12 @@
                                 слишком подозрительными и будете арестованы!<br>
 
                         И никогда не поступайте, как Гомер Симпсон!</h3>
-                    <div><iframe width="560" height="315" src="https://www.youtube.com/embed/x3Ir917gDiM"
+                    <div class="col-sm">
+                    <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/x3Ir917gDiM"
                             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
                             clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                           </iframe>
+                    </div>
                     </div>
 
                     <h3> <strong>На какое мероприятие можно заказать такой квест?<br></strong></h3>

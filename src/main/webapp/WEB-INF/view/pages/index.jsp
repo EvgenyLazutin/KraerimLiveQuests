@@ -153,6 +153,7 @@
         <div class="close_button"></div>
         <nav class="mobile_sub_menu">
             <ul>
+                <li class="b-navbar_item"><a href="whatIsIt" class="root-item">Что это такое</a></li>
                 <li class="b-navbar_item"><a href="birthday" class="root-item"> День рождения</a></li>
                 <li class="b-navbar_item"><a href="kids" class="root-item">Для детей</a></li>
                 <li class="b-navbar_item"><a href="teens" class="root-item">Для подростков</a></li>
