@@ -19,6 +19,10 @@
     <noscript><div><img src="https://mc.yandex.ru/watch/53205610" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 
+    <!— Facebook MetaTag —>
+    <meta name="facebook-domain-verification" content="5mlvcfod2zahb1ace2b0nxjjidxrw3" />
+    <!— End Facebook MetaTag —>
+
     <!— Facebook Pixel Code —>
     <script>
         !function(f,b,e,v,n,t,s)
