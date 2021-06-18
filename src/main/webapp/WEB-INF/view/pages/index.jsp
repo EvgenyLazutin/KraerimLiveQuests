@@ -536,13 +536,14 @@
                 <h2 class="card-title align-center">"Спасите Галактику!"</h2>
                 <p class="card-text align-center">
                     Жанр: фантастика<br>
-                    От 4 до 35 человек<br>
+                    От 3 до 50 человек<br>
                     Сложность: средний<br>
                     Время: 2 часа<br>
                     Стоимость за команду: от 10 500 р.<br>
-                    8+</p>
+                    10+</p>
                 <footer class="align-center">
-                    <p class="card-text align-center">Квест в разработке!</p>
+                    <a href="saveTheGalaxy" class="btn btn-outline-primary">Узнать больше</a>
+                    <a href="registration" class="btn btn-success">Спасти Галактику</a>
                 </footer>
             </div>
         </div>

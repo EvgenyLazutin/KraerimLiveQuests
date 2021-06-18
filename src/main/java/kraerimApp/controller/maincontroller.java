@@ -186,8 +186,13 @@ public class maincontroller {
     }
 
     @RequestMapping(value="/whatIsIt", method=RequestMethod.GET)
-    public String getwhatIsIt() {
+    public String getWhatIsIt() {
         return "whatIsIt";
+    }
+
+    @RequestMapping(value="/saveTheGalaxy", method=RequestMethod.GET)
+    public String getsaveTheGalaxy() {
+        return "saveTheGalaxy";
     }
 
 }
