@@ -9,27 +9,64 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <html>
 <head>
-    <title>Title</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="/resources/assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/resources/assets/css/mobile.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/resources/assets/css/font-awesome.min.css"/>
+
+    <title>Quest</title>
 </head>
 <body>
+<!--Header-->
 <header class="align-center">
-    <p>Краерим. Живые квесты</p>
+    <img class="img-fluid" src="../../../resources/images/quest/bg_mobile3.jpg" alt="" />
 </header>
-<div class="card text-align-center"><h1 class="display-1"><strong>Шифр Координатный</strong></h1>
-    <img class="card-img-fluid img-thumbnail" src="/resources/images/quest/7.jpg"><br>
-      <br>
+<!--Body-->
+<div class="bg_mobile">
+    <div class="text-center text-white">
+            <h1>Вопрос 7.<br>Семафорная азбука<br>
+                    <img class="img-thumbnail" src="../../../resources/images/quest/question7/1.PNG" alt="">
+                    <img class="img-thumbnail" src="../../../resources/images/quest/question7/9.PNG" alt="">
+                    <img class="img-thumbnail" src="../../../resources/images/quest/question7/4.PNG" alt="">
+                    <img class="img-thumbnail" src="../../../resources/images/quest/question7/7.PNG" alt="">
+                    <img class="img-thumbnail" src="../../../resources/images/quest/question7/6.PNG" alt="">
+                    <img class="img-thumbnail" src="../../../resources/images/quest/question7/1.PNG" alt="">
+                    <img class="img-thumbnail" src="../../../resources/images/quest/question7/5.PNG" alt="">
+                    <img class="img-thumbnail" src="../../../resources/images/quest/question7/10.PNG" alt="">
+                    <img class="img-thumbnail" src="../../../resources/images/quest/question7/6.PNG" alt="">
+                    <img class="img-thumbnail" src="../../../resources/images/quest/question7/7.PNG" alt="">
+                    <img class="img-thumbnail" src="../../../resources/images/quest/question7/3.PNG" alt="">
+                    <br> <br>
+                    <img class="img-thumbnail" src="../../../resources/images/quest/question7/8.PNG" alt="">
+                    <img class="img-thumbnail" src="../../../resources/images/quest/question7/7.PNG" alt="">
+                    <img class="img-thumbnail" src="../../../resources/images/quest/question7/2.PNG" alt="">
+                    <img class="img-thumbnail" src="../../../resources/images/quest/question7/5.PNG" alt="">
+                    <img class="img-thumbnail" src="../../../resources/images/quest/question7/1.PNG" alt="">
+                    <img class="img-thumbnail" src="../../../resources/images/quest/question7/8.PNG" alt="">
+                    <img class="img-thumbnail" src="../../../resources/images/quest/question7/4.PNG" alt="">
+                    <img class="img-thumbnail" src="../../../resources/images/quest/question7/3.PNG" alt="">
+                <br>
+                Что за фраза зашифрована?
+            </h1>
+            <br>
 
-    <h1 class="display-2">(8;2) (9;2) (1;1) (9;1) (5;1) (6;2) (1;2) (3;2)<br>
-        Что за слово зашифровано?</h1><br>
-    <div class="card">
-        <%request.setCharacterEncoding("ISO-8859-1");%>
-        <form:form method="POST" action="/quest/7/checkAnswer"
-                   modelAttribute="Answer">
-            <form:label path="answer">Ответ</form:label>
-            <form:input path="answer" />
-            <input type="submit" value="Submit" />
-        </form:form>
+                <div>
+                    <%request.setCharacterEncoding("ISO-8859-1");%>
+                    <form:form method="POST" action="/quest/7/checkAnswer"
+                               modelAttribute="Answer">
+                        <form:label path="answer">Ответ</form:label>
+                        <form:input path="answer"/>
+                        <input type="submit" value="Уверен!"/>
+                    </form:form>
+                </div>
     </div>
+    <!-- Footer -->
+    <footer id="footer">
+        <img class="img-fluid" src="../../../resources/images/quest/bg_mobile_bottom.png" width="100%"  alt="" />
+    </footer>
 </div>
 </body>
 </html>
