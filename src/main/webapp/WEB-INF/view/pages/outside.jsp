@@ -286,8 +286,8 @@
                     <tr class="table-success">
                         <th scope="row">Стоимость</th>
                         <td>10 500</td>
-                        <td>13 800</td>
-                        <td>18 800 </td>
+                        <td>14 500</td>
+                        <td>19 500 </td>
                     </tr>
                     <tr>
                         <td colspan="4" class="text-center"><a href="tel:+7951 669 60 94"><h3>Ответим на все ваши вопросы: +7951 669 60 94</h3></a></td>

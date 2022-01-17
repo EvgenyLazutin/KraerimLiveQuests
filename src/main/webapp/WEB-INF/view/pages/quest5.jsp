@@ -42,7 +42,7 @@
 
             <div>
             <%request.setCharacterEncoding("ISO-8859-1");%>
-            <form:form method="POST" action="/quest/5/checkAnswer"
+            <form:form method="POST" action="/quest/4097a646-1bd7-11ec-9621-0242ac130002/checkAnswer"
                        modelAttribute="Answer">
                 <form:label path="answer">Ответ</form:label>
                 <form:input path="answer" />

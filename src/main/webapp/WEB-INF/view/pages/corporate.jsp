@@ -167,7 +167,7 @@
                                     От 8 до 30 человек<br>
                                     Сложность: легкий<br>
                                     Время: 2,5 часа<br>
-                                    Стоимость за команду: от 7 800 р.<br>
+                                    Стоимость за команду: от 8 500 р.<br>
                                     16+</p>
                                 <footer class="align-center">
                                     <a href="masquerade" class="btn btn-outline-primary">Узнать больше</a>
@@ -205,7 +205,7 @@
                                     От 9 человек<br>
                                     Сложность: средний<br>
                                     Время: 2,5 часа<br>
-                                    Стоимость за команду: от 10 500 р.<br>
+                                    Стоимость за команду: от 17 000 р.<br>
                                     18+</p>
                                 <footer class="align-center">
                                     <a href="gangstaParty" class="btn btn-outline-primary">Узнать больше</a>

@@ -260,7 +260,7 @@
                     От 10 до 30 человек<br>
                     Сложность: легкий<br>
                     Время: 2,5 часа<br>
-                    Стоимость за команду: от 7 800 р.<br>
+                    Стоимость за команду: от 8 500 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="masquerade" class="btn btn-outline-primary">Узнать больше</a>
@@ -298,7 +298,7 @@
                     От 10 человек<br>
                     Сложность: средний<br>
                     Время: 3 часа<br>
-                    Стоимость за команду: от 10 500 р.<br>
+                    Стоимость за команду: от 17 000 р.<br>
                     18+</p>
                 <footer class="align-center">
                     <a href="gangstaParty" class="btn btn-outline-primary">Узнать больше</a>
@@ -326,7 +326,7 @@
                     От 6 до 14 человек<br>
                     Сложность: сложный<br>
                     Время: 2,5 часа<br>
-                    Стоимость за команду: от 7 800 р.<br>
+                    Стоимость за команду: от 8 500 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="murderMonastery" class="btn btn-outline-primary">Узнать больше</a>
@@ -365,7 +365,7 @@
                     От 6 до 12 человек<br>
                     Сложность: средний<br>
                     Время: 2 часа<br>
-                    Стоимость за команду: от 7 800 р.<br>
+                    Стоимость за команду: от 8 500 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="spaceAroundUs" class="btn btn-outline-primary">Узнать больше</a>
@@ -391,7 +391,7 @@
                     От 8 до 30 человек<br>
                     Сложность: средний<br>
                     Время: 120 минут<br>
-                    Стоимость за команду: от 7 800 р.<br>
+                    Стоимость за команду: от 8 500 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="fairyTale" class="btn btn-outline-primary">Узнать больше</a>
@@ -411,7 +411,7 @@
                     От 6 до 13 человек<br>
                     Сложность: сложный<br>
                     Время: 2,5 часа<br>
-                    Стоимость за команду: от 7 800 р.<br>
+                    Стоимость за команду: от 8 500 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="worldEye" class="btn btn-outline-primary">Узнать больше</a>
@@ -430,7 +430,7 @@
                     От 6 до 20 человек<br>
                     Сложность: сложный<br>
                     Время: 2 часа<br>
-                    Стоимость за команду: от 7 800 р.<br>
+                    Стоимость за команду: от 8 500 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="police" class="btn btn-outline-primary">Узнать больше</a>
@@ -455,7 +455,7 @@
                     Участников: от 3 до бесконечности<br>
                     Сложность: легкий<br>
                     Время: 2 часа<br>
-                    Стоимость за команду: от 10 500 р.<br>
+                    Стоимость за команду: от 17 000 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="evilMasquerade" class="btn btn-outline-primary">Узнать больше</a>
@@ -475,7 +475,7 @@
                     От 6 до 25 человек<br>
                     Сложность: средний<br>
                     Время: 2,5 часа<br>
-                    Стоимость за команду: от 7 800 р.<br>
+                    Стоимость за команду: от 8 500 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="zombiequest" class="btn btn-outline-primary">Узнать больше</a>
@@ -495,7 +495,7 @@
                     От 6 до 12 человек<br>
                     Сложность: легкий<br>
                     Время: 60 минут<br>
-                    Стоимость за команду: 4 900 р.<br>
+                    Стоимость за команду: 7 800 р.<br>
                     13+</p>
                 <footer class="align-center">
                     <a href="houseInTheVillage" class="btn btn-outline-primary">Узнать больше</a>
@@ -520,7 +520,7 @@
                     От 6 до 17 человек<br>
                     Сложность: средний<br>
                     Время: 2 часа<br>
-                    Стоимость за команду: от 7 800 р.<br>
+                    Стоимость за команду: от 8 500 р.<br>
                     16+</p>
                 <footer class="align-center">
                     <a href="lordChetwell" class="btn btn-outline-primary">Узнать больше</a>
@@ -539,7 +539,7 @@
                     От 3 до 50 человек<br>
                     Сложность: средний<br>
                     Время: 2 часа<br>
-                    Стоимость за команду: от 10 500 р.<br>
+                    Стоимость за команду: от 17 000 р.<br>
                     10+</p>
                 <footer class="align-center">
                     <a href="saveTheGalaxy" class="btn btn-outline-primary">Узнать больше</a>
